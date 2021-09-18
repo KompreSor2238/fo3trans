@@ -102,7 +102,67 @@
 #define LVAR_leo_watch                          (539)
 #define LVAR_christine                          (540)
 #define LVAR_mayor_citizenship                  (541)
-#define LvAR_citizenship                        (542)
+#define LVAR_citizenship                        (542)
+#define LVAR_rockside_captain                   (543)
+#define LVAR_vegas_sandra                       (544)
+#define LVAR_vegas_stephan                      (545)
+#define LVAR_vegas_douglas                      (546)
+#define LVAR_tobacco_meeting                    (547)
+#define LVAR_tobacco_water                      (548)
+#define LVAR_tobacco_plants                     (549)
+#define LVAR_tobacco_plants1                    (550)
+#define LVAR_tobacco_robot                      (551)
+#define LVAR_tobacco_upgrade1                   (552)
+#define LVAR_tobacco_upgrade2                   (553)
+#define LVAR_tobacco_trade                      (554)
+#define LVAR_tobacco_income1                    (555)
+#define LVAR_tobacco_income2                    (556)
+#define LVAR_tobacco_income3                    (557)
+#define LVAR_tobacco_payday                     (558)
+#define LVAR_tobacco_farm                       (559)
+#define LVAR_liza_trade                         (560)
+#define LVAR_lector                             (561)
+#define LVAR_janna_farm                         (562)
+#define LVAR_farm_mushroom                      (563)
+#define LVAR_farm_mushroom_water                (564)
+#define LVAR_farm_cabbage                       (565)
+#define LVAR_farm_cabbage_water                 (566)
+#define LVAR_farm_papaya                        (567)
+#define LVAR_farm_papaya_water                  (568)
+#define LVAR_farm_alga                          (569)
+#define LVAR_farm_alga_water                    (570)
+#define LVAR_farm_water                         (571)
+#define LVAR_farm_recharge                      (572)
+#define LVAR_nuka_matrix1                       (573)
+#define LVAR_nuka_matrix2                       (574)
+#define LVAR_rockside_kyles                       (575)
+#define LVAR_stimpak_matrix1                    (576)
+#define LVAR_stimpak_matrix2                    (577)
+#define LVAR_mansion_door                       (578)
+#define LVAR_tobacco_harvest                    (579)
+#define LVAR_reno_piano                         (580)
+#define LVAR_reno_secret1                       (581)
+#define LVAR_reno_secret2                       (582)
+#define LVAR_reno_secret3                       (583)
+#define LVAR_reno_secret4                       (584)
+#define LVAR_ncr_bill                           (585)
+#define LVAR_ncr_benjamin                       (586)
+#define LVAR_ncr_michael                        (587)
+#define LVAR_sas_garage                         (588)
+#define LVAR_sas_confirm                        (589)
+#define LVAR_vegas_robert                       (590)
+#define LVAR_reactor_parker                     (591)
+#define LVAR_reactor_knight                     (592)
+#define LVAR_all_mushrooms                      (593)
+#define LVAR_reactor_dan                        (594)
+#define LVAR_reactor_ghoul                      (595)
+#define LVAR_reactor_gorus                      (596)
+#define LVAR_diego_vc                           (597)
+#define LVAR_diego_body1                        (598)
+#define LVAR_diego_body2                        (599)
+#define LVAR_diego_body3                        (600)
+#define LVAR_diego_body4                        (601)
+#define LVAR_diego_tower                        (602)
 #define LVAR_q_redd_christopher_low_level       (1000)
 #define LVAR_q_redd_christopher_good_karma      (1001)
 #define LVAR_q_redd_christopher_bad_karma       (1002)
@@ -386,6 +446,8 @@
 #define LVAR_se_10                  (7163)
 #define LVAR_se_11                  (7164)
 #define LVAR_se_12                  (7165)
+#define LVAR_car_crash                  (7166)
+#define LVAR_car_crash2                  (7167)
 #define LVAR_q_jt_power_house_attempts          (7200)
 #define LVAR_q_nr_corsican_initiate             (7300)
 #define LVAR_q_nr_corsican_tattoo               (7301)
@@ -492,6 +554,7 @@
 #define LVAR_greet_gunrunner                    (50008)
 #define LVAR_greet_adytum                       (50009)
 #define LVAR_greet_library                      (50010)
+#define LVAR_we_gear                      (50011)
 #define GVAR_madness                            (54321)
 #define LVAR_online_stats                       (60000)
 #define LVAR_drug_fix                           (60001)
@@ -507,7 +570,7 @@
 #define GVAR_den_score		                    (61005)
 #define GVAR_redding_score                      (61006)
 #define GVAR_necro_score                        (61007)
-#define GVAR_saltlake_score                     (61008)
+#define GVAR_reno_score                     (61008)
 #define GVAR_westreno_score                     (61009)
 #define GVAR_waterworks_score                   (61011)
 #define GVAR_area51_score                       (61012)
@@ -532,6 +595,13 @@
 #define GVAR_event_def							(62016)
 #define LVAR_farmlocID							(62017)
 #define LVAR_farmlocCD							(62018)
+#define GVAR_TC_WINDOW_MODOC               (62019)
+#define GVAR_TC_WINDOW_KLAMATH               (62020)
+#define GVAR_TC_WINDOW_GECKO               (62021)
+#define GVAR_TC_WINDOW_BH              (62022)
+#define GVAR_TC_WINDOW_REDDING               (62023)
+#define GVAR_TC_WINDOW_DEN               (62024)
+#define GVAR_TC_WINDOW_NECRO               (62025)
 
 /*************************************************************************************
         Id	Type	Name		Start	Min	Max	Flags
@@ -1138,6 +1208,482 @@
 
 **********
 
+   $	543 1	 rockside_captain  	0	0	3   1
+**********
+	0 - no access
+    1 - taken
+	2 - talked with Watcher
+	3 - finished
+
+**********
+
+   $	544 1	 vegas_sandra 	0	0	4   1
+**********
+	0 - no access
+    1 - taken
+	2 - got tools
+	3 - finished
+	4 - aditional
+
+**********
+
+   $	545 1	 vegas_stephan 	0	0	3   1
+**********
+	0 - no access
+    1 - taken
+	2 - destroyed the machine
+	3 - finished
+
+**********
+
+   $	546 1	 vegas_douglas 	0	0	4   1
+**********
+	0 - no access
+    1 - taken
+	2 - started the operation
+	3 - got the data
+	4 - finished
+
+**********
+
+   $	547 1	 tobacco_meeting 	0	0	1   1
+**********
+	0 - no access
+    1 - meeting end
+
+**********
+
+   $	548 1	 tobacco_water      0	0	3  1
+**********
+	0 - no access
+    1 - taken
+	2 - water switched
+	3 - comeplete
+
+**********
+
+   $	549 1	 tobacco_plants        0	0	1  1
+**********
+	0 - no access
+    1 - plants bought
+
+**********
+
+   $	550	1	 tobacco_plants1       0	0	1  1
+**********
+	0 - no access
+    1 - plants bought
+
+**********
+
+   $	551	1	 tobacco_robot       0	0	1  1
+**********
+	0 - no access
+    1 - robot fixed
+
+**********
+
+   $	552	1	 tobacco_upgrade1   0	0	1  1
+**********
+	0 - no access
+    1 - robot fixed
+
+**********
+
+   $	553	1	 tobacco_upgrade2   0	0	1  1
+**********
+	0 - no access
+    1 - robot fixed
+
+**********
+
+   $	554	1	 tobacco_trade     0	0	1  1
+**********
+	0 - no access
+    1 - robot fixed
+
+**********
+
+   $	555	1	 tobacco_income1    0	0	1  1
+**********
+	0 - no access
+    1 - robot fixed
+
+**********
+
+   $	556	1	 tobacco_income2    0	0	1  1
+**********
+	0 - no access
+    1 - robot fixed
+
+**********
+
+   $	557	1	 tobacco_income3    0	0	1  1
+**********
+	0 - no access
+    1 - robot fixed
+
+**********
+
+   $	558	1	 tobacco_payday    0	0	1  1
+**********
+	0 - no access
+    1 - payed
+	
+**********
+
+   $	559	1	 tobacco_farm      0	0	1  1
+**********
+	0 - no access
+    1 - payed
+	
+**********
+
+   $	560	1	 liza_trade        0	0	1  1
+**********
+	0 - no access
+    1 - payed
+	
+**********
+
+   $	561	1	 lector        0	0	3  1
+**********
+	0 - no access
+    1 - taken
+	2 - found lector
+	3 - finished
+	
+**********
+
+   $	562	1	 janna_farm        0	0	1  1
+**********
+	0 - no access
+    1 - taken
+	
+**********
+
+   $	563	1	 farm_mushroom        0	0	1  1
+**********
+	0 - no access
+    1 - taken
+	
+**********
+
+   $	564	1	 farm_mushroom_water        0	0	1  1
+**********
+	0 - no access
+    1 - taken
+	
+**********
+
+   $	565	1	 farm_cabbage       0	0	1  1
+**********
+	0 - no access
+    1 - taken
+	
+**********
+
+   $	566	1	 farm_cabbage_water        0	0	1  1
+**********
+	0 - no access
+    1 - taken
+	
+**********
+
+   $	567	1	 farm_papaya        0	0	1  1
+**********
+	0 - no access
+    1 - taken
+	
+**********
+
+   $	568	1	 farm_papaya_water       0	0	1  1
+**********
+	0 - no access
+    1 - taken
+	
+**********
+
+   $	569	1	 farm_alga       0	0	1  1
+**********
+	0 - no access
+    1 - taken
+	
+**********
+
+   $	570	1	 farm_alga_water       0	0	1  1
+**********
+	0 - no access
+    1 - taken
+	
+**********
+
+   $	571	1	 farm_water       0	0	1  1
+**********
+	0 - no access
+    1 - taken
+	
+**********
+
+   $	572	1	 farm_recharge       0	0	1  1
+**********
+	0 - no access
+    1 - taken
+	
+**********
+
+   $	573	1	 nuka_matrix1       0	0	1  1
+**********
+	0 - no access
+    1 - taken
+	
+**********
+
+   $	574	1	 nuka_matrix2       0	0	1  1
+**********
+	0 - no access
+    1 - taken
+	
+**********
+
+   $	575	1	 rockside_kyles       0	0	1  1
+**********
+	0 - no access
+    1 - taken
+	
+**********
+
+   $	576	1	 stimpak_matrix1       0	0	1  1
+**********
+	0 - no access
+    1 - taken
+	
+**********
+
+   $	577	1	 stimpak_matrix2       0	0	1  1
+**********
+	0 - no access
+    1 - taken
+	
+**********
+
+   $	578	1	 mansion_door       0	0	3  1
+**********
+	0 - no access
+    1 - taken
+	2 - 2nd terminal
+	3 - 3d terminal
+	
+**********
+
+   $	579	1	 tobacco_harvest      0	0	1  1
+**********
+	0 - no access
+    1 - taken
+	
+**********
+
+   $	580	1	 reno_piano     0	0	3  1
+**********
+	0 - no access
+    1 - taken
+	2 - talked with director
+	3 - finished
+	
+**********
+
+   $	581	1	 reno_secret1     0	0	1  1
+**********
+	0 - no access
+    1 - taken
+	
+**********
+
+   $	582	1	 reno_secret2     0	0	1  1
+**********
+	0 - no access
+    1 - taken
+	
+**********
+
+   $	583	1	 reno_secret3     0	0	1  1
+**********
+	0 - no access
+    1 - taken
+	
+**********
+
+   $	584	1	 reno_secret4     0	0	1  1
+**********
+	0 - no access
+    1 - taken
+	
+**********
+
+   $	585	1	 ncr_bill      0	0	3  1
+**********
+	0 - no access
+    1 - taken
+	2 - gun brough
+	3 - gun fixed
+	
+**********
+
+   $	586	1	 ncr_benjamin      0	0	3  1
+**********
+	0 - no access
+    1 - taken
+	2 - got the chip
+	3 - fixed
+	
+**********
+
+   $	587	1	 ncr_michael      0	0	3  1
+**********
+	0 - no access
+    1 - taken
+	2 - gave beer to michael
+	3 - told sheriff
+	
+**********
+
+   $	588	1	 sas_garage      0	0 1  1
+**********
+	0 - no access
+    1 - override
+**********
+
+   $	589	1	 sas_confirm     0	0 1  1
+**********
+	0 - no access
+    1 - confirmed
+**********
+
+   $	590	1	 vegas_robert     0	0 3  1
+**********
+	0 - no access
+    1 - taken
+	2 - found the chip
+	3 - finished
+**********
+
+   $	591	1	 reactor_parker     0	0 2  1
+**********
+	0 - no access
+    1 - taken
+	2 - got the beer
+**********
+
+   $	592	1	 reactor_knight     0	0 2  1
+**********
+	0 - no access
+    1 - taken
+	2 - got materials
+**********
+
+   $	593	1	 mushroom_perk     0	0 1  1
+**********
+	0 - no access
+    1 - taken
+**********
+
+   $	594	1	 reactor_dan     0	0 2  1
+**********
+	0 - no access
+    1 - taken
+	2 - mushrooms brought
+**********
+
+   $	595	1	 reactor_ghoul     0	0  3  1
+**********
+	0 - no access
+    1 - taken
+	2 - inserted
+	3 - finish
+**********
+
+   $	596	1	 reactor_gorus     0	0  3  1
+**********
+	0 - no access
+    1 - taken
+	2 - got the nuka
+	3 - finish
+**********
+
+   $	597	1	 diego_vc     0	0  2  1
+**********
+	0 - no access
+    1 - taken
+	2 - got all tags
+**********
+
+   $	598	1	 diego_body1     0	0  1  1
+**********
+	0 - no access
+    1 - taken
+**********
+
+   $	599	1	 diego_body2     0	0  1  1
+**********
+	0 - no access
+    1 - taken
+**********
+
+   $	600	1	 diego_body3     0	0  1  1
+**********
+	0 - no access
+    1 - taken
+**********
+
+   $	601	1	 diego_body4     0	0  1  1
+**********
+	0 - no access
+    1 - taken
+**********
+
+   $	602	1	 diego_tower     0	0  1  1
+**********
+	0 - no access
+    1 - taken
+**********
+
+   $	603	1	 reactor_sorus    0	0  3  1
+**********
+	0 - no access
+    1 - taken
+	2 - brought the book
+	3 - didn't bring the book
+**********
+
+   $	604	1	 dialog_dork    0	0  1  1
+**********
+	0 - no access
+    1 - taken
+**********
+
+   $	605	1	 dialog_robert    0	0  1  1
+**********
+	0 - no access
+    1 - taken
+**********
+
+   $	606	1	 arizona_generator    0	0  1  1
+**********
+	0 - no access
+    1 - taken
+**********
+
+   $	607	1	 driver_license    0 0  1  1
+**********
+	0 - no access
+    1 - taken
+**********
+
+   $	608	1	 pilot_license    0	0  1  1
+**********
+	0 - no access
+    1 - taken
+**********
 
    $	1000	1	q_redd_christopher_low_level	0	-1	3	0
 **********
@@ -2765,6 +3311,14 @@ Gvar controlling the robots in Sierra Army Depot
 **********
 **********
 
+   $	7166	1	car_crash	0	0	10	4
+**********
+**********
+
+   $	7167	1	car_crash2	0	0	10	4
+**********
+**********
+
    $	7200	1	q_jt_power_house_attempts	0	0	5	0
 **********
 
@@ -3308,6 +3862,10 @@ $	9962	1	LVAR_close_combat_book  0	0	10	0
 
    $	50010	1	greet_library	0	0	1	0
 **********
+**********
+
+   $	50011	1	we_gear	0	0	1	0
+**********
 
 **********
 
@@ -3376,7 +3934,7 @@ $	9962	1	LVAR_close_combat_book  0	0	10	0
 	$	61007	0	necro_score	0	0	10000000	0
 **********
 **********
-	$	61008	0	saltlake_score	0	0	10000000	0
+	$	61008	0	reno_score	0	0	10000000	0
 **********
 **********
 	$	61009	0	westreno_score	0	0	10000000	0
@@ -3459,6 +4017,27 @@ $	9962	1	LVAR_close_combat_book  0	0	10	0
 **********
 **********
 	$	62018	1	farmlocCD	0	0	99999999999	0
+**********
+**********
+	$	62019	0	TC_WINDOW_MODOC	0	0	10	0
+**********
+**********
+	$	62020	0	TC_WINDOW_KLAMATH	0	0	10	0
+**********
+**********
+	$	62021	0	TC_WINDOW_GECKO	0	0	10	0
+**********
+**********
+	$	62022	0	TC_WINDOW_BH	0	0	10	0
+**********
+**********
+	$	62023	0	TC_WINDOW_REDDING	0	0	10	0
+**********
+**********
+	$	62024	0	TC_WINDOW_DEN	0	0	10	0
+**********
+**********
+	$	62025	0	TC_WINDOW_NECRO	0	0	10	0
 **********
 **********
 **************************************************************************************
