@@ -6,12 +6,12 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 1 #
+1 1000 None 1 #
 2 1010 @
-2 2000 main@dlg_Caps 0 #
+2 2000 None 0 #
 3 2010 R _script dialog@r_OpenDoor 2 15 9000 R _script dialog@r_ChangeLightGroupParam 3 3 1 0 #
 0 2020 @
-3 3000 main@dlg_Caps 0 &
+3 3000 None 0 &
 
 [engl]
 {100}{}{alarm_terminal}
@@ -19,7 +19,7 @@ lang=engl czec pols span russ
 {1010}{}{Answer text}
 {2000}{}{[ Loading... Complete ]}
 {2010}{}{[ Deactivate the alarm ]}
-{2020}{}{[ Leave ]}
+{2020}{}{[ Leave ] [ end dialogue ]}
 {3000}{}{[ Operating... ]}
 
 [czec]
@@ -56,5 +56,5 @@ lang=engl czec pols span russ
 {2000}{}{[ Loading... Complete ]}
 {2010}{}{[ Deactivate the alarm ]}
 {2020}{}{[ Leave ]}
-{3000}{}{[ Operating... ]}
+{3000}{}{Welcome back, Overseer.}
 

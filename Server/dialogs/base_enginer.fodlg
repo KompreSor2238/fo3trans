@@ -1,0 +1,1374 @@
+[comment]
+
+
+[data]
+lang=engl czec pols span russ
+
+[dialog]
+&
+1 1000 None 1 #
+2 1010 @
+2 2000 None 0 #
+3 2010 #
+0 2020 @
+3 3000 None 0 #
+4 3010 D _script personal_base@d_know 0  @
+4 4000 None 0 #
+5 4010 #
+6 4020 #
+11 4030 D _param p ENGINEER_MINE > 0 R _script base@placemine 2 529 1 #
+11 4040 D _param p ENGINEER_JUNK > 0 R _script base@placemine 2 12708 0 #
+28 4050 #
+2 4060 @
+5 5000 None 0 #
+4 5010 #
+0 5020 @
+6 6000 None 0 #
+7 6010 #
+2 6020 @
+7 7000 None 0 #
+8 7010 #
+2 7020 @
+8 8000 None 0 #
+9 8010 #
+2 8020 @
+9 9000 None 0 #
+12 9010 #
+13 9020 #
+19 9030 #
+20 9040 #
+21 9050 #
+22 9060 #
+23 9070 #
+24 9080 #
+25 9090 #
+26 9100 #
+27 9110 @
+10 10000 None 0 #
+10 10010 R _script base@setMode 1 1 #
+10 10020 R _script base@setMode 1 2 #
+11 10030 R _script base@setMode 1 3 #
+11 10040 @
+11 11000 None 0 #
+6 11010 #
+2 11020 @
+12 12000 None 0 #
+10 12010 R _script base@place 1 1300 #
+10 12020 R _script base@place 1 1301 #
+10 12030 R _script base@place 1 1302 #
+10 12040 R _script base@place 1 1303 #
+10 12050 R _script base@place 1 1304 #
+10 12060 R _script base@place 1 1305 #
+10 12070 R _script base@place 1 1306 #
+10 12080 R _script base@place 1 1307 #
+10 12090 R _script base@place 1 1308 #
+10 12100 R _script base@place 1 1309 #
+10 12110 R _script base@place 1 1310 #
+10 12120 R _script base@place 1 1381 #
+10 12130 R _script base@place 1 1382 @
+13 13000 None 0 #
+14 13010 #
+15 13020 #
+16 13030 #
+17 13040 @
+14 14000 None 0 #
+10 14010 R _script base@place 1 1311 #
+10 14020 R _script base@place 1 1312 #
+10 14030 R _script base@place 1 1313 #
+10 14040 R _script base@place 1 1314 #
+10 14050 R _script base@place 1 1315 #
+10 14060 R _script base@place 1 1316 #
+10 14070 R _script base@place 1 1317 #
+10 14080 R _script base@place 1 1318 #
+10 14090 R _script base@place 1 1319 #
+10 14100 R _script base@place 1 1320 @
+15 15000 None 0 #
+10 15010 R _script base@place 1 1321 #
+10 15020 R _script base@place 1 1322 #
+10 15030 R _script base@place 1 1323 #
+10 15040 R _script base@place 1 1324 #
+10 15050 R _script base@place 1 1325 #
+10 15060 R _script base@place 1 1326 #
+10 15070 R _script base@place 1 1327 #
+10 15080 R _script base@place 1 1328 #
+10 15090 R _script base@place 1 1329 #
+10 15100 R _script base@place 1 1330 @
+16 16000 None 0 #
+10 16010 R _script base@place 1 1331 #
+10 16020 R _script base@place 1 1332 #
+10 16030 R _script base@place 1 1333 #
+10 16040 R _script base@place 1 1334 #
+10 16050 R _script base@place 1 1335 #
+10 16060 R _script base@place 1 1336 #
+10 16070 R _script base@place 1 1337 #
+10 16080 R _script base@place 1 1338 #
+10 16090 R _script base@place 1 1339 #
+10 16100 R _script base@place 1 1340 @
+17 17000 None 0 #
+10 17010 R _script base@place 1 1341 #
+10 17020 R _script base@place 1 1342 #
+10 17030 R _script base@place 1 1343 #
+10 17040 R _script base@place 1 1344 #
+10 17050 R _script base@place 1 1345 #
+10 17060 R _script base@place 1 1346 #
+10 17070 R _script base@place 1 1347 #
+10 17080 R _script base@place 1 1348 #
+10 17090 R _script base@place 1 1349 #
+10 17100 R _script base@place 1 1350 @
+18 18000 None 0 @
+19 19000 None 0 #
+10 19010 R _script base@place 1 1351 #
+10 19020 R _script base@place 1 1352 @
+20 20000 None 0 #
+10 20010 R _script base@place 1 1353 #
+10 20020 R _script base@place 1 1354 #
+10 20030 R _script base@place 1 1355 @
+21 21000 None 0 #
+10 21010 R _script base@place 1 1356 #
+10 21020 R _script base@place 1 1357 #
+10 21030 R _script base@place 1 1358 #
+10 21040 R _script base@place 1 1359 #
+10 21050 R _script base@place 1 1360 @
+22 22000 None 0 #
+10 22010 R _script base@place 1 1361 #
+10 22020 R _script base@place 1 1362 #
+10 22030 R _script base@place 1 1363 #
+10 22040 R _script base@place 1 1364 @
+23 23000 None 0 #
+10 23010 R _script base@place 1 1365 #
+10 23020 R _script base@place 1 1366 #
+10 23030 R _script base@place 1 1367 #
+10 23040 R _script base@place 1 1368 #
+10 23050 R _script base@place 1 1369 #
+10 23060 R _script base@place 1 1370 @
+24 24000 None 0 #
+10 24010 R _script base@place 1 1371 #
+10 24020 R _script base@place 1 1372 @
+25 25000 None 0 #
+10 25010 R _script base@place 1 1373 #
+10 25020 R _script base@place 1 1374 #
+10 25030 R _script base@place 1 1375 @
+26 26000 None 0 #
+10 26010 R _script base@place 1 1376 #
+10 26020 R _script base@place 1 1377 #
+10 26030 R _script base@place 1 1378 #
+10 26040 R _script base@place 1 1379 #
+10 26050 R _script base@place 1 1380 #
+18 26060 R _script base@place 1 1381 #
+10 26070 R _script base@place 1 1383 @
+27 27000 None 0 #
+10 27010 R _script base@place 1 1384 #
+10 27020 R _script base@place 1 1385 #
+10 27030 R _script base@place 1 1386 @
+28 28000 None 0 #
+29 28010 #
+30 28020 #
+4 28030 R _script personal_base@wipe 0  #
+4 28040 #
+2 28050 @
+29 29000 None 0 #
+28 29010 #
+2 29020 @
+30 30000 personal_base@rules 0 #
+37 30010 #
+31 30020 #
+32 30030 #
+33 30040 #
+34 30050 #
+35 30060 #
+36 30070 #
+30 30080 R _script personal_base@reset_con 0  #
+28 30090 #
+2 30100 @
+31 31000 personal_base@rules_g 0 #
+30 31010 R _script personal_base@set_rule 1 800001 #
+30 31020 R _script personal_base@set_rule 1 800002 #
+30 31030 R _script personal_base@set_rule 1 800003 #
+30 31040 R _script personal_base@set_rule 1 800004 #
+30 31050 R _script personal_base@set_rule 1 800005 #
+30 31060 R _script personal_base@set_rule 1 300000 #
+30 31070 R _script personal_base@set_rule 1 100000 #
+30 31080 R _script personal_base@set_rule 1 200000 #
+30 31090 R _script personal_base@set_rule 1 400000 #
+30 31100 R _script personal_base@set_rule 1 500000 #
+30 31110 R _script personal_base@set_rule 1 700000 #
+30 31120 R _script personal_base@set_rule 1 800101 #
+30 31130 R _script personal_base@set_rule 1 800102 #
+30 31140 R _script personal_base@set_rule 1 800103 #
+30 31150 R _script personal_base@set_rule 1 800104 #
+30 31160 R _script personal_base@set_rule 1 800106 #
+30 31170 R _script personal_base@set_rule 1 800107 #
+30 31180 R _script personal_base@set_rule 1 800108 #
+30 31190 R _script personal_base@set_rule 1 800110 #
+30 31200 R _script personal_base@set_rule 1 800105 #
+30 31210 R _script personal_base@set_rule 1 800109 #
+30 31220 R _script personal_base@set_rule 1 800111 #
+30 31230 R _script personal_base@set_rule 1 800112 #
+30 31240 R _script personal_base@set_rule 1 800113 #
+30 31250 #
+2 31260 @
+32 32000 personal_base@rules_r1 0 #
+30 32010 R _script personal_base@set_hand 1 1 #
+30 32020 #
+2 32030 @
+33 33000 personal_base@rules_r2 0 #
+30 33010 R _script personal_base@set_hand 1 2 #
+30 33020 #
+2 33030 @
+34 34000 personal_base@rules_r3 0 #
+30 34010 R _script personal_base@set_hand 1 3 #
+30 34020 #
+2 34030 @
+35 35000 personal_base@rules_r4 0 #
+30 35010 R _script personal_base@set_hand 1 4 #
+30 35020 #
+2 35030 @
+36 36000 personal_base@rules_r5 0 #
+30 36010 R _script personal_base@set_hand 1 5 #
+30 36020 #
+2 36030 @
+37 37000 personal_base@label 0 #
+30 37010 #
+2 37020 &
+
+[engl]
+{100}{}{none}
+{1000}{}{Predialogue installations}
+{1010}{}{Answer text}
+{2000}{}{[ system initializing... ]}
+{2010}{}{[ Login ]}
+{2020}{}{[ Exit ] [ end dialogue ]}
+{3000}{}{[ authentication required ]}
+{3010}{}{[ Password ************ ]}
+{4000}{}{[ authentication token accepted, choose action ]}
+{4010}{}{[ Information ]}
+{4020}{}{[ Build ]}
+{4030}{}{[ Place Mining Machine ]}
+{4040}{}{[ Place Junk Machine ]}
+{4050}{}{[ EBS ]}
+{4060}{}{[ Exit ] }
+{5000}{}{[ Each built object costs 1% engineering skill. To share base, place an object and set extra ability to "map access object", then use science skill on that object to lock or unlock sharing. Those who want access to the location can use the object. ]}
+{5010}{}{[ Back ]}
+{5020}{}{[ Exit ] [ end dialogue ] }
+{6000}{}{[ ...Loading... ]}
+{6010}{}{[ wait ]}
+{6020}{}{[ logout ]}
+{7000}{}{[ ...Loading... ]}
+{7010}{}{[ wait ]}
+{7020}{}{[ logout ]}
+{8000}{}{[ ...Loading... ]}
+{8010}{}{[ wait ]}
+{8020}{}{[ logout ]}
+{9000}{}{[ select a category ]}
+{9010}{}{Wooden misc}
+{9020}{}{chairs}
+{9030}{}{stone misc}
+{9040}{}{tables}
+{9050}{}{beds}
+{9060}{}{lamps}
+{9070}{}{hi-tech}
+{9080}{}{mats}
+{9090}{}{junk}
+{9100}{}{flags}
+{9110}{}{Special}
+{10000}{}{[ choose extra abilities ]}
+{10010}{}{Can't walk on it}
+{10020}{}{Can't shoot through}
+{10030}{}{Set it as map access object}
+{10040}{}{No more abilities}
+{11000}{}{[ Done! ]}
+{11010}{}{[ continue ]}
+{11020}{}{[ logout ]}
+{12000}{}{[ choose object ]}
+{12010}{}{long planks}
+{12020}{}{long planks 2}
+{12030}{}{pole}
+{12040}{}{pole 2}
+{12050}{}{tree}
+{12060}{}{well}
+{12070}{}{support pole 1}
+{12080}{}{support pole 2}
+{12090}{}{support pole 3}
+{12100}{}{support pole 4}
+{12110}{}{Coffin}
+{12120}{}{Legion Cross 1}
+{12130}{}{Legion Cross 2}
+{13000}{}{[ choose direction ]}
+{13010}{}{North}
+{13020}{}{South}
+{13030}{}{East}
+{13040}{}{West}
+{14000}{}{[ choose Object ]}
+{14010}{}{Car seat}
+{14020}{}{Vault seat}
+{14030}{}{Computer Chair}
+{14040}{}{Plastic Chair}
+{14050}{}{Office Chair}
+{14060}{}{Junk Chair}
+{14070}{}{Wooden Chair}
+{14080}{}{Metal Chair}
+{14090}{}{Jail Chair}
+{14100}{}{armchair}
+{15000}{}{[ choose Object ]}
+{15010}{}{Car Seat}
+{15020}{}{Vault Seat}
+{15030}{}{Computer Chair}
+{15040}{}{Plastic Chair}
+{15050}{}{Office Chair}
+{15060}{}{Junk Chair}
+{15070}{}{Wooden Chair}
+{15080}{}{Metal Chair}
+{15090}{}{Jail Chair}
+{15100}{}{Stone Bench}
+{16000}{}{[ choose Object ]}
+{16010}{}{Car Seat}
+{16020}{}{Vault Seat}
+{16030}{}{Computer Chair}
+{16040}{}{Plastic Chair}
+{16050}{}{Office Chair}
+{16060}{}{Junk Chair}
+{16070}{}{Wooden Chair}
+{16080}{}{Metal Chair}
+{16090}{}{Jail Chair}
+{16100}{}{Wooden Bench}
+{17000}{}{[ choose Object ]}
+{17010}{}{Car Seat}
+{17020}{}{Vault Seat}
+{17030}{}{Computer Chair}
+{17040}{}{Plastic Chair}
+{17050}{}{Office Chair}
+{17060}{}{Junk Chair}
+{17070}{}{Wooden Chair}
+{17080}{}{Metal Chair}
+{17090}{}{Jail Chair}
+{17100}{}{Stone Bench}
+{18000}{}{System error, need update version}
+{19000}{}{[ choose Object ]}
+{19010}{}{Stone Grave}
+{19020}{}{Forge}
+{20000}{}{[ choose Object ]}
+{20010}{}{Wooden Table}
+{20020}{}{Bar table}
+{20030}{}{Metal Table}
+{21000}{}{[ choose Object ]}
+{21010}{}{Military Bed}
+{21020}{}{Arroyo Bed}
+{21030}{}{Arroyo Bed 2}
+{21040}{}{Junk bed}
+{21050}{}{Junk bed 2}
+{22000}{}{[ choose Object ]}
+{22010}{}{House Lamp}
+{22020}{}{Street Lamp}
+{22030}{}{Fire wood}
+{22040}{}{Vault City Lamp}
+{23000}{}{[ choose Object ]}
+{23010}{}{Computer 1}
+{23020}{}{Computer 2}
+{23030}{}{Monitor}
+{23040}{}{Terminal}
+{23050}{}{Terminal 2}
+{23060}{}{Camera}
+{24000}{}{[ choose Object ]}
+{24010}{}{Mat}
+{24020}{}{Carpet}
+{25000}{}{[ choose Object ]}
+{25010}{}{Engine}
+{25020}{}{Trash bin}
+{25030}{}{Tire}
+{26000}{}{[ choose Object ]}
+{26010}{}{Enclave Flag}
+{26020}{}{Brotherhood Flag}
+{26030}{}{NCR Flag}
+{26040}{}{Medic Flag}
+{26050}{}{Pirate Flag}
+{26060}{}{Faction flags}
+{26070}{}{Legion Flag}
+{27000}{}{[ choose Object ]}
+{27010}{}{[ Facehugger ]}
+{27020}{}{[ Mr. Pumpkin ]}
+{27030}{}{[ Scarecrow ]}
+{28000}{}{[ Welcome in Easy Base Sorting(EBS) ]}
+{28010}{}{[ Information ]}
+{28020}{}{[ Edit Container ]}
+{28030}{}{[ Wipe.exe ]}
+{28040}{}{[ Back ]}
+{28050}{}{[ Exit ]}
+{29000}{}{[ To edit a Container please mark it, you can mark it by alt + click and choose command move or any other command, or middle button of mouse if you are using a smart cursor, then select [ Edit Container ] option and select fliters which will apply to this box. After you finish all containers please select [ Wipe,exe ] to finish EBS ]}
+{29010}{}{[ Back ]}
+{29020}{}{[ Exit ]}
+{30000}{}{[ Container number: @lex c@
+Rules: @lex r1@
+  ]}
+{30010}{}{[ Rename Container]}
+{30020}{}{[ Set global rule]}
+{30030}{}{[ Set Rule 1 ]}
+{30040}{}{[ Set Rule 2 ]}
+{30050}{}{[ Set Rule 3 ]}
+{30060}{}{[ Set Rule 4 ]}
+{30070}{}{[ Set Rule 5 ]}
+{30080}{}{[ Reset Container ]}
+{30090}{}{[ Back ]}
+{30100}{}{[ Exit ]}
+{31000}{}{[ Select Global Rule or press say and input minimal expierience of items ]}
+{31010}{}{[ Small Guns ]}
+{31020}{}{[ Big Guns ]}
+{31030}{}{[ Melee Weapons ]}
+{31040}{}{[ Energy Weapons ]}
+{31050}{}{[ Throwing ]}
+{31060}{}{[ All Weapons ]}
+{31070}{}{[ All Armors ]}
+{31080}{}{[ Drugs ]}
+{31090}{}{[ Ammo ]}
+{31100}{}{[ Misc ]}
+{31110}{}{[ Keys ]}
+{31120}{}{[ Tier 4 Parts ]}
+{31130}{}{[ Tier 4 Blueprints ]}
+{31140}{}{[ Tier 4 Items ]}
+{31150}{}{[ Tier 4 Ammo ]}
+{31160}{}{[ Special Implants ]}
+{31170}{}{[ Combat Implants ]}
+{31180}{}{[ Vertibird Parts]}
+{31190}{}{[ Currency ]}
+{31200}{}{[ Rare Items ]}
+{31210}{}{[ Helmets ]}
+{31220}{}{[ Crafting Mats ]}
+{31230}{}{[ Books ]}
+{31240}{}{[ Tier 3 Blueprints ]}
+{31250}{}{[ Back]}
+{31260}{}{[ Exit ]}
+{32000}{}{[ Hold Item in hand to Set a Rule to sorting just that item or press say and input minimal expierience of items ]}
+{32010}{}{[ Done ]}
+{32020}{}{[ Back ]}
+{32030}{}{[ Exit ]}
+{33000}{}{[ Hold Item in hand to Set a Rule to sorting just that item or press say and input minimal expierience of items ]
+}
+{33010}{}{[ Done ]}
+{33020}{}{[ Back ]}
+{33030}{}{[ Exit ]}
+{34000}{}{[ Hold Item in hand to Set a Rule to sorting just that item or press say and input minimal expierience of items ]
+}
+{34010}{}{[ Done ]}
+{34020}{}{[ Back ]}
+{34030}{}{[ Exit ]}
+{35000}{}{[ Hold Item in hand to Set a Rule to sorting just that item or press say and input minimal expierience of items ]
+}
+{35010}{}{[ Done ]}
+{35020}{}{[ Back ]}
+{35030}{}{[ Exit ]}
+{36000}{}{[ Hold Item in hand to Set a Rule to sorting just that item or press say and input minimal expierience of items ]
+}
+{36010}{}{[ Done ]}
+{36020}{}{[ Back ]}
+{36030}{}{[ Exit ]}
+{37000}{}{[ Press "say" and insert label name ]}
+{37010}{}{[ Back ]}
+{37020}{}{[ Exit ]}
+
+[czec]
+{100}{}{none}
+{1000}{}{Predialogue installations}
+{1010}{}{Answer text}
+{2000}{}{system initializing...}
+{2010}{}{Login}
+{2020}{}{Turn off}
+{3000}{}{authentication required}
+{3010}{}{Password ************}
+{4000}{}{authentication token accepted, choose action}
+{4010}{}{Information}
+{4020}{}{Build}
+{4030}{}{[ Place Mining Machine ]}
+{4040}{}{[ Junk Mining Machine ]}
+{4050}{}{[ EBS ]}
+{4060}{}{[ Exit ] }
+{5000}{}{Each built object costs 1% engineering skill, to share base place object and set extra ability to "map access object", then use science skill on that object to unlock sharing, then person who want get access to location should just use that object}
+{5010}{}{back}
+{5020}{}{logout}
+{6000}{}{...Loading...}
+{6010}{}{wait}
+{6020}{}{logout}
+{7000}{}{...Loading...}
+{7010}{}{wait}
+{7020}{}{logout}
+{8000}{}{...Loading...}
+{8010}{}{wait}
+{8020}{}{logout}
+{9000}{}{select a category}
+{9010}{}{Wooden misc}
+{9020}{}{chairs}
+{9030}{}{stone misc}
+{9040}{}{tables}
+{9050}{}{beds}
+{9060}{}{lamps}
+{9070}{}{hi-tech}
+{9080}{}{mats}
+{9090}{}{junk}
+{9100}{}{flags}
+{9110}{}{Special}
+{10000}{}{Choose extra abilities}
+{10010}{}{Can't walk on it}
+{10020}{}{Can't shoot through}
+{10030}{}{Set it as map access object}
+{10040}{}{No more abilities}
+{11000}{}{Done}
+{11010}{}{continue}
+{11020}{}{logout}
+{12000}{}{Choose object}
+{12010}{}{long planks}
+{12020}{}{long planks 2}
+{12030}{}{pole}
+{12040}{}{pole 2}
+{12050}{}{tree}
+{12060}{}{well}
+{12070}{}{support pole 1}
+{12080}{}{support pole 2}
+{12090}{}{support pole 3}
+{12100}{}{support pole 4}
+{12110}{}{Coffin}
+{12120}{}{Legion Cross 1}
+{12130}{}{Legion Cross 2}
+{13000}{}{Choose direction}
+{13010}{}{North}
+{13020}{}{South}
+{13030}{}{East}
+{13040}{}{West}
+{14000}{}{Choose Object}
+{14010}{}{Car seat}
+{14020}{}{Vault seat}
+{14030}{}{Computer Chair}
+{14040}{}{Plastic Chair}
+{14050}{}{Office Chair}
+{14060}{}{Junk Chair}
+{14070}{}{Wooden Chair}
+{14080}{}{Metal Chair}
+{14090}{}{Jail Chair}
+{14100}{}{armchair}
+{15000}{}{Choose Object}
+{15010}{}{Car Seat}
+{15020}{}{Vault Seat}
+{15030}{}{Computer Chair}
+{15040}{}{Plastic Chair}
+{15050}{}{Office Chair}
+{15060}{}{Junk Chair}
+{15070}{}{Wooden Chair}
+{15080}{}{Metal Chair}
+{15090}{}{Jail Chair}
+{15100}{}{Stone Bench}
+{16000}{}{Choose Object}
+{16010}{}{Car Seat}
+{16020}{}{Vault Seat}
+{16030}{}{Computer Chair}
+{16040}{}{Plastic Chair}
+{16050}{}{Office Chair}
+{16060}{}{Junk Chair}
+{16070}{}{Wooden Chair}
+{16080}{}{Metal Chair}
+{16090}{}{Jail Chair}
+{16100}{}{Wooden Bench}
+{17000}{}{Choose Object}
+{17010}{}{Car Seat}
+{17020}{}{Vault Seat}
+{17030}{}{Computer Chair}
+{17040}{}{Plastic Chair}
+{17050}{}{Office Chair}
+{17060}{}{Junk Chair}
+{17070}{}{Wooden Chair}
+{17080}{}{Metal Chair}
+{17090}{}{Jail Chair}
+{17100}{}{Stone Bench}
+{18000}{}{System error, need update version, coming SOON tm}
+{19000}{}{Choose Object}
+{19010}{}{Stone Grave}
+{19020}{}{forge}
+{20000}{}{Choose Object}
+{20010}{}{Wooden Table}
+{20020}{}{Bar table}
+{20030}{}{Metal Table}
+{21000}{}{Choose Object}
+{21010}{}{Military Bed}
+{21020}{}{Arroyo Bed}
+{21030}{}{Arroyo Bed 2}
+{21040}{}{Junk bed}
+{21050}{}{Junk bed 2}
+{22000}{}{Choose Object}
+{22010}{}{House Lamp}
+{22020}{}{Street Lamp}
+{22030}{}{Fire wood}
+{22040}{}{Vault City Lamp}
+{23000}{}{Choose Object}
+{23010}{}{Computer 1}
+{23020}{}{Computer 2}
+{23030}{}{Monitor}
+{23040}{}{Terminal}
+{23050}{}{Terminal 2}
+{23060}{}{Camera}
+{24000}{}{Choose Object}
+{24010}{}{Mat}
+{24020}{}{Carpet}
+{25000}{}{Choose Object}
+{25010}{}{Engine}
+{25020}{}{Trash bin}
+{25030}{}{Tire}
+{26000}{}{Choose Object}
+{26010}{}{Enclave Flag}
+{26020}{}{Brotherhood Flag}
+{26030}{}{NCR Flag}
+{26040}{}{Medic Flag}
+{26050}{}{Pirate Flag}
+{26060}{}{faction flags}
+{26070}{}{Legion Flag}
+{27000}{}{Choose Object.}
+{27010}{}{[ Facehugger ]}
+{27020}{}{[ Mr. Pumpkin ]}
+{27030}{}{[ Scarecrow ]}
+{28000}{}{[ Welcome in Easy Base Sorting ]}
+{28010}{}{[ Information ]}
+{28020}{}{[ Edit Container ]}
+{28030}{}{[ Wipe.exe ]}
+{28040}{}{[ Back ]}
+{28050}{}{[ Exit ]}
+{29000}{}{[ To edit a Container please mark it, you can mark it by alt + click and choose command move or any other command, or middle button of mouse if you are using a smart cursor, then select [ Edit Container ] option and select fliters which will apply to this box. After you finish all containers please select [ Wipe,exe ] to finish EBS ]}
+{29010}{}{[ Back ]}
+{29020}{}{[ Exit ]}
+{30000}{}{[ Container number: @lex c@ ]}
+{30010}{}{[ Refresh ]}
+{30020}{}{[ Set Rule 1 ]}
+{30030}{}{[ Set Rule 1 ]}
+{30040}{}{[ Set Rule 2 ]}
+{30050}{}{[ Set Rule 3 ]}
+{30060}{}{[ Set Rule 4 ]}
+{30070}{}{[ Set Rule 5 ]}
+{30080}{}{[ Reset Container ]}
+{30090}{}{[ Back ]}
+{30100}{}{[ Exit ]}
+{31000}{}{[ Select Global Rule ]}
+{31010}{}{[ Small Guns ]}
+{31020}{}{[ Big Guns ]}
+{31030}{}{[ Melee Weapons ]}
+{31040}{}{[ Unarmed ]}
+{31050}{}{[ Throwing ]}
+{31060}{}{[ All Weapons ]}
+{31070}{}{[ All Armors ]}
+{31080}{}{[ Drugs ]}
+{31090}{}{[ Ammo ]}
+{31100}{}{[ Misc ]}
+{31110}{}{[ Keys ]}
+{31120}{}{[ Tier 4 Parts ]}
+{31130}{}{[ Tier 4 Blueprints ]}
+{31140}{}{[ Tier 4 Items ]}
+{31150}{}{[ Tier 4 Ammo ]}
+{31160}{}{[ Special Implants ]}
+{31170}{}{[ Combat Implants ]}
+{31180}{}{[ Vertibird Parts]}
+{31190}{}{[ Currency ]}
+{31200}{}{[ Back ]}
+{31210}{}{[ Exit ]}
+{31220}{}{[ Crafting Mats ]}
+{31230}{}{[ Books ]}
+{31240}{}{[ Tier 3 Blueprints ]}
+{31250}{}{[ Back]}
+{31260}{}{[ Exit ]}
+{32000}{}{[ Hold Item in hand to Set a Rule to sorting just that item ]}
+{32010}{}{[ Done ]}
+{32020}{}{[ Back ]}
+{32030}{}{[ Exit ]}
+{33000}{}{[ Hold Item in hand to Set a Rule to sorting just that item ]}
+{33010}{}{[ Done ]}
+{33020}{}{[ Back ]}
+{33030}{}{[ Exit ]}
+{34000}{}{[ Hold Item in hand to Set a Rule to sorting just that item ]}
+{34010}{}{[ Done ]}
+{34020}{}{[ Back ]}
+{34030}{}{[ Exit ]}
+{35000}{}{[ Hold Item in hand to Set a Rule to sorting just that item ]}
+{35010}{}{[ Done ]}
+{35020}{}{[ Back ]}
+{35030}{}{[ Exit ]}
+{36000}{}{[ Hold Item in hand to Set a Rule to sorting just that item ]}
+{36010}{}{[ Done ]}
+{36020}{}{[ Back ]}
+{36030}{}{[ Exit ]}
+{37000}{}{[ Press "say" and insert label name ]}
+{37010}{}{[ Back ]}
+{37020}{}{[ Exit ]}
+
+[pols]
+{100}{}{none}
+{1000}{}{Predialogue installations}
+{1010}{}{Answer text}
+{2000}{}{system initializing...}
+{2010}{}{Login}
+{2020}{}{Turn off}
+{3000}{}{authentication required}
+{3010}{}{Password ************}
+{4000}{}{authentication token accepted, choose action}
+{4010}{}{Information}
+{4020}{}{Build}
+{4030}{}{[ Place Mining Machine ]}
+{4040}{}{[ Junk Mining Machine ]}
+{4050}{}{[ EBS ]}
+{4060}{}{[ Exit ] }
+{5000}{}{Each built object costs 1% engineering skill, to share base place object and set extra ability to "map access object", then use science skill on that object to unlock sharing, then person who want get access to location should just use that object}
+{5010}{}{back}
+{5020}{}{logout}
+{6000}{}{...Loading...}
+{6010}{}{wait}
+{6020}{}{logout}
+{7000}{}{...Loading...}
+{7010}{}{wait}
+{7020}{}{logout}
+{8000}{}{...Loading...}
+{8010}{}{wait}
+{8020}{}{logout}
+{9000}{}{select a category}
+{9010}{}{Wooden misc}
+{9020}{}{chairs}
+{9030}{}{stone misc}
+{9040}{}{tables}
+{9050}{}{beds}
+{9060}{}{lamps}
+{9070}{}{hi-tech}
+{9080}{}{mats}
+{9090}{}{junk}
+{9100}{}{flags}
+{9110}{}{Special}
+{10000}{}{Choose extra abilities}
+{10010}{}{Can't walk on it}
+{10020}{}{Can't shoot through}
+{10030}{}{Set it as map access object}
+{10040}{}{No more abilities}
+{11000}{}{Done}
+{11010}{}{continue}
+{11020}{}{logout}
+{12000}{}{Choose object}
+{12010}{}{long planks}
+{12020}{}{long planks 2}
+{12030}{}{pole}
+{12040}{}{pole 2}
+{12050}{}{tree}
+{12060}{}{well}
+{12070}{}{support pole 1}
+{12080}{}{support pole 2}
+{12090}{}{support pole 3}
+{12100}{}{support pole 4}
+{12110}{}{Coffin}
+{12120}{}{Legion Cross 1}
+{12130}{}{Legion Cross 2}
+{13000}{}{Choose direction}
+{13010}{}{North}
+{13020}{}{South}
+{13030}{}{East}
+{13040}{}{West}
+{14000}{}{Choose Object}
+{14010}{}{Car seat}
+{14020}{}{Vault seat}
+{14030}{}{Computer Chair}
+{14040}{}{Plastic Chair}
+{14050}{}{Office Chair}
+{14060}{}{Junk Chair}
+{14070}{}{Wooden Chair}
+{14080}{}{Metal Chair}
+{14090}{}{Jail Chair}
+{14100}{}{armchair}
+{15000}{}{Choose Object}
+{15010}{}{Car Seat}
+{15020}{}{Vault Seat}
+{15030}{}{Computer Chair}
+{15040}{}{Plastic Chair}
+{15050}{}{Office Chair}
+{15060}{}{Junk Chair}
+{15070}{}{Wooden Chair}
+{15080}{}{Metal Chair}
+{15090}{}{Jail Chair}
+{15100}{}{Stone Bench}
+{16000}{}{Choose Object}
+{16010}{}{Car Seat}
+{16020}{}{Vault Seat}
+{16030}{}{Computer Chair}
+{16040}{}{Plastic Chair}
+{16050}{}{Office Chair}
+{16060}{}{Junk Chair}
+{16070}{}{Wooden Chair}
+{16080}{}{Metal Chair}
+{16090}{}{Jail Chair}
+{16100}{}{Wooden Bench}
+{17000}{}{Choose Object}
+{17010}{}{Car Seat}
+{17020}{}{Vault Seat}
+{17030}{}{Computer Chair}
+{17040}{}{Plastic Chair}
+{17050}{}{Office Chair}
+{17060}{}{Junk Chair}
+{17070}{}{Wooden Chair}
+{17080}{}{Metal Chair}
+{17090}{}{Jail Chair}
+{17100}{}{Stone Bench}
+{18000}{}{System error, need update version, coming SOON tm}
+{19000}{}{Choose Object}
+{19010}{}{Stone Grave}
+{19020}{}{forge}
+{20000}{}{Choose Object}
+{20010}{}{Wooden Table}
+{20020}{}{Bar table}
+{20030}{}{Metal Table}
+{21000}{}{Choose Object}
+{21010}{}{Military Bed}
+{21020}{}{Arroyo Bed}
+{21030}{}{Arroyo Bed 2}
+{21040}{}{Junk bed}
+{21050}{}{Junk bed 2}
+{22000}{}{Choose Object}
+{22010}{}{House Lamp}
+{22020}{}{Street Lamp}
+{22030}{}{Fire wood}
+{22040}{}{Vault City Lamp}
+{23000}{}{Choose Object}
+{23010}{}{Computer 1}
+{23020}{}{Computer 2}
+{23030}{}{Monitor}
+{23040}{}{Terminal}
+{23050}{}{Terminal 2}
+{23060}{}{Camera}
+{24000}{}{Choose Object}
+{24010}{}{Mat}
+{24020}{}{Carpet}
+{25000}{}{Choose Object}
+{25010}{}{Engine}
+{25020}{}{Trash bin}
+{25030}{}{Tire}
+{26000}{}{Choose Object}
+{26010}{}{Enclave Flag}
+{26020}{}{Brotherhood Flag}
+{26030}{}{NCR Flag}
+{26040}{}{Medic Flag}
+{26050}{}{Pirate Flag}
+{26060}{}{faction flags}
+{26070}{}{Legion Flag}
+{27000}{}{Choose Object.}
+{27010}{}{[ Facehugger ]}
+{27020}{}{[ Mr. Pumpkin ]}
+{27030}{}{[ Scarecrow ]}
+{28000}{}{[ Welcome in Easy Base Sorting ]}
+{28010}{}{[ Information ]}
+{28020}{}{[ Edit Container ]}
+{28030}{}{[ Wipe.exe ]}
+{28040}{}{[ Back ]}
+{28050}{}{[ Exit ]}
+{29000}{}{[ To edit a Container please mark it, you can mark it by alt + click and choose command move or any other command, or middle button of mouse if you are using a smart cursor, then select [ Edit Container ] option and select fliters which will apply to this box. After you finish all containers please select [ Wipe,exe ] to finish EBS ]}
+{29010}{}{[ Back ]}
+{29020}{}{[ Exit ]}
+{30000}{}{[ Container number: @lex c@ ]}
+{30010}{}{[ Refresh ]}
+{30020}{}{[ Set Rule 1 ]}
+{30030}{}{[ Set Rule 1 ]}
+{30040}{}{[ Set Rule 2 ]}
+{30050}{}{[ Set Rule 3 ]}
+{30060}{}{[ Set Rule 4 ]}
+{30070}{}{[ Set Rule 5 ]}
+{30080}{}{[ Reset Container ]}
+{30090}{}{[ Back ]}
+{30100}{}{[ Exit ]}
+{31000}{}{[ Select Global Rule ]}
+{31010}{}{[ Small Guns ]}
+{31020}{}{[ Big Guns ]}
+{31030}{}{[ Melee Weapons ]}
+{31040}{}{[ Unarmed ]}
+{31050}{}{[ Throwing ]}
+{31060}{}{[ All Weapons ]}
+{31070}{}{[ All Armors ]}
+{31080}{}{[ Drugs ]}
+{31090}{}{[ Ammo ]}
+{31100}{}{[ Misc ]}
+{31110}{}{[ Keys ]}
+{31120}{}{[ Tier 4 Parts ]}
+{31130}{}{[ Tier 4 Blueprints ]}
+{31140}{}{[ Tier 4 Items ]}
+{31150}{}{[ Tier 4 Ammo ]}
+{31160}{}{[ Special Implants ]}
+{31170}{}{[ Combat Implants ]}
+{31180}{}{[ Vertibird Parts]}
+{31190}{}{[ Currency ]}
+{31200}{}{[ Back ]}
+{31210}{}{[ Exit ]}
+{31220}{}{[ Crafting Mats ]}
+{31230}{}{[ Books ]}
+{31240}{}{[ Tier 3 Blueprints ]}
+{31250}{}{[ Back]}
+{31260}{}{[ Exit ]}
+{32000}{}{[ Hold Item in hand to Set a Rule to sorting just that item ]}
+{32010}{}{[ Done ]}
+{32020}{}{[ Back ]}
+{32030}{}{[ Exit ]}
+{33000}{}{[ Hold Item in hand to Set a Rule to sorting just that item ]}
+{33010}{}{[ Done ]}
+{33020}{}{[ Back ]}
+{33030}{}{[ Exit ]}
+{34000}{}{[ Hold Item in hand to Set a Rule to sorting just that item ]}
+{34010}{}{[ Done ]}
+{34020}{}{[ Back ]}
+{34030}{}{[ Exit ]}
+{35000}{}{[ Hold Item in hand to Set a Rule to sorting just that item ]}
+{35010}{}{[ Done ]}
+{35020}{}{[ Back ]}
+{35030}{}{[ Exit ]}
+{36000}{}{[ Hold Item in hand to Set a Rule to sorting just that item ]}
+{36010}{}{[ Done ]}
+{36020}{}{[ Back ]}
+{36030}{}{[ Exit ]}
+{37000}{}{[ Press "say" and insert label name ]}
+{37010}{}{[ Back ]}
+{37020}{}{[ Exit ]}
+
+[span]
+{100}{}{none}
+{1000}{}{Predialogue installations}
+{1010}{}{Answer text}
+{2000}{}{system initializing...}
+{2010}{}{Login}
+{2020}{}{Turn off}
+{3000}{}{authentication required}
+{3010}{}{Password ************}
+{4000}{}{authentication token accepted, choose action}
+{4010}{}{Information}
+{4020}{}{Build}
+{4030}{}{[ Place Mining Machine ]}
+{4040}{}{[ Junk Mining Machine ]}
+{4050}{}{[ EBS ]}
+{4060}{}{[ Exit ] }
+{5000}{}{Each built object costs 1% engineering skill, to share base place object and set extra ability to "map access object", then use science skill on that object to unlock sharing, then person who want get access to location should just use that object}
+{5010}{}{back}
+{5020}{}{logout}
+{6000}{}{...Loading...}
+{6010}{}{wait}
+{6020}{}{logout}
+{7000}{}{...Loading...}
+{7010}{}{wait}
+{7020}{}{logout}
+{8000}{}{...Loading...}
+{8010}{}{wait}
+{8020}{}{logout}
+{9000}{}{select a category}
+{9010}{}{Wooden misc}
+{9020}{}{chairs}
+{9030}{}{stone misc}
+{9040}{}{tables}
+{9050}{}{beds}
+{9060}{}{lamps}
+{9070}{}{hi-tech}
+{9080}{}{mats}
+{9090}{}{junk}
+{9100}{}{flags}
+{9110}{}{Special}
+{10000}{}{Choose extra abilities}
+{10010}{}{Can't walk on it}
+{10020}{}{Can't shoot through}
+{10030}{}{Set it as map access object}
+{10040}{}{No more abilities}
+{11000}{}{Done}
+{11010}{}{continue}
+{11020}{}{logout}
+{12000}{}{Choose object}
+{12010}{}{long planks}
+{12020}{}{long planks 2}
+{12030}{}{pole}
+{12040}{}{pole 2}
+{12050}{}{tree}
+{12060}{}{well}
+{12070}{}{support pole 1}
+{12080}{}{support pole 2}
+{12090}{}{support pole 3}
+{12100}{}{support pole 4}
+{12110}{}{Coffin}
+{12120}{}{Legion Cross 1}
+{12130}{}{Legion Cross 2}
+{13000}{}{Choose direction}
+{13010}{}{North}
+{13020}{}{South}
+{13030}{}{East}
+{13040}{}{West}
+{14000}{}{Choose Object}
+{14010}{}{Car seat}
+{14020}{}{Vault seat}
+{14030}{}{Computer Chair}
+{14040}{}{Plastic Chair}
+{14050}{}{Office Chair}
+{14060}{}{Junk Chair}
+{14070}{}{Wooden Chair}
+{14080}{}{Metal Chair}
+{14090}{}{Jail Chair}
+{14100}{}{armchair}
+{15000}{}{Choose Object}
+{15010}{}{Car Seat}
+{15020}{}{Vault Seat}
+{15030}{}{Computer Chair}
+{15040}{}{Plastic Chair}
+{15050}{}{Office Chair}
+{15060}{}{Junk Chair}
+{15070}{}{Wooden Chair}
+{15080}{}{Metal Chair}
+{15090}{}{Jail Chair}
+{15100}{}{Stone Bench}
+{16000}{}{Choose Object}
+{16010}{}{Car Seat}
+{16020}{}{Vault Seat}
+{16030}{}{Computer Chair}
+{16040}{}{Plastic Chair}
+{16050}{}{Office Chair}
+{16060}{}{Junk Chair}
+{16070}{}{Wooden Chair}
+{16080}{}{Metal Chair}
+{16090}{}{Jail Chair}
+{16100}{}{Wooden Bench}
+{17000}{}{Choose Object}
+{17010}{}{Car Seat}
+{17020}{}{Vault Seat}
+{17030}{}{Computer Chair}
+{17040}{}{Plastic Chair}
+{17050}{}{Office Chair}
+{17060}{}{Junk Chair}
+{17070}{}{Wooden Chair}
+{17080}{}{Metal Chair}
+{17090}{}{Jail Chair}
+{17100}{}{Stone Bench}
+{18000}{}{System error, need update version, coming SOON tm}
+{19000}{}{Choose Object}
+{19010}{}{Stone Grave}
+{19020}{}{forge}
+{20000}{}{Choose Object}
+{20010}{}{Wooden Table}
+{20020}{}{Bar table}
+{20030}{}{Metal Table}
+{21000}{}{Choose Object}
+{21010}{}{Military Bed}
+{21020}{}{Arroyo Bed}
+{21030}{}{Arroyo Bed 2}
+{21040}{}{Junk bed}
+{21050}{}{Junk bed 2}
+{22000}{}{Choose Object}
+{22010}{}{House Lamp}
+{22020}{}{Street Lamp}
+{22030}{}{Fire wood}
+{22040}{}{Vault City Lamp}
+{23000}{}{Choose Object}
+{23010}{}{Computer 1}
+{23020}{}{Computer 2}
+{23030}{}{Monitor}
+{23040}{}{Terminal}
+{23050}{}{Terminal 2}
+{23060}{}{Camera}
+{24000}{}{Choose Object}
+{24010}{}{Mat}
+{24020}{}{Carpet}
+{25000}{}{Choose Object}
+{25010}{}{Engine}
+{25020}{}{Trash bin}
+{25030}{}{Tire}
+{26000}{}{Choose Object}
+{26010}{}{Enclave Flag}
+{26020}{}{Brotherhood Flag}
+{26030}{}{NCR Flag}
+{26040}{}{Medic Flag}
+{26050}{}{Pirate Flag}
+{26060}{}{faction flags}
+{26070}{}{Legion Flag}
+{27000}{}{Choose Object.}
+{27010}{}{[ Facehugger ]}
+{27020}{}{[ Mr. Pumpkin ]}
+{27030}{}{[ Scarecrow ]}
+{28000}{}{[ Welcome in Easy Base Sorting ]}
+{28010}{}{[ Information ]}
+{28020}{}{[ Edit Container ]}
+{28030}{}{[ Wipe.exe ]}
+{28040}{}{[ Back ]}
+{28050}{}{[ Exit ]}
+{29000}{}{[ To edit a Container please mark it, you can mark it by alt + click and choose command move or any other command, or middle button of mouse if you are using a smart cursor, then select [ Edit Container ] option and select fliters which will apply to this box. After you finish all containers please select [ Wipe,exe ] to finish EBS ]}
+{29010}{}{[ Back ]}
+{29020}{}{[ Exit ]}
+{30000}{}{[ Container number: @lex c@ ]}
+{30010}{}{[ Refresh ]}
+{30020}{}{[ Set Rule 1 ]}
+{30030}{}{[ Set Rule 1 ]}
+{30040}{}{[ Set Rule 2 ]}
+{30050}{}{[ Set Rule 3 ]}
+{30060}{}{[ Set Rule 4 ]}
+{30070}{}{[ Set Rule 5 ]}
+{30080}{}{[ Reset Container ]}
+{30090}{}{[ Back ]}
+{30100}{}{[ Exit ]}
+{31000}{}{[ Select Global Rule ]}
+{31010}{}{[ Small Guns ]}
+{31020}{}{[ Big Guns ]}
+{31030}{}{[ Melee Weapons ]}
+{31040}{}{[ Unarmed ]}
+{31050}{}{[ Throwing ]}
+{31060}{}{[ All Weapons ]}
+{31070}{}{[ All Armors ]}
+{31080}{}{[ Drugs ]}
+{31090}{}{[ Ammo ]}
+{31100}{}{[ Misc ]}
+{31110}{}{[ Keys ]}
+{31120}{}{[ Tier 4 Parts ]}
+{31130}{}{[ Tier 4 Blueprints ]}
+{31140}{}{[ Tier 4 Items ]}
+{31150}{}{[ Tier 4 Ammo ]}
+{31160}{}{[ Special Implants ]}
+{31170}{}{[ Combat Implants ]}
+{31180}{}{[ Vertibird Parts]}
+{31190}{}{[ Currency ]}
+{31200}{}{[ Back ]}
+{31210}{}{[ Exit ]}
+{31220}{}{[ Crafting Mats ]}
+{31230}{}{[ Books ]}
+{31240}{}{[ Tier 3 Blueprints ]}
+{31250}{}{[ Back]}
+{31260}{}{[ Exit ]}
+{32000}{}{[ Hold Item in hand to Set a Rule to sorting just that item ]}
+{32010}{}{[ Done ]}
+{32020}{}{[ Back ]}
+{32030}{}{[ Exit ]}
+{33000}{}{[ Hold Item in hand to Set a Rule to sorting just that item ]}
+{33010}{}{[ Done ]}
+{33020}{}{[ Back ]}
+{33030}{}{[ Exit ]}
+{34000}{}{[ Hold Item in hand to Set a Rule to sorting just that item ]}
+{34010}{}{[ Done ]}
+{34020}{}{[ Back ]}
+{34030}{}{[ Exit ]}
+{35000}{}{[ Hold Item in hand to Set a Rule to sorting just that item ]}
+{35010}{}{[ Done ]}
+{35020}{}{[ Back ]}
+{35030}{}{[ Exit ]}
+{36000}{}{[ Hold Item in hand to Set a Rule to sorting just that item ]}
+{36010}{}{[ Done ]}
+{36020}{}{[ Back ]}
+{36030}{}{[ Exit ]}
+{37000}{}{[ Press "say" and insert label name ]}
+{37010}{}{[ Back ]}
+{37020}{}{[ Exit ]}
+
+[russ]
+{100}{}{none}
+{1000}{}{Predialogue installations}
+{1010}{}{Answer text}
+{2000}{}{system initializing...}
+{2010}{}{Login}
+{2020}{}{Turn off}
+{3000}{}{authentication required}
+{3010}{}{Password ************}
+{4000}{}{authentication token accepted, choose action}
+{4010}{}{Information}
+{4020}{}{Build}
+{4030}{}{[ Place Mining Machine ]}
+{4040}{}{[ Junk Mining Machine ]}
+{4050}{}{[ EBS ]}
+{4060}{}{[ Exit ] }
+{5000}{}{Each built object costs 1% engineering skill, to share base place object and set extra ability to "map access object", then use science skill on that object to unlock sharing, then person who want get access to location should just use that object}
+{5010}{}{back}
+{5020}{}{logout}
+{6000}{}{...Loading...}
+{6010}{}{wait}
+{6020}{}{logout}
+{7000}{}{...Loading...}
+{7010}{}{wait}
+{7020}{}{logout}
+{8000}{}{...Loading...}
+{8010}{}{wait}
+{8020}{}{logout}
+{9000}{}{select a category}
+{9010}{}{Wooden misc}
+{9020}{}{chairs}
+{9030}{}{stone misc}
+{9040}{}{tables}
+{9050}{}{beds}
+{9060}{}{lamps}
+{9070}{}{hi-tech}
+{9080}{}{mats}
+{9090}{}{junk}
+{9100}{}{flags}
+{9110}{}{Special}
+{10000}{}{Choose extra abilities}
+{10010}{}{Can't walk on it}
+{10020}{}{Can't shoot through}
+{10030}{}{Set it as map access object}
+{10040}{}{No more abilities}
+{11000}{}{Done}
+{11010}{}{continue}
+{11020}{}{logout}
+{12000}{}{Choose object}
+{12010}{}{long planks}
+{12020}{}{long planks 2}
+{12030}{}{pole}
+{12040}{}{pole 2}
+{12050}{}{tree}
+{12060}{}{well}
+{12070}{}{support pole 1}
+{12080}{}{support pole 2}
+{12090}{}{support pole 3}
+{12100}{}{support pole 4}
+{12110}{}{Coffin}
+{12120}{}{Legion Cross 1}
+{12130}{}{Legion Cross 2}
+{13000}{}{Choose direction}
+{13010}{}{North}
+{13020}{}{South}
+{13030}{}{East}
+{13040}{}{West}
+{14000}{}{Choose Object}
+{14010}{}{Car seat}
+{14020}{}{Vault seat}
+{14030}{}{Computer Chair}
+{14040}{}{Plastic Chair}
+{14050}{}{Office Chair}
+{14060}{}{Junk Chair}
+{14070}{}{Wooden Chair}
+{14080}{}{Metal Chair}
+{14090}{}{Jail Chair}
+{14100}{}{armchair}
+{15000}{}{Choose Object}
+{15010}{}{Car Seat}
+{15020}{}{Vault Seat}
+{15030}{}{Computer Chair}
+{15040}{}{Plastic Chair}
+{15050}{}{Office Chair}
+{15060}{}{Junk Chair}
+{15070}{}{Wooden Chair}
+{15080}{}{Metal Chair}
+{15090}{}{Jail Chair}
+{15100}{}{Stone Bench}
+{16000}{}{Choose Object}
+{16010}{}{Car Seat}
+{16020}{}{Vault Seat}
+{16030}{}{Computer Chair}
+{16040}{}{Plastic Chair}
+{16050}{}{Office Chair}
+{16060}{}{Junk Chair}
+{16070}{}{Wooden Chair}
+{16080}{}{Metal Chair}
+{16090}{}{Jail Chair}
+{16100}{}{Wooden Bench}
+{17000}{}{Choose Object}
+{17010}{}{Car Seat}
+{17020}{}{Vault Seat}
+{17030}{}{Computer Chair}
+{17040}{}{Plastic Chair}
+{17050}{}{Office Chair}
+{17060}{}{Junk Chair}
+{17070}{}{Wooden Chair}
+{17080}{}{Metal Chair}
+{17090}{}{Jail Chair}
+{17100}{}{Stone Bench}
+{18000}{}{System error, need update version, coming SOON tm}
+{19000}{}{Choose Object}
+{19010}{}{Stone Grave}
+{19020}{}{forge}
+{20000}{}{Choose Object}
+{20010}{}{Wooden Table}
+{20020}{}{Bar table}
+{20030}{}{Metal Table}
+{21000}{}{Choose Object}
+{21010}{}{Military Bed}
+{21020}{}{Arroyo Bed}
+{21030}{}{Arroyo Bed 2}
+{21040}{}{Junk bed}
+{21050}{}{Junk bed 2}
+{22000}{}{Choose Object}
+{22010}{}{House Lamp}
+{22020}{}{Street Lamp}
+{22030}{}{Fire wood}
+{22040}{}{Vault City Lamp}
+{23000}{}{Choose Object}
+{23010}{}{Computer 1}
+{23020}{}{Computer 2}
+{23030}{}{Monitor}
+{23040}{}{Terminal}
+{23050}{}{Terminal 2}
+{23060}{}{Camera}
+{24000}{}{Choose Object}
+{24010}{}{Mat}
+{24020}{}{Carpet}
+{25000}{}{Choose Object}
+{25010}{}{Engine}
+{25020}{}{Trash bin}
+{25030}{}{Tire}
+{26000}{}{Choose Object}
+{26010}{}{Enclave Flag}
+{26020}{}{Brotherhood Flag}
+{26030}{}{NCR Flag}
+{26040}{}{Medic Flag}
+{26050}{}{Pirate Flag}
+{26060}{}{faction flags}
+{26070}{}{Legion Flag}
+{27000}{}{Choose Object.}
+{27010}{}{[ Facehugger ]}
+{27020}{}{[ Mr. Pumpkin ]}
+{27030}{}{[ Scarecrow ]}
+{28000}{}{[ Welcome in Easy Base Sorting ]}
+{28010}{}{[ Information ]}
+{28020}{}{[ Edit Container ]}
+{28030}{}{[ Wipe.exe ]}
+{28040}{}{[ Back ]}
+{28050}{}{[ Exit ]}
+{29000}{}{[ To edit a Container please mark it, you can mark it by alt + click and choose command move or any other command, or middle button of mouse if you are using a smart cursor, then select [ Edit Container ] option and select fliters which will apply to this box. After you finish all containers please select [ Wipe,exe ] to finish EBS ]}
+{29010}{}{[ Back ]}
+{29020}{}{[ Exit ]}
+{30000}{}{[ Container number: @lex c@ ]}
+{30010}{}{[ Refresh ]}
+{30020}{}{[ Set Rule 1 ]}
+{30030}{}{[ Set Rule 1 ]}
+{30040}{}{[ Set Rule 2 ]}
+{30050}{}{[ Set Rule 3 ]}
+{30060}{}{[ Set Rule 4 ]}
+{30070}{}{[ Set Rule 5 ]}
+{30080}{}{[ Reset Container ]}
+{30090}{}{[ Back ]}
+{30100}{}{[ Exit ]}
+{31000}{}{[ Select Global Rule ]}
+{31010}{}{[ Small Guns ]}
+{31020}{}{[ Big Guns ]}
+{31030}{}{[ Melee Weapons ]}
+{31040}{}{[ Unarmed ]}
+{31050}{}{[ Throwing ]}
+{31060}{}{[ All Weapons ]}
+{31070}{}{[ All Armors ]}
+{31080}{}{[ Drugs ]}
+{31090}{}{[ Ammo ]}
+{31100}{}{[ Misc ]}
+{31110}{}{[ Keys ]}
+{31120}{}{[ Tier 4 Parts ]}
+{31130}{}{[ Tier 4 Blueprints ]}
+{31140}{}{[ Tier 4 Items ]}
+{31150}{}{[ Tier 4 Ammo ]}
+{31160}{}{[ Special Implants ]}
+{31170}{}{[ Combat Implants ]}
+{31180}{}{[ Vertibird Parts]}
+{31190}{}{[ Currency ]}
+{31200}{}{[ Back ]}
+{31210}{}{[ Exit ]}
+{31220}{}{[ Crafting Mats ]}
+{31230}{}{[ Books ]}
+{31240}{}{[ Tier 3 Blueprints ]}
+{31250}{}{[ Back]}
+{31260}{}{[ Exit ]}
+{32000}{}{[ Hold Item in hand to Set a Rule to sorting just that item ]}
+{32010}{}{[ Done ]}
+{32020}{}{[ Back ]}
+{32030}{}{[ Exit ]}
+{33000}{}{[ Hold Item in hand to Set a Rule to sorting just that item ]}
+{33010}{}{[ Done ]}
+{33020}{}{[ Back ]}
+{33030}{}{[ Exit ]}
+{34000}{}{[ Hold Item in hand to Set a Rule to sorting just that item ]}
+{34010}{}{[ Done ]}
+{34020}{}{[ Back ]}
+{34030}{}{[ Exit ]}
+{35000}{}{[ Hold Item in hand to Set a Rule to sorting just that item ]}
+{35010}{}{[ Done ]}
+{35020}{}{[ Back ]}
+{35030}{}{[ Exit ]}
+{36000}{}{[ Hold Item in hand to Set a Rule to sorting just that item ]}
+{36010}{}{[ Done ]}
+{36020}{}{[ Back ]}
+{36030}{}{[ Exit ]}
+{37000}{}{[ Press "say" and insert label name ]}
+{37010}{}{[ Back ]}
+{37020}{}{[ Exit ]}
+

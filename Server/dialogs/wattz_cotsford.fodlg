@@ -1,0 +1,402 @@
+[comment]
+
+
+[data]
+lang=engl czec pols span russ
+
+[dialog]
+&
+1 1000 None 1 #
+2 1010 @
+2 2000 None 0 #
+3 2010 #
+6 2020 #
+4 2030 #
+9 2040 D _item p PID_WATTZ_FUSION_CORE } 1 #
+7 2050 #
+8 2060 @
+3 3000 None 0 #
+5 3010 #
+2 3020 @
+4 4000 None 0 #
+6 4010 @
+5 5000 None 0 #
+4 5010 @
+6 6000 None 0 #
+2 6010 #
+6 6020 D _item p PID_DOLLAR } 3 R _item p PID_DOLLAR - 3 R _item p PID_STEALTH_BOY + 1 #
+6 6030 D _item p PID_DOLLAR } 2 R _item p PID_DOLLAR - 2 R _item p PID_GEIGER_COUNTER + 1 #
+6 6040 D _item p PID_DOLLAR } 5 R _item p PID_DOLLAR - 5 R _item p PID_MOTION_SENSOR + 1 #
+6 6050 D _item p PID_DOLLAR } 15 R _item p PID_DOLLAR - 15 R _item p PID_FINGER_LOCK + 1 #
+8 6060 @
+7 7000 None 0 #
+2 7010 @
+8 8000 None 0 @
+9 9000 None 0 #
+2 9010 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_CYLINDRICAL_LOCK + 1 #
+2 9020 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_CARBON_POLYMER + 1 #
+2 9030 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_TECH_ELE_ENGINE + 1 #
+2 9040 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_TECH_SCOPE + 1 #
+2 9050 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_PLASMA_PARTS + 1 #
+2 9060 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_TECH_SEMI_TRIGGER + 1 #
+2 9070 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_TECH_DELINER + 1 #
+2 9080 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_PLASMA_ACCELERATOR + 1 #
+2 9090 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_TECH_GUN_CONTROL + 1 #
+2 9100 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_ELECTROMAGNETIC + 1 #
+2 9110 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_TECH_ELE_WIRES + 1 #
+2 9120 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_TECH_AUTO_TRIGGER + 1 #
+2 9130 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_ROTARY_CHAMBER + 1 #
+2 9140 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_TECH_CONDEN + 1 #
+2 9150 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_TECH_TRANSFORMATOR + 1 #
+2 9160 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_HIFLO + 1 #
+2 9170 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_ARM_STEEL + 1 #
+2 9180 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_ARM_POLYMER_ADV + 1 #
+2 9190 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_ADVANCED_SHELL + 1 #
+2 9200 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_ARM_CARBON + 1 #
+2 9210 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_ARM_CERAMIC + 1 #
+2 9220 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_ELECTRIC_AMPLIFIER + 1 #
+2 9230 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_TECH_MECH_ENGINE + 1 #
+2 9240 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_SERVOMOTORS + 1 #
+2 9250 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_ARM_POLYMER_LASER + 1 #
+2 9260 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_ARM_GORETEX + 1 #
+2 9270 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_ARM_KEVLAR + 1 #
+2 9280 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_ARM_LEATHER_HIDE + 1 #
+2 9290 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_TECH_MICROCHIPS + 1 #
+2 9300 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_TECH_PLASMA + 1 #
+2 9310 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_ARM_POLYCARBONITE + 1 #
+2 9320 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_ARM_POLYMER + 1 #
+2 9330 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_ABSORBER + 1 #
+2 9340 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_PA_SHELL + 1 #
+2 9350 D _item p PID_MFC_MK2 > 9 D _item p PID_DOLLAR > 4 D _item p PID_WATTZ_FUSION_CORE > 0 R _item p PID_WATTZ_FUSION_CORE - 1 R _item p PID_DOLLAR - 5 R _item p PID_MFC_MK2 - 10 R _item p PID_PA_FUEL + 1 #
+2 9360 &
+
+[engl]
+{100}{}{Cotsford}
+{1000}{}{Predialogue installations}
+{1010}{}{Answer text}
+{2000}{}{Yes? May I help you?}
+{2010}{}{Who are you and what is this place?}
+{2020}{}{Do you sell any interesting thingies?}
+{2030}{}{I saw some cool looking bots in the hall. Do you sell those?}
+{2040}{}{I have a Fusion Core here with a Wattz brand name on it. I believe you might find it useful.}
+{2050}{}{Do you have some work for me maybe?}
+{2060}{}{I will be going. [ end dialogue ]}
+{3000}{}{Name's Cotsford. I am an assistant manager here. You are currently located in Wattz Electronics. This place was sponsored and built by a person known as Christopher.}
+{3010}{}{Tell me more about Wattz Electronics.}
+{3020}{}{Let us switch the topic.}
+{4000}{}{Hmm... no. Not yet at least.}
+{4010}{}{Well.., Do you sell anything?}
+{5000}{}{*he sighs* Wattz Electronics was a prominent corporation before the Great War, manufacturing many types of electrical devices and electronic products. We are trying to revive the corporation as we believe that the world needs new innovations and technology! In simple words - we are here to make sure general technology returns back to everyone's lives.}
+{5010}{}{Oh cool! Do you sell robots?}
+{6000}{}{For sure. For you we can suggest Stealth Boys for 3 golden dollars, Geiger Counters for 2 golden dollars, Motion Sensors for 5 golden dollars and Finger print locks for 15 golden dollars each.}
+{6010}{}{Let us switch the topic.}
+{6020}{}{Give me 1 Stealth Boy.}
+{6030}{}{Give me 1 Geiger Counter.}
+{6040}{}{Give me 1 Motion Sensor.}
+{6050}{}{Give me 1 Finger print lock.}
+{6060}{}{I may come back later. [ end dialogue ]}
+{7000}{}{To be honest... You can help us. You see, our entire plant works on Wattz Fusion Cells, and these things are pretty rare nowadays. The ones we get come from Phoenix and sometimes we recieve none of them in our shipments. *he makes a weird gesture with his hands* And of course the plant just stops sometimes as well and we always need power to start our machines. ATOMIC power. If you happen to stuble upon a Fusion Core somewhere, bring them to us. We can gladly exchange them for some rare materials.}
+{7010}{}{I will keep my eyes on searching for these fusion cores. Now let's switch the topic...}
+{8000}{}{Come back soon. Thank you for choosing Wattz Electronics.}
+{9000}{}{Ah, great. We can produce any Rare parts for high tech weapons or armos, just need a Fusion Core, high quality fuel in Electric Fusion Cells, and small fee in 5 golden dollars.}
+{9010}{}{Can You make a Cylindrical rotary lock for me?}
+{9020}{}{Can You make a Carbon polymer barrels for me?}
+{9030}{}{Can You make a Electric Motor for me?}
+{9040}{}{Can You make a Optic Scope for me?}
+{9050}{}{Can You make a Unique plasma parts for me?}
+{9060}{}{Can You make a Semi Trigger for me?}
+{9070}{}{Can You make a Delinker Mechanism for me?}
+{9080}{}{Can You make a Plasma Accelerator for me?}
+{9090}{}{Can You make a Gun Control Module for me?}
+{9100}{}{Can You make a Electromagnetic mechanism for me?}
+{9110}{}{Can You make a Wires for me?}
+{9120}{}{Can You make a Auto trigger for me?}
+{9130}{}{Can You make a Rotary Chamber for me?}
+{9140}{}{Can You make a Capacitors for me?}
+{9150}{}{Can You make a Electrical Transformer for me?}
+{9160}{}{Can You make a HiFlo hydraulic systems for me?}
+{9170}{}{Can You make a Steel Plate for me?}
+{9180}{}{Can You make a Advanced Polymers for me?}
+{9190}{}{Can You make a Advanced shell for me?}
+{9200}{}{Can You make a Carbon Polymer for me?}
+{9210}{}{Can You make a Ceramic Plate for me?}
+{9220}{}{Can You make a Electric amplifier for me?}
+{9230}{}{Can You make a Engine for me?}
+{9240}{}{Can You make a Enhanced Servomotors for me?}
+{9250}{}{Can You make a Glass Polymers for me?}
+{9260}{}{Can You make a Goretex for me?}
+{9270}{}{Can You make a Kevlar for me?}
+{9280}{}{Can You make a Leather Hide for me?}
+{9290}{}{Can You make a Microchips for me?}
+{9300}{}{Can You make a Plasma Transformer for me?}
+{9310}{}{Can You make a Polycarbonate for me?}
+{9320}{}{Can You make a Polymers for me?}
+{9330}{}{Can You make a Recoil absorber for me?}
+{9340}{}{Can You make a T-51b shell for me?}
+{9350}{}{Can You make a TX-28 microfusion pack for me?}
+{9360}{}{Nevermind}
+
+[czec]
+{100}{}{none}
+{1000}{}{Predialogue installations}
+{1010}{}{Answer text}
+{2000}{}{Yes? May I help you?}
+{2010}{}{Who are you and what is this place?}
+{2020}{}{Do you sell any interesting thingies?}
+{2030}{}{I saw some cool looking bots in the hall. Do you sell those?}
+{2040}{}{I have a Fusion Core here with Wattz sign on it. I believe you can find it useful.}
+{2050}{}{Do you have some work for me maybe?}
+{2060}{}{I will be going.}
+{3000}{}{Name's Cotsford. I am an assistant manager here. And you are currently located in Wattz Electronics. This place was sponsored and built by a person known as Christopher.}
+{3010}{}{Tell me more about Wattz Electronics.}
+{3020}{}{Let us switch the topic.}
+{4000}{}{Hmm... no. Not yet at least.}
+{4010}{}{Well.., Do you sell anything?}
+{5000}{}{[ He sighs ] Wattz Electronics was a prominent corporation before the Great War, manufacturing many types of electrical and electronic products. We are trying to revive the corporation as we believe that the world needs new innovations and... well... and so on and so on. In simple words - we are here to make technologies return back to everyone's lives.}
+{5010}{}{Oh cool! Do you sell robots?}
+{6000}{}{For sure. For you we can suggest Stealth Boys for 3 golden dollars, Geiger Counters for 2 golden dollars, Motion Sensors for 5 golden dollars and Finger print locks for 15 golden dollars each.}
+{6010}{}{Let us switch the topic.}
+{6020}{}{Give me 1 Stealth Boy.}
+{6030}{}{Give me 1 Geiger Counter.}
+{6040}{}{Give me 1 Motion Sensor.}
+{6050}{}{Give me 1 Finger print lock.}
+{6060}{}{I may come later.}
+{7000}{}{To be honest... You can help us. You see, our entire plant works on Wattz Fusion Cells. ANd these things are pretty rare nowadays. The ones we get are coming from Phoenix and sometimes we recieve nothing in our shipments. [ He makes a weird gesture with his hands ] And of course the plant just stops as wel always need power to turn our machines on. ATOMIC power. If you happen to stuble upon a Fusion Core somewhere, bring them to us. We can gladly exchange them on some rare materials.}
+{7010}{}{I will keep my eyes on searching for these fusion cores. Now let's switch the topic...}
+{8000}{}{Come back soon. Thank you for choosing Wattz Electronics.}
+{9000}{}{Ah, great. We can suggest you Microchips, Capacitors, Electrical Transformer, Wires or Plasma Transformer. Which one do you wish to get for this Fusion Core?}
+{9010}{}{Can You make a Cylindrical rotary lock for me?}
+{9020}{}{Can You make a Carbon polymer barrels for me?}
+{9030}{}{Can You make a Electric Motor for me?}
+{9040}{}{Can You make a Optic Scope for me?}
+{9050}{}{Can You make a Unique plasma parts for me?}
+{9060}{}{Can You make a Semi Trigger for me?}
+{9070}{}{Can You make a Delinker Mechanism for me?}
+{9080}{}{Can You make a Plasma Accelerator for me?}
+{9090}{}{Can You make a Gun Control Module for me?}
+{9100}{}{Can You make a Electromagnetic mechanism for me?}
+{9110}{}{Can You make a Wires for me?}
+{9120}{}{Can You make a Auto trigger for me?}
+{9130}{}{Can You make a Rotary Chamber for me?}
+{9140}{}{Can You make a Capacitors for me?}
+{9150}{}{Can You make a Electrical Transformer for me?}
+{9160}{}{Can You make a HiFlo hydraulic systems for me?}
+{9170}{}{Can You make a Steel Plate for me?}
+{9180}{}{Can You make a Advanced Polymers for me?}
+{9190}{}{Can You make a Advanced shell for me?}
+{9200}{}{Can You make a Carbon Polymer for me?}
+{9210}{}{Can You make a Ceramic Plate for me?}
+{9220}{}{Can You make a Electric amplifier for me?}
+{9230}{}{Can You make a Engine for me?}
+{9240}{}{Can You make a Enhanced Servomotors for me?}
+{9250}{}{Can You make a Glass Polymers for me?}
+{9260}{}{Can You make a Goretex for me?}
+{9270}{}{Can You make a Kevlar for me?}
+{9280}{}{Can You make a Leather Hide for me?}
+{9290}{}{Can You make a Microchips for me?}
+{9300}{}{Can You make a Plasma Accelerator for me?}
+{9310}{}{Can You make a Polycarbonate for me?}
+{9320}{}{Can You make a Polymers for me?}
+{9330}{}{Can You make a Recoil absorber for me?}
+{9340}{}{Can You make a T-51b shell for me?}
+{9350}{}{Can You make a TX-28 microfusion pack for me?}
+{9360}{}{Nevermind}
+
+[pols]
+{100}{}{none}
+{1000}{}{Predialogue installations}
+{1010}{}{Answer text}
+{2000}{}{Yes? May I help you?}
+{2010}{}{Who are you and what is this place?}
+{2020}{}{Do you sell any interesting thingies?}
+{2030}{}{I saw some cool looking bots in the hall. Do you sell those?}
+{2040}{}{I have a Fusion Core here with Wattz sign on it. I believe you can find it useful.}
+{2050}{}{Do you have some work for me maybe?}
+{2060}{}{I will be going.}
+{3000}{}{Name's Cotsford. I am an assistant manager here. And you are currently located in Wattz Electronics. This place was sponsored and built by a person known as Christopher.}
+{3010}{}{Tell me more about Wattz Electronics.}
+{3020}{}{Let us switch the topic.}
+{4000}{}{Hmm... no. Not yet at least.}
+{4010}{}{Well.., Do you sell anything?}
+{5000}{}{[ He sighs ] Wattz Electronics was a prominent corporation before the Great War, manufacturing many types of electrical and electronic products. We are trying to revive the corporation as we believe that the world needs new innovations and... well... and so on and so on. In simple words - we are here to make technologies return back to everyone's lives.}
+{5010}{}{Oh cool! Do you sell robots?}
+{6000}{}{For sure. For you we can suggest Stealth Boys for 3 golden dollars, Geiger Counters for 2 golden dollars, Motion Sensors for 5 golden dollars and Finger print locks for 15 golden dollars each.}
+{6010}{}{Let us switch the topic.}
+{6020}{}{Give me 1 Stealth Boy.}
+{6030}{}{Give me 1 Geiger Counter.}
+{6040}{}{Give me 1 Motion Sensor.}
+{6050}{}{Give me 1 Finger print lock.}
+{6060}{}{I may come later.}
+{7000}{}{To be honest... You can help us. You see, our entire plant works on Wattz Fusion Cells. ANd these things are pretty rare nowadays. The ones we get are coming from Phoenix and sometimes we recieve nothing in our shipments. [ He makes a weird gesture with his hands ] And of course the plant just stops as wel always need power to turn our machines on. ATOMIC power. If you happen to stuble upon a Fusion Core somewhere, bring them to us. We can gladly exchange them on some rare materials.}
+{7010}{}{I will keep my eyes on searching for these fusion cores. Now let's switch the topic...}
+{8000}{}{Come back soon. Thank you for choosing Wattz Electronics.}
+{9000}{}{Ah, great. We can suggest you Microchips, Capacitors, Electrical Transformer, Wires or Plasma Transformer. Which one do you wish to get for this Fusion Core?}
+{9010}{}{Can You make a Cylindrical rotary lock for me?}
+{9020}{}{Can You make a Carbon polymer barrels for me?}
+{9030}{}{Can You make a Electric Motor for me?}
+{9040}{}{Can You make a Optic Scope for me?}
+{9050}{}{Can You make a Unique plasma parts for me?}
+{9060}{}{Can You make a Semi Trigger for me?}
+{9070}{}{Can You make a Delinker Mechanism for me?}
+{9080}{}{Can You make a Plasma Accelerator for me?}
+{9090}{}{Can You make a Gun Control Module for me?}
+{9100}{}{Can You make a Electromagnetic mechanism for me?}
+{9110}{}{Can You make a Wires for me?}
+{9120}{}{Can You make a Auto trigger for me?}
+{9130}{}{Can You make a Rotary Chamber for me?}
+{9140}{}{Can You make a Capacitors for me?}
+{9150}{}{Can You make a Electrical Transformer for me?}
+{9160}{}{Can You make a HiFlo hydraulic systems for me?}
+{9170}{}{Can You make a Steel Plate for me?}
+{9180}{}{Can You make a Advanced Polymers for me?}
+{9190}{}{Can You make a Advanced shell for me?}
+{9200}{}{Can You make a Carbon Polymer for me?}
+{9210}{}{Can You make a Ceramic Plate for me?}
+{9220}{}{Can You make a Electric amplifier for me?}
+{9230}{}{Can You make a Engine for me?}
+{9240}{}{Can You make a Enhanced Servomotors for me?}
+{9250}{}{Can You make a Glass Polymers for me?}
+{9260}{}{Can You make a Goretex for me?}
+{9270}{}{Can You make a Kevlar for me?}
+{9280}{}{Can You make a Leather Hide for me?}
+{9290}{}{Can You make a Microchips for me?}
+{9300}{}{Can You make a Plasma Accelerator for me?}
+{9310}{}{Can You make a Polycarbonate for me?}
+{9320}{}{Can You make a Polymers for me?}
+{9330}{}{Can You make a Recoil absorber for me?}
+{9340}{}{Can You make a T-51b shell for me?}
+{9350}{}{Can You make a TX-28 microfusion pack for me?}
+{9360}{}{Nevermind}
+
+[span]
+{100}{}{none}
+{1000}{}{Predialogue installations}
+{1010}{}{Answer text}
+{2000}{}{Yes? May I help you?}
+{2010}{}{Who are you and what is this place?}
+{2020}{}{Do you sell any interesting thingies?}
+{2030}{}{I saw some cool looking bots in the hall. Do you sell those?}
+{2040}{}{I have a Fusion Core here with Wattz sign on it. I believe you can find it useful.}
+{2050}{}{Do you have some work for me maybe?}
+{2060}{}{I will be going.}
+{3000}{}{Name's Cotsford. I am an assistant manager here. And you are currently located in Wattz Electronics. This place was sponsored and built by a person known as Christopher.}
+{3010}{}{Tell me more about Wattz Electronics.}
+{3020}{}{Let us switch the topic.}
+{4000}{}{Hmm... no. Not yet at least.}
+{4010}{}{Well.., Do you sell anything?}
+{5000}{}{[ He sighs ] Wattz Electronics was a prominent corporation before the Great War, manufacturing many types of electrical and electronic products. We are trying to revive the corporation as we believe that the world needs new innovations and... well... and so on and so on. In simple words - we are here to make technologies return back to everyone's lives.}
+{5010}{}{Oh cool! Do you sell robots?}
+{6000}{}{For sure. For you we can suggest Stealth Boys for 3 golden dollars, Geiger Counters for 2 golden dollars, Motion Sensors for 5 golden dollars and Finger print locks for 15 golden dollars each.}
+{6010}{}{Let us switch the topic.}
+{6020}{}{Give me 1 Stealth Boy.}
+{6030}{}{Give me 1 Geiger Counter.}
+{6040}{}{Give me 1 Motion Sensor.}
+{6050}{}{Give me 1 Finger print lock.}
+{6060}{}{I may come later.}
+{7000}{}{To be honest... You can help us. You see, our entire plant works on Wattz Fusion Cells. ANd these things are pretty rare nowadays. The ones we get are coming from Phoenix and sometimes we recieve nothing in our shipments. [ He makes a weird gesture with his hands ] And of course the plant just stops as wel always need power to turn our machines on. ATOMIC power. If you happen to stuble upon a Fusion Core somewhere, bring them to us. We can gladly exchange them on some rare materials.}
+{7010}{}{I will keep my eyes on searching for these fusion cores. Now let's switch the topic...}
+{8000}{}{Come back soon. Thank you for choosing Wattz Electronics.}
+{9000}{}{Ah, great. We can suggest you Microchips, Capacitors, Electrical Transformer, Wires or Plasma Transformer. Which one do you wish to get for this Fusion Core?}
+{9010}{}{Can You make a Cylindrical rotary lock for me?}
+{9020}{}{Can You make a Carbon polymer barrels for me?}
+{9030}{}{Can You make a Electric Motor for me?}
+{9040}{}{Can You make a Optic Scope for me?}
+{9050}{}{Can You make a Unique plasma parts for me?}
+{9060}{}{Can You make a Semi Trigger for me?}
+{9070}{}{Can You make a Delinker Mechanism for me?}
+{9080}{}{Can You make a Plasma Accelerator for me?}
+{9090}{}{Can You make a Gun Control Module for me?}
+{9100}{}{Can You make a Electromagnetic mechanism for me?}
+{9110}{}{Can You make a Wires for me?}
+{9120}{}{Can You make a Auto trigger for me?}
+{9130}{}{Can You make a Rotary Chamber for me?}
+{9140}{}{Can You make a Capacitors for me?}
+{9150}{}{Can You make a Electrical Transformer for me?}
+{9160}{}{Can You make a HiFlo hydraulic systems for me?}
+{9170}{}{Can You make a Steel Plate for me?}
+{9180}{}{Can You make a Advanced Polymers for me?}
+{9190}{}{Can You make a Advanced shell for me?}
+{9200}{}{Can You make a Carbon Polymer for me?}
+{9210}{}{Can You make a Ceramic Plate for me?}
+{9220}{}{Can You make a Electric amplifier for me?}
+{9230}{}{Can You make a Engine for me?}
+{9240}{}{Can You make a Enhanced Servomotors for me?}
+{9250}{}{Can You make a Glass Polymers for me?}
+{9260}{}{Can You make a Goretex for me?}
+{9270}{}{Can You make a Kevlar for me?}
+{9280}{}{Can You make a Leather Hide for me?}
+{9290}{}{Can You make a Microchips for me?}
+{9300}{}{Can You make a Plasma Accelerator for me?}
+{9310}{}{Can You make a Polycarbonate for me?}
+{9320}{}{Can You make a Polymers for me?}
+{9330}{}{Can You make a Recoil absorber for me?}
+{9340}{}{Can You make a T-51b shell for me?}
+{9350}{}{Can You make a TX-28 microfusion pack for me?}
+{9360}{}{Nevermind}
+
+[russ]
+{100}{}{none}
+{1000}{}{Predialogue installations}
+{1010}{}{Answer text}
+{2000}{}{Yes? May I help you?}
+{2010}{}{Who are you and what is this place?}
+{2020}{}{Do you sell any interesting thingies?}
+{2030}{}{I saw some cool looking bots in the hall. Do you sell those?}
+{2040}{}{I have a Fusion Core here with Wattz sign on it. I believe you can find it useful.}
+{2050}{}{Do you have some work for me maybe?}
+{2060}{}{I will be going.}
+{3000}{}{Name's Cotsford. I am an assistant manager here. And you are currently located in Wattz Electronics. This place was sponsored and built by a person known as Christopher.}
+{3010}{}{Tell me more about Wattz Electronics.}
+{3020}{}{Let us switch the topic.}
+{4000}{}{Hmm... no. Not yet at least.}
+{4010}{}{Well.., Do you sell anything?}
+{5000}{}{[ He sighs ] Wattz Electronics was a prominent corporation before the Great War, manufacturing many types of electrical and electronic products. We are trying to revive the corporation as we believe that the world needs new innovations and... well... and so on and so on. In simple words - we are here to make technologies return back to everyone's lives.}
+{5010}{}{Oh cool! Do you sell robots?}
+{6000}{}{For sure. For you we can suggest Stealth Boys for 3 golden dollars, Geiger Counters for 2 golden dollars, Motion Sensors for 5 golden dollars and Finger print locks for 15 golden dollars each.}
+{6010}{}{Let us switch the topic.}
+{6020}{}{Give me 1 Stealth Boy.}
+{6030}{}{Give me 1 Geiger Counter.}
+{6040}{}{Give me 1 Motion Sensor.}
+{6050}{}{Give me 1 Finger print lock.}
+{6060}{}{I may come later.}
+{7000}{}{To be honest... You can help us. You see, our entire plant works on Wattz Fusion Cells. ANd these things are pretty rare nowadays. The ones we get are coming from Phoenix and sometimes we recieve nothing in our shipments. [ He makes a weird gesture with his hands ] And of course the plant just stops as wel always need power to turn our machines on. ATOMIC power. If you happen to stuble upon a Fusion Core somewhere, bring them to us. We can gladly exchange them on some rare materials.}
+{7010}{}{I will keep my eyes on searching for these fusion cores. Now let's switch the topic...}
+{8000}{}{Come back soon. Thank you for choosing Wattz Electronics.}
+{9000}{}{Ah, great. We can suggest you Microchips, Capacitors, Electrical Transformer, Wires or Plasma Transformer. Which one do you wish to get for this Fusion Core?}
+{9010}{}{Can You make a Cylindrical rotary lock for me?}
+{9020}{}{Can You make a Carbon polymer barrels for me?}
+{9030}{}{Can You make a Electric Motor for me?}
+{9040}{}{Can You make a Optic Scope for me?}
+{9050}{}{Can You make a Unique plasma parts for me?}
+{9060}{}{Can You make a Semi Trigger for me?}
+{9070}{}{Can You make a Delinker Mechanism for me?}
+{9080}{}{Can You make a Plasma Accelerator for me?}
+{9090}{}{Can You make a Gun Control Module for me?}
+{9100}{}{Can You make a Electromagnetic mechanism for me?}
+{9110}{}{Can You make a Wires for me?}
+{9120}{}{Can You make a Auto trigger for me?}
+{9130}{}{Can You make a Rotary Chamber for me?}
+{9140}{}{Can You make a Capacitors for me?}
+{9150}{}{Can You make a Electrical Transformer for me?}
+{9160}{}{Can You make a HiFlo hydraulic systems for me?}
+{9170}{}{Can You make a Steel Plate for me?}
+{9180}{}{Can You make a Advanced Polymers for me?}
+{9190}{}{Can You make a Advanced shell for me?}
+{9200}{}{Can You make a Carbon Polymer for me?}
+{9210}{}{Can You make a Ceramic Plate for me?}
+{9220}{}{Can You make a Electric amplifier for me?}
+{9230}{}{Can You make a Engine for me?}
+{9240}{}{Can You make a Enhanced Servomotors for me?}
+{9250}{}{Can You make a Glass Polymers for me?}
+{9260}{}{Can You make a Goretex for me?}
+{9270}{}{Can You make a Kevlar for me?}
+{9280}{}{Can You make a Leather Hide for me?}
+{9290}{}{Can You make a Microchips for me?}
+{9300}{}{Can You make a Plasma Accelerator for me?}
+{9310}{}{Can You make a Polycarbonate for me?}
+{9320}{}{Can You make a Polymers for me?}
+{9330}{}{Can You make a Recoil absorber for me?}
+{9340}{}{Can You make a T-51b shell for me?}
+{9350}{}{Can You make a TX-28 microfusion pack for me?}
+{9360}{}{Nevermind}
+

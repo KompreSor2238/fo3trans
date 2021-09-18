@@ -6,12 +6,12 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 2 1010 D _var p factions_player_faction = 3 D _var p factions_player_rank < 3 #
 3 1020 D _var p factions_player_faction = 3 #
 4 1030 @
-2 2000 main@dlg_Caps 0 @
-3 3000 main@dlg_Caps 0 #
+2 2000 None 0 @
+3 3000 None 0 #
 0 3010 @
 4 4000 Attack 0 &
 
@@ -25,7 +25,7 @@ lang=engl czec pols span russ
 {1030}{}{Answer text}
 {2000}{}{I don’t have time to chitchat with the grunts. You’re dismissed.}
 {3000}{}{What can I do for you, officer?}
-{3010}{}{Nothing for now, Commander.}
+{3010}{}{Nothing for now, Commander. [ end dialogue ]}
 {4000}{}{You're not one of my men.}
 
 [czec]

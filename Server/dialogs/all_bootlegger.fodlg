@@ -6,9 +6,9 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 2 1010 @
-2 2000 main@dlg_Caps 0 #
+2 2000 None 0 #
 65506 2010 #
 0 2020 &
 
@@ -19,9 +19,9 @@ lang=engl czec pols span russ
 {210}{}{You see a bootlegger. You wonder what was his name - Ivan, Roman or Rasputin?}
 {1000}{}{Predialogue installations}
 {1010}{}{-}
-{2000}{}{We sell only the highest quality liquor. You interested?}
-{2010}{}{Let's see what you've got.}
-{2020}{}{No.}
+{2000}{}{We sell only the highest quality liquor. You interested?@@Wanna buy some alcohol? Top shelf only!}
+{2010}{}{Let's see what you've got. [ Barter ]}
+{2020}{}{No. [ end dialogue ]}
 
 [czec]
 {100}{}{none}

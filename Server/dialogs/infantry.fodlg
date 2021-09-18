@@ -1,0 +1,87 @@
+[comment]
+
+
+[data]
+lang=engl czec pols span russ
+
+[dialog]
+&
+1 1000 None 0 #
+2 1010 @
+2 2000 None 0 #
+0 2010 D _param p PARAM_CLASS_2 ! 1 R _param p PARAM_CLASS_1 = 1 R _param p PARAM_CLASS_2 = 1 R _script unsafe_client@ImmuneCD 0  #
+0 2020 D _param p PARAM_CLASS_2 ! 2 R _param p PARAM_CLASS_1 = 2 R _param p PARAM_CLASS_2 = 2 R _script unsafe_client@ImmuneCD 0  #
+0 2030 D _param p PARAM_CLASS_2 ! 3 R _param p PARAM_CLASS_1 = 3 R _param p PARAM_CLASS_2 = 3 R _script unsafe_client@ImmuneCD 0  #
+0 2040 D _param p PARAM_CLASS_2 ! 4 R _param p PARAM_CLASS_1 = 4 R _param p PARAM_CLASS_2 = 4 R _script unsafe_client@ImmuneCD 0  #
+0 2050 D _param p PARAM_CLASS_2 ! 5 R _param p PARAM_CLASS_1 = 5 R _param p PARAM_CLASS_2 = 5 R _script unsafe_client@ImmuneCD 0  #
+0 2060 D _param p PARAM_CLASS_2 ! 6 R _param p PARAM_CLASS_1 = 6 R _param p PARAM_CLASS_2 = 6 R _script unsafe_client@ImmuneCD 0  #
+0 2070 &
+
+[engl]
+{100}{}{Player}
+{200}{}{You see a construction foreworker.}
+{210}{}{He wears worn out workwear and a yellow protective helmet.}
+{210}{}{You see a gecko hunter. He has a limp in his left leg.}
+{1000}{}{Predialogue installations}
+{1010}{}{ia ciaeii}
+{2000}{}{Choose Immune}
+{2010}{}{Normal Damage}
+{2020}{}{Laser Damage}
+{2030}{}{Fire Damage}
+{2040}{}{Plasma Damage}
+{2050}{}{Electro Damage}
+{2060}{}{Explode Damage}
+{2070}{}{exit}
+
+[czec]
+{100}{}{none}
+{1000}{}{Predialogue installations}
+{1010}{}{ia ciaeii}
+{2000}{}{Choose Bonus}
+{2010}{}{Normal Damage}
+{2020}{}{Laser Damage}
+{2030}{}{Fire Damage}
+{2040}{}{Plasma Damage}
+{2050}{}{Electro Damage}
+{2060}{}{Explode Damage}
+{2070}{}{exit}
+
+[pols]
+{100}{}{none}
+{1000}{}{Predialogue installations}
+{1010}{}{ia ciaeii}
+{2000}{}{Choose Bonus}
+{2010}{}{Normal Damage}
+{2020}{}{Laser Damage}
+{2030}{}{Fire Damage}
+{2040}{}{Plasma Damage}
+{2050}{}{Electro Damage}
+{2060}{}{Explode Damage}
+{2070}{}{exit}
+
+[span]
+{100}{}{none}
+{1000}{}{Predialogue installations}
+{1010}{}{ia ciaeii}
+{2000}{}{Choose Bonus}
+{2010}{}{Normal Damage}
+{2020}{}{Laser Damage}
+{2030}{}{Fire Damage}
+{2040}{}{Plasma Damage}
+{2050}{}{Electro Damage}
+{2060}{}{Explode Damage}
+{2070}{}{exit}
+
+[russ]
+{100}{}{none}
+{1000}{}{Predialogue installations}
+{1010}{}{ia ciaeii}
+{2000}{}{Choose Bonus}
+{2010}{}{Normal Damage}
+{2020}{}{Laser Damage}
+{2030}{}{Fire Damage}
+{2040}{}{Plasma Damage}
+{2050}{}{Electro Damage}
+{2060}{}{Explode Damage}
+{2070}{}{exit}
+

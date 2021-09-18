@@ -6,7 +6,7 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 1 &
+1 1000 None 1 &
 
 [engl]
 {100}{}{Sandbag}

@@ -6,9 +6,9 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 2 1010 @
-2 2000 main@dlg_Caps 0 &
+2 2000 None 0 &
 
 [engl]
 {100}{}{Cannibal}
@@ -16,7 +16,7 @@ lang=engl czec pols span russ
 {210}{}{Their gaze makes you extremely uneasy.}
 {1000}{}{Predialogue installations}
 {1010}{}{Answer text}
-{2000}{}{You see a cannibal.@@Food!@@It's eating time!@@Hmmm...white meat.@@Yum!@@Tasty!@@It looks tender.@@::Slurp::}
+{2000}{}{Tastes like pork!@@Food!@@It's eating time!@@Hmmm... white meat.@@Yum!@@Tasty!@@Hey, looks tender.@@::Slurp::@@Grrrrrr!!!@@Time for dinner...@@Time for a snack...@@Lunchtime!}
 
 [czec]
 {100}{}{none}

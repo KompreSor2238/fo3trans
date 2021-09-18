@@ -6,9 +6,9 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 2 1010 @
-2 2000 main@dlg_Caps 0 &
+2 2000 None 0 &
 
 [engl]
 {100}{}{Enclave Soldier}
@@ -16,29 +16,29 @@ lang=engl czec pols span russ
 {210}{}{Judging from the unsmiling face, don't expect much mercy here.}
 {1000}{}{Predialogue installations}
 {1010}{}{Answer text}
-{2000}{}{Time to die, mutie!@@Kill all mutants!@@The order was clean - sterilization of the earth surface from mutants.@@It's nothing personal - you just don't have right to life.}
+{2000}{}{Time to die, mutie!@@Kill the mutants!@@The order was clear - sterilize the earth surface of all mutants.@@It's nothing personal - you just don't have the right to live.@@I almost feel sorry for you, mutie.@@Drop 'em!@@I'm going to enjoy this!@@Let's get this over with!@@Dance, motherfucker!@@Haha, you don't stand a chance!@@Time to test out my new weapon!}
 
 [czec]
 {100}{}{none}
 {1000}{}{Predialogue installations}
 {1010}{}{Answer text}
-{2000}{}{Time to die, mutie!@@Kill all mutants!@@The order was clean - sterilization of the earth surface from mutants.@@It's nothing personal - you just don't have right to life.}
+{2000}{}{Time to die, mutie!@@Kill all mutants!@@The order was clean - sterilization of the earth surface from mutants.@@It's nothing personal - you just don't have the right to live.}
 
 [pols]
 {100}{}{none}
 {1000}{}{Predialogue installations}
 {1010}{}{Answer text}
-{2000}{}{Time to die, mutie!@@Kill all mutants!@@The order was clean - sterilization of the earth surface from mutants.@@It's nothing personal - you just don't have right to life.}
+{2000}{}{Time to die, mutie!@@Kill all mutants!@@The order was clean - sterilization of the earth surface from mutants.@@It's nothing personal - you just don't have the right to live.}
 
 [span]
 {100}{}{none}
 {1000}{}{Predialogue installations}
 {1010}{}{Answer text}
-{2000}{}{Time to die, mutie!@@Kill all mutants!@@The order was clean - sterilization of the earth surface from mutants.@@It's nothing personal - you just don't have right to life.}
+{2000}{}{Time to die, mutie!@@Kill all mutants!@@The order was clean - sterilization of the earth surface from mutants.@@It's nothing personal - you just don't have the right to live.}
 
 [russ]
 {100}{}{none}
 {1000}{}{Predialogue installations}
 {1010}{}{Answer text}
-{2000}{}{Time to die, mutie!@@Kill all mutants!@@The order was clean - sterilization of the earth surface from mutants.@@It's nothing personal - you just don't have right to life.}
+{2000}{}{Time to die, mutie!@@Kill all mutants!@@The order was clean - sterilization of the earth surface from mutants.@@It's nothing personal - you just don't have the right to live.}
 

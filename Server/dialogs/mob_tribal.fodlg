@@ -6,7 +6,7 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 2 1010 @
 2 2000 Attack 0 #
 65507 2010 #
@@ -19,7 +19,7 @@ lang=engl czec pols span russ
 {210}{}{Their gaze makes you extremely uneasy.}
 {1000}{}{Predialogue installations}
 {1010}{}{Answer text}
-{2000}{}{You see a cannibal.@@Food!@@It's eating time!@@Hmmm...white meat.@@Yum!@@Tasty!@@It looks tender.@@::Slurp::}
+{2000}{}{Looks tasty!@@Food!@@It's eating time!@@Hmmm...white meat.@@Yum!@@Tasty!@@It looks tender.@@*slurp*@@Mmm... can't wait!@@Me first!}
 {2010}{}{You're not gonna eat me, are you?}
 {2020}{}{YOU WANT SOME OF THIS, PRIMATE? WELL COME AND GE-}
 {2030}{}{I hate tribals.}

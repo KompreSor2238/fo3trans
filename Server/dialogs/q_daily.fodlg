@@ -6,31 +6,39 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 2 1010 @
-2 2000 main@dlg_Caps 0 #
+2 2000 None 0 #
 3 2010 #
 3 2020 #
 3 2030 #
-0 2040 R _script daily_quest@init_quest 0  #
+5 2040 R _script daily_quest@init_quest 0  #
 0 2050 @
-3 3000 main@dlg_Caps 0 #
-0 3010 &
+3 3000 None 0 #
+0 3010 @
+4 4000 None 0 #
+5 4010 D _item p PID_NCR_MONEY } 1200 R _item p PID_NCR_MONEY - 1200 R _script daily_quest@init_quest 0  #
+0 4020 @
+5 5000 None 0 &
 
 [engl]
 {100}{}{Diab... Weird guy}
 {1000}{}{Predialogue installations}
 {1010}{}{member}
-{2000}{}{[Weird person in robe sitting near table with many maps on]}
+{2000}{}{[You see a weird person in a robe sitting near a table with many maps on it.]}
 {2010}{}{Hello?}
-{2020}{}{Hi, do you have any job to do?}
+{2020}{}{Hi, do you have any jobs to do?}
 {2030}{}{Are you there?}
-{2040}{}{[look at maps]}
+{2040}{}{[Look at maps]}
 {2050}{}{[leave]}
-{3000}{}{[He not anwer]}
-{3010}{}{[move back]}
+{3000}{}{[He does not answer]}
+{3010}{}{[Leave him alone]}
+{4000}{}{[ He covers the map with his hands ]The price must be paied for such knowledge! [ He looks at you angrily ] You want to find treasures? Then pay! I demand 1200 NCR scripts for this.}
+{4010}{}{Alright. Here... Now let me see the map you have. [ Look at the map... ]}
+{4020}{}{Fine, I will return later.}
+{5000}{}{[ You noted the coordinates of the location on your Worldmap ]}
 {100000000}{}{Unknown}
-{100000001}{}{main@dlg_Caps}
+{100000001}{}{None}
 {100000002}{}{Brotherhood of Steel}
 {100000003}{}{Enclave}
 {100000004}{}{The Unity}
@@ -67,6 +75,10 @@ lang=engl czec pols span russ
 {2050}{}{[leave]}
 {3000}{}{[He not anwer]}
 {3010}{}{[move back]}
+{4000}{}{[ He covers the map with his hands ]The price must be paied for such knowledge! [ He looks at you angrily ] You want to find treasures? Then pay! I demand 1500 NCR scripts for this.}
+{4010}{}{Alright. Here... Now let me see the map you have. [ Look at the map... ]}
+{4020}{}{Fine, I will return later.}
+{5000}{}{[ You noted coordinates of the location on your Worldmap ]}
 
 [pols]
 {100}{}{none}
@@ -80,6 +92,10 @@ lang=engl czec pols span russ
 {2050}{}{[leave]}
 {3000}{}{[He not anwer]}
 {3010}{}{[move back]}
+{4000}{}{[ He covers the map with his hands ]The price must be paied for such knowledge! [ He looks at you angrily ] You want to find treasures? Then pay! I demand 1500 NCR scripts for this.}
+{4010}{}{Alright. Here... Now let me see the map you have. [ Look at the map... ]}
+{4020}{}{Fine, I will return later.}
+{5000}{}{[ You noted coordinates of the location on your Worldmap ]}
 
 [span]
 {100}{}{none}
@@ -93,6 +109,10 @@ lang=engl czec pols span russ
 {2050}{}{[leave]}
 {3000}{}{[He not anwer]}
 {3010}{}{[move back]}
+{4000}{}{[ He covers the map with his hands ]The price must be paied for such knowledge! [ He looks at you angrily ] You want to find treasures? Then pay! I demand 1500 NCR scripts for this.}
+{4010}{}{Alright. Here... Now let me see the map you have. [ Look at the map... ]}
+{4020}{}{Fine, I will return later.}
+{5000}{}{[ You noted coordinates of the location on your Worldmap ]}
 
 [russ]
 {100}{}{none}
@@ -106,4 +126,8 @@ lang=engl czec pols span russ
 {2050}{}{[leave]}
 {3000}{}{[He not anwer]}
 {3010}{}{[move back]}
+{4000}{}{[ He covers the map with his hands ]The price must be paied for such knowledge! [ He looks at you angrily ] You want to find treasures? Then pay! I demand 1500 NCR scripts for this.}
+{4010}{}{Alright. Here... Now let me see the map you have. [ Look at the map... ]}
+{4020}{}{Fine, I will return later.}
+{5000}{}{[ You noted coordinates of the location on your Worldmap ]}
 

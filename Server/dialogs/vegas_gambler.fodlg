@@ -6,9 +6,9 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 2 1010 @
-2 2000 main@dlg_Caps 0 &
+2 2000 None 0 &
 
 [engl]
 {100}{}{Gambler}
@@ -16,7 +16,7 @@ lang=engl czec pols span russ
 {210}{}{You see a gambler.}
 {1000}{}{Predialogue installations}
 {1010}{}{error}
-{2000}{}{I have to win.@@Come on, come on!.@@I'll definitely win this time.@@I should split the stakes.@@Black or red? Black..Shit!@@I am trying to win. Go bother someone else.@@Maybe different game.}
+{2000}{}{I have to win.@@Come on, come on!.@@I'll definitely win this time.@@I should split the stakes.@@Black or red? Black..Shit!@@I am trying to win. Go bother someone else.@@Maybe I'll try a different game.}
 {100000001}{}{ }
 {100000001}{}{ }
 {100000001}{}{ }

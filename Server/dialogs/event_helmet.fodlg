@@ -1,0 +1,28 @@
+[comment]
+
+
+[data]
+lang=engl
+
+[dialog]
+&
+1 1000 None 1 #
+2 1010 @
+2 2000 None 0 #
+0 2010 R _param p WAR_HELMET = 726 #
+0 2020 R _param p WAR_HELMET = 733 #
+0 2030 R _param p WAR_HELMET = 25588 #
+0 2040 R _param p WAR_HELMET = 25589 #
+0 2050 &
+
+[engl]
+{100}{}{NCR Officer}
+{1000}{}{Predialogue installations}
+{1010}{}{trying to enter}
+{2000}{}{Select Helmet for Events}
+{2010}{}{Combat Helmet}
+{2020}{}{Metal Mask}
+{2030}{}{Gas Mask}
+{2040}{}{VC Helmet}
+{2050}{}{[ End Dialog ]}
+

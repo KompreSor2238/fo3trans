@@ -6,9 +6,9 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 2 1010 @
-2 2000 main@dlg_Caps 0 &
+2 2000 None 0 &
 
 [engl]
 {100}{}{Pete McNealey }
@@ -20,7 +20,7 @@ lang=engl czec pols span russ
 {210}{}{He looks like you could knock him out with a slice of pizza.}
 {1000}{}{Predialogue installations}
 {1010}{}{-}
-{2000}{}{*Hnffff*@@*Hnrggg*@@::Flexes::@@I'm bushed@@I'm tired@@*Phewwww* Rough day@@Working out always makes me tired@@Fighting exhausts me@@Better go polish my glass jaw.}
+{2000}{}{*Hnffff*@@*Hnrggg*@@*flex*@@I'm bushed@@I'm tired@@*Phewwww* Rough day@@Working out always makes me tired@@Fighting exhausts me@@Better go polish my glass jaw.}
 
 [czec]
 {100}{}{none}

@@ -1,0 +1,36 @@
+[comment]
+
+
+[data]
+lang=engl
+
+[dialog]
+&
+1 1000 None 1 #
+2 1010 @
+2 2000 None 0 #
+0 2010 R _param p WAR_MICS = 1 #
+0 2020 R _param p WAR_MICS = 2 #
+0 2030 R _param p WAR_MICS = 3 #
+0 2040 R _param p WAR_MICS = 4 #
+0 2050 R _param p WAR_MICS = 5 #
+0 2060 R _param p WAR_MICS = 6 #
+0 2070 R _param p WAR_MICS = 7 #
+0 2080 R _param p WAR_MICS = 8 #
+0 2090 &
+
+[engl]
+{100}{}{NCR Officer}
+{1000}{}{Predialogue installations}
+{1010}{}{trying to enter}
+{2000}{}{Select Extra item for Events}
+{2010}{}{50x Frag grenades}
+{2020}{}{50x Plasma grenades}
+{2030}{}{50x Shock grenades}
+{2040}{}{3x Hypo}
+{2050}{}{2x Field Medic Kit}
+{2060}{}{2x Super Tool Kit}
+{2070}{}{Stealth Boy}
+{2080}{}{Montion Sensor}
+{2090}{}{[ End Dialog ]}
+

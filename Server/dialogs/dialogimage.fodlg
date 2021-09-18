@@ -6,10 +6,10 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 1 #
+1 1000 None 1 #
 0 1010 D _script dialog@d_SetDialogImage 3 180 10 1 #
 2 1020 @
-2 2000 main@dlg_Caps 0 #
+2 2000 None 0 #
 0 2010 &
 
 [engl]

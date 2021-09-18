@@ -347,6 +347,8 @@ $   800	sad_mainframe
 $   801	sad_soldier
 $	802 sad_terminal
 $	803 sad_rewardterminal
+$	804 sad_terminal_door
+
 
 $	1000	ncr_dufus
 $	1001	ncr_miky
@@ -713,6 +715,67 @@ $	2910	repl5_q_subway
  	3106	bos_scriber
 	
 $	3000	se_caravan
+$	4000	config_hl_0
+$	4001	config_hl_1
+$	4002	config_hl_2
+$	4003	config_hl_3
+$	4004	config_hl_4
+$	4005	config_hl_5
+$	4006	config_hl_6
+$	4007	config_to_0
+$	4008	config_to_1
+$	4009	config_to_2
+$	4010	config_to_3
+$	4011	config_to_4
+$	4012	config_to_5
+$	4013	config_to_6
+$	4014	config_binds
+$	4015	config_fog
+
+$	4016	event_armor
+$	4017	event_helmet
+$	4018	event_weapon
+$	4019	event_weapon2
+$	4020	event_misc
+
+$	4500	BCD_quest1
+$	4501	BCD_Jason1
+$	4502	BCD_Jason2
+$	4503	BCD_Jason3
+$	4504	BCD_Jason4
+$	4505	BCD_Jason5
+$	4506	ENC_Snookie
+$	4507	ENC_Agent
+$ 	4508	BOS_outpguard
+$ 	4509	BOS_Agent
+$ 	4510	VC_outpguard
+$ 	4511	VC_Agent
+$ 	4512	NCR_outpguard
+$ 	4513	NCR_Agent
+$ 	4514	NCR_outpnpc1
+$ 	4515	BCD_greengrd
+$ 	4516	Green_terminal3
+$ 	4517	Green_terminal2
+$ 	4518	Green_terminal
+$ 	4519	BCD_greggrd
+$ 	4520	BCD_greggrd2
+$ 	4521	BCD_Gregory
+$ 	4522	BCD_Gregory2
+$ 	4523	BCD_Gregory3
+$ 	4524	REB_Stitch
+$ 	4525	REB_Terminal1
+$ 	4526	REB_Russoe
+$ 	4527	BCD_Linda
+$ 	4528	BCD_Linda2
+$ 	4529	BCD_Linda3
+
+$ 	4531	BCD_lindsec
+$ 	4532	BCD_lindsec2
+$ 	4533	BCD_lindsec3
+$ 	4534	FLC_Matthew
+
+
+
 $	5000	mob_norm_rat
 $	5001	mob_pig_rat
 $	5002	mob_mole_rat
@@ -757,12 +820,27 @@ $   6667	train_sol
 $   6668	train_random
 $ 6669 train_killer
 $ 6670 train_asa
+$ 6671 train_clo
+$ 6679 infantry
 $ 6680 cyborg
 $ 6681 leader
 $ 6682 train_medic
 $ 6683 train_lead
+$ 6684 train_inf
+$ 6685 train_sni
+$   6686	train_ali
+$   6687	train_mas
+$   6688	train_wre
+$   6689	pve
+
+$ 6690 pat_console
+$ 6691 reroll
+$ 6692 pat_alt
+
 
 $ 7000 skintest
+$ 7001 base_enginer
+$ 7002 reno_dung_boss
 	8100	trib_sulik
 	8101	trib_manota
 	8102	trib_naiara
@@ -850,6 +928,10 @@ $	9064	faction_trader
 $	9065	faction_worker
 $	9066	faction_guard
 $	9067	faction_caravaner
+$	9068	faction_vortis
+$	9069	faction_doctor
+$	9070	faction_implantier
+$	9071	blackcross_base_foreworker
 $	9100	faction_lights
 $	9200	factions_geck_kelvin
 $	9201	gen_quest_fetcher_1
@@ -858,6 +940,7 @@ $	9203	gen_quest_fetcher_3
 $	9204	gen_quest_fetcher_4
 $	9300	economy_banker
 $	9301	economy_vault_guard
+$	9302	item_levelup
 $	9310	follower
 $	9311	follower_dog
 $	9312	follower_brahmin
@@ -871,6 +954,7 @@ $ 	9319  	slaver_junkies_1
 $	9320	follower_companion
 $	9321	follower_companion_pre
 $	9322	follower_rat
+$	9323	vaultx_door
 
 $	9400	cafe_1
 $	9401	cafe_2
@@ -898,7 +982,7 @@ $	9449	la_blade_generic
 $	9450	la_blade_razor
 $	9451	la_lib_fol
 $	9452	la_lib_katja
-$	9453	la_lib_nicole
+$	9453	la_lib_nicole 
 $	9454	la_ady_reg
 $	9455	la_ady_gunsmith
 $	9456	la_lib_caesar
@@ -945,6 +1029,7 @@ $   10209	event_bos
 $   10210	event_door
 $   10211	event_doors
 $   10212	event_unity
+$   10230	event_Reno
 
 $	10250	ul_junk_todd
 $	10251	spawn_caravan_ghoul1
@@ -1006,6 +1091,9 @@ $	10808	dialogimage
 $	10809 event_outfitter2
 $	10810	event_teleporter
 $   10811   event_outfitter_special
+
+$   10812   id_enter
+$   10813   id_outpost
  	
 $	10900	billboard_hub
 $	10901	billboard_adytum
@@ -1145,7 +1233,7 @@ $   22228   hawthorne_robobrain
 $   22229   hawthorne_alpha
 $   22230   hawthorne_robot
 $   22231   hawthorne_deathclaw
-$   22232   hawthorne_citizen
+$   22232   hawthorne_citizen 
 $   22233   hawthorne_christofer
 $   22234   hawthorne_secretary
 $   22235   hawthorne_whore
@@ -1281,6 +1369,12 @@ $   22374   cit3
 $   22375   cit_term
 $   22377   vegas_magazine1
 $   22378   vegas_magazine2
+$   22379   rockside_rogers
+$   22380   rockside_denkel
+$   22381   museum1
+$   22382   museum2
+$   22383   museum3
+$   22384   museum4
 $   22385   vegas_sandra
 $   22386   vegas_bath
 $   22387   vegas_stephan
@@ -1299,9 +1393,151 @@ $   22399   rockside_bank
 $   22400   ranger_terminal
 $   22401   vegas_gross
 $   22402   vegas_douglas
-#   22403   talchem_computer
-
-
+$   22403   talchem_computer
+$   22404   tobacco_robot
+$   22405   tobacco_terminal
+$   22406   adytum_vulfus
+$   22407   tobacco_decker
+$   22408   raiders_arrow
+$   22409   raiders_lector
+$   22410   farm_pump
+$   22411   farm_cabbage
+$   22412   farm_papaya
+$   22413   farm_mushroom
+$   22414   sarmatia_janna
+$   22415   all_stove
+$   22416   flag_seller
+$   22417   nuka_matrix
+$   22418   raiders_anderson
+$   22419   vc_hq
+$   22420   vault_pump
+$   22421   master_gate
+$   22422   master_pope
+$   22423   vc_quartermaster
+$   22424   ma_quartermaster
+$   22425   diego_terminal1
+$   22426   diego_terminal2
+$   22427   diego_bcd
+$   22428   diego_bcd2
+$   22429   diego_bcd_terminal
+$   22430   diego_matrix
+$   22431   diego_warning
+$   22432   blackstone_terminal1
+$   22433   blackstone_terminal2
+$   22434   blackstone_terminal3
+$   22435   blackstone_piano
+$   22436   blackstone_terminal4
+$   22437   blackstone_terminal5
+$   22438   tobacco_control
+$   22439   naval_bar
+$   22440   naval_door
+$   22441   sarmatia_beer
+$   22442   legion_barman
+$   22443   legion_book_trader
+$   22444   legion_terminal_drugs
+$   22445   legion_door
+$   22446   legion_trader
+$   22447   signifer_max
+$   22448   legionary
+$   22449   legion_butcher
+$   22450   reno_ralph
+$   22451   reno_toilet
+$   22452   reno_mail
+$   22453   reno_music
+$   22454   reno_bed
+$   22455   reno_piano
+$   22456   reno_honest_merc
+$   22457   reno_morgan
+$   22458   legion_trader2
+$   22459   legion_trader3
+$   22460   legion_trader4
+$   22461   legion_tech
+$   22462   poseidon_shower
+$   22463   legion_door2
+$   22464   legion_captain
+$   22465   legion_door_airship
+$   22466   legion_pet1
+$   22467   legion_pet2
+$   22468   mine_door_frisco
+$   22469   mine_door_frieco2
+$   22470   ncr_mine_door
+$   22471   junk_mine_door
+$   22472   klam_mine_door
+$   22473   ncr_bill
+$   22474   ncr_jeremy
+$   22475   ncr_michael
+$   22476   ncr_olus
+$   22477   ncr_benjamin
+$   22478   sad_garage
+$   22479   sad_shelter1
+$   22480   sad_shelter2
+$   22481   se_commissar
+$   22482   se_sovdog
+$   22483   vegas_cotton
+$   22484   wattz_cotsford
+$   22485   wattz_robobrain
+$   22486   wattz_sentrybot
+$   22487   wattz_roboeye
+$   22488   wattz_handy
+$   22489   vegas_robert
+$   22490   saltlake_autodoc
+$   22491   event_t4_outfitter
+$   22492   team_distributor
+$   22493   training_tele1
+$   22494   reactor_parker
+$   22495   reactor_becky
+$   22496   reactor_punk
+$   22497   enclave_horrigan
+$   22498   reactor_knight
+$   22499   reactor_knight1
+$   22500   reactor_dan
+$   22501   all_mushroom
+$   22502   reactor_gutsy
+$   22503   reactor_machine
+$   22504   reactor_ghoul
+$   22505   reactor_gorus
+$   22506   reactor_nuka
+$   22507   ncr_water
+$   22508   ncr_flowers
+$   22509   reactor_mutant1
+$   22510   reactor_child
+$   22511   training_tele_bos
+$   22512   diego_vc
+$   22513   diego_body1
+$   22514   diego_body2
+$   22515   diego_body3
+$   22516   diego_body4
+$   22517   diego_vc_soldier
+$   22518   diego_stranger
+$   22519   centro_police
+$   22520   centro_citizen
+$   22521   centro_loyalist
+$   22522   centro_pope
+$   22523   tower_guard
+$   22524   tower_dukles
+$   22525   tower_robert
+$   22526   tower_daniels
+$   22527   tower_entrance
+$   22528   church_dork
+$   22529   church_robert
+$   22530   church_blade
+$   22531   reactor_sorus
+$   22532   ul_junk_bot
+$   22533   se_horsemen_war
+$   22534   se_horsemen_famine
+$   22535   se_horsemen_conquest
+$   22536   se_horsemen_death
+$   22537   infinity_term1
+$   22538   infinity_term2
+$   22539   hawthorne_memory
+$   22540   bh_memory
+$   22541   hub_memory
+$   22542   glow_memory
+$   22543   gecko_memory
+$   22544   la_cave_term1
+$   22545   la_cave_term2
+$   22546   la_cave_term3
+$   22547   wattz_pilot
 $   40004   all_exploding_barrel
 $   40005   all_sandbag
 ************************************************************

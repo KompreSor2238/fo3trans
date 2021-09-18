@@ -6,9 +6,9 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 2 1010 @
-2 2000 main@dlg_Caps 0 &
+2 2000 None 0 &
 
 [engl]
 {100}{}{Guard}
@@ -18,7 +18,7 @@ lang=engl czec pols span russ
 {260}{}{You see a slain Brotherhood Guard.}
 {1000}{}{Predialogue installations}
 {1010}{}{-}
-{2000}{}{Hello brother, everything is secure...@@Are you allowed to be in here?@@What? Who are you?@@Talk to Ramirez if you have any questions.@@I wish I was training right now, this guard duty is a waste of time.@@This is the guards room.@@What do you want here?@@Are you on duty?}
+{2000}{}{Hello brother, everything is secure...@@Are you allowed to be in here?@@What? Who are you?@@Talk to Ramirez if you have any questions.@@I wish I was training right now, this guard duty is a waste of time.@@This is the guards room.@@What do you want here?@@Are you on duty?@@Oh man, I hope this doesn't lead to any paperwork.}
 
 [czec]
 {100}{}{none}

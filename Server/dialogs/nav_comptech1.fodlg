@@ -6,10 +6,10 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 2 1010 D _var p factions_player_faction = 3 #
 2 1020 D _script dialog@d_IsDisguised 0  @
-2 2000 main@dlg_Caps 0 &
+2 2000 None 0 &
 
 [engl]
 {100}{}{Enclave Computer Technician}

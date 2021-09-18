@@ -31,6 +31,12 @@
 {520}{}{Preens @sex@|him||her|self} # Cosmetic
 {530}{}{. Puffs on a cig .oO} # Cigarettes
 
+{540}{}{Chips} # Cigarettes
+{550}{}{Dollars} # Cigarettes
+{560}{}{Scrips} # Cigarettes
+{570}{}{Pounds} # Cigarettes
+{580}{}{Rings} # Cigarettes
+{590}{}{Caps} # Cigarettes
 
 # Use
 {1500}{}{The distillation device is out of order.}
@@ -417,9 +423,9 @@
 {1000006}{}{Enclave}
 {1000007}{}{Enclave}
 {1000007}{}{The Enclave}
-{1000008}{}{The Unity}
-{1000009}{}{The Unity}
-{1000009}{}{Unity}
+{1000008}{}{The Master Army}
+{1000009}{}{The Master Army}
+{1000009}{}{The Master Army}
 {1000010}{}{New California Republic}
 {1000011}{}{New California Republic}
 {1000011}{}{NCR}
@@ -553,9 +559,9 @@
 {1000100}{}{The Latics}
 {1000101}{}{The Latics}
 {1000101}{}{Latics}
-{1000102}{}{The Albion}
-{1000103}{}{The Albion}
-{1000103}{}{Albion}
+{1000102}{}{Team Handsome}
+{1000103}{}{Team Handsome}
+{1000103}{}{Team Handsome}
 {1000104}{}{The Amboy Dukes}
 {1000105}{}{The Amboy Dukes}
 {1000106}{}{Heighton Armistice}
@@ -2660,7 +2666,7 @@
 {1002127}{}{The Bullet Points}
 {1002128}{}{The Lexums Not Found}
 {1002129}{}{The Lexums Not Found}
-{1002130}{}{The Monosodium Glutamates}
+{1002130}{}{The Merchant Guild}
 {1002131}{}{TMG}
 {1002132}{}{The New Sand Confederates}
 {1002133}{}{TNSC}
@@ -4128,8 +4134,8 @@
 {1003593}{}{Repex}
 {1003594}{}{Brahmin Farms}
 {1003595}{}{Brahmin Farms}
-{1003596}{}{Mariposa Mutants}
-{1003597}{}{Mariposa Mutants}
+{1003596}{}{Master's Army}
+{1003597}{}{Master's Army}
 {1003598}{}{Area51}
 {1003599}{}{Area51}
 {1003600}{}{Slag Bandits}
@@ -4144,5 +4150,21 @@
 {1003641}{}{The Triple Alliance}
 {1003650}{}{Wastelanders}
 {1003651}{}{Wastelanders}
-{1003660}{}{lastname}
-{1003661}{}{lastname}
+{1003660}{}{Imperium Romanum}
+{1003661}{}{Imperium Romanum}
+{1003670}{}{Master's Army}
+{1003671}{}{Master's Army}
+{1003680}{}{Circle Jerks}
+{1003681}{}{Circle Jerks}
+{1003690}{}{Caesar’s New Regime}
+{1003691}{}{Caesar’s New Regime}
+{1003700}{}{Lastname}
+{1003701}{}{Lastname}
+{1003710{}{Black Cross Department}
+{1003711}{}{Black Cross Department}
+{1003720{}{Corox Corporation}
+{1003721}{}{Corox Corporation}
+{1003730}{}{Tech Riders}
+{1003731}{}{Tech Riders}
+{1003740}{}{Lastname2}
+{1003741}{}{Lastname2}

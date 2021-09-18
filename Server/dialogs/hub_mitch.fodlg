@@ -6,52 +6,52 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 5 1010 D _param p ST_CHARISMA > 99 #
 2 1020 D _var n name_mem_npc_player = 0 R _var p name_mem_npc_player = 1 #
 2 1030 D _var n name_mem_npc_player = 1 @
-2 2000 main@dlg_Caps 0 #
+2 2000 None 0 #
 4 2010 D _param p ST_INTELLECT > 3 #
 6 2020 D _var p q_jt_power_house_handy = 1 #
 0 2030 D _param p ST_INTELLECT > 3 #
 3 2040 D _param p ST_INTELLECT < 4 #
 0 2050 D _param p ST_INTELLECT < 4 @
-3 3000 main@dlg_Caps 0 #
+3 3000 None 0 #
 0 3010 @
-4 4000 main@dlg_Caps 0 #
+4 4000 None 0 #
 65506 4010 D _param p ST_INTELLECT > 3 #
 0 4020 D _param p ST_INTELLECT > 3 #
 65506 4030 D _param p ST_INTELLECT < 4 #
 0 4040 D _param p ST_INTELLECT < 4 @
-5 5000 main@dlg_Caps 0 @
-6 6000 main@dlg_Caps 0 #
+5 5000 None 0 @
+6 6000 None 0 #
 9 6010 #
 7 6020 R _script dialog@r_SkillRoll 3 Barter -50 8 #
 0 6030 @
-7 7000 main@dlg_Caps 0 #
+7 7000 None 0 #
 9 7010 #
 0 7020 @
-8 8000 main@dlg_Caps 0 #
+8 8000 None 0 #
 15 8010 D _script dialog@d_havepropermoney 1 400 R _var p q_jt_power_house_handy = 2 R _item p PID_ROBOT_MOTIVATOR + 1 R _script dialog@r_RemoveMoney 1 400 #
 11 8020 D _script dialog@d_havepropermoney 1 300 R _script dialog@r_SkillRoll 3 Barter -75 13 #
 0 8030 @
-9 9000 main@dlg_Caps 0 #
+9 9000 None 0 #
 15 9010 D _script dialog@d_havepropermoney 1 800 R _var p q_jt_power_house_handy = 2 R _item p PID_ROBOT_MOTIVATOR + 1 R _script dialog@r_RemoveMoney 1 800 #
 12 9020 D _script dialog@d_havepropermoney 1 700 R _script dialog@r_SkillRoll 3 Barter -75 14 #
 0 9030 @
-10 10000 main@dlg_Caps 0 #
+10 10000 None 0 #
 0 10010 @
-11 11000 main@dlg_Caps 0 #
+11 11000 None 0 #
 15 11010 D _script dialog@d_havepropermoney 1 400 R _var p q_jt_power_house_handy = 2 R _item p PID_ROBOT_MOTIVATOR + 1 R _script dialog@r_RemoveMoney 1 400 #
 10 11020 @
-12 12000 main@dlg_Caps 0 #
+12 12000 None 0 #
 15 12010 D _script dialog@d_havepropermoney 1 800 R _var p q_jt_power_house_handy = 2 R _item p PID_ROBOT_MOTIVATOR + 1 R _script dialog@r_RemoveMoney 1 800 #
 10 12020 @
-13 13000 main@dlg_Caps 0 #
+13 13000 None 0 #
 0 13010 R _var p q_jt_power_house_handy = 2 R _item p PID_ROBOT_MOTIVATOR + 1 R _param p ST_EXPERIENCE + 100 R _script dialog@r_RemoveMoney 1 300 @
-14 14000 main@dlg_Caps 0 #
+14 14000 None 0 #
 0 14010 R _var p q_jt_power_house_handy = 2 R _item p PID_ROBOT_MOTIVATOR + 1 R _param p ST_EXPERIENCE + 100 R _script dialog@r_RemoveMoney 1 700 @
-15 15000 main@dlg_Caps 0 #
+15 15000 None 0 #
 0 15010 &
 
 [engl]
@@ -64,46 +64,46 @@ lang=engl czec pols span russ
 {2000}{}{Hello, how can I help you?@@How may I help you today?}
 {2010}{}{I'd like to buy something.@@I want to buy something.@@Show me what you have to sell.}
 {2020}{}{I've heard you might have a robot motivator unit for purchase?}
-{2030}{}{Nevermind. Bye.@@Nothing. Thanks.}
+{2030}{}{Nevermind. Bye. [ end dialogue ]@@Nothing. Thanks. [ end dialogue ]}
 {2040}{}{Runk.}
-{2050}{}{Me going. Bye.@@Me not, me go.}
+{2050}{}{Me going. Bye. [ end dialogue ]@@Me not, me go. [ end dialogue ]}
 {3000}{}{Sorry, I can't understand you. Come back when you finish school.}
-{3010}{}{Uh.}
+{3010}{}{Uh. [ end dialogue ]}
 {4000}{}{Great. Here's what I have.@@Great, always looking for new things.}
-{4010}{}{Alright, let me take a look at it.@@Let me see.}
-{4020}{}{Nevermind. Bye.}
-{4030}{}{Me want to see.}
-{4040}{}{Me going. Bye.}
+{4010}{}{Alright, let me take a look at it. [ Barter ]@@Let me see. [ Barter ]}
+{4020}{}{Nevermind. Bye. [ end dialogue ]}
+{4030}{}{Me want to see. [ Barter ]}
+{4040}{}{Me going. Bye. [ end dialogue ]}
 {5000}{}{Get out of here.@@You're scaring off my customers.@@Door's right behind you.}
-{6000}{}{Don't tell me you want to buy it! Just a few hours ago, I sold it to someone else. That means, it's not yet sold, but the deal is done...}
+{6000}{}{Don't tell me you want to buy it! Just a few hours ago, I sold it to someone else. It might not be gone, but it's sold - the deal is done...}
 {6010}{}{What's the price? I will double it!}
 {6020}{}{Of course you could sell the motivator to that other person, but you are a clever guy and I am a clever customer. Giving it to me would guarantee you more revenue in future trades with me! Think about it.}
-{6030}{}{That's a shame, really. See you later then.}
+{6030}{}{That's a shame, really. See you later then. [ end dialogue ]}
 {7000}{}{No, not at all. }
 {7010}{}{What's the price? I will double it!}
-{7020}{}{That's a shame, really. See you later then.}
-{8000}{}{Damnit, you are right! The original price has been 400 @lex money@. Deal?}
-{8010}{}{Deal! [You give him the 400 @lex money@.]}
-{8020}{}{Let's make 300 @lex money@ out of it and we call it a deal!}
-{8030}{}{No, that's too expensive for me.}
-{9000}{}{That doesn't sound that bad to me. Damnit, okay. 800 @lex money@, deal?}
-{9010}{}{Deal. [You give him the 800 @lex money@.]}
-{9020}{}{Let's make 700 @lex money@ out of it and we call it a deal!}
-{9030}{}{No, that's too expensive for me. }
+{7020}{}{That's a shame, really. See you later then. [ end dialogue ]}
+{8000}{}{Damnit, you are right! The original price was 400 Currency. Deal?}
+{8010}{}{Deal! [ you give him the 400 Currency ]}
+{8020}{}{Let's make 300 Currency out of it and we call it a deal!}
+{8030}{}{No, that's too expensive for me. [ end dialogue ]}
+{9000}{}{That doesn't sound that bad to me. Damnit, okay. 800 Currency, deal?}
+{9010}{}{Deal. [ you give him the 800 Currency ]}
+{9020}{}{Let's make 700 Currency out of it and we call it a deal!}
+{9030}{}{No, that's too expensive for me. [ end dialogue ]}
 {10000}{}{Don't wait for too long.}
-{10010}{}{I'll come back later.}
-{11000}{}{No, 400 @lex money@ or nothing.}
-{11010}{}{Deal. [You give him the 400 @lex money@.]}
+{10010}{}{I'll come back later. [ end dialogue ]}
+{11000}{}{No, 400 Currency or nothing.}
+{11010}{}{Deal. [ you give him the 400 Currency ]}
 {11020}{}{No, that's too expensive for me. }
-{12000}{}{No, 800 @lex money@ or nothing.}
-{12010}{}{Deal. [You give him the 800 @lex money@.]}
+{12000}{}{No, 800 Currency or nothing.}
+{12010}{}{Deal. [ you give him the 800 Currency ]}
 {12020}{}{No, that's too expensive for me. }
-{13000}{}{Mah... you are robbing me! [He takes the 300 @lex money@ and gives you the motivator unit.] But you better pay more the next time we meet!}
-{13010}{}{Goodbye.}
-{14000}{}{Mah... you are robbing me! [He takes the 700 @lex money@ and gives you the motivator unit.] But you better pay more the next time we meet!}
-{14010}{}{Goodbye.}
-{15000}{}{[He takes the @lex money@ and gives you the motivator unit.] }
-{15010}{}{Goodbye.}
+{13000}{}{Gah... you are robbing me! *he takes the 300 Currency and gives you the motivator unit* But you better pay more the next time we meet!}
+{13010}{}{Goodbye. [ end dialogue ]}
+{14000}{}{Gah... you are robbing me! *he takes the 700 Currency and gives you the motivator unit* But you better pay more the next time we meet!}
+{14010}{}{Goodbye. [ end dialogue ]}
+{15000}{}{*he takes the Currency and gives you the motivator unit*}
+{15010}{}{Goodbye. [ end dialogue ]}
 
 [czec]
 {100}{}{none}
@@ -132,27 +132,27 @@ lang=engl czec pols span russ
 {7000}{}{No, not at all. }
 {7010}{}{What's the price? I will double it!}
 {7020}{}{That's a shame, really. See you later then.}
-{8000}{}{Damnit, you are right! The original price has been 400 @lex money@. Deal?}
-{8010}{}{Deal! [You give him the 400 @lex money@.]}
-{8020}{}{Let's make 300 @lex money@ out of it and we call it a deal!}
+{8000}{}{Damnit, you are right! The original price has been 400 Currency. Deal?}
+{8010}{}{Deal! [You give him the 400 Currency.]}
+{8020}{}{Let's make 300 Currency out of it and we call it a deal!}
 {8030}{}{No, that's too expensive for me.}
-{9000}{}{That doesn't sound that bad to me. Damnit, okay. 800 @lex money@, deal?}
-{9010}{}{Deal. [You give him the 800 @lex money@.]}
-{9020}{}{Let's make 700 @lex money@ out of it and we call it a deal!}
+{9000}{}{That doesn't sound that bad to me. Damnit, okay. 800 Currency, deal?}
+{9010}{}{Deal. [You give him the 800 Currency.]}
+{9020}{}{Let's make 700 Currency out of it and we call it a deal!}
 {9030}{}{No, that's too expensive for me. }
 {10000}{}{Don't wait for too long.}
 {10010}{}{I'll come back later.}
-{11000}{}{No, 400 @lex money@ or nothing.}
-{11010}{}{Deal. [You give him the 400 @lex money@.]}
+{11000}{}{No, 400 Currency or nothing.}
+{11010}{}{Deal. [You give him the 400 Currency.]}
 {11020}{}{No, that's too expensive for me. }
-{12000}{}{No, 800 @lex money@ or nothing.}
-{12010}{}{Deal. [You give him the 800 @lex money@.]}
+{12000}{}{No, 800 Currency or nothing.}
+{12010}{}{Deal. [You give him the 800 Currency.]}
 {12020}{}{No, that's too expensive for me. }
-{13000}{}{Mah... you are robbing me! [He takes the 300 @lex money@ and gives you the motivator unit.] But you better pay more the next time we meet!}
+{13000}{}{Mah... you are robbing me! [He takes the 300 Currency and gives you the motivator unit.] But you better pay more the next time we meet!}
 {13010}{}{Goodbye.}
-{14000}{}{Mah... you are robbing me! [He takes the 700 @lex money@ and gives you the motivator unit.] But you better pay more the next time we meet!}
+{14000}{}{Mah... you are robbing me! [He takes the 700 Currency and gives you the motivator unit.] But you better pay more the next time we meet!}
 {14010}{}{Goodbye.}
-{15000}{}{[He takes the @lex money@ and gives you the motivator unit.] }
+{15000}{}{[He takes the Currency and gives you the motivator unit.] }
 {15010}{}{Goodbye.}
 
 [pols]
@@ -182,27 +182,27 @@ lang=engl czec pols span russ
 {7000}{}{No, not at all. }
 {7010}{}{What's the price? I will double it!}
 {7020}{}{That's a shame, really. See you later then.}
-{8000}{}{Damnit, you are right! The original price has been 400 @lex money@. Deal?}
-{8010}{}{Deal! [You give him the 400 @lex money@.]}
-{8020}{}{Let's make 300 @lex money@ out of it and we call it a deal!}
+{8000}{}{Damnit, you are right! The original price has been 400 Currency. Deal?}
+{8010}{}{Deal! [You give him the 400 Currency.]}
+{8020}{}{Let's make 300 Currency out of it and we call it a deal!}
 {8030}{}{No, that's too expensive for me.}
-{9000}{}{That doesn't sound that bad to me. Damnit, okay. 800 @lex money@, deal?}
-{9010}{}{Deal. [You give him the 800 @lex money@.]}
-{9020}{}{Let's make 700 @lex money@ out of it and we call it a deal!}
+{9000}{}{That doesn't sound that bad to me. Damnit, okay. 800 Currency, deal?}
+{9010}{}{Deal. [You give him the 800 Currency.]}
+{9020}{}{Let's make 700 Currency out of it and we call it a deal!}
 {9030}{}{No, that's too expensive for me. }
 {10000}{}{Don't wait for too long.}
 {10010}{}{I'll come back later.}
-{11000}{}{No, 400 @lex money@ or nothing.}
-{11010}{}{Deal. [You give him the 400 @lex money@.]}
+{11000}{}{No, 400 Currency or nothing.}
+{11010}{}{Deal. [You give him the 400 Currency.]}
 {11020}{}{No, that's too expensive for me. }
-{12000}{}{No, 800 @lex money@ or nothing.}
-{12010}{}{Deal. [You give him the 800 @lex money@.]}
+{12000}{}{No, 800 Currency or nothing.}
+{12010}{}{Deal. [You give him the 800 Currency.]}
 {12020}{}{No, that's too expensive for me. }
-{13000}{}{Mah... you are robbing me! [He takes the 300 @lex money@ and gives you the motivator unit.] But you better pay more the next time we meet!}
+{13000}{}{Mah... you are robbing me! [He takes the 300 Currency and gives you the motivator unit.] But you better pay more the next time we meet!}
 {13010}{}{Goodbye.}
-{14000}{}{Mah... you are robbing me! [He takes the 700 @lex money@ and gives you the motivator unit.] But you better pay more the next time we meet!}
+{14000}{}{Mah... you are robbing me! [He takes the 700 Currency and gives you the motivator unit.] But you better pay more the next time we meet!}
 {14010}{}{Goodbye.}
-{15000}{}{[He takes the @lex money@ and gives you the motivator unit.] }
+{15000}{}{[He takes the Currency and gives you the motivator unit.] }
 {15010}{}{Goodbye.}
 
 [span]
@@ -232,27 +232,27 @@ lang=engl czec pols span russ
 {7000}{}{No, not at all. }
 {7010}{}{What's the price? I will double it!}
 {7020}{}{That's a shame, really. See you later then.}
-{8000}{}{Damnit, you are right! The original price has been 400 @lex money@. Deal?}
-{8010}{}{Deal! [You give him the 400 @lex money@.]}
-{8020}{}{Let's make 300 @lex money@ out of it and we call it a deal!}
+{8000}{}{Damnit, you are right! The original price has been 400 Currency. Deal?}
+{8010}{}{Deal! [You give him the 400 Currency.]}
+{8020}{}{Let's make 300 Currency out of it and we call it a deal!}
 {8030}{}{No, that's too expensive for me.}
-{9000}{}{That doesn't sound that bad to me. Damnit, okay. 800 @lex money@, deal?}
-{9010}{}{Deal. [You give him the 800 @lex money@.]}
-{9020}{}{Let's make 700 @lex money@ out of it and we call it a deal!}
+{9000}{}{That doesn't sound that bad to me. Damnit, okay. 800 Currency, deal?}
+{9010}{}{Deal. [You give him the 800 Currency.]}
+{9020}{}{Let's make 700 Currency out of it and we call it a deal!}
 {9030}{}{No, that's too expensive for me. }
 {10000}{}{Don't wait for too long.}
 {10010}{}{I'll come back later.}
-{11000}{}{No, 400 @lex money@ or nothing.}
-{11010}{}{Deal. [You give him the 400 @lex money@.]}
+{11000}{}{No, 400 Currency or nothing.}
+{11010}{}{Deal. [You give him the 400 Currency.]}
 {11020}{}{No, that's too expensive for me. }
-{12000}{}{No, 800 @lex money@ or nothing.}
-{12010}{}{Deal. [You give him the 800 @lex money@.]}
+{12000}{}{No, 800 Currency or nothing.}
+{12010}{}{Deal. [You give him the 800 Currency.]}
 {12020}{}{No, that's too expensive for me. }
-{13000}{}{Mah... you are robbing me! [He takes the 300 @lex money@ and gives you the motivator unit.] But you better pay more the next time we meet!}
+{13000}{}{Mah... you are robbing me! [He takes the 300 Currency and gives you the motivator unit.] But you better pay more the next time we meet!}
 {13010}{}{Goodbye.}
-{14000}{}{Mah... you are robbing me! [He takes the 700 @lex money@ and gives you the motivator unit.] But you better pay more the next time we meet!}
+{14000}{}{Mah... you are robbing me! [He takes the 700 Currency and gives you the motivator unit.] But you better pay more the next time we meet!}
 {14010}{}{Goodbye.}
-{15000}{}{[He takes the @lex money@ and gives you the motivator unit.] }
+{15000}{}{[He takes the Currency and gives you the motivator unit.] }
 {15010}{}{Goodbye.}
 
 [russ]
@@ -282,26 +282,26 @@ lang=engl czec pols span russ
 {7000}{}{No, not at all. }
 {7010}{}{What's the price? I will double it!}
 {7020}{}{That's a shame, really. See you later then.}
-{8000}{}{Damnit, you are right! The original price has been 400 @lex money@. Deal?}
-{8010}{}{Deal! [You give him the 400 @lex money@.]}
-{8020}{}{Let's make 300 @lex money@ out of it and we call it a deal!}
+{8000}{}{Damnit, you are right! The original price has been 400 Currency. Deal?}
+{8010}{}{Deal! [You give him the 400 Currency.]}
+{8020}{}{Let's make 300 Currency out of it and we call it a deal!}
 {8030}{}{No, that's too expensive for me.}
-{9000}{}{That doesn't sound that bad to me. Damnit, okay. 800 @lex money@, deal?}
-{9010}{}{Deal. [You give him the 800 @lex money@.]}
-{9020}{}{Let's make 700 @lex money@ out of it and we call it a deal!}
+{9000}{}{That doesn't sound that bad to me. Damnit, okay. 800 Currency, deal?}
+{9010}{}{Deal. [You give him the 800 Currency.]}
+{9020}{}{Let's make 700 Currency out of it and we call it a deal!}
 {9030}{}{No, that's too expensive for me. }
 {10000}{}{Don't wait for too long.}
 {10010}{}{I'll come back later.}
-{11000}{}{No, 400 @lex money@ or nothing.}
-{11010}{}{Deal. [You give him the 400 @lex money@.]}
+{11000}{}{No, 400 Currency or nothing.}
+{11010}{}{Deal. [You give him the 400 Currency.]}
 {11020}{}{No, that's too expensive for me. }
-{12000}{}{No, 800 @lex money@ or nothing.}
-{12010}{}{Deal. [You give him the 800 @lex money@.]}
+{12000}{}{No, 800 Currency or nothing.}
+{12010}{}{Deal. [You give him the 800 Currency.]}
 {12020}{}{No, that's too expensive for me. }
-{13000}{}{Mah... you are robbing me! [He takes the 300 @lex money@ and gives you the motivator unit.] But you better pay more the next time we meet!}
+{13000}{}{Mah... you are robbing me! [He takes the 300 Currency and gives you the motivator unit.] But you better pay more the next time we meet!}
 {13010}{}{Goodbye.}
-{14000}{}{Mah... you are robbing me! [He takes the 700 @lex money@ and gives you the motivator unit.] But you better pay more the next time we meet!}
+{14000}{}{Mah... you are robbing me! [He takes the 700 Currency and gives you the motivator unit.] But you better pay more the next time we meet!}
 {14010}{}{Goodbye.}
-{15000}{}{[He takes the @lex money@ and gives you the motivator unit.] }
+{15000}{}{[He takes the Currency and gives you the motivator unit.] }
 {15010}{}{Goodbye.}
 

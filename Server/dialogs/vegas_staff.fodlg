@@ -6,13 +6,13 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 2 1010 @
-2 2000 main@dlg_Caps 0 &
+2 2000 None 0 &
 
 [engl]
 {100}{}{Police staff}
-{200}{}{You see a man in Lab Coat.}
+{200}{}{You see a man in a Lab Coat.}
 {210}{}{He is clearly trying to figure something out.}
 {1000}{}{Predialogue installations}
 {1010}{}{2}

@@ -6,13 +6,13 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 1 #
+1 1000 None 1 #
 2 1010 @
-2 2000 main@dlg_Caps 0 #
+2 2000 None 0 #
 4 2010 @
-4 3000 main@dlg_Caps 0 #
+4 3000 None 0 #
 0 3010 #
-0 3020 D _param p PE_HUNTER = 0 D _param p PE_MUTANT = 0 D _param p PE_CYBORG = 0 D _param p PE_DEATHCLAW = 0 D _param p PE_PRIEST = 0 D _param p PE_CHOSEN = 0 D _param p PE_RANDOM = 0 D _param p PE_SOLDIER = 0 D _param p PE_KILLER = 0 D _param p PE_ASSASIN = 0 D _param p ST_LEVEL } 90 D _param p PE_LEADER = 0 D _param p PE_PARAMEDIC = 0 R _param p PE_ASSASIN + 1 R _script perks@assasin 0  &
+0 3020 D _script perks@can_class 1 90 R _param p PE_ASSASIN + 1 R _script perks@assasin 0  &
 
 [engl]
 {100}{}{Shadow Junior}
@@ -21,8 +21,8 @@ lang=engl czec pols span russ
 {1010}{}{has no perk}
 {2000}{}{Talk with my father if you need something.}
 {2010}{}{So you don't do anything in family business?}
-{3000}{}{Don't do anything? Are you kinding me? I'm teaching how to sneak and shot in one time.}
-{3010}{}{ok then, gonna talk with your dad.}
+{3000}{}{Don't do anything? Are you kidding me? I'm a true sneaky assassin. I can shoot YOUR rifle without even showing my position.}
+{3010}{}{Sounds lame. I hope that at least your father is less of a party pooper.}
 {3020}{}{Could you show me how?}
 
 [czec]

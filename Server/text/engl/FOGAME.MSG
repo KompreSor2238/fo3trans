@@ -4,7 +4,7 @@
 
 
 # Version info
-{1}{}{FOnline 3 v3.0
+{1}{}{FOnline 3 Season 4
 
 ####################################################################################################################################
 #
@@ -66,7 +66,7 @@
 ####################################################################################################################################
 
 # Main theme
-{80}{}{06vault.acm}
+{80}{}{Clockwork.ogg}
 
 ####################################################################################################################################
 #
@@ -101,8 +101,8 @@
 {202}{}{Materials:}
 {205}{}{pieces.}
 {206}{}{You have }
-{210}{}{You have successfully created an item.}
-{211}{}{You didn't manage to create the item.}
+{210}{}{You've successfully created an item.}
+{211}{}{You've failed to create the item.}
 {212}{}{You are too tired, try again later.}
 
 ####################################################################################################################################
@@ -231,11 +231,11 @@
 {422}{}{ALL}
 {423}{}{SET TIMER}
 {424}{}{Unarmed dmg:}
-{425}{}{You cannot pick that up. You are at your maximum weight capacity.}
+{425}{}{You cannot pick that up. You are at maximum weight capacity.}
 {426}{}{There is no space left for that item.}
 {429}{}{|0xFFFFFF You gain %d experience points for successfully using your Steal skill.}
 {430}{}{Wt.}
-{433}{}{You can't find anything to take from that.}
+{433}{}{You don't find anything to take from that.}
 {434}{}{Ammo: VALUE/MAX_VALUE, AMMO}
 {435}{}{Weight: VALUE grams}
 {436}{}{Weight: VALUE funt}
@@ -276,12 +276,12 @@
 {469}{}{Radio reception has ended.}
 {470}{}{Radio reception has changed.}
 {471}{}{Channel changed.}
-{474}{}{Unable switch channel.}
-{475}{}{Unable switch broadcast.}
-{476}{}{Unable switch reception.}
-{477}{}{Unable switch broadcast type.}
-{478}{}{Unable switch reception type.}
-{479}{}{You do not have the radio tuned to the transmission.}
+{474}{}{Unable to switch channel.}
+{475}{}{Unable to switch broadcast.}
+{476}{}{Unable to switch reception.}
+{477}{}{Unable to switch broadcast type.}
+{478}{}{Unable to switch reception type.}
+{479}{}{You do not have the radio tuned to the transmission channel.}
 
 ####################################################################################################################################
 #
@@ -291,9 +291,9 @@
 
 {480}{}{Ok, that's a good trade.}
 {481}{}{No, your offer is not good enough.}
-{482}{}{Sorry, you cannot carry that much.}
+{482}{}{Sorry, you can't carry that much.}
 {483}{}{Sorry, that's too much to carry.}
-{484}{}{No item was selected at the moment of deal.}
+{484}{}{No item was selected at the moment of the deal.}
 {485}{}{Sorry, but I've already sold a couple of those things.}
 {486}{}{You can't trade right now.}
 {487}{}{You can't trade with this person.}
@@ -302,7 +302,7 @@
 {492}{}{hidden}
 {493}{}{You can't trade with this person right now. Try again later.}
 {495}{}{Trading with %s. Your mode: %s, opponent's mode: %s.}
-{496}{}{%s is ready for deal.}
+{496}{}{%s is ready for the deal.}
 
 ####################################################################################################################################
 #
@@ -313,8 +313,8 @@
 #Wear
 {500}{}{Condition: VALUE%/MAXVALUE%}
 {501}{}{It looks like it's already seen a few repairs.}
-{502}{}{It looks like it's seen pretty extensive maintenance.}
-{503}{}{It looks a little broken.}
+{502}{}{It looks like it's seen a pretty extensive maintenance.}
+{503}{}{It looks a bit broken.}
 {504}{}{It looks pretty broken.}
 {505}{}{It's barely hanging together.}
 {506}{}{It's beyond repair.}
@@ -368,8 +368,8 @@
 #
 ####################################################################################################################################
 
-{800}{}{They don't seem interesting in talking to you.}
-{801}{}{They don't seem to be able to talk now.}
+{800}{}{They don't seem interested in talking to you.}
+{801}{}{They seem to not be able to talk now.}
 {802}{}{They seem to be busy. Speak to them later.}
 {803}{}{You need to get closer to talk to them.}
 {804}{}{Hi.} # No dialogs.
@@ -386,7 +386,7 @@
 #
 ####################################################################################################################################
 
-{900}{}{You haven't found the location. It was absorbed by desert.}
+{900}{}{You failed to found the location. It was absorbed by the desert.}
 {901}{}{Surprisingly, the location has moved.}
 {902}{}{You haven't found the location entrance.}
 {903}{}{You haven't found a suitable place to park your vehicle.}
@@ -404,8 +404,8 @@
 
 {1001}{}{|4291317840 Incorrect login.}
 {1002}{}{|4291317840 Incorrect password.}
-{1003}{}{|4291317840 The account with such login already exists, choose another login.}
-{1004}{}{|4291317840 The player with this login is already in game.}
+{1003}{}{|4291317840 An account with this login already exists, choose another login.}
+{1004}{}{|4291317840 A player with this login is already in game.}
 {1005}{}{|4291317840 Incorrect SPECIAL data.}
 {1006}{}{|4291317840 Registration was successful.}
 {1007}{}{|4291317840 Connecting to server.}
@@ -420,17 +420,17 @@
 {1017}{}{|4291317840 Incorrect age.}
 {1018}{}{|4291317840 It was not possible to connect to the server.}
 {1019}{}{|4291317840 Incorrect data entered.}
-{1020}{}{|4291317840 Searching starting location error, contact serever's administration.}
+{1020}{}{|4291317840 Searching starting location error, contact server's administration.}
 {1021}{}{|4291317840 Searching starting map error, contact server's administration.}
 {1022}{}{|4291317840 Searching starting coordinates error, contact server's administration.}
-{1023}{}{|4291317840 Database error, contact server's administration.}
+{1023}{}{|4291317840 Database error, contact server administrator.}
 {1024}{}{|4291317840 Version of the network protocol is incorrect, please update the client.}
 {1025}{}{|4291317840 Data transmission error, try once again.}
 {1026}{}{|4291317840 The network message is incorrect.}
 {1027}{}{|4291317840 A server #1 internal error, please contact server's administration.}
 {1028}{}{|4291317840 Authentication successful, loading map.}
 {1029}{}{|4291317840 Choose 3 tag skills.}
-{1030}{}{|4291317840 Name must be in one language.}
+{1030}{}{|4291317840 Name must only be in one language.}
 {1031}{}{|4291317840 Name must consist of letters by 70% at least.}
 {1032}{}{|4291317840 You can't use space as first or last symbol for your name.}
 {1033}{}{|4291317840 You can't use two spaces in a row for your name.}
@@ -448,8 +448,8 @@
 {1045}{}{|4291317840 Time left: @lex time@ minutes.}
 {1046}{}{|4291317840 You have been banned.}
 {1047}{}{|4291317840 Ban by: @lex banby@, Duration: @lex time@ hours, Comment: @lex reason@.}
-{1048}{}{|4291317840 Script error, please contact server administration.}
-{1049}{}{|4291317840 This nickname is reserved for staff member, please try another.}
+{1048}{}{|4291317840 Script error, please contact server administrator.}
+{1049}{}{|4291317840 This nickname is reserved for a staff member, please try another.}
 {1050}{}{|4291317840 Nickname reserved.}
 
 # Singleplayer messages
@@ -457,7 +457,7 @@
 {1071}{}{|4291317840 Error saving game.}
 {1072}{}{|4291317840 Game loaded.}
 {1073}{}{|4291317840 Error loading game.}
-{1074}{}{|4291317840 New game begined.}
+{1074}{}{|4291317840 New game beginning.}
 {1075}{}{|4291317840 Failed to start a new game.}
 
 ####################################################################################################################################
@@ -528,40 +528,40 @@
 #
 {3400}{}{You can't heal the dead.}
 {3400}{}{Let the dead rest in peace.}
-{3400}{}{It's dead, get over it.}
-{3401}{}{You've taxed your ability with that skill.  Wait a while.}
+{3400}{}{Clearly dead, get over it.}
+{3401}{}{You've taxed your  skill.  Wait a while.}
 {3401}{}{You're too tired.}
 {3401}{}{The strain might kill you.}
 {3402}{}{First aid isn't needed.}
 {3403}{}{Surgery isn't needed.}
-{3404}{}{To heal this trauma, you need a Doctor.}
-{3405}{}{To heal these wounds, you need First Aid.}
+{3404}{}{A Docter is needed to heal this trauma.}
+{3405}{}{First Aid is needed to heal these wounds.}
 {3406}{}{Your skillful intervention has helped and }
 {3407}{}{You have failed to help yourself and still feel quite weak.}
 {3408}{}{ feel much better already.}
-{3409}{}{You have failed to help and your patient still feels quite weak.}
+{3409}{}{You've failed to help and your patient still feels quite weak.}
 
-{3412}{}{You heal the damaged eye.}
-{3413}{}{You heal the crippled right arm.}
-{3414}{}{You heal the crippled left arm.}
-{3415}{}{You heal the crippled right leg.}
-{3416}{}{You heal the crippled left leg.}
-{3422}{}{You fail to heal damaged eye.}
-{3423}{}{You fail to heal crippled right arm.}
-{3424}{}{You fail to heal crippled left arm.}
-{3425}{}{You fail to heal crippled right leg.}
-{3426}{}{You fail to heal crippled left leg.}
+{3412}{}{You've healed the damaged eye.}
+{3413}{}{You've healed the crippled right arm.}
+{3414}{}{You've healed the crippled left arm.}
+{3415}{}{You've healed the crippled right leg.}
+{3416}{}{You've healed the crippled left leg.}
+{3422}{}{You've failed to heal the damaged eye.}
+{3423}{}{You've failed to heal the crippled right arm.}
+{3424}{}{You've failed to heal the crippled left arm.}
+{3425}{}{You've failed to heal the crippled right leg.}
+{3426}{}{You've failed to heal the crippled left leg.}
 
 {3430}{}{Someone tried to rob you!}
 {3431}{}{Someone tried to plant something on you!}
 
-{3440}{}{You fail to pick the lock.}
+{3440}{}{You have  failed to pick the lock.}
 {3443}{}{You successfully picked the lock.}
 
 {3450}{}{You heal %d hit points.}
 {3451}{}{You look healthy already.}
 {3452}{}{%s looks healthy already.}
-{3453}{}{You fail to do any healing.}
+{3453}{}{You've failed to do any healing.}
 {3455}{}{You earn %d XP for honing your skills.}
 {3459}{}{\nskill_use: invalid skill used.}
 {3461}{}{You fail to find any traps.}
@@ -572,7 +572,7 @@
 {3472}{}{You're caught planting the %s.}
 {3473}{}{You plant the %s.}
 {3495}{}{You aren't skilled enough to heal crippling injuries.}
-{3496}{}{The robot is beyond repair.}
+{3496}{}{This robot is beyond repair.}
 
 #
 #    PC STAT NAMES
@@ -587,25 +587,33 @@
 {4007}{}{Perks}
 {4008}{}{Kills}
 {4009}{}{Skill Points}
-{4010}{}{Tag Skills}
+{4010}{}{}
 {4011}{}{Optional Traits}
 {4012}{}{Skills}
+{4014}{}{Implants}
+{4015}{}{Support Perks}
+{4016}{}{PvE Perks}
+{4017}{}{War Event}
 #
 #    PC STAT DESCRIPTIONS
 #
 {4050}{}{Amount of free character points that can be added to one of the basic stats.}
 {4051}{}{The amount of experience points needed to move up to the next level.}
-{4052}{}{Points earned by going up a Level. Can be used to increase a skill by 1%, or a tag skill by 2%, per point spent.}
+{4052}{}{Points earned by going up a Level. Can be used to increase a skill.}
 {4053}{}{The general competency of the player character. A measure of your experience and abilities.}
 {4054}{}{A reward for completing specific tasks, or defeating enemies in combat. More experience points are required to attain higher Levels.}
 {4055}{}{What the world knows of your actions and deeds. This will modify NPC reactions.}
-{4056}{}{These are the effects of the choices you make during the game.}
+{4056}{}{These are the effects of the choices you make in-game.}
 {4057}{}{Perks add additional abilities. Every third experience level, you can choose one perk.}
 {4058}{}{A counter that keeps track of the type and numbers of creatures you have slaughtered.}
-{4059}{}{Use free skill points to increase the level of a skill.  As you get better at a given skill, however, it takes more points to raise that skill.  Mastering a skill can take a lot of time and effort.}
+{4059}{}{Use the available free skill points to increase the level of a skill.  As you get better at a given skill, then, it takes more points to raise that skill.  Mastering a skill can take a lot of time and effort.}
 {4060}{}{Tag skills are skills your character specializes in.  Each tag skill gains +20%, and increases twice as fast.  You must pick three tag skills.}
 {4061}{}{Optional traits describe your character in more detail.  All traits will have positive and negative effects.  You may choose up to two traits during creation.}
 {4062}{}{Skills are learned knowledge.  Skills increase by experience, or during the course of the game by special events.  The higher the skill level, the better you are at that skill.}
+{4063}{}{Implants are items which give additional power }
+{4064}{}{Support Perks can be teached by NPCs }
+{4065}{}{PvE Perks are gained after the 55th level }
+{4066}{}{War Event Stats is a random reward from war event which go with reroll }
 
 #
 #  Experience-gain messages
@@ -643,6 +651,13 @@
 #
 
 {4250}{}{Hit Points  %d/%d}
+{4251}{}{Sight %d hexes}
+{4252}{}{Flat Damage %d}
+{4253}{}{Dmg Reduction  %d}
+{4254}{}{AP Regen  %d}
+{4255}{}{Crit Power  %d-%d}
+{4256}{}{EXP Gain  %d %}
+{4257}{}{Run Speed  %d %}
 
 
 #
@@ -726,12 +741,12 @@
 
 # Desc
 {6550}{}{Everyone in this area would like to be you. You're the toast-of-the-town and are held up as a shining example of all that a person can be.}
-{6551}{}{People wave, and greet you, wherever you go in this area. Everyone has heard talk of you, and they like what they've heard.}
-{6552}{}{Although, you're not greeted with open arms, most people in this area will at least nod in acknowledgment when you meet. You fit in as well as most.}
+{6551}{}{People wave and greet you wherever you go in this area. Everyone has heard rumors of you, and they like what they've heard.}
+{6552}{}{Although you're not greeted with open arms, most people in this area will at least nod in acknowledgment when you meet. You fit in as well as most.}
 {6553}{}{Though normally suspicious of strangers, the people of this area haven't made up their minds about you yet.}
-{6554}{}{You're just another out-of-towner in this area. Probably up to no good.}
+{6554}{}{You're just another out-of-towner in this area, probably up to no good.}
 {6555}{}{You've proven to the people in this area that their initial distrust was well founded. People in this area look at you and mutter to one another when you come near. They know you're up to no good.}
-{6556}{}{Staring and muttering, some cross the street to avoid walking near you, while others spit and turn away when you come near. Everyone knows that you're one of the worst things that have ever slithered into this area.}
+{6556}{}{Staring and muttering, some cross the street to avoid walking near you, while others spit and turn away when you come near. Everyone knows that you're one of the worst things that has ever slithered into this area.}
 
 
 
@@ -756,7 +771,7 @@
 # Name or info not found
 {10010}{}{You see nothing out of the ordinary.}
 # Item not found in container (possible another critter take it)
-{10020}{}{Item not found, it may be picked up by someone else.}
+{10020}{}{Item not found, it may have been picked up by someone else.}
 
 # Container
 {10100}{}{Need key.}
@@ -792,9 +807,9 @@
 {10246}{}{The vehicle has broken down.}
 {10247}{}{The vehicle can't take so many people, leave some behind.}
 {10248}{}{Your charisma doesn't let you lead so many people, leave some behind.}
-{10249}{}{You need to have some suitable tools equipped to repair the vehicle.}
+{10249}{}{You need to have suitable tools equipped to repair the vehicle.}
 {10250}{}{You broke your tools while finishing the repair of the vehicle.}
-{10251}{}{Can't disconnect from the group of being on the water.}
+{10251}{}{Can't disconnect from the group while being on  water.}
 
 # Caravan
 {10260}{}{You give water for the brahmin to drink.}
@@ -805,8 +820,8 @@
 {10265}{}{The brahmin are exhausted.}
 {10266}{}{The wagon has broken down.}
 {10267}{}{The caravan wagon isn't big enough for this many people, leave someone behind.} # won't happen
-{10268}{}{You haven't got the charm to control a group this big, leave someone behind.}
-{10269}{}{You need to have some suitable tools equipped to repair the wagon.}
+{10268}{}{You haven't got the charisma to lead a group this big, leave someone behind.}
+{10269}{}{You need to have suitable tools equipped to repair the wagon.}
 {10270}{}{You broke your tools while finishing the repair of the wagon.}
 
 # Barge / Raft
@@ -818,8 +833,8 @@
 {10285}{}{The storage of freshwater is empty.}
 {10286}{}{The raft has broken down.}
 {10287}{}{This raft isn't big enough for this many people, leave someone behind.}
-{10288}{}{You haven't got the charm to control a group this big, leave someone behind.}
-{10289}{}{You need to have some suitable tools equipped to repair the raft.}
+{10288}{}{You haven't got the charisma to lead a group this big, leave someone behind.}
+{10289}{}{You need to have suitable tools equipped to repair the raft.}
 {10290}{}{You broke your tools while finishing the repair of the raft.}
 
 # Drugs
@@ -863,20 +878,20 @@
 {10460}{}{You learn special ways to heal injury.}
 {10461}{}{You learn how to handle your energy guns better.}
 {10462}{}{You learn how to sneak.}
-{10463}{}{You learn a lot about stealing.}
-{10464}{}{You learn a lot about locks mechanism.}
+{10463}{}{You learn a lot about Crafting.}
+{10464}{}{You learn a lot about robbery.}
 {10465}{}{You learn how to handle your throwing weapons better.}
 {10466}{}{You learn a lot about explosives.}
 {10467}{}{You learn how to fight better.}
 # Use on
-{10500}{}{The supplies in the Doctor's Bag run out.}
-{10501}{}{The supplies in the First Aid Kit run out.}
+{10500}{}{The supplies in the Doctor's Bag ran out.}
+{10501}{}{The supplies in the First Aid Kit ran out.}
 {10502}{}{You cannot do that in combat.}
 {10503}{}{This person will not barter with you.}
 {10504}{}{This person has nothing to tell you about.}
 {10505}{}{You cannot pick up that item. You are at your maximum weight capacity.}
-{10506}{}{The supplies in the Paramedic's Bag run out.}
-{10507}{}{The supplies in the Field Medic First Aid Kit run out.}
+{10506}{}{The supplies in the Paramedic's Bag ran out.}
+{10507}{}{The supplies in the Field Medic First Aid Kit ran out.}
 {10508}{}{This critter can't carry anything.}
 
 ####################################################################################################################################
@@ -906,8 +921,8 @@
 {10900}{}{None}
 {10901}{}{Rocket}
 {10902}{}{Flamer Fuel}
-{10903}{}{C Energy Cell}
-{10904}{}{D Energy Cell}
+{10903}{}{Small Energy Cell}
+{10904}{}{Micro Fusion Cell}
 {10905}{}{.223}
 {10906}{}{5mm}
 {10907}{}{.40 cal}
@@ -924,7 +939,7 @@
 {10918}{}{7.62mm}
 {10919}{}{.22 cal}
 {10920}{}{40mm}
-{10921}{}{El Rocket}
+{10921}{}{Electric Rocket}
 
 ####################################################################################################################################
 #
@@ -947,7 +962,7 @@
 
 #Self look
 {11005}{}{Fuck, that's you, dude.}
-{11005}{}{Whoa! That's you!.}
+{11005}{}{Whoa! That's you!}
 {11005}{}{Who’s that?}
 {11005}{}{Dude, you can control him.}
 {11005}{}{Stop glaring at me!!!}
@@ -1184,8 +1199,8 @@
 {12801}{}{You feel very nauseous, and after some mild vomiting, slightly fatigued.}
 {12802}{}{You are very fatigued, the vomiting does not stop, and your recovery time is impaired.}
 {12803}{}{You are hemorrhaging violently. You are very sick, and your hair is falling out.}
-{12804}{}{You are hemorrhaging violently and continuously. The vomitus is stained red from your blood. Your skin is falling off of your bones.}
-{12805}{}{There is bleeding from your intestines and you have severe diarrhea. You feel bloated and are in intense agony.}
+{12804}{}{There is bleeding from your intestines and you have severe diarrhea. You feel bloated and are in intense agony.}
+{12805}{}{You are hemorrhaging violently and continuously. Your vomit is stained red from your blood. Your skin is falling off of your bones.}
 {12806}{}{You have died from radiation sickness.}
 {12807}{}{You have received a large dose of radiation.}
 {12808}{}{The geiger counter is clicking.}
@@ -1209,9 +1224,9 @@
 ####################################################################################################################################
 
 {13000}{}{Transgender}
-{13001}{}{Evil for an hour (minimal carma)}
-{13011}{}{Hero for an hour (maximum carma)}
-{13021}{}{Event of an hour (maximum carma change in an hour)}
+{13001}{}{Evil for an hour (minimal karma)}
+{13011}{}{Hero for an hour (maximum karma)}
+{13021}{}{Event of an hour (maximum karma change in an hour)}
 
 {13030}{}{The Leaders}
 {13031}{}{Chit-chat Master - most chat messages}
@@ -1251,6 +1266,7 @@
 {13301}{}{Faction controlling Den}
 {13311}{}{Faction controlling Redding}
 {13321}{}{Faction controlling Necropolis}
+{13331}{}{Faction controlling New Reno}
 
 {13360}{}{Domination}
 {13361}{}{Faction dominating Modoc}
@@ -1260,6 +1276,7 @@
 {13401}{}{Faction dominating Den}
 {13411}{}{Faction dominating Redding}
 {13421}{}{Faction dominating Necropolis}
+{13431}{}{Faction dominating New Reno}
 
 {13450}{}{Base Control}
 {13451}{}{Current Water Works controller}
@@ -1291,6 +1308,24 @@
 {13661}{}{Faction Controlling New Reno Zones}
 {13671}{}{Faction Controlling Themepark Zones}
 
+{13800}{}{War Event}
+{13801}{}{Best in killing NPCs}
+{13811}{}{Best in killing Players}
+{13821}{}{Own NPCs killer}
+{13831}{}{Unfair Player}
+{13841}{}{Worst Player(most Deaths)}
+{13851}{}{Best in Reno Wars}
+
+{13920}{}{Town Control Time Windows}
+{13921}{}{Availability to take Modoc}
+{13931}{}{Availability to take Klamath}
+{13941}{}{Availability to take Gecko}
+{13951}{}{Availability to take Broken Hills}
+{13961}{}{Availability to take Den}
+{13971}{}{Availability to take Redding}
+{13981}{}{Availability to take Necropolis}
+{13991}{}{Availability to take New Reno}
+
 ####################################################################################################################################
 #
 #       Stats (with STAT.MSG + 2000)
@@ -1299,36 +1334,36 @@
 
 # ST_STRENGTH
 {100001}{}{Strength}
-{100002}{}{Raw physical strength. A high Strength is good for physical characters. Modifies: Hit Points, Melee Damage, and Carry Weight.}
+{100002}{}{Raw physical strength. A high Strength is good for physical characters. Modifies: Hit Points, Melee Damage, Throwing Range, and Carry Weight. Also modifies resistance to knockdown, arm cripple, and weapon drop.}
 
 # ST_PERCEPTION
 {100011}{}{Perception}
-{100012}{}{The ability to see, hear, taste and notice unusual things. A high Perception is important for a sharpshooter. Modifies: Field of view, sequence and ranged combat distance modifiers.}
+{100012}{}{The ability to see, hear, taste and notice unusual things. A high Perception is important for any sharpshooter. Modifies: Field of view, sequence, accuracy, sneak and trap detection, position in random encounters, enemy armor class, and weapon breakage.}
 # ST_ENDURANCE
 {100021}{}{Endurance}
-{100022}{}{Stamina and physical toughness. A character with a high Endurance will survive where others may not. Modifies: Hit Points, Poison & Radiation Resistance, Healing Rate, and the additional hit points per level.}
+{100022}{}{Stamina and physical toughness. A character with a high Endurance will survive where others may not. Modifies: Hit Points, Poison & Radiation Resistance, Healing Rate, and additional hit points per level. Also modifies knockout, explosion, and damage resistance.}
 # ST_CHARISMA
 {100031}{}{Charisma}
-{100032}{}{A combination of appearance and charm. A high Charisma is important for characters that want to influence people with words. Modifies: ability to lead other characters, NPC reactions, and barter prices.}
+{100032}{}{A combination of appearance and charm. A high Charisma is important for characters that want to influence people with words. Modifies: Party Points, NPC reactions, Damage to NPCs, Damage from NPCs, Implant Limits, one more PvE perk every 25 levels per point, Experience Points, Travel Speed, barter prices.}
 # ST_INTELLECT
 {100041}{}{Intelligence}
-{100042}{}{Knowledge, wisdom and the ability to think quickly. A high Intelligence is important for any character. Modifies: the number of new skill points per level, dialogue options, and many skills.}
+{100042}{}{Knowledge, wisdom and the ability to think quickly. Modifies: Flat damage, new skill points per level, skill points from books, dialogue options, many starting skills, bonuses to skill caps, Slow protection, Experience Bonus to gear, respawn time, chance to get materials from dismantling.}
 # ST_AGILITY
 {100051}{}{Agility}
-{100052}{}{Coordination and the ability to move well. A high Agility is important for any active character. Modifies: Action Points, Armor Class, and many skills.}
+{100052}{}{Coordination and the ability to move well. A high Agility is important for most characters. Modifies: Action Points, Armor Class, attack speed, knockouts, sequence with 1-handed weapons, and many skills.}
 # ST_LUCK
 {100061}{}{Luck}
-{100062}{}{Fate. Karma. An extremely high or low Luck will affect the character - somehow. Events and situations will be changed by how lucky (or unlucky) your character is.}
+{100062}{}{Fate. Karma. An extremely high or low Luck will affect the character - somehow. Events and situations will be changed by how lucky (or unlucky) your character is. Modifies: Crit chance (especially aimed shot), crit power, cripple and poison resistance, experience on crafted gear, armor breakage}
 # ST_MAX_LIFE
 {100071}{}{Maximum Hit Points}
-{100072}{}{How much damage your character can take before falling on ground.}
+{100072}{}{How much damage your character can take before losing consciousness.}
 # ST_ACTION_POINTS
 {100081}{}{Maximum Action Points}
 {100082}{}{The number of actions that the character can take during one combat turn.}
 {100083}{}{Action Points}
 # ST_ARMOR_CLASS
 {100091}{}{Armor Class}
-{100092}{}{Modifies the chance to hit this particular character when the character is running.}
+{100092}{}{Modifies the chance to hit this particular character. When the character is not running, the value is halved.}
 {100093}{}{Armor Class}
 # ST_MELEE_DAMAGE
 {100101}{}{Melee Damage}
@@ -1340,11 +1375,11 @@
 {100113}{}{Carry Weight}
 # ST_SEQUENCE
 {100121}{}{Sequence}
-{100122}{}{Determines how soon in a combat turn your character can react.}
+{100122}{}{Determines how soon your character can react in a combat turn.}
 {100123}{}{Sequence}
 # ST_HEALING_RATE
 {100131}{}{Healing Rate}
-{100132}{}{Number of hit points your character heals every real 30 seconds.}
+{100132}{}{Number of hit points your character heals every real 25 seconds.}
 {100133}{}{Healing Rate}
 # ST_CRITICAL_CHANCE
 {100141}{}{Critical Chance}
@@ -1402,7 +1437,7 @@
 {100303}{}{Radiation Res.}
 # ST_POISON_RESISTANCE
 {100311}{}{Poison Resistance}
-{100312}{}{Reduces poison damage by this amount.}
+{100312}{}{Reduces chance to be poisoned and damage taken from poison.}
 {100313}{}{Poison Res.}
 
 # 100700
@@ -1433,7 +1468,7 @@
 {100772}{}{The general competency of the player character. A measure of your experience and abilities.}
 # ST_UNSPENT_SKILL_POINTS
 {100781}{}{Unspent Skill Points}
-{100782}{}{Points earned by going up a Level. Can be used to increase a skill by 1%, or a tag skill by 2%, per point spent.}
+{100782}{}{Points earned by going up a Level. Can be used to increase a skill by 1% per point spent up to a certain level.}
 # ST_UNSPENT_PERKS
 {100791}{}{Unspent Perk Points}
 {100792}{}{Points earned by going up a Level. Can be used to increase perk level by 1, or obtain a new perk.}
@@ -1472,7 +1507,7 @@
 # 102000
 # SK_SMALL_GUNS
 {102001}{}{Small Guns}
-{102002}{}{The use, care and general knowledge of small firearms - pistols, SMGs and rifles.}
+{102002}{}{The use, care, and general knowledge of small firearms - pistols, SMGs and rifles.}
 # SK_BIG_GUNS
 {102011}{}{Big Guns}
 {102012}{}{The operation and maintenance of really big guns - miniguns, rocket launchers, flamethrowers and such.}
@@ -1483,8 +1518,8 @@
 {102031}{}{Close Combat}
 {102032}{}{A combination of martial arts, non-ranged weapons in hand-to-hand, or melee combat - knives, sledgehammers, spears, clubs and so on.}
 # SK_MELEE_WEAPONS
-{102041}{}{Engineering}
-{102042}{}{The knowledge of constructing advanced objects.}
+{102041}{}{Learning}
+{102042}{}{Ability to learn more.}
 # SK_THROWING
 {102051}{}{Throwing}
 {102052}{}{The skill of muscle-propelled ranged weapons, such as throwing knives, spears and grenades.}
@@ -1498,23 +1533,23 @@
 {102073}{}{Doctor}
 # SK_SNEAK
 {102081}{}{Sneak}
-{102082}{}{Quiet movement, and the ability to remain unnoticed. If successful, you will be much harder to locate. You cannot run and sneak at the same time.}
+{102082}{}{The ability to move quiet and remain unnoticed. If successful, you will be much harder to locate. You cannot run and sneak at the same time.}
 {102083}{}{Sneak}
 # SK_LOCKPICK
-{102091}{}{Lockpick}
-{102092}{}{The skill of opening locks without the proper key. The use of lock picks or electronic lock picks will greatly enhance this skill.}
-{102093}{}{Lockpick}
+{102091}{}{Robbery}
+{102092}{}{The skill of opening locks without the proper key, and the ability to make the things of others your own. The use of lock picks or electronic lock picks will greatly enhance this skill. Can be used to steal from people or places.}
+{102093}{}{Robbery}
 # SK_STEAL
-{102101}{}{Steal}
-{102102}{}{The ability to make the things of others your own. Can be used to steal from people or places.}
-{102103}{}{Steal}
+{102101}{}{Engineering}
+{102102}{}{The knowledge of constructing advanced objects.}
+{102103}{}{Engineering}
 # SK_TRAPS
 {102111}{}{Traps}
 {102112}{}{The finding and removal of traps. Also the setting of explosives for demolition purposes.}
 {102113}{}{Traps}
 # SK_SCIENCE
 {102121}{}{Science}
-{102122}{}{Covers a variety of high technology skills, such as computers, biology, physics and geology.}
+{102122}{}{Covers a variety of high technology skills, such as computers, biology, physics, and geology.}
 {102123}{}{Science}
 # SK_REPAIR
 {102131}{}{Repair}
@@ -1527,8 +1562,8 @@
 {102151}{}{Barter}
 {102152}{}{Trading and trade-related tasks. The ability to get better prices for items you sell, and lower prices for items you buy.}
 # SK_GAMBLING
-{102161}{}{Gambling}
-{102162}{}{The knowledge and practical skills related to wagering. The skill at cards, dice and other games.}
+{102161}{}{Crafting}
+{102162}{}{Practical knowledge about crafting different kinds of gear.}
 # SK_OUTDOORSMAN
 {102171}{}{Outdoorsman}
 {102172}{}{Practical knowledge of the outdoors, and the ability to live off the land. The knowledge of plants and animals.}
@@ -1549,9 +1584,9 @@
 # TO_SK_SCIENCE, timeouts
 {102331}{}{Science}
 # TO_SK_LOCKPICK, timeouts
-{102341}{}{Lockpick}
+{102341}{}{Robbery}
 # TO_SK_STEAL, timeouts
-{102351}{}{Steal}
+{102351}{}{Engineering}
 # TO_WEAKENED
 # {102361}{}{Weakened}
 # TO_FIXBOY
@@ -1647,22 +1682,22 @@
 # 103000
 # PE_BOOKWORM
 {103001}{}{Implant: Aggressive Sensors}
-{103002}{}{It is designed to improve the damage of critical hits.}
+{103002}{}{ The target's critical resistance is lowered by 15% .}
 # PE_AWARENESS
 {103011}{}{Awareness}
 {103012}{}{With Awareness, you are given detailed information about any critter you examine.  You see their exact hit points and information about any weapon they are equipped with.}
 # PE_BONUS_HTH_ATTACKS
 {103021}{}{Bonus HtH Attacks}
-{103022}{}{You have learned the secret arts of the East, or you just punch faster.  In any case, your Hand-to-Hand attacks cost 1 AP less to perform. If you have Bonus HtH Damage it increase your speed boost}
+{103022}{}{You have learned the secret arts of the East, or you just punch faster.  In any case, your Hand-to-Hand attacks cost 1 AP less to perform. If you have Bonus HtH Damage it also increases your speed boost.}
 # PE_BONUS_HTH_DAMAGE
 {103031}{}{Bonus HtH Damage}
-{103032}{}{Experience in unarmed combat has given you the edge when it comes to damage.  You cause +7 points of damage with hand-to-hand and melee attacks. If you have Bonus HtH Attacks it increase your speed boost}
+{103032}{}{Experience in unarmed combat has given you the edge when it comes to damage.  You cause +10 points of damage with hand-to-hand and melee attacks. If you have Bonus HtH Attacks it increases your speed boost.}
 # PE_BONUS_MOVE
 {103041}{}{Bonus Move}
-{103042}{}{For each level of Bonus Move, you get 2 free APs each turn that can only be used for movement.  In other words, you can move 2 free hexes each turn for each level of this Perk. Also it gives speed boost}
+{103042}{}{For each level of Bonus Move, you get 2 free APs each turn that can only be used for movement.  In other words, you can move 2 free hexes each turn for each level of this Perk. Also gives speed boost.}
 # PE_BONUS_RANGED_DAMAGE
 {103051}{}{Bonus Ranged Damage}
-{103052}{}{Your training in firearms and other ranged weapons has made you more deadly in ranged combat.  For each level of this Perk, you do +2 points of damage with ranged weapons.}
+{103052}{}{Your training in firearms and other ranged weapons has made you more deadly in ranged combat.  For each level of this Perk, you do +2 points of damage with ranged weapons per bullet.}
 # PE_BONUS_RATE_OF_FIRE
 {103061}{}{Bonus Rate of Fire}
 {103062}{}{This Perk allows you to pull the trigger a little faster and still remain as accurate as before.  Each ranged weapon attack costs 1 AP less to perform.}
@@ -1671,70 +1706,70 @@
 {103072}{}{You are more likely to move before your opponents in combat, since your Sequence is increased by +5 points.}
 # PE_FASTER_HEALING
 {103081}{}{Faster Healing}
-{103082}{}{With this Perk, you get a +15 bonus to your Healing Rate and the time between regaining HP is reduced by 5 second. This is in addition to your normal healing rate, thus you heal faster.}
+{103082}{}{With this Perk, you get +15 bonus Healing Rate and -5 seconds to your healing rate cooldown. Thus you heal faster and more!}
 # PE_MORE_CRITICALS
 {103091}{}{More Critical}
-{103092}{}{You are more likely to cause critical hits in combat if you have this Perk. You get an additional +5% chance to cause a critical hit.}
+{103092}{}{You are more likely to cause critical hits in combat if you have this Perk. You get an additional +6% chance to cause a critical hit.}
 # PE_NIGHT_VISION
 {103101}{}{Implant: Aggressive Sensors MK.II}
-{103102}{}{It is designed to improve the damage of critical hits.}
+{103102}{}{Improves the damage of critical hits. 1: +4 crit roll per charisma +25 accuracy 2: +40 crit power}
 # PE_PRESENCE
 {103111}{}{Implant: Dragon System}
-{103112}{}{It is designed to improve the frequency of critical hits.}
+{103112}{}{Improves the frequency of critical hits. +%5 crit chance}
 # PE_RAD_RESISTANCE
 {103121}{}{Rad Resistance}
-{103122}{}{You are able to avoid radiation and its bad effects more effectively.  Each level of this Perk improves your Radiation Resistance by 30% and your Poison Resistance by 20%.}
+{103122}{}{You are able to avoid radiation and its negative effects better than others.  Each level of this Perk improves your Radiation Resistance by 30% and your Poison Resistance by 20%.}
 # PE_TOUGHNESS
 {103131}{}{Toughness}
-{103132}{}{When you are tough, you take less damage. You gain extra your general damage resistance and general damage threshold.}
+{103132}{}{When you are tough, you take less damage. Level 1 of this perk adds 8% to your Normal DR and 2 to your Normal DT. Level 2 adds an additional 8% to your Normal DR and 3 to your Normal DT.}
 # PE_STRONG_BACK
 {103141}{}{Strong Back}
 {103142}{}{You can carry an additional 22 kg of equipment.}
 # PE_SHARPSHOOTER
 {103151}{}{Sharpshooter}
-{103152}{}{You have a talent for hitting things at longer distances.  For each level of this Perk, you get a +2 bonus to Perception for the purposes of determining sight range.  You also get a small bonus to chance to hit your opponent with ranged weapon.}
+{103152}{}{You have a talent for hitting things at longer distances.  For each level of this Perk, you expand your field of vision by 6 hexes, increase your chance to hit by 8%, and receive 1-10% DR penetration with ranged shots.}
 # PE_SILENT_RUNNING
 {103161}{}{Silent Running}
-{103162}{}{With this Perk, you now have the ability to move quickly and still remain quiet.  You can Sneak and run without suffering any penalty.  }
+{103162}{}{With this Perk, you now have the ability to move quickly and quietly.  You can Sneak and run without suffering any penalty.  }
 # PE_SURVIVALIST
 {103171}{}{Survivalist}
-{103172}{}{You are a master of the outdoors.  When you kill animals, you are able to take double the amount of meat from them.}
+{103172}{}{You are a master of the outdoors. When you kill animals, you are able to take double the amount of meat from them.}
 # PE_MASTER_TRADER
 {103181}{}{Implant: Dragon OS}
-{103182}{}{It is designed to improve the frequency of critical hits.}
+{103182}{}{It is designed to improve motion. +1AP}
 # PE_EDUCATED
 {103191}{}{Educated}
 {103192}{}{Each level of Educated adds +2 skill points when you gain a new experience level. This Perk works best when purchased early in your adventure.}
 # PE_HEALER
 {103201}{}{Healer}
-{103202}{}{The healing of bodies comes easier to you with this Perk. This Perk heals 15-30 additional hit points when using the First Aid.}
+{103202}{}{The healing of bodies comes easier to you with this Perk. This Perk heals 15-30 additional hit points when using First Aid.}
 # PE_FORTUNE_FINDER
 {103211}{}{Implant: Dragon OS}
-{103212}{}{It is designed to improve the frequency of critical hits.}
+{103212}{}{It is designed to improve critical hits. +1% chance for crit effect upgrade per charisma}
 # PE_BETTER_CRITICALS
 {103221}{}{Better Critical}
-{103222}{}{The critical hits you cause in ranged combat are more devastating. You gain a +20 bonus on the critical hit table, almost ensuring that more damage will be done. This does not affect the chance to cause a critical hit.}
+{103222}{}{The critical hits you cause in ranged combat are more devastating. You gain a +25% bonus on the critical hit table, almost ensuring that more damage will be done. This does not affect the chance to cause a critical hit.}
 # PE_EMPATHY
-{103231}{}{Implant: Tiger Movement}
-{103232}{}{It is designed to improve the movement.}
+{103231}{}{Implant: Tiger Damage}
+{103232}{}{It is designed to improve melee damage. Cyborg 3d tier: +1 melee damage per charisma and crit tier up. Base is 10 but with bruiser it's 2}
 # PE_SLAYER
 {103241}{}{Implant: Tiger Speed}
-{103242}{}{It is designed to improve the movement.}
+{103242}{}{It is designed to improve movement. 1: +10 melee damage and +%10 movement speed }
 # PE_SNIPER
 {103251}{}{Implant: Claw Module}
-{103252}{}{It is designed to improve the damage per bullet.}
+{103252}{}{It is designed to improve attack speed. +%5 attack speed}
 # PE_SILENT_DEATH
 {103261}{}{Silent Death}
-{103262}{}{While Sneaking, if you hit a critter in the back, you will cause and automatic critical hit with +10 on the roll when attacking hand to hand or with a thrown or one handed weapon. Silent Death is that kind of Perk.}
+{103262}{}{While Sneaking, if you hit a critter in the back, you will cause an automatic critical hit with +10% on the roll when attacking hand to hand or with a thrown or one handed weapon. Silent Death is that kind of Perk.}
 # PE_ACTION_BOY
 {103271}{}{Action Boy}
 {103272}{}{Action Boy (insert Girl if you wish) gives you an additional 2 Action Points to spend every combat turn.  You can use these generic APs on any task.}
 # PE_MENTAL_BLOCK
 {103281}{}{Implant: Claw Module mk.II}
-{103282}{}{It is designed to improve the damage per bullet.}
+{103282}{}{It is designed to improve the damage per bullet. 1: +2 damage 2: +1 damage +%1 more damage per charisma}
 # PE_LIFEGIVER
 {103291}{}{Lifegiver}
-{103292}{}{With each respective level of this Perk, you gain an additional 40, 40 and 30 Hit Points.  This is in addition to the hit points you already gain per level based off of your Endurance.}
+{103292}{}{With each respective level of this Perk, you gain an additional 40, 40 and 30 Hit Points and the hp level cap is raised by 4 levels per each level of this perk.  This is in addition to the hit points you already gain per level based off of your Endurance.}
 # PE_DODGER
 {103301}{}{Dodger}
 {103302}{}{You are less likely to be hit in combat if you have this Perk. You gain a +20 to your Armor Class.}
@@ -1746,7 +1781,7 @@
 {103322}{}{Mr Fixit is able to repair items to a higher standard than his peers. }
 # PE_MEDIC
 {103331}{}{Medic}
-{103332}{}{The Medic halves the timeouts for First Aid and Doctor skills. You also heal additional 15 to 30 Hit Points when using First Aid.}
+{103332}{}{The Medic perk halves the timeouts for using First Aid and Doctor skills. You also heal an additional 15 to 30 Hit Points when using First Aid.}
 # PE_MASTER_THIEF
 {103341}{}{Master Thief}
 {103342}{}{A Master Thief is proficient at stealing and picking locks.  He is able to attempt his thievery twice as often.}
@@ -1755,88 +1790,91 @@
 {103352}{}{Being a Speaker means your follower’s loyalty decreases at half the normal rate.}
 # PE_HEAVE_HO
 {103361}{}{Heave Ho!}
-{103362}{}{This perk gives you an additional +1 to Strength (up to 10), for purposes of determining range with thrown weapons only. This Perk will exceed a weapon's maximum range.}
+{103362}{}{This perk increases all Throwing weapon's range by 6. This Perk will exceed the weapon's normal maximum range.}
 # PE_FRIENDLY_FOE
 {103371}{}{Implant: Tactical Chip}
-{103372}{}{It is designed to improve the awareness in battlefield}
+{103372}{}{It is designed to improve awareness on the battlefield. +11 FoV}
 # PE_PICKPOCKET
 {103381}{}{Pickpocket}
 {103382}{}{You are much more adept at stealing than a normal crook.  You can steal with the best of them, because with this Perk, you halve the size and facing modifiers when stealing from a person.}
 # PE_GHOST
 {103391}{}{Ghost}
-{103392}{}{When the sun goes down or you are in a poorly lit area, you move like a ghost with this Perk.  Your get the bonus for being near walls from 5 hexes away.}
+{103392}{}{When the sun goes down or you are in a poorly lit area, you move like a ghost with this Perk. You get a Sneak bonus for being less than 5 hexes away from a wall.}
 # PE_CULT_OF_PERSONALITY
 {103401}{}{Implant: Tactical Chipset}
-{103402}{}{It is designed to improve the awareness in battlefield}
+{103402}{}{It is designed to improve awareness on the battlefield. 1: +11 FoV -15 seconds to replication 2: +11FoV +1 Motion Detector range per charisma}
 # PE_SCROUNGER
 {103411}{}{Implant Limit: S.P.E.C.I.A.L}
-{103412}{}{number of implants in your body}
+{103412}{}{Number of implants you can hold in your body for SPECIAL.}
 # PE_EXPLORER
 {103421}{}{Explorer}
-{103422}{}{The mark of the Explorer is to search out new and interesting locations.  With this Perk, you ignore half of speed penalties for terrain on the world map.}
+{103422}{}{The mark of the Explorer is to search out new and interesting locations. With this Perk, you ignore half of the speed penalties for terrain on the world map.}
 # PE_FLOWER_CHILD
 {103431}{}{Implant Limit: Combat}
-{103432}{}{number of implants in your body.}
+{103432}{}{Number of implants you can hold in your body for combat.}
 # PE_PATHFINDER
 {103441}{}{Pathfinder}
 {103442}{}{The Pathfinder is able to find the shortest route available.  With this Perk, your travel speed on the World Map is increased by 15%.}
 # PE_ANIMAL_FRIEND
 {103451}{}{Class Perk: Super Mutant}
-{103452}{}{infection by the Forced Evolutionary Virus (FEV). You are much taller, bulkier and more muscular than pure strain humans, have green skin, are immune to disease and radiation, and are gifted with superhuman endurance, that double your hit points.}
+{103452}{}{You have been infected by the Forced Evolutionary Virus (FEV). You are much taller, bulkier and more muscular than pure strain humans, have green skin, are immune to disease and radiation, and are gifted with superhuman endurance that doubles your hit points.}
 # PE_SCOUT
 {103461}{}{Scout}
-{103462}{}{You have improved your ability to see and recognize distant locations and events, increasing the size of explorations on the World Map by one square in each direction.}
+{103462}{}{You have improved your ability to see and recognize distant locations and events, increasing the size of exploration on the World Map by one square in each direction.}
 # PE_MYSTERIOUS_STRANGER
 {103471}{}{Class Perk: Cyborg}
-{103472}{}{Cyborg is a biological organism whose physical or mental abilities are extended beyond normal limitations by either electronic, mechanical or robotic elements built into the body. It allows you to reset implant limits once.}
+{103472}{}{You are cyborg and your physical and mental abilities have been extended beyond normal limitations by electronics, mechanical, and robotic means. It allows you to reset your implant limit once.}
 # PE_RANGER
 {103481}{}{Ranger}
-{103482}{}{Due to the extensive amount of time spend in the wilderness, you have learned to create the right items and tools necessary for survival. From now on, you will make a Safe House instead of a tent.}
+{103482}{}{Due to the extensive amount of time you have spent in the wilderness, you have learned to create the right items and tools necessary for survival. From now on, you will make a Safe House instead of a tent.}
 # PE_QUICK_POCKETS
 {103491}{}{Quick Pockets}
-{103492}{}{You have learned to pack your equipment better, your increased dexterity enables you to retrieve and put away items in half the time.}
+{103492}{}{You have learned to pack your equipment faster and better. This enables you to retrieve and put away items in half the time, and reduces reloading cost to 1AP.}
 # PE_SMOOTH_TALKER
-{103501}{}{Smooth Talker}
-{103502}{}{You have learned to increase your dialog options without understanding what you're talking about.  Each level of this Perk will increase your Intelligence by one, up to 10, for purposes of dialog only.}
+{103501}{}{Cowboy}
+{103502}{}{You have double AP Regen when using one-handed weapons.}
 # PE_SWIFT_LEARNER
 {103511}{}{Swift Learner}
 {103512}{}{You are indeed a Swift Learner with this Perk, as each level gives you an additional +10% bonus whenever you earn experience points.  This is best taken early.}
 # PE_TAG
 {103521}{}{Class Perk: Deathclaw}
-{103522}{}{Deathclaw is a term referring to genetically engineered creatures developed by the United States military to replace humans during close-combat search-and-destroy missions. The humble Jackson's Chameleon served as the basis for the development of one of the mightiest and most terrifying creatures to ever emerge in the wastelands.}
+{103522}{}{Deathclaw is a term referring to genetically engineered creatures developed by the United States military to replace humans during close-combat search-and-destroy missions. The humble Jackson's Chameleon served as the basis for the development of one of the mightiest and most terrifying creatures to ever emerge in the wasteland.}
 # PE_MUTATE
 {103531}{}{Class Perk: Bounty Hunter}
-{103532}{}{hunter is a character who is hired to find criminals, enemies or lost persons. What the bounty hunter does when they find their target depends on many factors, not least of which being whether it is a legal practice or not. Hunters are training to have clear body, so they can't take drugs.}
+{103532}{}{A Bounty Hunter is a character who is hired to find criminals, enemies, or lost people. What the bounty hunter does when they find their target depends on many factors, not least of which being whether it is a legal practice or not. Hunters are trained to have clear mind and body, so they can't take drugs.}
 # PE_PROFESSION_ARMORER
-{103541}{}{Profession: Armorer}
-{103542}{}{Your everyday outfit just don't cut it. Making your personal, straight-from-the-workbench protective gear is something you live for.}
+{103541}{}{Brute}
+{103542}{}{Gain 1% critical chance against NPCs}
 # PE_PROFESSION_GUNSMITH_S
-{103551}{}{Profession: Gunsmith (Small Guns)}
-{103552}{}{You feel like your life would make no sense without pistols, rifles and ammo. You use each and every chance to make something that can shoot or be shot at.}
+{103551}{}{Scrounger}
+{103552}{}{Increase rare items drop loot in inifnity dungeon and VT cases by 0.1%}
 # PE_PROFESSION_GUNSMITH_B
-{103561}{}{Profession: Gunsmith (Big Guns)}
-{103562}{}{You feel like your life would make no sense without big guns and ammo. You use each and every chance to make something that can make a big boom.}
+{103561}{}{Commander}
+{103562}{}{All NPC followers increase their damage by 3% against NPCs}
 # PE_PROFESSION_ENERGY_EXPERT
-{103571}{}{Profession: Energy Expert}
-{103572}{}{Your life has one purpose only: to master the energy flows and storages. Good thing you can use your experience even when fiddling with the energy weapons.}
+{103571}{}{Class Perk: Alien}
+{103572}{}{You always believed in aliens, and now you have finally jumped at your chance to become one! Or... at least, closer to them anyway. You have been injected with Alien DNA, you have an obsession with Aliens and their advanced technology, and you look down upon "primitive humans" and those who use inferior weapons and technology. You also gain an additional %5 to crafted item XP.}
 # PE_PROFESSION_DEMOLITION_EXPERT
-{103581}{}{Profession: Demolition Expert}
-{103582}{}{If it ain't go boom, it has no meaning to you. You're obsessed with explosions, really.}
+{103581}{}{Class Perk: Combat Master}
+{103582}{}{Your entire life you've never known the power of your own Strength, but now you are a true Master. Each melee attack is a critical hit and does 10 more base damage, and you gain additional crit power from Strength. However, you lose your traits.}
 # PE_PROFESSION_DOCTOR
-{103591}{}{Profession: Doctor}
-{103592}{}{Helping people when they are injured or ill is all you care about. Noble profession, indeed.}
+{103591}{}{Class Perk: Wrecker}
+{103592}{}{WHO NEEDS any of those pathetic, smaller weapons anyhow? Let's blow 'em all away! You have unlimited ammo, and your flat damage is doubled, but you can only use M79 Grenade Launcher, Rocket Launcher, Electro Launcher, and M202A1 FLASH, you also gain +2 flat damage for each Strength and 3 SPECIAL implant limit. Also, you can't use Throwing.}
 # PE_PROFESSION_BARMAN
-{103601}{}{Profession: Bartender}
-{103602}{}{With such talent you don't have to drink your own urine. Never more...}
+{103601}{}{Class Perk: Clone}
+{103602}{}{Are you the original? You sometimes aren't sure. You have cloned yourself, and have a constant clone companion with the same stats and gear as you, who also shares your nickname, but requires no ammo and can't carry any gear and if the clone kills a npc you gain the experience points of the kill. When killed the clone will take 2 minutes to respawn.You gain 25 CW  for every point of Charisma. Also all offensive PvE perks now work against your clone such as Brute,Small Ranged Damage and Murderer but perks like Mini Toughness and Quick Dodger protects the clone .}
 # PE_PROFESSION_IRONMASTER
-{103611}{}{Profession: Ironmaster}
-{103612}{}{Metals and their alloys - have them in one finger. You know how to pour them out so they are not too fragile and not too soft.}
+{103611}{}{Repairboy}
+{103612}{}{You are a perfectionist and always try to repair equipment to original specifications. Reduces 1% max condition loss possible from repairing per level.}
 # PE_PROFESSION_IRONWORKER
-{103621}{}{Profession: Ironworker}
-{103622}{}{You are one of those irreplaceable. Ironwork is so rare today.}
+{103621}{}{Tactical Actor}
+{103622}{}{You always know how to please a crowd. +1 second added to your turn in turn based combat per level.}
 # PE_PROFESSION_SCOUT
-{103631}{}{Profession: Scout}
-{103632}{}{There's no rathole in this world you are not going to find. The question is only how much time you're going to need for that.}
+{103631}{}{Base Cleaner}
+{103632}{}{You are very efficient at managing inventory at your own bases. Bonus 25% to Carry Weight only in bases/tents per level.}
+# PE_PROFESSION_SCOUT
+{103641}{}{Miner}
+{103642}{}{You know exactly how to find and extract the richest ore! 4% chance to get double ores from mining per level.}
 # PE_ADRENALINE_RUSH
 {103801}{}{Adrenaline Rush}
 {103802}{}{With this Perk, you gain +5% to your Damage Resistance and +1 to Damage Threshold for each quarter of the hit points you lose.}
@@ -1845,13 +1883,13 @@
 {103812}{}{You are more alert outdoors and enemies are less likely to sneak up on you.  With this Perk you get a +3 to your perception in random encounters when determining placement.}
 # PE_COMPREHENSION
 {103821}{}{Class Perk: Priest}
-{103822}{}{Fighting with faith and mercy, every healing is doubled, but your carry weight is 50% lower.}
+{103822}{}{Fighting with faith and mercy, all healing is doubled, but your carry weight is based on your current health.}
 # PE_DEMOLITION_EXPERT
 {103831}{}{Demolition Expert}
-{103832}{}{You are an expert when it comes to the fine art of handling explosives.  They always go off when they're supposed to and inflict some extra damage.}
+{103832}{}{You are an expert when it comes to the fine art of handling explosives. They always go off when they're supposed to and are one hex larger in radius. This does not affect grenades.}
 # PE_GAMBLER
 {103841}{}{Class Perk: Chosen One}
-{103842}{}{You have big mission, a lots challenges. So you need additional 2 perks, but your healing rate is half.}
+{103842}{}{You have a big mission, and lots of challenges. Thus you need these 2 additional perks, but you have lost all your healing rate. You aslo get an additional trait.}
 # PE_GAIN_STRENGTH
 {103851}{}{Gain Strength}
 {103852}{}{With this Perk you gain +2 to your Strength.}
@@ -1878,61 +1916,70 @@
 {103922}{}{Your innocent demeanor makes stealing from people a little easier.  You lose only half the reputation when stealing.}
 # PE_HERE_AND_NOW
 {103931}{}{Class Perk: Random Boy}
-{103932}{}{Lucky or not, you gamble your all life for be like you are.}
+{103932}{}{Lucky or not, you bet your whole life like you are. You receive 9 random stats 1 of which is a random better stat. You aslo have 2% lifesteal per luck as well as 3% reduce per luck and 5% MS per luck. Your damage aslo increases by 5% per luck and you have 10 AP regen per luck. }
 # PE_HTH_EVADE
 {103941}{}{HtH Evade}
-{103942}{}{If both item slots are empty, you get additional 20 points to your AC.}
+{103942}{}{If both item slots are empty, you get an additional 20 points to your AC.}
 # PE_KAMA_SUTRA_MASTER
 {103951}{}{Class Perk: Soldier}
-{103952}{}{Experience soldier is better in every one of life, even when is only 1%, all stats up, but its bigger chance to get knockout}
+{103952}{}{Soldiers are strong, +1 to all SPECIAL and many stats and -1AP cost for all actions, but also %1 chance on all action to receive knockout and Stonewall perk not working.}
 # PE_KARMA_BEACON
 {103961}{}{Karma Beacon}
 {103962}{}{Your Karma shines twice as bright. Whether good or bad, your Karma is doubled for any kind of reaction or modifiers.}
 # PE_LIGHT_STEP
 {103971}{}{Light Step}
-{103972}{}{You are agile, lucky and always careful.  This perk halves your chances for setting off a trap.}
+{103972}{}{You are agile, lucky, and always careful. This perk halves your chances for setting off a trap.}
 # PE_LIVING_ANATOMY
 {103981}{}{Living Anatomy}
-{103982}{}{You have a better understanding of living creatures and their strengths and weaknesses.  You get more critical successes and fewer critical failures when you are healing, and you do +5 damage per attack to living creatures.}
+{103982}{}{You have a better understanding of living creatures and their strengths and weaknesses. You get more critical successes and fewer critical failures when you are healing, and you do +15 damage per attack to living creatures.}
 # PE_MAGNETIC_PERSONALITY
 {103991}{}{Magnetic Personality}
-{103992}{}{People just love to be around you!  You gain additional 50 points to your follower limit.}
+{103992}{}{People just love to be around you! You gain an additional 50 points to your follower limit.}
 # PE_NEGOTIATOR
 {104001}{}{Negotiator}
-{104002}{}{You are a notorious negotiator.  Not only can you barter with the best of them, you can also talk your way into or out of nearly anything.  With this Perk your worst reputation counts as neutral.}
+{104002}{}{You are a notorious negotiator. Not only can you barter with the best of them, you can also talk your way into or out of nearly anything.  With this Perk all negative reputation counts as neutral.}
 # PE_PACK_RAT
 {104011}{}{Pack Rat}
-{104012}{}{You are efficient at arranging your inventory in general.  This makes it much easier to carry that little extra you've always needed.}
+{104012}{}{You are efficient at arranging your inventory in general. This makes it much easier to carry that little extra you've always needed. Pack Rat doubles your carry weight.}
 # PE_PYROMANIAC
 {104021}{}{Pyromaniac}
 {104022}{}{You do extra damage with fire-based weapons, and enemies always seem to die in the most painful fiery fashion.}
 # PE_QUICK_RECOVERY
 {104031}{}{Quick Recovery}
-{104032}{}{You are quick at recovering from being knocked down.}
+{104032}{}{You are quick at recovering from being knocked down. Reduces knockdowns to 3AP and halves the duration of knockouts and lost turns.}
 # PE_SALESMAN
 {104041}{}{Class Perk: Killer}
-{104042}{}{You are perfect Killer, for every player kill you regen all your action points, for killing NPC you got only few AP. But Killer dont like be killed, your replication timer its 5x loner}
+{104042}{}{You are the perfect Killer. For every player killed you regen all your action points, and for every NPC killed you regen %33 as well. You get +3 Agility and %10 Life Steal, and a %1 chance per point of Agility to do double damage. However, Killers don't like be killed, so your replication timer is now 5x longer.}
 # PE_STONEWALL
 {104051}{}{Stonewall}
-{104052}{}{You are much less likely to be knocked down in combat.}
+{104052}{}{You are much less likely to be knocked down in combat from critical strikes and suffer knockback from grenades, shotguns and rocket explosions.}
 # PE_THIEF
 {104061}{}{Thief}
-{104062}{}{The blood of a thief runs through your veins.  Luck/50 chance for no timeout when failing to steal.  A well rounded thief is alive thief.}
+{104062}{}{The blood of a thief runs through your veins.  You gain a Luck/50 chance for no timeout when failing to steal.  A well rounded thief is a live thief.}
 # PE_WEAPON_HANDLING
 {104071}{}{Weapon Handling}
 {104072}{}{You can wield weapons much larger than normally allowed. You gain a +2 to your strength for the purposes of Strength checks when trying to wield weaponry.}
 # PE_VAULT_CITY_TRAINING
 {104081}{}{Class Perk: Assassin}
-{104082}{}{Allow you attack while sneaking but while you not sneaking you deal 75% less damage}
+{104082}{}{Allows you to attack while sneaking but while you are not sneaking you deal 75% less damage.}
+# PE_VAULT_CITY_TRAINING
+{104101}{}{Vampire}
+{104102}{}{I want to suck your blood! Muahaha! You have learned to feed from the blood and suffering of your foes in Melee combat. This perk grants 25% Lifesteal on all melee attacks!}
+
+{104111}{}{Fire Fighter}
+{104112}{}{First contain the fire, then move in and extinguish it! For you, putting out fires is standard operating procedure. This perk grants 15 Damage Threshold for fire and explosive damage.}
 # PE_EXPERT_EXCREMENT
 {104171}{}{Expert Excrement Expeditor}
 {104172}{}{You can sling bull with the best of them.}
 # PE_JINXED_II
-{104191}{}{Jinxed}
-{104192}{}{The good thing is that everyone around you has more critical failures in combat. The bad thing is that you do too!}
+{104181}{}{Class Perk: Sniper}
+{104182}{}{You have +1 crit power per hex you are away from your target but you lose 6% of each DR. You get %1 bonus to accuracy for each point of perception and passive crit power is doubled when using Long Range weapons.}
+# PE_JINXED_II
+{104191}{}{Class Perk: Infantry}
+{104192}{}{Your Damage Resistance cap is increased by %10 and you get a 7% bonus to each DR, but you lose 40% maximum health. You aslo have the ability to become immune for 1 minute to 1 type of damage but you can't choose the same type of damage twice in a row. For each Endurance point you have your immunity gets increased by 1 minute}
 # PE_TERMINATOR
 {104201}{}{Terminator}
-{104202}{}{Forget about limbs crippling, blindness, knock-downs! Your skeleton and titanium-alloy vital organs will not break even if a tank crosses you! All critical hits ignored.}
+{104202}{}{Forget about limbs crippling, blindness, knock-downs! Your skeleton and titanium-alloy vital organs will not break even if a tank crosses you! All critical hit effects are ignored.}
 # PE_TREE_TRUNK_THIGHS        (421)
 {104211}{}{Tree Trunk Thighs}
 {104212}{}{You have large legs, you are able to shrug off leg shots that would floor others.}
@@ -1947,37 +1994,37 @@
 {104242}{}{You are able to spot the vulnerable points in enemies. You gain 10% critical chance.}
 # PE_RIGHT_BETWEEN_THE_EYES   (425)
 {104251}{}{Right Between the Eyes}
-{104252}{}{You are able to hit your target with unerring accuracy. Helmets are no protection against you! }
+{104252}{}{You are able to hit your target with unerring accuracy. Helmets have 90% less critical chance protection less}
 # PE_FAST_RELOAD              (426)
 {104261}{}{Fast Reload}
 {104262}{}{You are able to reload your weapon very quickly. It only takes you 1 AP.}
 # PE_SPRAY_AND_PRAY           (427)
 {104271}{}{Spray and Pray}
-{104272}{}{You cover your target in bullets... one of them is bound to find a hole. You ignore armour’s Critical Modifier.}
+{104272}{}{You cover your target in a burst of bullets... one of them is bound to find a hole. You ignore Critical Chance Cap}
 # PE_MORE_RANGED_DAMAGE       (428)
 {104281}{}{More Ranged Damage}
-{104282}{}{Your advanced training in firearms and other ranged weapons has made you even more deadly in ranged combat than those with a basic training. You do +3 points of damage with ranged weapons {}
+{104282}{}{Your advanced training in firearms and other ranged weapons has made you even more deadly in ranged combat than those with basic training. You do +3 points of damage per bullet with ranged weapons. {}
 # PE_LIVEWIRE                 (429)
 {104291}{}{Livewire}
-{104292}{}{You have learnt to harness your extra energy and in battle you are a blur. You double your bonus AC gained from your AG.}
+{104292}{}{You have learned to harness your extra energy and you are a blur in battle. You double your bonus AC gained from your AG.}
 # PE_GECKO_SKINNING
 {104301}{}{Gecko Skinning}
-{104302}{}{You have the knowledge of how to skin geckos properly in order to get their pelts.}
+{104302}{}{You have learned how to skin geckos properly in order to get their pelts.}
 # PE_VAULT_CITY_INOCULATIONS
-{104311}{}{Vault City Inoculations}
-{104312}{}{You have gained +10% resistance to both poison and radiation.}
+{104311}{}{Implant: EMP Shields}
+{104312}{}{You have extra EMP protection, and maybe some side effects! 1: +%30 EMP resistance 2: +%30 EMP resistance, also you cannot crit 3: +%30 EMP resistance, -%1 move speed per charisma}
 # PE_DERMAL_IMPACT
 {104321}{}{Implant: Dermal Impact Armor}
-{104322}{}{You have inherent protection against physical attacks.}
+{104322}{}{You have inherent protection against physical attacks. +%4 Nrml/Expl DR}
 # PE_DERMAL_IMPACT_ENH
 {104331}{}{Implant: Dermal Assault Enhancement}
-{104332}{}{You have extra inherent protection against physical attacks.}
+{104332}{}{You have extra inherent protection against physical attacks. 1: +%4 Nrml/Expl DR, +1 Nrml/Expl DT 2: +%4 Nrml/Expl DR, +1 Nrml/Expl  Cyborg 3rd tier: -1 enemy crit roll per charisma}
 # PE_PHOENIX_IMPLANTS
 {104341}{}{Implant: Phoenix Armor Implants}
-{104342}{}{You have inherent protection against energy attacks.}
+{104342}{}{You have inherent protection against energy attacks. +%4 Fire/Laser/Plasma DR}
 # PE_PHOENIX_IMPLANTS_ENH
 {104351}{}{Implant: Phoenix Assault Enhancement}
-{104352}{}{You have extra inherent protection against energy attacks.}
+{104352}{}{You have extra inherent protection against energy attacks. 1: +%4 Fire/Laser/Plasma DR, +1 Fire/Laser/Plasma DT  2: %2 Fire Damage Bonus per charisma.}
 # PE_HTH_EVADE_II             (436)
 {104361}{}{HtH Evade+}
 {104362}{}{If both of your item slots are empty, you get a +40 bonus to your Armor Class.}
@@ -1988,17 +2035,17 @@
 {104381}{}{Even Tougher}
 {104382}{}{When you are even tougher, you take even less damage. You gain +10% to your Damage Resistance and +3 to your Damage Threshold.}
 # PE_HEALER_II                (439)
-{104391}{}{Firegeckon's Slayer}
-{104392}{}{deal extra damage against Firegeckons NPCs}
+{104391}{}{Desert Hunter}
+{104392}{}{Deal %1 extra damage against Geckos, Floaters, Centaurs, Deathclaws, Brahmins, Rats, Mantis, Aliens NPCs}
 # PE_BLESSED_ARE_THE_WEAK     (440)
-{104401}{}{Floater's Slayer}
-{104402}{}{deal extra damage against floaters NPCs}
+{104401}{}{Traveller}
+{104402}{}{Increase chance to find special encounter by 0.1%}
 # PE_NIGHT_PERSON             (441)
 {104411}{}{Class Perk: Leader}
-{104412}{}{Allow yoou to create a flag, gives bonuses to whole faction, but this bonus its taken from you}
+{104412}{}{Allows you to create a flag with buff to faction for 360 seconds with 180 second cd, also gives you %50 Critical Resist and move speed for each teammate, but halves your Field of View.}
 # PE_MELT_INTO_SHADOW         (442)
-{104421}{}{Robot's Slayer}
-{104422}{}{deal extra damage against Robots NPCs}
+{104421}{}{Robot Slayer}
+{104422}{}{Deal %1 extra damage against Robot NPCs}
 # PE_BONUS_HTH_DAMAGE_II      (443)
 {104431}{}{More HtH Criticals}
 {104432}{}{Mastery in unarmed combat has given you the edge when it comes to damage.  You cause +15% critical chance with hand-to-hand and melee attacks.}
@@ -2007,79 +2054,79 @@
 {104442}{}{You cut an intimidating figure and people cower when you are near. Opponents have a 50% chance of missing you when in an adjacent square.}
 # PE_HIT_THE_GAPS             (445)
 {104451}{}{Hit the Gaps}
-{104452}{}{You are an expert at punching through the weak spots in armor. The Critical Modifier value of any armor is reduced by 50% }
+{104452}{}{You are an expert at punching through the weak spots in armor. The Critical Chance Modifier value of any armor is reduced by 80% }
 # PE_HTH_CRITICALS            (446)
 {104461}{}{Better HtH Criticals}
 {104462}{}{The critical hits you cause in hand to hand combat are more devastating. You gain a +25 bonus on the critical hit table. This does not affect the chance to cause a critical hit.}
 # PE_HEAVE_HO_II              (447)
-{104471}{}{Centaur's Slayer}
-{104472}{}{deal extra damage against Centaurs NPCs}
+{104471}{}{Quick Dodger}
+{104472}{}{Decrease the chance of being hit  by NPCs}
 # PE_JUNK_MERCHANT            (448)
-{104481}{}{Deathclaw's Slayer}
-{104482}{}{deal extra damage against Deathclaws NPCs}
+{104481}{}{Merciless Hunter}
+{104482}{}{Increase the chance to catch a encounter by 5%}
 # PE_BULK_TRADER              (449)
 {104491}{}{Murder}
-{104492}{}{deal extra damage against Human NPCs}
+{104492}{}{Deal %1 extra damage per level against Human NPCs}
 # PE_PARAMEDIC              (450)
 {104501}{}{Class Perk: Paramedic}
-{104502}{}{This Perk disable timeouts for first aid and doctor and allow you revive dead poeple, but your deal half damage.}
+{104502}{}{This Perk disables timeouts for first aid and doctor and allows you to revive dead people, but you deal %50 damage.}
 # PE_BORN_LEADER              (451)
-{104511}{}{Mutant's Slayer}
-{104512}{}{deal extra damage against Mutants NPCs}
+{104511}{}{Mutant Slayer}
+{104512}{}{Deal %1 extra damage per level against Mutant NPCs}
 # PE_TRAPPER                  (452)
-{104521}{}{Earth Defender}
-{104522}{}{deal extra damage against Aliens NPCs}
+{104521}{}{Trader}
+{104522}{}{Increase prices of selling item by 1%.}
 # PE_HAND_LOADER              (453)
 {104531}{}{Semi Pathfinder}
-{104532}{}{The Pathfinder is able to find the shortest route available.  With this Perk, your travel speed on the World Map is increased by 5%}
+{104532}{}{The Pathfinder is able to find the shortest route available. With each level of this Perk, your travel speed on the World Map is increased by 5%.}
 # PE_STEALTH_GIRL             (454)
 {104541}{}{Stealth Girl}
-{104542}{}{Your intuitive understanding of the inner mechanism of Stealth Boys allows you to use them for twice as long.}
+{104542}{}{Your intuitive understanding of the inner mechanisms of Stealth Boys allows you to use them for twice as long.}
 # PE_BEST_OF_A_BAD_LOT        (455)
 {104551}{}{Best of a Bad Lot}
 {104552}{}{You are an expert at rescuing equipment which is on the verge of falling apart.  All items with a condition of below 15% count as 15% when being repaired.}
 # PE_DISMANTLER               (456)
 {104561}{}{Dismantler}
-{104562}{}{You're the kind of a person who always finds spare screws after dismantling a clock and putting it back together.  You recycle twice the usual number of base resources whenever dismantling an item.}
+{104562}{}{You're the kind of a person who always finds spare screws after dismantling a clock and putting it back together. You recycle twice the usual number of base resources whenever dismantling an item.}
 # PE_VIGILANT_RECYCLER        (457)
 {104571}{}{Mini Toughness}
-{104572}{}{increase your damage resistance against NPCs}
+{104572}{}{Increases your damage resistance against NPCs by %1 per level.}
 # PE_RETENTION                (458)
 {104581}{}{Strong Back Lite}
-{104582}{}{You can carry an additional 5 kg of equipment.}
+{104582}{}{You can carry an additional 5 kg of equipment per level.}
 # PE_TREASURE_HUNTER          (459)
 {104591}{}{Treasure Hunter}
-{104592}{}{You are exceptionally skilled when it comes to search for valuables long forgotten.  You find more wealth in lockers scattered in the encounters.}
+{104592}{}{You are exceptionally skilled when it comes to searching for valuables long forgotten. You find more wealth in lockers scattered throughout the wasteland.}
 # PE_LOCKPICK_PERK_2          (460)
 {104601}{}{Small Ranged Damage}
-{104602}{}{Deal 1 extra damage to NPCs}
+{104602}{}{Deal 2 extra flat damage to NPCs per level.}
 # PE_DEAD_MAN_WALKING         (461)
 {104611}{}{Dead Man Walking}
-{104612}{}{Like Rasputin, it takes a lot to finally finish you off.  Your health points can drop to twice the negative value before you finally die.}
+{104612}{}{Like Rasputin, it takes a lot to finally finish you off. Your health points can drop to twice the negative value before you finally die.}
 # PE_NEMEAN_ARMOR             (462)
 {104621}{}{Implant: Nemean Armor}
-{104622}{}{It is designed to provide increased damage tolerance by bolstering the user's skin cells with iron.}
+{104622}{}{It is designed to increase hit points by bolstering the user's skin cells with iron. 1: +10% HP 2: +10% HP +15 healing rate 3: +20 HP -1 damage reduce per charisma}
 # PE_IMP_STRENGTH             (463)
 {104631}{}{Implant: Hypertrophy Accelerator}
-{104632}{}{It is designed to enhance the muscle mass of the person it's installed in by acting as an automatic version of steroids, forcing the body to make a large amount of muscle mass.}
+{104632}{}{It is designed to enhance the muscle mass of the person it's installed in by acting as an automatic version of steroids, forcing the body to make a large amount of muscle mass. +1 ST}
 # PE_IMP_PERCEPTION           (464)
 {104641}{}{Implant: Optics Enhancer}
-{104642}{}{It is designed to improve eyesight of the person it's installed in by acting as a pair of sight enhancing glasses, sharpening the view of the user of the implant.}
+{104642}{}{It is designed to improve the eyesight of the person it's installed in by permanently sharpening the view of the user. +1 PE}
 # PE_IMP_ENDURANCE            (465)
 {104651}{}{Implant: Nociception Regulator}
-{104652}{}{It is designed to improve sensory receptors in the body that detect potentially damaging stimuli (such as excess pressure or heat) and send the nerve signals to the brain and spinal cord.}
+{104652}{}{It is designed to improve the sensory receptors in the body that detect potentially damaging stimuli (such as excess pressure or heat) and send the nerve signals to the brain and spinal cord. +1 EN}
 # PE_IMP_CHARISMA             (466)
 {104661}{}{Implant: Empathy Synthesizer}
-{104662}{}{It is designed to compute possible reactions of other human beings and suggesting actions to it's user.}
+{104662}{}{It is designed to compute possible reactions of other human beings and suggest actions to it's user. +1 CH}
 # PE_IMP_INTELLIGENCE         (467)
 {104671}{}{Implant: Logic Co-processor}
-{104672}{}{It is designed to improve logical thinking of the person it's installed in by calculating possible outcome, thus helping in solving problems and making the best decision.}
+{104672}{}{It is designed to improve the logical thinking of the person it's installed in by calculating possible outcomes, thus helping in problem solving and decision making. +1 IN}
 # PE_IMP_AGILITY              (468)
 {104681}{}{Implant: Reflex Booster}
-{104682}{}{It is designed to boost the reflex action of the recipient by conducting the electric current in the nervous system and sending it to the area where it needs to go to.}
+{104682}{}{It is designed to boost the reflexive actions of the recipient by conducting electric currents through the nervous system and sending them to the areas where they need to go. +1 AG}
 # PE_IMP_LUCK                 (469)
 {104691}{}{Implant: Probability Calculator}
-{104692}{}{It is designed to aid the person it's installed in by quickly calculating the chances of every single possible thing that can happen, allowing the user to make the best choice in any situation.}
+{104692}{}{It's designed to aid the person it's installed in by quickly calculating the chances of every single possible thing that can happen, allowing the user to make the best choice in any situation. +1 LK}
 # PE_IMP_LUCK                 (470)
 # 104700
 # ADDICTION_NUKA_COLA, addictions
@@ -2105,27 +2152,27 @@
 {104762}{}{You feel a burning desire to open another box of Tragic cards.}
 # ADDICTION_CIGARETTES, addictions
 {104771}{}{Cigarettes addiction}
-{104772}{}{You crave for another cigarette.}
+{104772}{}{You crave another cigarette.}
 # ADDICTION_CIGARETTES, addictions
 {104781}{}{Alcohol addiction}
-{104782}{}{You are member of AA.}
+{104782}{}{You are a member of AA.}
 # ADDICTION_CIGARETTES, addictions
 {104791}{}{Healing powders addiction}
-{104792}{}{that powders make you crazy. but you still want take it like Zinthos}
+{104792}{}{That powder makes you crazy, but you still want to take it like Zinthos.}
 # ADDICTION_CIGARETTES, addictions
 {104801}{}{After Burner gum addiction}
 {104802}{}{You are burning up.}
 # ADDICTION_CIGARETTES, addictions
 {104811}{}{Mutie addiction}
-{104812}{}{We love you way you are, even when you looks like mutant.}
+{104812}{}{We love you the way you are, even when you look like a mutant.}
 # ADDICTION_CIGARETTES, addictions
 {104821}{}{Voodoo addiction}
-{104822}{}{When you suffer from voodoo addiction, you suffer so much.}
+{104822}{}{When you suffer from a voodoo addiction, you suffer so much.}
 
 # 104800
 # KARMA_BERSERKER
 {104831}{}{Berserker}
-{104832}{}{You have killed a large number of people. This is generally not a good thing to get known for. People from the wrong side of the track will like you a little more, however.}
+{104832}{}{You have killed a large number of people. This is generally not a good thing to get known for. People from the wrong side of the tracks will like you a little more, however.}
 # KARMA_CHAMPION
 {104841}{}{Champion}
 {104842}{}{Your actions have revealed you to be a champion of the people. Your war against evil and villainy is widely known. Honorable people will respect you better.}
@@ -2154,8 +2201,8 @@
 {104921}{}{Virgin of the Wastes}
 {104922}{}{You really need to get out more. Your sexual exploits have been...well, two dimensional.}
 # KARMA_MAN_SALVATORE
-{104931}{}{Made Man: Salvatore}
-{104932}{}{You are a "Made Man" of the Salvatore Family. You are well-known, well-respected, and look great in a fedora.}
+{104931}{}{Slaver}
+{104932}{}{You have been marked as a member of the Slaver's Guild. The tattoo on your forehead makes your profession evident to everyone you meet.}
 # KARMA_MAN_BISHOP
 {104941}{}{Made Man: Bishop}
 {104942}{}{You are a "Made Man" of the Bishop Family. You are well-known, well-respected, and look great in a fedora.}
@@ -2170,23 +2217,23 @@
 {104972}{}{Your spouse is no longer with you. I hope you're happy.}
 # KARMA_SLAVER
 {104981}{}{Ranger}
-{104982}{}{You hate slaver and your life is dedicated to free the slaves!}
+{104982}{}{You hate slavers and your life is dedicated to freeing slaves!}
 # 105000
 # DAMAGE_POISONED, damages
 {105001}{}{Poisoned}
-{105002}{}{Your character has been poisoned.  Poison will do damage over a period of time, until cured or it passes from your system.}
+{105002}{}{Your character has been poisoned. Poison will do damage over a period of time, until cured or it passes from your system.}
 # DAMAGE_RADIATED, damages
 {105011}{}{Radiated}
-{105012}{}{Your character is suffering from a significant amount of Radiation poisoning.  The more radiation damage, the more deadly the effect.}
+{105012}{}{Your character is suffering from a significant amount of Radiation poisoning. The more radiation damage, the more deadly the effect.}
 # DAMAGE_EYE, damages
 {105021}{}{Eye Damage}
-{105022}{}{This means your character has been seriously hit in one or both of your eyes.  This affects your Perception.}
+{105022}{}{This means your character has been seriously hit in one or both of your eyes. This affects your Perception.}
 # DAMAGE_RIGHT_ARM, damages
 {105031}{}{Crippled Right Arm}
-{105032}{}{The right arm has been severely hurt, and cannot function well.  If one arm has been crippled, you cannot use two-handed weapons.  If both arms have been crippled, you cannot attack with weapons.}
+{105032}{}{Your character's right arm has been severely hurt, and cannot function well. If one arm is crippled, you cannot use two-handed weapons.  If both arms are crippled, you cannot attack with weapons at all.}
 # DAMAGE_LEFT_ARM, damages
 {105041}{}{Crippled Left Arm}
-{105042}{}{Your character's left arm has been severely hurt, and cannot function well.  If one arm has been crippled, you cannot use two-handed weapons.  If both arms have been crippled, you cannot attack with weapons.}
+{105042}{}{Your character's left arm has been severely hurt, and cannot function well. If one arm is crippled, you cannot use two-handed weapons.  If both arms are crippled, you cannot attack with weapons at all.}
 # DAMAGE_RIGHT_LEG, damages
 {105051}{}{Crippled Right Leg}
 {105052}{}{Your character has a crippled right leg.}
@@ -2204,55 +2251,54 @@
 # 105500
 # TRAIT_FAST_METABOLISM
 {105501}{}{Fast Metabolism}
-{105502}{}{Your metabolic rate is twice normal.  This means you heal every 10 seconds but your natural resistance to radiation and poison is lowered to 0. And Drugs timeout halfed}
+{105502}{}{Your metabolic rate is twice as normal. This means you heal 10 seconds faster and get +10 healing rate. However, drugs only last half the time for you.}
 # TRAIT_BRUISER
 {105511}{}{Bruiser}
-{105512}{}{A little slower, but a little bigger.  You may not hit as often, but they will feel it when you do!  Your movemnt speed its lowered, but your Strength is increased and you deal even more damage in melee.}
+{105512}{}{A little slower, but a little bigger. You may not hit as often, but they will feel it when you do! Your Speedboost stat is reduced by -%10, and by -%20 without a melee weapon equipped, but your base melee damage increases by 1 for each Strength point and all sources.}
 # TRAIT_SMALL_FRAME
 {105521}{}{Small Frame}
-{105522}{}{You are not quite as big as the other ordinary man, but that never slowed you down.  You can't carry as much, but you are more agile.}
+{105522}{}{You are not quite as big as ordinary men, but that never slowed you down. You can't carry as much, but you are more fast and agile. +1 AP}
 # TRAIT_ONE_HANDER
 {105531}{}{One Hander}
-{105532}{}{One of your hands is very dominant.  You excel with single-handed weapons, but two-handed weapons cause a problem.}
+{105532}{}{One of your hands is very dominant. You excel with single-handed weapons (+20% to damage), but two-handed weapons are a problem (-15% max cap chance to hit).}
 # TRAIT_FINESSE
 {105541}{}{Finesse}
-{105542}{}{Your attacks show a lot of finesse.  You don't do as much damage, but you cause more critical hits.}
+{105542}{}{Your attacks show a lot of finesse. You don't do as much damage, targets get 25% damage reduction and you get 33% more chance for critical effect and 15% critical chance.}
 # TRAIT_KAMIKAZE
 {105551}{}{Kamikaze}
-{105552}{}{By not paying attention to any threats, you can act a lot faster.  This lowers your damage resistance, but increases your damage output by 10%.}
+{105552}{}{By not paying attention to any threats, you can act a lot faster. This lowers your DR by %10, but increases your damage output by 15%.}
 # TRAIT_HEAVY_HANDED
 {105561}{}{Heavy Handed}
-{105562}{}{You swing harder, not better.  Your attacks are very brutal, but lack finesse.  You rarely cause a good critical, but you always do more unarmed damage. Additionally, all your close combat attacks knock down the opponent if a successful Strength roll was made.}
-# TRAIT_FAST_SHOT
+{105562}{}{Your swings are harder, not better. Your attacks are very brutal, but lack finesse. You rarely cause a good critical, but you always do more unarmed damage. You gain +2 melee damage and -20 to crit table rolls. Additionally, all your close combat attacks knock down the opponent if a successful Strength roll is made.}# TRAIT_FAST_SHOT
 {105571}{}{Fast Shot}
-{105572}{}{You don't have time to aim for a targeted attack, because you attack faster than normal people.  It costs you one less action point for guns and thrown weapons, and then one less with two handed weapons. It also decreases your Critical power hits}
+{105572}{}{You don't have time to aim for a targeted attack, because your attacks are faster then normal peoples. -1 to AP cost of single shots (one-handed weapons), -2 to AP cost of single shots (two-handed weapons), +5 flat damage bonus, however -35 critical roll on all attacks.}
 # TRAIT_BLOODY_MESS
 {105581}{}{Bloody Mess}
-{105582}{}{By some strange twist of fate, people around you die violently.  You always see the worst way a person can die. You regen part of your action points after every kill.}
+{105582}{}{By some strange twist of fate, people around you die violently. You always see the worst way a person can die. You regen %33 of your action points after every kill. However, -%20 to all starting skills.}
 # TRAIT_JINXED
 {105591}{}{Jinxed}
 {105592}{}{The good thing is that everyone around you has more critical failures in combat, the bad thing is so do you!}
 # TRAIT_GOOD_NATURED
 {105601}{}{Good Natured}
-{105602}{}{There is a positive aura about you. People are more likely to follow you, but you can't own any slaves.}
+{105602}{}{There is a positive aura about you. People are more likely to follow you, but you can't own any slaves. +50 Party Points, +10% Hit points, lose that HP when killed a player}
 # TRAIT_CHEM_RELIANT
 {105611}{}{Chem Reliant}
-{105612}{}{You are more easily addicted to chems.  All drug addictions are permanent, but the drug effects last twice as long.}
+{105612}{}{You are more easily addicted to chems. All drug addictions are permanent. Also you can take more drugs at once}
 # TRAIT_CHEM_RESISTANT
 {105621}{}{Cannibal}
-{105622}{}{}
+{105622}{}{You are able to loot and consume human body parts, which grant you powerful drug bonuses. However, you can no longer experience the effects of normal drugs. If you die from blood intoxication on the World Map in your car, your trunk will be lost. It aslo deals 8 damage per drug at the start of your turn in turnbased mode}
 # TRAIT_BONEHEAD
 {105631}{}{Bonehead}
-{105632}{}{A thicker than average cranium means you can shrug off hits to the head that would floor others.  Unfortunatly that doesn't leave much room up there.}
+{105632}{}{A thicker than average cranium means you can shrug off hits to the head that would floor others (50% critical hit roll and 25% critical chance resistance whenever the head or eyes are targeted). . Unfortunately that doesn't leave much room up there (-2 IN).}
 # TRAIT_SKILLED
 {105641}{}{Gifted}
-{105642}{}{You have more innate abilities than most, so you have not spent as much time honing your skills.  Your primary statistics are each +1, but you receive much less SP per level.}
+{105642}{}{You have more innate abilities then most, so you don't have to spent as much time honing your skills. Your primary statistics are each +1, but you receive much less SP per level.}
 # TRAIT_LONER
 {105651}{}{Loner}
-{105652}{}{You appreciate the nature more than company of others. You gain 10% more experience, but you can't have any followers.}
+{105652}{}{You appreciate silence more then the company of others. You gain 10% more experience, but you can't have any followers.}
 # TRAIT_GIFTED
 {105661}{}{Gifted}
-{105662}{}{You have more innate abilities than most, so you have not spent as much time honing your skills.  Your primary statistics are each +1, but you lose -10% on all skills to start, and receive 5 less skill points per level.}
+{105662}{}{You have more innate abilities then most, so you do not have to spent as much time honing your skills.  Your primary statistics are each +1, but you lose -10% on all skills to start, and receive 5 less skill points per level.}
 
 ######################
 #
@@ -2391,6 +2437,78 @@
 
 ####################
 #
+# misc
+#
+####################
+{107011}{}{Buff: Goris Slayer}
+{107012}{}{You beat big deathclaw mother, you get temporary 1 action point.}
+{107021}{}{Buff: Queen Killer}
+{107022}{}{You beat Alien Queen, you get temporary 4 Damage Resistances.}
+{107031}{}{Buff: Hacker}
+{107032}{}{You beat Robot Commander, you get temporary 7 Critical Chance.}
+{107041}{}{Buff: Super Hero}
+{107042}{}{You beat Spider King, you get temporary 50 Carry Weight.}
+{107051}{}{Buff: Greenskin}
+{107052}{}{You beat Melhior, you get temporary 20 Hit points.}
+{107061}{}{Buff: Sheriff}
+{107062}{}{You beat Raiders Boss, you get temporary 1 Damage per bullet}
+
+
+
+{111331}{}{Extra Hit Points}
+{111332}{}{}
+{111341}{}{Extra Action Points}
+{111342}{}{}
+{111351}{}{Extra Normal Defensive}
+{111352}{}{}
+{111361}{}{Extra Laser Defensive}
+{111362}{}{}
+{111371}{}{Extra Fire Defensive}
+{111372}{}{}
+{111381}{}{Extra Plasma Defensive}
+{111382}{}{}
+{111391}{}{Extra Explode Defensive}
+{111392}{}{}
+{111401}{}{Extra Electric Defensive}
+{111402}{}{}
+{111411}{}{Extra Utility}
+{111412}{}{}
+{111421}{}{Extra AP for TB}
+{111422}{}{}
+{111431}{}{Extra Sequence}
+{111432}{}{}
+{111441}{}{Extra Melee Damage}
+{111442}{}{}
+{111451}{}{Extra Strength}
+{111452}{}{}
+{111461}{}{Extra Perception}
+{111462}{}{}
+{111471}{}{Extra Agility}
+{111472}{}{}
+{111481}{}{Extra Luck}
+{111482}{}{}
+{111491}{}{Extra Endurance}
+{111492}{}{}
+{111501}{}{Extra Charisma}
+{111502}{}{}
+{111511}{}{Extra Intelligence}
+{111512}{}{}
+{111521}{}{Extra Critical Chance}
+{111522}{}{}
+{111531}{}{Extra Critical Power}
+{111532}{}{}
+{111541}{}{Extra Critical Power(flat)}
+{111542}{}{}
+{111551}{}{Extra Healing Rate}
+{111552}{}{}
+{111561}{}{Extra Flat Damage}
+{111562}{}{}
+{111571}{}{Extra Accuracy}
+{111572}{}{}
+{111581}{}{Extra Sign Range}
+{111582}{}{}
+####################
+#
 # 3d attributes
 #
 ####################
@@ -2494,6 +2612,9 @@
 {300202}{}{Strong}
 {300203}{}{Fat}
 
+
+
+
 ####################################################################################################################################
 #
 #       Misc2 values names (100000 + pid*10 + number of val)
@@ -2503,6 +2624,8 @@
 {1001000}{}{Çŕđ˙ä}
 {1001001}{}{}
 {1001002}{}{}
+
+
 
 
 
@@ -2610,42 +2733,89 @@ the sources
 
 |0xff706050 Developers:
 |0xff907824 KompreSor
-Commisar Vinet
-Wezu
+Kommisar Vinet
 
 |0xff706050 Supporters:
-|0xff907824 Armored Figure
-Atticus
-Awgan
-Black Window
-Buozius
-Ceci
-Doctor Mengelito
-Donnie Darko
-Equaa
-Evil
-Fantatic
-Fargust
-Fored
-General Oliver
-Gimper
-Goiridth
-Hololasima
-Kuzza
-Lash
-Majkl
-Medic
-Pewu
-Preacher
-Pyra
-Seki
-Senteza
-Silence
-TKs-Prorok
-TKs-Suka
-Wiedzmon
-War Machine
-FreQ
+|0xff907824 1     Unknown
+2     Romanlord
+3     Evil
+4     Infantry RE7
+5     Lash
+6     MaciejCz
+7     Kulfix
+8     BrowaR
+9     Prorok
+10    Laky
+11    Botting
+12    Awgsome
+13    Black Window
+14    TenJames
+15    TUZMOR
+16    Majkl
+17    Balik
+18    kaincallavis
+19    Seki
+20    Equa
+21    Bryzord
+22    Senteza
+23    Fargust
+24    Lardon
+25    Meredeth
+26    Menieth
+27    mynameisjeff
+28    Lantern
+29    CN_TRO
+30    Mr Fantastic
+31    Will
+32    Lihwhatyeah
+33    zbahran
+34    ILLUNDIS
+35    Pirate
+36    Atticus
+37    Medic
+38    Darion Death-Hand
+39    BigTimeTripod
+40    Vaultloner
+41    Payney
+42    Wiedzmor
+43    gONzO
+44    LeeBP.
+45    BirdOfSong
+46    RisingV
+47    Zaakon
+48    Anmih
+49    Preacher
+50    Hololasima
+51    Buozius
+52    Eddsaw
+53    Jukka
+54    FreQ
+55    Bloodfang
+56    General Oliver
+57    Fored
+58    Luizus23
+59    Gimper
+60    Apollo
+61    Misosoupbaby
+62    ili4
+63    Suka
+64    Laaki
+65    Feesh
+66    Pewu
+67    Veinn
+68    Wolfman Al
+69    TKs-Mengelito
+70    Kamil06
+71    Armored Figure
+72    Silence
+73    Anima
+74    Goiridth
+75    Izaiah
+76    Pyra
+77    donnie darko
+78    kuzza
+79    Revan
+80	  War Machine
 
 
 |0xff706050 Contributors:
@@ -2656,34 +2826,79 @@ Bungo
 Evil
 Donnie Darko
 Druto
+Felix2043
 Gaunt
 GGBot
+Gimper
+FalloutModder
+Majkl
 Melt
+Nene Buano
 OldHero
+Onat
 Psotnik
+Senteza
 TKs-Gimper
 TKs-Mengelito
 TZanubis
+Urukhai
 Vilo512
 Wezu
 Worldremaker
+Wojtasqn
+ඞФиларетඞ
 Андрей Якимов
 ✝Emperor Stanwyck✝
 
 |0xff706050 Wiki Editors:
-|0xff907824 BeheGrzmot
+|0xff907824 Blabion
+BeheGrzmot
+CTH
 DodyCZE
+FalloutModder
 Fucy
 Generic Scout
-McDolan
+Hitman
+Dolald
+Salgard
+Seki
 Senteza
 TKs-Gimper
 Wezu
+White Mamba
+Zaakon
 
 |0xff706050 Game Masters:
-|0xff907824 Gimper
+|0xff907824 Gimper(ex GM)
 Pyra(ex GM)
+Urukhai
 
+|0xff706050 Testers:
+|0xff907824 Blabion
+Beckett
+CN_TRO
+Dabolina
+DodyCZE
+Dolald
+Erikk
+Eron
+Evil
+Evenss
+Helper
+Hololasima
+TenJames
+Kulfix
+Lucifugum
+Noctifer
+Onat
+Oski
+Owbermensch
+Payney
+RevanL
+Romanlord
+Senteza
+Soldierus
+White Mamba
 
 |0xff8c8c84 FOnline
 
@@ -3234,11 +3449,11 @@ LOG}
 {3000000007}{}{Quest done}
 {3000000008}{}{Please try again in a second.}
 {3000000009}{}{Shoot to hex}
-{3000000010}{}{You must be a leader in your team.}
+{3000000010}{}{You must be the leader of your team.}
 {3000000011}{}{Couldn't set up a base.}
 {3000000012}{}{Base successfuly set up.}
 {3000000013}{}{You can't set up a base here.}
-{3000000014}{}{You've been hit in a head so strong that you forgot way to that location.}
+{3000000014}{}{You've been hit in the head so strongly that you forgot the way to that location.}
 {3000000015}{}{RADIO}
 {3000000016}{}{CLOSE}
 {3000000017}{}{OTHER}
@@ -3260,4 +3475,4 @@ LOG}
 {3000000214}{}{You can't talk with yourself.}
 {3000000215}{}{You are not in a faction.}
 {3000000216}{}{Incorrect player name.}
-{3000000217}{}{This player is offline or does not exist.}
+{3000000217}{}{This player is either offline or does not exist.}

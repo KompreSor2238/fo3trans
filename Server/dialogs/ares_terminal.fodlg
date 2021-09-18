@@ -6,43 +6,253 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 1 #
+1 1000 None 1 #
 2 1010 @
-2 2000 main@dlg_Caps 0 #
-0 2010 &
+2 2000 None 0 #
+2 2010 #
+2 2020 #
+3 2030 #
+0 2040 @
+3 3000 None 0 #
+4 3010 #
+0 3020 @
+4 4000 None 0 #
+5 4010 #
+6 4020 #
+8 4030 #
+0 4040 @
+5 5000 None 0 #
+2 5010 #
+6 5020 #
+8 5030 #
+0 5040 @
+6 6000 None 0 #
+7 6010 #
+7 6020 #
+5 6030 #
+2 6040 #
+0 6050 @
+7 7000 None 0 #
+5 7010 #
+6 7020 #
+0 7030 @
+8 8000 None 0 #
+9 8010 #
+5 8020 #
+0 8030 @
+9 9000 None 0 #
+10 9010 #
+0 9020 @
+10 10000 None 0 #
+0 10010 &
 
 [engl]
 {100}{}{Terminal}
 {1000}{}{Predialogue installations}
 {1010}{}{Answer text}
-{2000}{}{error}
-{2010}{}{error}
+{2000}{}{[ Warning! Can't connect to network. ]@@[ Warning! Unsuccessful login attempt! ]@@[ Warning! Repetitive unsuccessful login attempts will be met with excessive force! ]}
+{2010}{}{*bang on the keyboard*}
+{2020}{}{*kick it in that "special" way*}
+{2030}{}{*hit the power button, sing it a love song, and pray*}
+{2040}{}{[ Login Unavailable ] [ end dialogue ]}
+{3000}{}{*as it turns off and comes back to life, the terminal appears to be heating up and smoking slightly... and now there are green graphical glitches flashing in vertical lines across the monitor* }
+{3010}{}{Great. [ Wait ]}
+{3020}{}{I don't have time for this crap. [ end dialogue ]}
+{4000}{}{0x00000012 TRAP_CAUSE_UNKNOWN This terminal has detected an unknown exception. What would you like to do? *you can just make out the following options*}
+{4010}{}{Load operating system normally.}
+{4020}{}{Enter BIOS.}
+{4030}{}{System Recovery.}
+{4040}{}{Well, this sucks. [ end dialogue ]}
+{5000}{}{Loading... *more smoke slowly emerges from the terminal* 0x00000028 CORRUPT_ACCESS_TOKEN This terminal has detected an unknown exception. What would you like to do? *you can make out the following options*}
+{5010}{}{Continue.}
+{5020}{}{Enter BIOS.}
+{5030}{}{System Recovery.}
+{5040}{}{I'm leaving now. [ end dialogue ]}
+{6000}{}{Welcome to RBIOS ver. 4.02.08.00. Product: RobCo RT-V300 System board ID: RC-X39L Manufacture date: [07/25/2073] Time: [12:00:05]. Date: [01/01/2070]. Processor: RC450@0.45MHz. Total Memory: 128KB.  Please set date and time!}
+{6010}{}{Security.}
+{6020}{}{System configuration.}
+{6030}{}{System log.}
+{6040}{}{Save and exit. [ reboot ]}
+{6050}{}{Fuck this, I'm outta here! [ end dialogue ]}
+{7000}{}{Input administrator password:}
+{7010}{}{*bang on the keyboard*}
+{7020}{}{*try to hack the terminal*}
+{7030}{}{Fuck this! [ end dialogue ]}
+{8000}{}{*after some time, a text box appears on the screen* Would you like to save a copy of all user profiles and attempt to repair this terminal, or simply delete all old information and reinstall?}
+{8010}{}{Delete everything, reformat, and reinstall.}
+{8020}{}{Keep old files and attempt to repair operating system.}
+{8030}{}{[ Exit ] [ end dialogue ]}
+{9000}{}{Warning, this will delete all data on this terminal and reset it to factory specifications! Do not continue unless you are absolutely sure!}
+{9010}{}{ Continue.}
+{9020}{}{Dangit, I have no idea what I am doing... [ end dialogue ]}
+{10000}{}{RobCo Unified Operating System is loading files... Please wait while RobCo installs devices such as your keyboard and mouse... *the green bars on the monitor flicker a few times, and at last everything shuts off completely... the terminal appears lifeless*}
+{10010}{}{Damn! I almost had it, too! [ end dialogue ]}
 
 [czec]
-{100}{}{none}
+{100}{}{Terminal}
 {1000}{}{Predialogue installations}
 {1010}{}{Answer text}
-{2000}{}{error}
-{2010}{}{error}
+{2000}{}{Warning! Can't connect to network.}
+{2010}{}{Bang on the keyboard!}
+{2020}{}{Kick it in that "special" way.}
+{2030}{}{*sing it a love song and pray*}
+{2040}{}{Login Unavailable}
+{3000}{}{*as it reboots, the terminal appears to be heating up and smoking slightly* 0x00000012 TRAP_CAUSE_UNKNOWN This terminal has detected an unknown exception. What would you like to do?}
+{3010}{}{Try to boot normally.}
+{3020}{}{I'm outta here.}
+{4000}{}{Warning! Unsuccessful login attempt! Repetitive unsuccessful attempts will be met with excessive force!}
+{4010}{}{Load operating system normally.}
+{4020}{}{Enter BIOS.}
+{4030}{}{Run self-recovery program.}
+{4040}{}{I don't have time for this crap. [ Exit ]}
+{5000}{}{Warning! Unsuccessful login attempt! Repetitive unsuccessful attempts will be met with excessive force!}
+{5010}{}{Continue.}
+{5020}{}{Enter BIOS.}
+{5030}{}{System Recovery.}
+{5040}{}{I'm leaving now. [ Exit ]}
+{6000}{}{Welcome to RBIOS ver. 4.02.08.00. Select your options.}
+{6010}{}{Security.}
+{6020}{}{System configuration.}
+{6030}{}{System log.}
+{6040}{}{Save and exit. [ reboot ]}
+{6050}{}{Fuck this! [ Exit ]}
+{7000}{}{Input BIOS password:}
+{7010}{}{*bang on the keyboard*}
+{7020}{}{*try to hack the terminal*}
+{7030}{}{Fuck this! [ Exit ]}
+{8000}{}{*after some time, a text box appears on the screen* Would you like to save a copy of all user profiles and repair this terminal, or simply delete all old information and reinstall?}
+{8010}{}{Delete everything, reformat, and reinstall.}
+{8020}{}{Keep old files, repair operating system.}
+{8030}{}{[ Exit ]}
+{9000}{}{RobCo Unified Operating System is loading files... Please wait while RobCo installs devices such as your keyboard and monitor...}
+{9010}{}{Oh well! [ Exit ]}
+{9020}{}{Dangit, I have no idea what I am doing... [ Exit ]}
+{10000}{}{RobCo Unified Operating System is loading files... Please wait while RobCo installs devices such as your keyboard and mouse... *the green bars on the monitor flicker a few times, and at last the display shuts off completely*}
+{10010}{}{Damn! I thought I had it, too! [ Exit ]}
 
 [pols]
-{100}{}{none}
+{100}{}{Terminal}
 {1000}{}{Predialogue installations}
 {1010}{}{Answer text}
-{2000}{}{error}
-{2010}{}{error}
+{2000}{}{Warning! Can't connect to network.}
+{2010}{}{Bang on the keyboard!}
+{2020}{}{Kick it in that "special" way.}
+{2030}{}{*sing it a love song and pray*}
+{2040}{}{Login Unavailable}
+{3000}{}{*as it reboots, the terminal appears to be heating up and smoking slightly* 0x00000012 TRAP_CAUSE_UNKNOWN This terminal has detected an unknown exception. What would you like to do?}
+{3010}{}{Try to boot normally.}
+{3020}{}{I'm outta here.}
+{4000}{}{Warning! Unsuccessful login attempt! Repetitive unsuccessful attempts will be met with excessive force!}
+{4010}{}{Load operating system normally.}
+{4020}{}{Enter BIOS.}
+{4030}{}{Run self-recovery program.}
+{4040}{}{I don't have time for this crap. [ Exit ]}
+{5000}{}{Warning! Unsuccessful login attempt! Repetitive unsuccessful attempts will be met with excessive force!}
+{5010}{}{Continue.}
+{5020}{}{Enter BIOS.}
+{5030}{}{System Recovery.}
+{5040}{}{I'm leaving now. [ Exit ]}
+{6000}{}{Welcome to RBIOS ver. 4.02.08.00. Select your options.}
+{6010}{}{Security.}
+{6020}{}{System configuration.}
+{6030}{}{System log.}
+{6040}{}{Save and exit. [ reboot ]}
+{6050}{}{Fuck this! [ Exit ]}
+{7000}{}{Input BIOS password:}
+{7010}{}{*bang on the keyboard*}
+{7020}{}{*try to hack the terminal*}
+{7030}{}{Fuck this! [ Exit ]}
+{8000}{}{*after some time, a text box appears on the screen* Would you like to save a copy of all user profiles and repair this terminal, or simply delete all old information and reinstall?}
+{8010}{}{Delete everything, reformat, and reinstall.}
+{8020}{}{Keep old files, repair operating system.}
+{8030}{}{[ Exit ]}
+{9000}{}{RobCo Unified Operating System is loading files... Please wait while RobCo installs devices such as your keyboard and monitor...}
+{9010}{}{Oh well! [ Exit ]}
+{9020}{}{Dangit, I have no idea what I am doing... [ Exit ]}
+{10000}{}{RobCo Unified Operating System is loading files... Please wait while RobCo installs devices such as your keyboard and mouse... *the green bars on the monitor flicker a few times, and at last the display shuts off completely*}
+{10010}{}{Damn! I thought I had it, too! [ Exit ]}
 
 [span]
-{100}{}{none}
+{100}{}{Terminal}
 {1000}{}{Predialogue installations}
 {1010}{}{Answer text}
-{2000}{}{error}
-{2010}{}{error}
+{2000}{}{Warning! Can't connect to network.}
+{2010}{}{Bang on the keyboard!}
+{2020}{}{Kick it in that "special" way.}
+{2030}{}{*sing it a love song and pray*}
+{2040}{}{Login Unavailable}
+{3000}{}{*as it reboots, the terminal appears to be heating up and smoking slightly* 0x00000012 TRAP_CAUSE_UNKNOWN This terminal has detected an unknown exception. What would you like to do?}
+{3010}{}{Try to boot normally.}
+{3020}{}{I'm outta here.}
+{4000}{}{Warning! Unsuccessful login attempt! Repetitive unsuccessful attempts will be met with excessive force!}
+{4010}{}{Load operating system normally.}
+{4020}{}{Enter BIOS.}
+{4030}{}{Run self-recovery program.}
+{4040}{}{I don't have time for this crap. [ Exit ]}
+{5000}{}{Warning! Unsuccessful login attempt! Repetitive unsuccessful attempts will be met with excessive force!}
+{5010}{}{Continue.}
+{5020}{}{Enter BIOS.}
+{5030}{}{System Recovery.}
+{5040}{}{I'm leaving now. [ Exit ]}
+{6000}{}{Welcome to RBIOS ver. 4.02.08.00. Select your options.}
+{6010}{}{Security.}
+{6020}{}{System configuration.}
+{6030}{}{System log.}
+{6040}{}{Save and exit. [ reboot ]}
+{6050}{}{Fuck this! [ Exit ]}
+{7000}{}{Input BIOS password:}
+{7010}{}{*bang on the keyboard*}
+{7020}{}{*try to hack the terminal*}
+{7030}{}{Fuck this! [ Exit ]}
+{8000}{}{*after some time, a text box appears on the screen* Would you like to save a copy of all user profiles and repair this terminal, or simply delete all old information and reinstall?}
+{8010}{}{Delete everything, reformat, and reinstall.}
+{8020}{}{Keep old files, repair operating system.}
+{8030}{}{[ Exit ]}
+{9000}{}{RobCo Unified Operating System is loading files... Please wait while RobCo installs devices such as your keyboard and monitor...}
+{9010}{}{Oh well! [ Exit ]}
+{9020}{}{Dangit, I have no idea what I am doing... [ Exit ]}
+{10000}{}{RobCo Unified Operating System is loading files... Please wait while RobCo installs devices such as your keyboard and mouse... *the green bars on the monitor flicker a few times, and at last the display shuts off completely*}
+{10010}{}{Damn! I thought I had it, too! [ Exit ]}
 
 [russ]
-{100}{}{none}
+{100}{}{Terminal}
 {1000}{}{Predialogue installations}
 {1010}{}{Answer text}
-{2000}{}{error}
-{2010}{}{error}
+{2000}{}{Warning! Can't connect to network.}
+{2010}{}{Bang on the keyboard!}
+{2020}{}{Kick it in that "special" way.}
+{2030}{}{*sing it a love song and pray*}
+{2040}{}{Login Unavailable}
+{3000}{}{*as it reboots, the terminal appears to be heating up and smoking slightly* 0x00000012 TRAP_CAUSE_UNKNOWN This terminal has detected an unknown exception. What would you like to do?}
+{3010}{}{Try to boot normally.}
+{3020}{}{I'm outta here.}
+{4000}{}{Warning! Unsuccessful login attempt! Repetitive unsuccessful attempts will be met with excessive force!}
+{4010}{}{Load operating system normally.}
+{4020}{}{Enter BIOS.}
+{4030}{}{Run self-recovery program.}
+{4040}{}{I don't have time for this crap. [ Exit ]}
+{5000}{}{Warning! Unsuccessful login attempt! Repetitive unsuccessful attempts will be met with excessive force!}
+{5010}{}{Continue.}
+{5020}{}{Enter BIOS.}
+{5030}{}{System Recovery.}
+{5040}{}{I'm leaving now. [ Exit ]}
+{6000}{}{Welcome to RBIOS ver. 4.02.08.00. Select your options.}
+{6010}{}{Security.}
+{6020}{}{System configuration.}
+{6030}{}{System log.}
+{6040}{}{Save and exit. [ reboot ]}
+{6050}{}{Fuck this! [ Exit ]}
+{7000}{}{Input BIOS password:}
+{7010}{}{*bang on the keyboard*}
+{7020}{}{*try to hack the terminal*}
+{7030}{}{Fuck this! [ Exit ]}
+{8000}{}{*after some time, a text box appears on the screen* Would you like to save a copy of all user profiles and repair this terminal, or simply delete all old information and reinstall?}
+{8010}{}{Delete everything, reformat, and reinstall.}
+{8020}{}{Keep old files, repair operating system.}
+{8030}{}{[ Exit ]}
+{9000}{}{RobCo Unified Operating System is loading files... Please wait while RobCo installs devices such as your keyboard and monitor...}
+{9010}{}{Oh well! [ Exit ]}
+{9020}{}{Dangit, I have no idea what I am doing... [ Exit ]}
+{10000}{}{RobCo Unified Operating System is loading files... Please wait while RobCo installs devices such as your keyboard and mouse... *the green bars on the monitor flicker a few times, and at last the display shuts off completely*}
+{10010}{}{Damn! I thought I had it, too! [ Exit ]}
 

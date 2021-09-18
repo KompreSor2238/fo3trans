@@ -6,9 +6,9 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 2 1010 @
-2 2000 main@dlg_Caps 0 #
+2 2000 None 0 #
 65506 2010 #
 0 2020 &
 
@@ -18,9 +18,9 @@ lang=engl czec pols span russ
 {210}{}{El Capitan Fernandez - owner of the well known garrison club.}
 {1000}{}{Predialogue installations}
 {1010}{}{-}
-{2000}{}{Attention private! What orders you brought for Captain Fernandez?}
-{2010}{}{What you have?}
-{2020}{}{Goodbye.}
+{2000}{}{Attention private! What business do you have with Captain Fernandez?}
+{2010}{}{What you have? [ Barter ]}
+{2020}{}{Nothing, sorry. Goodbye. [ end dialogue ]}
 
 [czec]
 {100}{}{none}

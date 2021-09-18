@@ -6,11 +6,11 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 2 1010 D _script dialog@d_WeaponInHand 0  #
 3 1020 @
-2 2000 main@dlg_Caps 0 @
-3 3000 main@dlg_Caps 0 &
+2 2000 None 0 @
+3 3000 None 0 &
 
 [engl]
 {100}{}{Cook}
@@ -20,7 +20,7 @@ lang=engl czec pols span russ
 {1010}{}{weapons}
 {1020}{}{---}
 {2000}{}{Please, lay down your weapons. This is a peaceful place!}
-{3000}{}{Did you ever ate Wasteland Fajitas?@@I still have to get some mushrooms done.@@Sorry, but I can't give you anything of it.@@Hello!}
+{3000}{}{Did you ever eat Wasteland Fajitas?@@I still have to get some mushrooms done.@@Sorry, but I can't give you any.@@Hello!@@I enjoy working here.@@The food here is actually pretty good!@@It's hard to get decent ingredients, but we do our best.@@Maybe we'll be on an episode of "Kitchen Frightmares".@@There's only a few radroaches here and there...@@...of course the rats are always a problem...@@...everything nice and fresh of course, especially the canned food...@@I hope we can find some better ingredients by the weekend.}
 
 [czec]
 {100}{}{none}

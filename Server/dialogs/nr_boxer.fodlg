@@ -6,20 +6,20 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 51 1010 D _var p q_nr_corsican_execution > 9 #
 2 1020 @
-2 2000 main@dlg_Caps 0 @
-10 3000 main@dlg_Caps 0 @
-50 4000 main@dlg_Caps 0 @
-51 5000 main@dlg_Caps 0 #
+2 2000 None 0 @
+10 3000 None 0 @
+50 4000 None 0 @
+51 5000 None 0 #
 52 5010 D _var p q_nr_corsican_execution = 17 R _var p q_nr_corsican_execution = 2 #
 10 5020 D _var p q_nr_corsican_execution ! 17 #
 0 5030 @
-52 6000 main@dlg_Caps 0 #
+52 6000 None 0 #
 0 6010 #
 0 6020 @
-53 7000 main@dlg_Caps 0 &
+53 7000 None 0 &
 
 [engl]
 {100}{}{Boxer}
@@ -43,10 +43,10 @@ lang=engl czec pols span russ
 {5000}{}{What you standing there for?}
 {5010}{}{Big guy! Tell me you're one of those Old Man McGee didn't scam, one way or another.}
 {5020}{}{Would you know anything about someone called Old Man McGee?}
-{5030}{}{Nothing, go back to your training.}
+{5030}{}{Nothing, go back to your training. [ end dialogue ]}
 {6000}{}{Old Man is dead soon, he be scamming me and other boxers before. When I finish ma training and win ma next match, I gonna visit Old Man in Shark Club. He be dead.}
-{6010}{}{Of course you will. You can't let Old Man scam you and get out of it that easy, huh? Keep it punching, big guy, I could even place my bet on you next time.}
-{6020}{}{Shark Club, eh? He be dead, indeed.}
+{6010}{}{Of course you will. You can't let Old Man scam you and get out of it that easy, huh? Keep it punching, big guy, I could even place my bet on you next time. [ end dialogue ]}
+{6020}{}{Shark Club, eh? He be dead, indeed. [ end dialogue ]}
 {7000}{}{- - - - - - - - - - - - - - - - - - - - QUEST END - - - - - - - - - - - - - - - - - - - -}
 
 [czec]

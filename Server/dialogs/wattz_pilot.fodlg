@@ -1,0 +1,139 @@
+[comment]
+Common dialog for each faction's mainframe used to manage players' database.
+
+[data]
+lang=engl czec pols span russ
+
+[dialog]
+&
+1 1000 None 0 #
+5 1010 D _param p ST_PILOT = 2 #
+2 1020 @
+2 2000 None 0 #
+3 2010 #
+3 2020 #
+0 2030 @
+3 3000 None 0 #
+4 3010 #
+4 3020 #
+0 3030 @
+4 4000 None 0 #
+0 4010 R _script worldmap@tp_in 0  #
+0 4020 @
+5 5000 None 0 &
+
+[engl]
+{100}{}{Pilot}
+{1000}{}{Predialogue installations}
+{1010}{}{pilot}
+{1020}{}{no pilot}
+{2000}{}{Hey, hey, can i take your time for a while?}
+{2010}{}{Sure, what's up}
+{2020}{}{Yes but quick please}
+{2030}{}{Sorry i don't have time right now}
+{3000}{}{Well, I build up a fly simulator and need a testers, are you interesed?}
+{3010}{}{awesome, always wanted be a pilot}
+{3020}{}{how is it work?}
+{3030}{}{Sorry but no}
+{4000}{}{Imagine your are a helicopter and must fly for blue boxes and bring them to grey, simple right? Let me know when you are ready}
+{4010}{}{I'm ready}
+{4020}{}{Later}
+{5000}{}{Hello Pilot}
+{100000000}{}{Unknown}
+{100000001}{}{None}
+{100000002}{}{Brotherhood of Steel}
+{100000003}{}{Enclave}
+{100000004}{}{The Unity}
+{100000005}{}{New California Republic}
+{100000006}{}{Vault City}
+{100000010}{}{Unknown}
+{100000011}{}{Friend}
+{100000012}{}{Neutral}
+{100000013}{}{Enemy}
+{100000014}{}{Invited}
+{100000015}{}{Claimed leadership.}
+{100000020}{}{Unknown}
+{100000021}{}{New member}
+{100000022}{}{Accepted member}
+{100000023}{}{Trusted member}
+{100000024}{}{Important member}
+{100000025}{}{Leader}
+{100000030}{}{You've entered wrong faction name.}
+{100000031}{}{Channel changed.}
+{100000032}{}{Wrong channel.}
+{100000040}{}{ has claimed leadership.}
+{100000041}{}{You have claimed leadership - time left: }
+{100000042}{}{Choose the action you want to perform:}
+
+[czec]
+{100}{}{none}
+{1000}{}{Predialogue installations}
+{1010}{}{pilot}
+{1020}{}{no pilot}
+{2000}{}{Hey, hey, can i take your time for a while?}
+{2010}{}{Sure, what's up}
+{2020}{}{Yes but quick please}
+{2030}{}{Sorry i don't have time right now}
+{3000}{}{Well, I build up a fly simulator and need a testers, are you interesed?}
+{3010}{}{awesome, always wanted be a pilot}
+{3020}{}{how is it work?}
+{3030}{}{Sorry but no}
+{4000}{}{Imagine your are a helicopter and must fly for blue boxes and bring them to grey, simple right? Let me know when you are ready}
+{4010}{}{I'm ready}
+{4020}{}{Later}
+{5000}{}{Hello Pilot}
+
+[pols]
+{100}{}{none}
+{1000}{}{Predialogue installations}
+{1010}{}{pilot}
+{1020}{}{no pilot}
+{2000}{}{Hey, hey, can i take your time for a while?}
+{2010}{}{Sure, what's up}
+{2020}{}{Yes but quick please}
+{2030}{}{Sorry i don't have time right now}
+{3000}{}{Well, I build up a fly simulator and need a testers, are you interesed?}
+{3010}{}{awesome, always wanted be a pilot}
+{3020}{}{how is it work?}
+{3030}{}{Sorry but no}
+{4000}{}{Imagine your are a helicopter and must fly for blue boxes and bring them to grey, simple right? Let me know when you are ready}
+{4010}{}{I'm ready}
+{4020}{}{Later}
+{5000}{}{Hello Pilot}
+
+[span]
+{100}{}{none}
+{1000}{}{Predialogue installations}
+{1010}{}{pilot}
+{1020}{}{no pilot}
+{2000}{}{Hey, hey, can i take your time for a while?}
+{2010}{}{Sure, what's up}
+{2020}{}{Yes but quick please}
+{2030}{}{Sorry i don't have time right now}
+{3000}{}{Well, I build up a fly simulator and need a testers, are you interesed?}
+{3010}{}{awesome, always wanted be a pilot}
+{3020}{}{how is it work?}
+{3030}{}{Sorry but no}
+{4000}{}{Imagine your are a helicopter and must fly for blue boxes and bring them to grey, simple right? Let me know when you are ready}
+{4010}{}{I'm ready}
+{4020}{}{Later}
+{5000}{}{Hello Pilot}
+
+[russ]
+{100}{}{none}
+{1000}{}{Predialogue installations}
+{1010}{}{pilot}
+{1020}{}{no pilot}
+{2000}{}{Hey, hey, can i take your time for a while?}
+{2010}{}{Sure, what's up}
+{2020}{}{Yes but quick please}
+{2030}{}{Sorry i don't have time right now}
+{3000}{}{Well, I build up a fly simulator and need a testers, are you interesed?}
+{3010}{}{awesome, always wanted be a pilot}
+{3020}{}{how is it work?}
+{3030}{}{Sorry but no}
+{4000}{}{Imagine your are a helicopter and must fly for blue boxes and bring them to grey, simple right? Let me know when you are ready}
+{4010}{}{I'm ready}
+{4020}{}{Later}
+{5000}{}{Hello Pilot}
+

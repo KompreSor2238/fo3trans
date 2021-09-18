@@ -6,9 +6,9 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 1 #
+1 1000 None 1 #
 2 1010 @
-2 2000 main@dlg_Caps 0 #
+2 2000 None 0 #
 0 2010 D _item p PID_BOTTLE_CAPS } 50 R _item p PID_BOTTLE_CAPS - 50 R _item p PID_CATS_PAW + 1 #
 0 2020 &
 
@@ -16,15 +16,15 @@ lang=engl czec pols span russ
 {100}{}{none}
 {1000}{}{Predialogue installations}
 {1010}{}{Answer text}
-{2000}{}{[ This device sells "Cat's Paw" magazines for 50 @lex money@ each. ]}
-{2010}{}{[ Buy a magazine. ]}
-{2020}{}{[ Leave ]}
+{2000}{}{[ This device sells "Cat's Paw" magazines for 50 Currency each. ]}
+{2010}{}{[ buy a magazine ]}
+{2020}{}{[ leave ] [ end dialogue ]}
 
 [czec]
 {100}{}{none}
 {1000}{}{Predialogue installations}
 {1010}{}{Answer text}
-{2000}{}{[ This device sells "Cat's Paw" magazines for 50 @lex money@ each. ]}
+{2000}{}{[ This device sells "Cat's Paw" magazines for 50 Currency each. ]}
 {2010}{}{[ Buy a magazine. ]}
 {2020}{}{[ Leave ]}
 
@@ -32,7 +32,7 @@ lang=engl czec pols span russ
 {100}{}{none}
 {1000}{}{Predialogue installations}
 {1010}{}{Answer text}
-{2000}{}{[ This device sells "Cat's Paw" magazines for 50 @lex money@ each. ]}
+{2000}{}{[ This device sells "Cat's Paw" magazines for 50 Currency each. ]}
 {2010}{}{[ Buy a magazine. ]}
 {2020}{}{[ Leave ]}
 
@@ -40,7 +40,7 @@ lang=engl czec pols span russ
 {100}{}{none}
 {1000}{}{Predialogue installations}
 {1010}{}{Answer text}
-{2000}{}{[ This device sells "Cat's Paw" magazines for 50 @lex money@ each. ]}
+{2000}{}{[ This device sells "Cat's Paw" magazines for 50 Currency each. ]}
 {2010}{}{[ Buy a magazine. ]}
 {2020}{}{[ Leave ]}
 
@@ -48,7 +48,7 @@ lang=engl czec pols span russ
 {100}{}{none}
 {1000}{}{Predialogue installations}
 {1010}{}{Answer text}
-{2000}{}{[ This device sells "Cat's Paw" magazines for 50 @lex money@ each. ]}
+{2000}{}{[ This device sells "Cat's Paw" magazines for 50 Currency each. ]}
 {2010}{}{[ Buy a magazine. ]}
 {2020}{}{[ Leave ]}
 

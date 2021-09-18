@@ -6,9 +6,9 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 2 1010 @
-2 2000 main@dlg_Caps 0 #
+2 2000 None 0 #
 0 2010 &
 
 [engl]
@@ -17,8 +17,8 @@ lang=engl czec pols span russ
 {210}{}{This man looks a tad nervous, while scanning the surroundings all the time from left to right. He seems to be nearly blind.}
 {1000}{}{Predialogue installations}
 {1010}{}{unkown}
-{2000}{}{What? Who's there? [The old man is looking around, trying to focus you.]}
-{2010}{}{You must be blind.. I'm outta here.}
+{2000}{}{What? Who's there? *the old man is looking around, trying to focus on you*}
+{2010}{}{You must be blind.. I'm outta here. [ end dialogue ]}
 
 [czec]
 {100}{}{none}

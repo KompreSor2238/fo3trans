@@ -51,7 +51,7 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 1 #
+1 1000 None 1 #
 500 1010 D _param p ST_INTELLECT < 4 #
 510 1020 D _param p ST_CHARISMA > 99 #
 10 1030 D _var p name_mem_npc_player = 0 R _var p name_mem_npc_player = 1 #
@@ -75,92 +75,92 @@ lang=engl czec pols span russ
 390 1210 D _var p q_redd_christopher_bad_karma = 2 #
 520 1220 D _var p name_mem_npc_player < 0 #
 10 1230 @
-10 2000 main@dlg_Caps 0 #
+10 2000 None 0 #
 65506 2010 #
 20 2020 #
 0 2030 R _var p name_mem_npc_player = -1 #
 0 2040 @
-20 3000 main@dlg_Caps 0 #
+20 3000 None 0 #
 65506 3010 #
 30 3020 #
-0 3030 #
+65507 3030 R _var p name_mem_npc_player = -1 #
 0 3040 R _var p name_mem_npc_player = -1 #
-65507 3050 R _var p name_mem_npc_player = -1 #
-0 3060 R _var p name_mem_npc_player = -1 @
-30 4000 main@dlg_Caps 0 #
+0 3050 R _var p name_mem_npc_player = -1 #
+0 3060 @
+30 4000 None 0 #
 110 4010 D _param p ST_LEVEL < 5 #
 210 4020 #
 310 4030 #
 65507 4040 R _var p name_mem_npc_player = -1 #
 0 4050 R _var p name_mem_npc_player = -1 #
 0 4060 @
-40 5000 main@dlg_Caps 0 #
+40 5000 None 0 #
 420 5010 #
 430 5020 #
 0 5030 #
 0 5040 @
-100 6000 main@dlg_Caps 0 @
-110 7000 main@dlg_Caps 0 #
+100 6000 None 0 @
+110 7000 None 0 #
 120 7010 #
 180 7020 R _var p q_redd_christopher_low_level = -1 #
 0 7030 @
-120 8000 main@dlg_Caps 0 #
+120 8000 None 0 #
 0 8010 R _var p q_redd_christopher_low_level = 1 R _param p ST_CURRENT_HP = -100 #
 180 8020 R _var p q_redd_christopher_low_level = -1 #
 0 8030 D _param p ST_INTELLECT > 6 @
-130 9000 main@dlg_Caps 0 #
+130 9000 None 0 #
 65507 9010 R _var p q_redd_christopher_low_level = -1 #
 140 9020 @
-140 10000 main@dlg_Caps 0 #
+140 10000 None 0 #
 0 10010 R _var p q_redd_christopher_low_level = 2 R _item p PID_BRAHMIN_HIDE + 5 R _param p ST_EXPERIENCE + 800 @
-180 11000 main@dlg_Caps 0 @
-190 12000 main@dlg_Caps 0 @
-200 13000 main@dlg_Caps 0 @
-210 14000 main@dlg_Caps 0 #
+180 11000 None 0 @
+190 12000 None 0 @
+200 13000 None 0 @
+210 14000 None 0 #
 280 14010 #
 220 14020 #
 65507 14030 R _var p name_mem_npc_player = -1 #
 0 14040 @
-220 15000 main@dlg_Caps 0 #
+220 15000 None 0 #
 0 15010 R _var p q_redd_christopher_good_karma = 1 R _item p PID_10MM_PISTOL + 1 #
 0 15020 #
 280 15030 R _var p name_mem_npc_player = -1 @
-230 16000 main@dlg_Caps 0 #
+230 16000 None 0 #
 65507 16010 R _var p name_mem_npc_player = -1 #
 240 16020 @
-240 17000 main@dlg_Caps 0 #
+240 17000 None 0 #
 0 17010 R _var p q_redd_christopher_good_karma = 2 R _param p REPUTATION_NCR + 500 R _param p REPUTATION_VAULT_CITY + 500 R _param p REPUTATION_NCR_RANGERS + 500 R _param p REPUTATION_REGULATORS + 500 R _param p REPUTATION_CHILDREN + 500 R _param p REPUTATION_KLAMATH + 500 R _param p REPUTATION_MODOC + 500 R _param p REPUTATION_GECKO + 500 R _param p REPUTATION_JUNKTOWN + 500 R _param p REPUTATION_HUB + 500 R _param p REPUTATION_LA + 500 R _param p ST_EXPERIENCE + 2500 @
-280 18000 main@dlg_Caps 0 @
-290 19000 main@dlg_Caps 0 @
-300 20000 main@dlg_Caps 0 @
-310 21000 main@dlg_Caps 0 #
+280 18000 None 0 @
+290 19000 None 0 @
+300 20000 None 0 @
+310 21000 None 0 #
 320 21010 #
 0 21020 R _var p name_mem_npc_player = -1 #
 65507 21030 R _var p name_mem_npc_player = -1 #
 0 21040 @
-320 22000 main@dlg_Caps 0 #
+320 22000 None 0 #
 0 22010 R _var p q_redd_christopher_bad_karma = 1 R _item p PID_10MM_PISTOL + 1 #
 0 22020 R _var p q_redd_christopher_bad_karma = -1 #
 0 22030 @
-330 23000 main@dlg_Caps 0 #
+330 23000 None 0 #
 340 23010 #
 380 23020 R _var p q_redd_christopher_bad_karma = -1 @
-340 24000 main@dlg_Caps 0 #
+340 24000 None 0 #
 0 24010 R _var p q_redd_christopher_bad_karma = -1 R _item p PID_SHOTGUN + 1 R _item p PID_SHOTGUN_SHELLS + 10 #
 0 24020 R _var p q_redd_christopher_bad_karma = 2 R _param p ST_EXPERIENCE + 2000 @
-380 25000 main@dlg_Caps 0 @
-390 26000 main@dlg_Caps 0 @
-400 27000 main@dlg_Caps 0 @
-420 28000 main@dlg_Caps 0 #
+380 25000 None 0 @
+390 26000 None 0 @
+400 27000 None 0 @
+420 28000 None 0 #
 0 28010 R _var p name_mem_npc_player = -1 @
-430 29000 main@dlg_Caps 0 #
+430 29000 None 0 #
 0 29010 R _var p name_mem_npc_player = -1 @
-440 30000 main@dlg_Caps 0 @
-450 31000 main@dlg_Caps 0 @
-460 32000 main@dlg_Caps 0 @
-500 33000 main@dlg_Caps 0 @
-510 34000 main@dlg_Caps 0 @
-520 35000 main@dlg_Caps 0 &
+440 30000 None 0 @
+450 31000 None 0 @
+460 32000 None 0 @
+500 33000 None 0 @
+510 34000 None 0 @
+520 35000 None 0 &
 
 [engl]
 {100}{}{Christopher Meridian}
@@ -190,88 +190,88 @@ lang=engl czec pols span russ
 {1210}{}{Stage 2: BAD_KARMA_QUEST (Finished)}
 {1220}{}{Rejected}
 {1230}{}{Default}
-{2000}{}{[He stares at you] You have approached me, seemingly willing to start a conversation, son. I know exactly what we should talk about, but before we proceed, I need you to hear and accept some rules. Shall I continue?}
-{2010}{}{Hey, no! Wait... I just want to do business with you. Can you hear me, old man? B.U.S.I.N.E.S.S. [You spell it for him.]}
+{2000}{}{*he stares at you* You have approached me, seemingly willing to start a conversation, son. I know exactly what we should talk about, but before we proceed, I need you to hear and accept some rules. Shall I continue?}
+{2010}{}{Hey, no! Wait... I just want to do business with you. Can you hear me, old man? B.U.S.I.N.E.S.S. [ Barter ]}
 {2020}{}{Ehh... Yeah, sure. }
-{2030}{}{Mmm... No thanks. I don't like to waste my time with tricky religious people. Yeah, yeah, I'm a sinner now. Leave me alone!}
-{2040}{}{Some rules, eh?  Better not, something feels wrong about all this. Goodbye.}
+{2030}{}{Mmm... No thanks. I don't like to waste my time with tricky religious people. Yeah, yeah, I'm a sinner now. Leave me alone! [ end dialogue ]}
+{2040}{}{Some rules, eh? Better not, something feels wrong about all this. Goodbye. [ end dialogue ]}
 {3000}{}{Ok, here are the rules: You're not prepared to know, so don't ask me personal questions about this agreement. Accept the possibility of facing irreversible consequences, since every lesson has a price. And lastly, remember to always come back.}
-{3010}{}{Hey wait... Do I still need to agree to these rules in order to do business with you? }
+{3010}{}{Hey wait... Do I still need to agree to these rules in order to do business with you? [ Barter ]}
 {3020}{}{Mmm... ok, sure. I agree.}
-{3030}{}{Hmm, No way!  There's something crazy about all this... Goodbye.}
-{3040}{}{I won't go any further without first knowing, who the hell you are, and what this is all about. You are... a hubologist, right?}
-{3050}{}{Ohh, oh sure, I agree... [You point at him and start shouting] This old man is drunk! hahaha [You push him, starting a fight.]}
-{3060}{}{Come back? From where? What is this?}
+{3030}{}{Ohh, oh sure, I agree... *you point at him and start shouting* This old man is drunk! hahaha *you push him, starting a fight* [ Attack ]}
+{3040}{}{I won't go any further without first knowing, who the hell you are, and what this is all about. You are... a hubologist, right? [ end dialogue ]}
+{3050}{}{Come back? From where? What is this? [ end dialogue ]}
+{3060}{}{Hmm, No way! There's something crazy about all this... Goodbye. [ end dialogue ]}
 {4000}{}{Very well then. Before answering, think about this carefully, as you have only one shot. Why should I believe you really want to hear what I have to say?}
 {4010}{}{There is a lot I want to learn. Maybe you can teach me something... Listening to wise people is always welcome.}
 {4020}{}{I feel you have something important to say, otherwise you wouldn't be requesting such listening interest. Believe me, I'm all ears.}
 {4030}{}{I dare you to impress me old man... What is all this nonsense about?}
-{4040}{}{Ok, enough out of you, grampa. Rusty human leftover, you ready to eat shit?}
-{4050}{}{You shouldn't believe anything, I would never try to talk with such an old drunk loner, See ya moron.}
-{4060}{}{I'm sorry old man, no chat for today. I'd better be going.}
+{4040}{}{Ok, enough out of you, grampa. Rusty human leftover, you ready to eat shit? [ Attack ]}
+{4050}{}{You shouldn't believe anything, I would never try to talk with such an old drunk loner, See ya moron. [ end dialogue ]}
+{4060}{}{I'm sorry old man, no chat for today. I'd better be going. [ end dialogue ]}
 {5000}{}{He stares at you closely] So how did it go, with Henry?}
 {5010}{}{Well...mm... he was pretty happy to see me. He felt relief, you know?}
 {5020}{}{Well...mmm...he freaked out, and then sent me to tell you that he will pay you soon.}
-{5030}{}{I couldn't go yet, but I will, don't worry.[You leave.]}
-{5040}{}{I can't decide yet what to do with him... but I will soon, don't worry.[You leave]}
+{5030}{}{I couldn't go yet, but I will, don't worry. [ end dialogue ]}
+{5040}{}{I can't decide yet what to do with him... but I will soon, don't worry. [ end dialogue ]}
 {6000}{}{-----------------------------------------------[ LOW LEVEL ]----------------------------------------------}
-{7000}{}{Okay son, I'm sure you will learn something here. Now, you live in the same land I do... Don't you fear death?, losing everything when get killed in the middle of nowhere, get stolen from by some robber, or hungry scavenger wandering around?}
+{7000}{}{Okay son, I'm sure you will learn something here. Now, you live in the same land I do... Don't you fear death?.. losing everything when you get killed in the middle of nowhere, get stolen from by some robber, or hungry scavenger wandering around?}
 {7010}{}{Actually, yes, that really freaks me out.}
 {7020}{}{Nah... Actually, living in the wastes isn't that bad.}
-{7030}{}{Forget it. I feel there is something wrong about all this. See ya.}
-{8000}{}{ I thought so...[He smiles]. Because real death is a lack of planning, wise people don't move a single step, without thinking about it beforehand. Now you are here, meeting a total stranger... Did you have a plan? [He takes out some kind of needle.]}
-{8010}{}{Uh...a plan? [Your face reveals you obviously lack a plan] }
-{8020}{}{I always have a plan, I..I'm a very wise man. [You smile and show him your yellow shining teeth.]}
-{8030}{}{Forget it. I feel there is something wrong about all this. See ya.}
-{9000}{}{I knew you'd come back. So, next time you get into unknown scenarios, you wont be carrying important stuff. You will keep in mind, the possibility of death, you will have a plan.}
-{9010}{}{Ohh yes! I have a plan now, TO KILL YOU BASTARD! [You attack him in a rage.]}
+{7030}{}{Forget it. I feel there is something wrong about all this. See ya. [ end dialogue ]}
+{8000}{}{ I thought so... *he smiles* Because real death is a lack of planning, wise people don't move a single step, without thinking about it beforehand. Now you are here, meeting a total stranger... Did you have a plan? *he takes out some kind of needle*}
+{8010}{}{Uh...a plan? *your face reveals you obviously lack a plan*}
+{8020}{}{I always have a plan, I..I'm a very wise man. *you smile and show him your yellow shining teeth*}
+{8030}{}{Forget it. I feel there is something wrong about all this. See ya. [ end dialogue ]}
+{9000}{}{I knew you'd come back. So, next time you get into unknown scenarios, you won't be carrying important stuff. You will keep in mind the possibility of death, you will have a plan.}
+{9010}{}{Ohh yes! I have a plan now, TO KILL YOU BASTARD! [ Attack ]}
 {9020}{}{You bet I will, old man. Your techniques hurt, but what you're teaching is good stuff.}
-{10000}{}{I'm glad to help. Here, you have these. [He hands you some brahmin hides] Get five more, and you will be able to build your own tent.  A tent is a good plan my friend, in case you don't have one yet.}
-{10010}{}{Thank you, old man! See ya.}
-{11000}{}{There's nothing I can teach you.@@You don't deserve such an honour@@Get lost.@@You don't need any knowledge at all...hahaha@@Goodbye. }
+{10000}{}{I'm glad to help. Here, you have these. *he hands you some brahmin hides* Get five more, and you will be able to build your own tent. A tent is a good plan my friend, in case you don't have one yet.}
+{10010}{}{Thank you, old man! See ya. [ end dialogue ]}
+{11000}{}{There's nothing I can teach you.@@You don't deserve such an honor@@Get lost.@@You don't need any knowledge at all...hahaha@@Goodbye. }
 {12000}{}{Well done son!@@Another lesson?@@Life is hard in here, don't you think?@@Sterilized? The needle? Haha, Don't worry about that, just relax.@@It was all part of the plan.@@Have a plan now? Haha!}
 {13000}{}{----------------------------------------------[ GOOD KARMA ]----------------------------------------------}
 {14000}{}{Ok... all you need, is a nuclear war. A world set on fire to redefine ancient universal meanings, like virtue or justice. What does being a good man in days such as this, really stand for? Are you prepared to be good, amidst all the chaos?}
 {14010}{}{Yes, I'm sure I'm prepared. I always have been, and shall remain a decent, righteous man.}
 {14020}{}{I may feel ready, but who knows... Maybe I'm not ready at all.}
-{14030}{}{Make good? Who told you I'm willing to be a saint?You see! [You push him, willing to fight.] I'm no saint!}
-{14040}{}{Forget it. I feel there is something wrong about all this. See ya.}
-{15000}{}{Hmm, I'm afraid troubled people cannot wait for us to get ready. They need our best efforts in due time. Henry, a man of The Hub. He needs your efforts. Remember: possessing good qualities is no longer enough to define virtue, but, the kindly attempt to bring good to another, is.. Here, give this to him... [He hands you a 10mm pistol.]}
-{15010}{}{Henry at The Hub, give the pistol, here we go... }
-{15020}{}{Hmm forget it, I have better things to do.}
-{15030}{}{Ok, I will help him but first tell me the list of rewards... [You smile and show him your yellow shining teeth.]}
+{14030}{}{Make good? Who told you I'm willing to be a saint? You see! *you push him, willing to fight* I'm no saint!}
+{14040}{}{Forget it. I feel there is something wrong about all this. See ya. [ end dialogue ]}
+{15000}{}{Hmm, I'm afraid troubled people cannot wait for us to get ready. They need our best efforts in due time. Henry, a man of The Hub. He needs your efforts. Remember: possessing good qualities is no longer enough to define virtue, but, the kindly attempt to bring good to another, is.. Here, give this to him... *he hands you a 10mm pistol*}
+{15010}{}{Henry at The Hub, give the pistol, here we go... [ end dialogue ]}
+{15020}{}{Hmm forget it, I have better things to do. [ end dialogue ]}
+{15030}{}{Ok, I will help him but first tell me the list of rewards... *you smile and show him your yellow shining teeth*}
 {16000}{}{Very good, you are back. You see, I'm aware of all these situations. Chased, attacked, judged, hated... Is the pain worth it? Now, if I ask you a proper definition of virtue, what would you say?}
-{16010}{}{My answer would be, GO TO HELL!! [You punish him for all the trouble he's caused you.]}
-{16020}{}{This lesson caused me many troubles, but I think I've learned something... My answer would be: "Every decent action taken to cause some good, should be attempted, no matter the pain inflicted."}
-{17000}{}{I'm impressed. There's some people from the towns,VCL owners and associates, I'm like a friend to them. This means you wont have to carry the burden of Henry's actions any longer, your reputation remains untouched. I forgive you for that crime you never commited. }
-{17010}{}{You have just redefined "justice" my friend. Thank you a lot, I won't forget this lesson. Goodbye.}
+{16010}{}{My answer would be, GO TO HELL!! [ punish him for all the trouble he's caused you ] [ Attack ]}
+{16020}{}{This lesson caused me many troubles, but I think I've learned something... My answer would be: "Every decent action taken to cause some good should be attempted, no matter the pain inflicted."}
+{17000}{}{I'm impressed. There's some people from the towns, VCL owners and associates, I'm like a friend to them. This means you wont have to carry the burden of Henry's actions any longer, your reputation remains untouched. I forgive you for that crime you never commited. }
+{17010}{}{You have just redefined "justice" my friend. Thank you a lot, I won't forget this lesson. Goodbye. [ end dialogue ]}
 {18000}{}{You don't have what it takes...@@A good soul...but a little stupid.@@You don't get it, do you?@All that I've said to you... means nothing?}
 {19000}{}{Well done, son!@@Another lesson?}
 {20000}{}{----------------------------------------------[ BAD KARMA ]-----------------------------------------------}
-{21000}{}{Defiance... I like that, but you can do better, than playing with semantics. I dare YOU to get off the mask, and show this wasteland what you are really capable of. I will show you an inflammable soul, and I challenge you to turn it into an unstoppable fire.}
+{21000}{}{Defiance... I like that, but you can do better, than playing with semantics. I dare YOU to take off the mask, and show this wasteland what you are really capable of. I will show you a flammable soul, and I challenge you to turn it into an unstoppable fire.}
 {21010}{}{Go on old man, this is starting to sound exciting...}
-{21020}{}{Get off the mask? Inflammable soul?...Crazy old man! Haha [ You leave laughtng.]}
-{21030}{}{Semantics? Do you really know what "dare you" means? You ready to eat shit? [You start a fight.]}
-{21040}{}{Forget it. I feel there is something wrong about all this. See ya.}
+{21020}{}{Get off the mask? Flammable soul?... Crazy old man! Haha [ end dialogue ]}
+{21030}{}{Semantics? Do you really know what "dare you" means? You ready to eat shit? [ Attack ]}
+{21040}{}{Forget it. I feel there is something wrong about all this. See ya. [ end dialogue ]}
 {22000}{}{A son of pain, Henry from The Hub, he is this soul. The match to burn his life, a gun. A harmless 10mm pistol. If you are truly up to the task, you will know exactly what to do. By the way... If you genuinely enjoy something, you will be pleased about doing it,  even if it's for free.}
-{22010}{}{Inflammable Henry... Sick pyromaniac training for wastelanders, here we go...[You leave with a smile on your face.]}
-{22020}{}{Zero profit job? You don't get it, do you? People have an "inner flame" to maintain, old man. How am I gonna eat?}
-{22030}{}{Hmm I'm sorry, I have some other things to do.}
+{22010}{}{Flammable Henry... Sick pyromaniac training for wastelanders, here we go... [ leave with a smile on your face ] [ end dialogue ]}
+{22020}{}{Zero profit job? You don't get it, do you? People have an "inner flame" to maintain, old man. How am I gonna eat? [ end dialogue ]}
+{22030}{}{Hmm I'm sorry, I have some other things to do. [ end dialogue ]}
 {23000}{}{So, in the end, you handle chaos and spread it, causing more than one death. Eight men were killed, including one of my attorneys. What do you think you've learned here?}
-{23010}{}{I've learned the difference between lighting a single match, and burning the entire forest down with that match. By the way... I enjoyed doing it, no regrets at all. Who cares about attorneys anyways? [You laugh.]}
+{23010}{}{I've learned the difference between lighting a single match, and burning the entire forest down with that match. By the way... I enjoyed doing it, no regrets at all. Who cares about attorneys anyways? [ laugh ]}
 {23020}{}{Wait, your attorney? Henry killed him? I'm sorry man, I didn't mean to cause any trouble for you, or your people.}
-{24000}{}{You really got the point of this exercise, didn't you? I'm impressed. Go now son, and don't forget the match...[He offers you a shotgun.]}
-{24010}{}{I wasn't expecting this... A shotgun! [You smile perversely] Now you will be proud of what I do with it. Let the party begin...[You laugh demonically, as you walk away.]}
-{24020}{}{"If you truly enjoy something...", I'm a man of my word. I've gained my benefits already. You keep that, I won't need it. You have already paid me, old man. I'm leaving now.}
+{24000}{}{You really got the point of this exercise, didn't you? I'm impressed. Go now son, and don't forget the match... *he offers you a shotgun*}
+{24010}{}{I wasn't expecting this... A shotgun! *you smile perversely* Now you will be proud of what I do with it. Let the party begin... *you laugh demonically, as you walk away* [ end dialogue ]}
+{24020}{}{"If you truly enjoy something...", I'm a man of my word. I've gained my benefits already. You keep that, I won't need it. You have already paid me, old man. I'm leaving now. [ end dialogue ]}
 {25000}{}{That is the best you can do?@@Defiant...but stupid.@@You didn't get it, did you?@All that I said to you... for nothing...}
 {26000}{}{Well done, son!@@Another lesson?}
 {27000}{}{----------------------------------------------[ REJECTIONS  ]-----------------------------------------------}
 {28000}{}{You are a terrible liar, you know that? No more teaching to you. Piss off.}
-{28010}{}{But..}
+{28010}{}{But.. [ end dialogue ]}
 {29000}{}{You are a good liar, aren't you? Being this is not enough for me. Pity... I was starting to like you boy. Now, get out of my sight.}
-{29010}{}{But..}
+{29010}{}{But.. [ end dialogue ]}
 {30000}{}{There's nothing I can teach you. You don't deserve such an honor. Get lost.}
-{31000}{}{There's nothing I can teach you. You don't seem to need any knowledge at all. [He laughs].Goodbye.}
+{31000}{}{There's nothing I can teach you. You don't seem to need any knowledge at all. *he laughs* Goodbye.}
 {32000}{}{Well, that makes me wonder... Where have all the pre-war manners gone? Now I'm forced to teach you some ancient history, you impudent sinner!}
 {33000}{}{Yesss...?@@What do you want son?@@Don't bother me, can't you see I'm busy?@@Nice day, isn't it?@@What? I can't understand you.@@Eh?... louder please.@@Goodbye.}
 {34000}{}{You know what wakala means?@@What you want, ghoul??@@Don't touch me! I'm clean, you are not.@@Get moving.@@I won't talk with you, nasty people@@Goodbye!}
@@ -311,10 +311,10 @@ lang=engl czec pols span russ
 {3000}{}{Ok, here are the rules: You're not prepared to know, so don't ask me personal questions about this agreement. Accept the possibility of facing irreversible consequences, since every lesson has a price. And lastly, remember to always come back.}
 {3010}{}{Hey wait... Do I still need to agree to these rules in order to do business with you? }
 {3020}{}{Mmm... ok, sure. I agree.}
-{3030}{}{Hmm, No way!  There's something crazy about all this... Goodbye.}
+{3030}{}{Ohh, oh sure, I agree... [You point at him and start shouting] This old man is drunk! hahaha [You push him, starting a fight.]}
 {3040}{}{I won't go any further without first knowing, who the hell you are, and what this is all about. You are... a hubologist, right?}
-{3050}{}{Ohh, oh sure, I agree... [You point at him and start shouting] This old man is drunk! hahaha [You push him, starting a fight.]}
-{3060}{}{Come back? From where? What is this?}
+{3050}{}{Come back? From where? What is this?}
+{3060}{}{Hmm, No way!  There's something crazy about all this... Goodbye.}
 {4000}{}{Very well then. Before answering, think about this carefully, as you have only one shot. Why should I believe you really want to hear what I have to say?}
 {4010}{}{There is a lot I want to learn. Maybe you can teach me something... Listening to wise people is always welcome.}
 {4020}{}{I feel you have something important to say, otherwise you wouldn't be requesting such listening interest. Believe me, I'm all ears.}
@@ -424,10 +424,10 @@ lang=engl czec pols span russ
 {3000}{}{Ok, here are the rules: You're not prepared to know, so don't ask me personal questions about this agreement. Accept the possibility of facing irreversible consequences, since every lesson has a price. And lastly, remember to always come back.}
 {3010}{}{Hey wait... Do I still need to agree to these rules in order to do business with you? }
 {3020}{}{Mmm... ok, sure. I agree.}
-{3030}{}{Hmm, No way!  There's something crazy about all this... Goodbye.}
+{3030}{}{Ohh, oh sure, I agree... [You point at him and start shouting] This old man is drunk! hahaha [You push him, starting a fight.]}
 {3040}{}{I won't go any further without first knowing, who the hell you are, and what this is all about. You are... a hubologist, right?}
-{3050}{}{Ohh, oh sure, I agree... [You point at him and start shouting] This old man is drunk! hahaha [You push him, starting a fight.]}
-{3060}{}{Come back? From where? What is this?}
+{3050}{}{Come back? From where? What is this?}
+{3060}{}{Hmm, No way!  There's something crazy about all this... Goodbye.}
 {4000}{}{Very well then. Before answering, think about this carefully, as you have only one shot. Why should I believe you really want to hear what I have to say?}
 {4010}{}{There is a lot I want to learn. Maybe you can teach me something... Listening to wise people is always welcome.}
 {4020}{}{I feel you have something important to say, otherwise you wouldn't be requesting such listening interest. Believe me, I'm all ears.}
@@ -537,10 +537,10 @@ lang=engl czec pols span russ
 {3000}{}{Ok, here are the rules: You're not prepared to know, so don't ask me personal questions about this agreement. Accept the possibility of facing irreversible consequences, since every lesson has a price. And lastly, remember to always come back.}
 {3010}{}{Hey wait... Do I still need to agree to these rules in order to do business with you? }
 {3020}{}{Mmm... ok, sure. I agree.}
-{3030}{}{Hmm, No way!  There's something crazy about all this... Goodbye.}
+{3030}{}{Ohh, oh sure, I agree... [You point at him and start shouting] This old man is drunk! hahaha [You push him, starting a fight.]}
 {3040}{}{I won't go any further without first knowing, who the hell you are, and what this is all about. You are... a hubologist, right?}
-{3050}{}{Ohh, oh sure, I agree... [You point at him and start shouting] This old man is drunk! hahaha [You push him, starting a fight.]}
-{3060}{}{Come back? From where? What is this?}
+{3050}{}{Come back? From where? What is this?}
+{3060}{}{Hmm, No way!  There's something crazy about all this... Goodbye.}
 {4000}{}{Very well then. Before answering, think about this carefully, as you have only one shot. Why should I believe you really want to hear what I have to say?}
 {4010}{}{There is a lot I want to learn. Maybe you can teach me something... Listening to wise people is always welcome.}
 {4020}{}{I feel you have something important to say, otherwise you wouldn't be requesting such listening interest. Believe me, I'm all ears.}
@@ -650,10 +650,10 @@ lang=engl czec pols span russ
 {3000}{}{Ok, here are the rules: You're not prepared to know, so don't ask me personal questions about this agreement. Accept the possibility of facing irreversible consequences, since every lesson has a price. And lastly, remember to always come back.}
 {3010}{}{Hey wait... Do I still need to agree to these rules in order to do business with you? }
 {3020}{}{Mmm... ok, sure. I agree.}
-{3030}{}{Hmm, No way!  There's something crazy about all this... Goodbye.}
+{3030}{}{Ohh, oh sure, I agree... [You point at him and start shouting] This old man is drunk! hahaha [You push him, starting a fight.]}
 {3040}{}{I won't go any further without first knowing, who the hell you are, and what this is all about. You are... a hubologist, right?}
-{3050}{}{Ohh, oh sure, I agree... [You point at him and start shouting] This old man is drunk! hahaha [You push him, starting a fight.]}
-{3060}{}{Come back? From where? What is this?}
+{3050}{}{Come back? From where? What is this?}
+{3060}{}{Hmm, No way!  There's something crazy about all this... Goodbye.}
 {4000}{}{Very well then. Before answering, think about this carefully, as you have only one shot. Why should I believe you really want to hear what I have to say?}
 {4010}{}{There is a lot I want to learn. Maybe you can teach me something... Listening to wise people is always welcome.}
 {4020}{}{I feel you have something important to say, otherwise you wouldn't be requesting such listening interest. Believe me, I'm all ears.}

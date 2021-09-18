@@ -6,21 +6,25 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 2 1010 D _var p name_mem_npc_player = 0 R _var p name_mem_npc_player = 1 #
 4 1020 D _var p name_mem_npc_player = 1 #
 3 1030 D _param p ST_KARMA < -100 @
-2 2000 main@dlg_Caps 0 #
+2 2000 None 0 #
 5 2010 #
-0 2020 @
-3 3000 main@dlg_Caps 0 #
+6 2020 D _var p ncr_michael = 1 R _var p ncr_michael = 3 R _param p ST_EXPERIENCE + 100 #
+0 2030 @
+3 3000 None 0 #
 5 3010 #
-0 3020 @
-4 4000 main@dlg_Caps 0 #
+6 3020 D _var p ncr_michael = 1 R _var p ncr_michael = 3 R _param p ST_EXPERIENCE + 100 #
+0 3030 @
+4 4000 None 0 #
 5 4010 #
-0 4020 @
-5 5000 main@dlg_Caps 0 #
-0 5010 &
+6 4020 D _var p ncr_michael = 1 R _var p ncr_michael = 3 R _param p ST_EXPERIENCE + 100 #
+0 4030 @
+5 5000 None 0 #
+0 5010 @
+6 6000 None 0 &
 
 [engl]
 {100}{}{Sheriff Dumont}
@@ -33,15 +37,19 @@ lang=engl czec pols span russ
 {1030}{}{Low Karma}
 {2000}{}{Welcome to NCR, stranger. Name's Dumont - Sheriff Dumont. Hope you're having a nice peaceful time here.}
 {2010}{}{I'm looking for some honest work. Can you help me?}
-{2020}{}{Sure am, Sheriff. Gotta go.}
+{2020}{}{I want to report about the gate guard drinking alcoholic drinks on post.}
+{2030}{}{Sure am, Sheriff. Gotta go. [ end dialogue ]}
 {3000}{}{Take a word of advice from Sheriff Dumont, stranger - this town don't care for your kind. Any trouble and I come down hard. Now, is there anything I can do for you?}
 {3010}{}{I'm looking for some honest work. Can you help me?}
-{3020}{}{Gotta go. Goodbye, Sheriff.}
+{3020}{}{I want to report about the gate guard drinking alcoholic drinks on post.}
+{3030}{}{Gotta go. Goodbye, Sheriff. [ end dialogue ]}
 {4000}{}{Hello again. Anything I can do for you?}
 {4010}{}{I'm looking for some honest work. Can you help me?}
-{4020}{}{Nothing thanks, Sheriff.}
+{4020}{}{I want to report about the gate guard drinking alcoholic drinks on post.}
+{4030}{}{Nothing thanks, Sheriff. [ end dialogue ]}
 {5000}{}{Duppo up at the Stockmen's Association wrangles hands for the brahmin drives. Go try him.}
-{5010}{}{I'll go ask them, thanks.}
+{5010}{}{I'll go ask them, thanks. [ end dialogue ]}
+{6000}{}{What the hell?! Oh I will kick that guy's ass for sure. Thank you for reporting it. That son of a bitch will have to clean toilets in the police station...}
 
 [czec]
 {100}{}{none}
@@ -51,15 +59,19 @@ lang=engl czec pols span russ
 {1030}{}{Low Karma}
 {2000}{}{Welcome to NCR, stranger. Name's Dumont - Sheriff Dumont. Hope you're having a nice peaceful time here.}
 {2010}{}{I'm looking for some honest work. Can you help me?}
-{2020}{}{Sure am, Sheriff. Gotta go.}
+{2020}{}{I want to report about gate guard drinking alcoholic drinks on the post.}
+{2030}{}{Sure am, Sheriff. Gotta go.}
 {3000}{}{Take a word of advice from Sheriff Dumont, stranger - this town don't care for your kind. Any trouble and I come down hard. Now, is there anything I can do for you?}
 {3010}{}{I'm looking for some honest work. Can you help me?}
-{3020}{}{Gotta go. Goodbye, Sheriff.}
+{3020}{}{I want to report about gate guard drinking alcoholic drinks on the post.}
+{3030}{}{Gotta go. Goodbye, Sheriff.}
 {4000}{}{Hello again. Anything I can do for you?}
 {4010}{}{I'm looking for some honest work. Can you help me?}
-{4020}{}{Nothing thanks, Sheriff.}
+{4020}{}{I want to report about gate guard drinking alcoholic drinks on the post.}
+{4030}{}{Nothing thanks, Sheriff.}
 {5000}{}{Duppo up at the Stockmen's Association wrangles hands for the brahmin drives. Go try him.}
 {5010}{}{I'll go ask them, thanks.}
+{6000}{}{What a hell?! Oh I will kick this guy's ass for sure. Thank you for reporting. That son of a bitch will not have to clean toilets in the police station.}
 
 [pols]
 {100}{}{none}
@@ -69,15 +81,19 @@ lang=engl czec pols span russ
 {1030}{}{Low Karma}
 {2000}{}{Welcome to NCR, stranger. Name's Dumont - Sheriff Dumont. Hope you're having a nice peaceful time here.}
 {2010}{}{I'm looking for some honest work. Can you help me?}
-{2020}{}{Sure am, Sheriff. Gotta go.}
+{2020}{}{I want to report about gate guard drinking alcoholic drinks on the post.}
+{2030}{}{Sure am, Sheriff. Gotta go.}
 {3000}{}{Take a word of advice from Sheriff Dumont, stranger - this town don't care for your kind. Any trouble and I come down hard. Now, is there anything I can do for you?}
 {3010}{}{I'm looking for some honest work. Can you help me?}
-{3020}{}{Gotta go. Goodbye, Sheriff.}
+{3020}{}{I want to report about gate guard drinking alcoholic drinks on the post.}
+{3030}{}{Gotta go. Goodbye, Sheriff.}
 {4000}{}{Hello again. Anything I can do for you?}
 {4010}{}{I'm looking for some honest work. Can you help me?}
-{4020}{}{Nothing thanks, Sheriff.}
+{4020}{}{I want to report about gate guard drinking alcoholic drinks on the post.}
+{4030}{}{Nothing thanks, Sheriff.}
 {5000}{}{Duppo up at the Stockmen's Association wrangles hands for the brahmin drives. Go try him.}
 {5010}{}{I'll go ask them, thanks.}
+{6000}{}{What a hell?! Oh I will kick this guy's ass for sure. Thank you for reporting. That son of a bitch will not have to clean toilets in the police station.}
 
 [span]
 {100}{}{none}
@@ -87,15 +103,19 @@ lang=engl czec pols span russ
 {1030}{}{Low Karma}
 {2000}{}{Welcome to NCR, stranger. Name's Dumont - Sheriff Dumont. Hope you're having a nice peaceful time here.}
 {2010}{}{I'm looking for some honest work. Can you help me?}
-{2020}{}{Sure am, Sheriff. Gotta go.}
+{2020}{}{I want to report about gate guard drinking alcoholic drinks on the post.}
+{2030}{}{Sure am, Sheriff. Gotta go.}
 {3000}{}{Take a word of advice from Sheriff Dumont, stranger - this town don't care for your kind. Any trouble and I come down hard. Now, is there anything I can do for you?}
 {3010}{}{I'm looking for some honest work. Can you help me?}
-{3020}{}{Gotta go. Goodbye, Sheriff.}
+{3020}{}{I want to report about gate guard drinking alcoholic drinks on the post.}
+{3030}{}{Gotta go. Goodbye, Sheriff.}
 {4000}{}{Hello again. Anything I can do for you?}
 {4010}{}{I'm looking for some honest work. Can you help me?}
-{4020}{}{Nothing thanks, Sheriff.}
+{4020}{}{I want to report about gate guard drinking alcoholic drinks on the post.}
+{4030}{}{Nothing thanks, Sheriff.}
 {5000}{}{Duppo up at the Stockmen's Association wrangles hands for the brahmin drives. Go try him.}
 {5010}{}{I'll go ask them, thanks.}
+{6000}{}{What a hell?! Oh I will kick this guy's ass for sure. Thank you for reporting. That son of a bitch will not have to clean toilets in the police station.}
 
 [russ]
 {100}{}{none}
@@ -105,13 +125,17 @@ lang=engl czec pols span russ
 {1030}{}{Low Karma}
 {2000}{}{Welcome to NCR, stranger. Name's Dumont - Sheriff Dumont. Hope you're having a nice peaceful time here.}
 {2010}{}{I'm looking for some honest work. Can you help me?}
-{2020}{}{Sure am, Sheriff. Gotta go.}
+{2020}{}{I want to report about gate guard drinking alcoholic drinks on the post.}
+{2030}{}{Sure am, Sheriff. Gotta go.}
 {3000}{}{Take a word of advice from Sheriff Dumont, stranger - this town don't care for your kind. Any trouble and I come down hard. Now, is there anything I can do for you?}
 {3010}{}{I'm looking for some honest work. Can you help me?}
-{3020}{}{Gotta go. Goodbye, Sheriff.}
+{3020}{}{I want to report about gate guard drinking alcoholic drinks on the post.}
+{3030}{}{Gotta go. Goodbye, Sheriff.}
 {4000}{}{Hello again. Anything I can do for you?}
 {4010}{}{I'm looking for some honest work. Can you help me?}
-{4020}{}{Nothing thanks, Sheriff.}
+{4020}{}{I want to report about gate guard drinking alcoholic drinks on the post.}
+{4030}{}{Nothing thanks, Sheriff.}
 {5000}{}{Duppo up at the Stockmen's Association wrangles hands for the brahmin drives. Go try him.}
 {5010}{}{I'll go ask them, thanks.}
+{6000}{}{What a hell?! Oh I will kick this guy's ass for sure. Thank you for reporting. That son of a bitch will not have to clean toilets in the police station.}
 

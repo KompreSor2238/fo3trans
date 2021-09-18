@@ -1,0 +1,222 @@
+[comment]
+
+
+[data]
+lang=engl czec pols span russ
+
+[dialog]
+&
+1 1000 None 1 #
+2 1010 @
+2 2000 None 0 #
+3 2010 D _param p SK_SCIENCE } 100 #
+10 2020 D _param p SK_SCIENCE } 150 D _param p ST_INTELLECT } 6 #
+9 2030 D _param p SK_SCIENCE < 150 #
+4 2040 #
+7 2050 #
+0 2060 @
+3 3000 None 0 #
+2 3010 #
+0 3020 @
+4 4000 None 0 #
+5 4010 D _param p SK_SCIENCE { 175 R _param p ST_CURRENT_HP - 100 #
+6 4020 D _param p SK_SCIENCE > 175 #
+0 4030 @
+5 5000 None 0 #
+0 5010 #
+0 5020 @
+6 6000 None 0 #
+2 6010 D _param p SK_REPAIR } 125 D _param p SK_SCIENCE } 200 #
+0 6020 @
+7 7000 None 0 #
+8 7010 @
+8 8000 None 0 #
+0 8010 #
+0 8020 @
+9 9000 None 0 #
+2 9010 #
+0 9020 @
+10 10000 None 0 #
+2 10010 #
+0 10020 &
+
+[engl]
+{100}{}{Terminal}
+{1000}{}{Predialogue installations}
+{1010}{}{Answer text}
+{2000}{}{*miraculously... the rebeliant's leader is still logged in* P4N0PT1C0N, welcome to RobCo electronic messenger! You have:  42(new) and 288(read) messages. *fascinating...*}
+{2010}{}{[ download everything to your PipBoy ] [ Science ]}
+{2020}{}{[ spend some time looking through the files ] [ Intelligence ] [ Science ]}
+{2030}{}{[ spend some time looking through the files ] [ Science ]}
+{2040}{}{[ kick it in that "special" way... why not? ]}
+{2050}{}{[ Delete All Messages ]}
+{2060}{}{[ Exit ]}
+{3000}{}{*you download all the information to your PipBoy... maybe someone will know what it means*}
+{3010}{}{[ back to e-mail ]}
+{3020}{}{Nice. [ Exit ]}
+{4000}{}{*the screen has now shut off and now the terminal appears to be smoking... nice... looks like it might even catch fire!.. what did you do this time?!?* }
+{4010}{}{Try to disconnect the power somehow... [ Science ]}
+{4020}{}{Try to disconnect the power somehow... [ Science ]}
+{4030}{}{Uh oh. [ end dialogue ]}
+{5000}{}{*as you reach around inside the terminal to find the power wires, you succesfully burn your hand and shock the piss out of yourself!.. how embarassing... the terminal is really going up in flames now!*}
+{5010}{}{Ah, fuck you, piece of crap! I'm out of here. [ end dialogue ]}
+{5020}{}{*whistle innocently and leave* I didn't see nothin'... [ end dialogue ]}
+{6000}{}{*you manage to quickly disconnect the power wire for the display inside the terminal casing and prevent a major fire, but you aren't sure you will be able to fix it now...*}
+{6010}{}{Thankfully I have a kit of diagnostic tools and electronics components here... *reach around in your bag* [ Repair ][ Science ] }
+{6020}{}{Yeah, I'm not touching this. [ end dialogue ]}
+{7000}{}{Loading... Loading... Loading...}
+{7010}{}{Hmm, I hope this is a good idea. [ continue ]}
+{8000}{}{P4N0PT1C0N, welcome to RobCo electronic messenger! You have:  0 messages.}
+{8010}{}{Probably no one will find anything now... [ Exit ]}
+{8020}{}{Well, I guess that's it. [ Exit ]}
+{9000}{}{*you spend some time looking through the messages, but it's all a huge jumble of text after a while, and there doesn't seem to be anything interesting in particular... the rebeliants were here but mostly it's communication and drama between people you've never heard of*}
+{9010}{}{Damn, I was hoping for the latest rebeliant gossip! [ back to e-mail ]}
+{9020}{}{Ugh, I didn't come here to check out the latest rebeliant gossip... [ Exit ]}
+{10000}{}{*after closely examining the messages you conclude that most of the rebeliants here were unknowingly on BCD payroll, and that much of their equipment and structure was funded or originally provided by BCD... also someone named "L" is still sending them payments and orders remotely*}
+{10010}{}{[ back to e-mail ]}
+{10020}{}{Fascinating. I wonder who this "L" could be... [ Exit ]}
+
+[czec]
+{100}{}{Terminal}
+{1000}{}{Predialogue installations}
+{1010}{}{Answer text}
+{2000}{}{Warning! Can't connect to network.}
+{2010}{}{*there appears to be a slot where you can insert your PipBoy...* [ hack the terminal ][ Science ]}
+{2020}{}{[ spend some time looking through the files ] [ Science ]}
+{2030}{}{[ spend some time looking through the files ] [ Science ]}
+{2040}{}{Kick it in that "special" way.}
+{2050}{}{[ Delete All Files ]}
+{2060}{}{Login Unavailable}
+{3000}{}{*as it reboots, the terminal appears to be heating up and smoking slightly* 0x00000012 TRAP_CAUSE_UNKNOWN This terminal has detected an unknown exception. What would you like to do?}
+{3010}{}{Try to boot normally.}
+{3020}{}{I'm outta here.}
+{4000}{}{Warning! Unsuccessful login attempt! Repetitive unsuccessful attempts will be met with excessive force!}
+{4010}{}{Try to disconnect the power somehow...}
+{4020}{}{Try to disconnect the power somehow... [ Science ]}
+{4030}{}{I don't have time for this crap. [ Exit ]}
+{5000}{}{Warning! Unsuccessful login attempt! Repetitive unsuccessful attempts will be met with excessive force!}
+{5010}{}{[ Exit ]}
+{5020}{}{I'm leaving now. [ Exit ]}
+{6000}{}{Welcome to RBIOS ver. 4.02.08.00. Select your options.}
+{6010}{}{Security.}
+{6020}{}{Fuck this! [ Exit ]}
+{7000}{}{Input BIOS password:}
+{7010}{}{Hmm, I hope this was a good idea. [ continue ]}
+{8000}{}{*after some time, a text box appears on the screen* Would you like to save a copy of all user profiles and repair this terminal, or simply delete all old information and reinstall?}
+{8010}{}{Delete everything, reformat, and reinstall.}
+{8020}{}{[ Exit ]}
+{9000}{}{Dialog text}
+{9010}{}{Damn, I was hoping for the latest rebeliants gossip! [ back to e-mail ]}
+{9020}{}{Ugh I didn't come here to check out the latest Rebeliants gossip...}
+{10000}{}{Dialog text}
+{10010}{}{[ back to e-mail ]}
+{10020}{}{Fascinating. I wonder who this "L" could be...}
+
+[pols]
+{100}{}{Terminal}
+{1000}{}{Predialogue installations}
+{1010}{}{Answer text}
+{2000}{}{Warning! Can't connect to network.}
+{2010}{}{*there appears to be a slot where you can insert your PipBoy...* [ hack the terminal ][ Science ]}
+{2020}{}{[ spend some time looking through the files ] [ Science ]}
+{2030}{}{[ spend some time looking through the files ] [ Science ]}
+{2040}{}{Kick it in that "special" way.}
+{2050}{}{[ Delete All Files ]}
+{2060}{}{Login Unavailable}
+{3000}{}{*as it reboots, the terminal appears to be heating up and smoking slightly* 0x00000012 TRAP_CAUSE_UNKNOWN This terminal has detected an unknown exception. What would you like to do?}
+{3010}{}{Try to boot normally.}
+{3020}{}{I'm outta here.}
+{4000}{}{Warning! Unsuccessful login attempt! Repetitive unsuccessful attempts will be met with excessive force!}
+{4010}{}{Try to disconnect the power somehow...}
+{4020}{}{Try to disconnect the power somehow... [ Science ]}
+{4030}{}{I don't have time for this crap. [ Exit ]}
+{5000}{}{Warning! Unsuccessful login attempt! Repetitive unsuccessful attempts will be met with excessive force!}
+{5010}{}{[ Exit ]}
+{5020}{}{I'm leaving now. [ Exit ]}
+{6000}{}{Welcome to RBIOS ver. 4.02.08.00. Select your options.}
+{6010}{}{Security.}
+{6020}{}{Fuck this! [ Exit ]}
+{7000}{}{Input BIOS password:}
+{7010}{}{Hmm, I hope this was a good idea. [ continue ]}
+{8000}{}{*after some time, a text box appears on the screen* Would you like to save a copy of all user profiles and repair this terminal, or simply delete all old information and reinstall?}
+{8010}{}{Delete everything, reformat, and reinstall.}
+{8020}{}{[ Exit ]}
+{9000}{}{Dialog text}
+{9010}{}{Damn, I was hoping for the latest rebeliants gossip! [ back to e-mail ]}
+{9020}{}{Ugh I didn't come here to check out the latest Rebeliants gossip...}
+{10000}{}{Dialog text}
+{10010}{}{[ back to e-mail ]}
+{10020}{}{Fascinating. I wonder who this "L" could be...}
+
+[span]
+{100}{}{Terminal}
+{1000}{}{Predialogue installations}
+{1010}{}{Answer text}
+{2000}{}{Warning! Can't connect to network.}
+{2010}{}{*there appears to be a slot where you can insert your PipBoy...* [ hack the terminal ][ Science ]}
+{2020}{}{[ spend some time looking through the files ] [ Science ]}
+{2030}{}{[ spend some time looking through the files ] [ Science ]}
+{2040}{}{Kick it in that "special" way.}
+{2050}{}{[ Delete All Files ]}
+{2060}{}{Login Unavailable}
+{3000}{}{*as it reboots, the terminal appears to be heating up and smoking slightly* 0x00000012 TRAP_CAUSE_UNKNOWN This terminal has detected an unknown exception. What would you like to do?}
+{3010}{}{Try to boot normally.}
+{3020}{}{I'm outta here.}
+{4000}{}{Warning! Unsuccessful login attempt! Repetitive unsuccessful attempts will be met with excessive force!}
+{4010}{}{Try to disconnect the power somehow...}
+{4020}{}{Try to disconnect the power somehow... [ Science ]}
+{4030}{}{I don't have time for this crap. [ Exit ]}
+{5000}{}{Warning! Unsuccessful login attempt! Repetitive unsuccessful attempts will be met with excessive force!}
+{5010}{}{[ Exit ]}
+{5020}{}{I'm leaving now. [ Exit ]}
+{6000}{}{Welcome to RBIOS ver. 4.02.08.00. Select your options.}
+{6010}{}{Security.}
+{6020}{}{Fuck this! [ Exit ]}
+{7000}{}{Input BIOS password:}
+{7010}{}{Hmm, I hope this was a good idea. [ continue ]}
+{8000}{}{*after some time, a text box appears on the screen* Would you like to save a copy of all user profiles and repair this terminal, or simply delete all old information and reinstall?}
+{8010}{}{Delete everything, reformat, and reinstall.}
+{8020}{}{[ Exit ]}
+{9000}{}{Dialog text}
+{9010}{}{Damn, I was hoping for the latest rebeliants gossip! [ back to e-mail ]}
+{9020}{}{Ugh I didn't come here to check out the latest Rebeliants gossip...}
+{10000}{}{Dialog text}
+{10010}{}{[ back to e-mail ]}
+{10020}{}{Fascinating. I wonder who this "L" could be...}
+
+[russ]
+{100}{}{Terminal}
+{1000}{}{Predialogue installations}
+{1010}{}{Answer text}
+{2000}{}{Warning! Can't connect to network.}
+{2010}{}{*there appears to be a slot where you can insert your PipBoy...* [ hack the terminal ][ Science ]}
+{2020}{}{[ spend some time looking through the files ] [ Science ]}
+{2030}{}{[ spend some time looking through the files ] [ Science ]}
+{2040}{}{Kick it in that "special" way.}
+{2050}{}{[ Delete All Files ]}
+{2060}{}{Login Unavailable}
+{3000}{}{*as it reboots, the terminal appears to be heating up and smoking slightly* 0x00000012 TRAP_CAUSE_UNKNOWN This terminal has detected an unknown exception. What would you like to do?}
+{3010}{}{Try to boot normally.}
+{3020}{}{I'm outta here.}
+{4000}{}{Warning! Unsuccessful login attempt! Repetitive unsuccessful attempts will be met with excessive force!}
+{4010}{}{Try to disconnect the power somehow...}
+{4020}{}{Try to disconnect the power somehow... [ Science ]}
+{4030}{}{I don't have time for this crap. [ Exit ]}
+{5000}{}{Warning! Unsuccessful login attempt! Repetitive unsuccessful attempts will be met with excessive force!}
+{5010}{}{[ Exit ]}
+{5020}{}{I'm leaving now. [ Exit ]}
+{6000}{}{Welcome to RBIOS ver. 4.02.08.00. Select your options.}
+{6010}{}{Security.}
+{6020}{}{Fuck this! [ Exit ]}
+{7000}{}{Input BIOS password:}
+{7010}{}{Hmm, I hope this was a good idea. [ continue ]}
+{8000}{}{*after some time, a text box appears on the screen* Would you like to save a copy of all user profiles and repair this terminal, or simply delete all old information and reinstall?}
+{8010}{}{Delete everything, reformat, and reinstall.}
+{8020}{}{[ Exit ]}
+{9000}{}{Dialog text}
+{9010}{}{Damn, I was hoping for the latest rebeliants gossip! [ back to e-mail ]}
+{9020}{}{Ugh I didn't come here to check out the latest Rebeliants gossip...}
+{10000}{}{Dialog text}
+{10010}{}{[ back to e-mail ]}
+{10020}{}{Fascinating. I wonder who this "L" could be...}
+

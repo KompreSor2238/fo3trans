@@ -11,36 +11,36 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 1 #
+1 1000 None 1 #
 11 1010 D _var p q_iguana_pete_message = 3 #
 2 1020 D _var p q_iguana_pete_message = 2 #
 10 1030 @
-2 2000 main@dlg_Caps 0 #
-0 2010 #
-4 2020 D _var p q_iguana_pete_message = 2 #
-3 2030 D _var p q_iguana_pete_message = 2 @
-3 3000 main@dlg_Caps 0 #
+2 2000 None 0 #
+4 2010 D _var p q_iguana_pete_message = 2 #
+3 2020 D _var p q_iguana_pete_message = 2 #
+0 2030 @
+3 3000 None 0 #
 5 3010 #
 4 3020 @
-4 4000 main@dlg_Caps 0 #
+4 4000 None 0 #
 2 4010 @
-5 5000 main@dlg_Caps 0 #
+5 5000 None 0 #
 4 5010 #
 6 5020 D _var p name_mem_npc_player = 0 R _item p PID_BEER + 1 R _var p name_mem_npc_player = 1 #
 6 5030 D _var p name_mem_npc_player = 1 @
-6 6000 main@dlg_Caps 0 #
+6 6000 None 0 #
 7 6010 #
 7 6020 #
 4 6030 @
-7 7000 main@dlg_Caps 0 #
+7 7000 None 0 #
 8 7010 #
 4 7020 @
-8 8000 main@dlg_Caps 0 #
+8 8000 None 0 #
 9 8010 @
-9 9000 main@dlg_Caps 0 #
+9 9000 None 0 #
 0 9010 R _var p q_iguana_pete_message = 3 @
-10 10000 main@dlg_Caps 0 @
-11 11000 main@dlg_Caps 0 &
+10 10000 None 0 @
+11 11000 None 0 &
 
 [engl]
 {100}{}{Lenny}
@@ -51,9 +51,9 @@ lang=engl czec pols span russ
 {1020}{}{Player has spoken to Iguana Mike}
 {1030}{}{Player hasn't spoken to Iguana Mike}
 {2000}{}{What now you want? Me busy.}
-{2010}{}{Nothing. Carry on...}
-{2020}{}{Where did you find that Son of Bob stand out in the Bazaar? You know, the pretty white one?}
-{2030}{}{You... know... sonofbob?}
+{2010}{}{Where did you find that Son of Bob stand out in the Bazaar? You know, the pretty white one?}
+{2020}{}{You... know... sonofbob?}
+{2030}{}{Nothing. Carry on... [ end dialogue ]}
 {3000}{}{Haha.. little.. sonofbob... how you know?}
 {3010}{}{me know... big iguana bob... he looking sunofbob... you know sunofbob?}
 {3020}{}{I know his father, he is looking for him and wants me to deliver a message. You have to tell me where he is!}
@@ -63,19 +63,19 @@ lang=engl czec pols span russ
 {5010}{}{No more drinking! Please I can't stand this anymore, tell me where he is!}
 {5020}{}{Drink for Small Bob!}
 {5030}{}{Drink for Small Bob!}
-{6000}{}{[burrrrp] what... who you? Me miss sunofbob... you like small Bob... small squishy Bob}
+{6000}{}{*burrrrp* what... who you? Me miss sunofbob... you like small Bob... small squishy Bob}
 {6010}{}{You squish... small Bob?}
 {6020}{}{Where find small Bob?}
 {6030}{}{What did you do to Iguana Pete's son? You monster!}
 {7000}{}{Small Bob live desert now... can't visit... drink for... small.. small Bob..}
 {7010}{}{where in desert?}
 {7020}{}{What do you mean in the desert?}
-{8000}{}{Not safe... me.... small Bob go south of town.. town new.... new... n... [throws up in mouth]}
+{8000}{}{Not safe... me.... small Bob go south of town.. town new.... new... n... *throws up in mouth*}
 {8010}{}{New what? Dammnit tell me, I'm sick of this shit already!}
-{9000}{}{urrgg....gorru........uhhh...::burp:: lost small... Bob.... miss sunofbob... ::he starts to cry::}
-{9010}{}{::he doesn't look well. you better leave before they throw you both out::}
+{9000}{}{urrgg....gorru........uhhh...*burp* lost small... Bob.... miss sunofbob... *he starts to cry*}
+{9010}{}{*he doesn't look well... you better leave before they throw you both out* [ end dialogue ]}
 {10000}{}{I'm Lenny and you're pond scum. Get outta here.@@Why you bothering Lenny, you little white grub?@@What you want with Lenny, worthless human?@@Keep poking me and you can tell your maker Lenny sent you.@@Pleased to meet ya. I'm Lenny - you must be Shit-for-brains. Ha, ha!}
-{11000}{}{uhhhhhh@@::burp::@@ugggh@@...small...bob...@@::sob::@@Drink!}
+{11000}{}{uhhhhhh@@*burp*@@ugggh@@...small...bob...@@*sob*@@Drink!}
 
 [czec]
 {100}{}{none}
@@ -84,9 +84,9 @@ lang=engl czec pols span russ
 {1020}{}{Player has spoken to Iguana Mike}
 {1030}{}{Player hasn't spoken to Iguana Mike}
 {2000}{}{What now you want? Me busy.}
-{2010}{}{Nothing. Carry on...}
-{2020}{}{Where did you find that Son of Bob stand out in the Bazaar? You know, the pretty white one?}
-{2030}{}{You... know... sonofbob?}
+{2010}{}{Where did you find that Son of Bob stand out in the Bazaar? You know, the pretty white one?}
+{2020}{}{You... know... sonofbob?}
+{2030}{}{Nothing. Carry on...}
 {3000}{}{Haha.. little.. sonofbob... how you know?}
 {3010}{}{me know... big iguana bob... he looking sunofbob... you know sunofbob?}
 {3020}{}{I know his father, he is looking for him and wants me to deliver a message. You have to tell me where he is!}
@@ -117,9 +117,9 @@ lang=engl czec pols span russ
 {1020}{}{Player has spoken to Iguana Mike}
 {1030}{}{Player hasn't spoken to Iguana Mike}
 {2000}{}{What now you want? Me busy.}
-{2010}{}{Nothing. Carry on...}
-{2020}{}{Where did you find that Son of Bob stand out in the Bazaar? You know, the pretty white one?}
-{2030}{}{You... know... sonofbob?}
+{2010}{}{Where did you find that Son of Bob stand out in the Bazaar? You know, the pretty white one?}
+{2020}{}{You... know... sonofbob?}
+{2030}{}{Nothing. Carry on...}
 {3000}{}{Haha.. little.. sonofbob... how you know?}
 {3010}{}{me know... big iguana bob... he looking sunofbob... you know sunofbob?}
 {3020}{}{I know his father, he is looking for him and wants me to deliver a message. You have to tell me where he is!}
@@ -150,9 +150,9 @@ lang=engl czec pols span russ
 {1020}{}{Player has spoken to Iguana Mike}
 {1030}{}{Player hasn't spoken to Iguana Mike}
 {2000}{}{What now you want? Me busy.}
-{2010}{}{Nothing. Carry on...}
-{2020}{}{Where did you find that Son of Bob stand out in the Bazaar? You know, the pretty white one?}
-{2030}{}{You... know... sonofbob?}
+{2010}{}{Where did you find that Son of Bob stand out in the Bazaar? You know, the pretty white one?}
+{2020}{}{You... know... sonofbob?}
+{2030}{}{Nothing. Carry on...}
 {3000}{}{Haha.. little.. sonofbob... how you know?}
 {3010}{}{me know... big iguana bob... he looking sunofbob... you know sunofbob?}
 {3020}{}{I know his father, he is looking for him and wants me to deliver a message. You have to tell me where he is!}
@@ -183,9 +183,9 @@ lang=engl czec pols span russ
 {1020}{}{Player has spoken to Iguana Mike}
 {1030}{}{Player hasn't spoken to Iguana Mike}
 {2000}{}{What now you want? Me busy.}
-{2010}{}{Nothing. Carry on...}
-{2020}{}{Where did you find that Son of Bob stand out in the Bazaar? You know, the pretty white one?}
-{2030}{}{You... know... sonofbob?}
+{2010}{}{Where did you find that Son of Bob stand out in the Bazaar? You know, the pretty white one?}
+{2020}{}{You... know... sonofbob?}
+{2030}{}{Nothing. Carry on...}
 {3000}{}{Haha.. little.. sonofbob... how you know?}
 {3010}{}{me know... big iguana bob... he looking sunofbob... you know sunofbob?}
 {3020}{}{I know his father, he is looking for him and wants me to deliver a message. You have to tell me where he is!}

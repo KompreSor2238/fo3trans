@@ -6,11 +6,11 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 10 1010 #
 2 1020 D _param p ST_KARMA < -100 @
-10 2000 main@dlg_Caps 0 @
-2 3000 main@dlg_Caps 0 &
+10 2000 None 0 @
+2 3000 None 0 &
 
 [engl]
 {100}{}{Guard}

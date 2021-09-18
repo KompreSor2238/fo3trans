@@ -6,9 +6,9 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 1 #
+1 1000 None 1 #
 2 1010 @
-2 2000 main@dlg_Caps 0 #
+2 2000 None 0 #
 0 2010 D _var p radio_alice = 1 D _item p PID_PLASTIC_EXPLOSIVES } 1 R _var p radio_alice = 2 R _item p PID_PLASTIC_EXPLOSIVES - 1 #
 0 2020 &
 
@@ -16,8 +16,8 @@ lang=engl czec pols span russ
 {100}{}{none}
 {1000}{}{Predialogue installations}
 {1010}{}{Answer text}
-{2000}{}{[ This box is filled with different chem components. ]}
-{2010}{}{[ Plant a bomb inside ]}
+{2000}{}{[ This box is filled with different chemical components. ]}
+{2010}{}{[ Plant the explosives inside ]}
 {2020}{}{[ Leave ]}
 
 [czec]

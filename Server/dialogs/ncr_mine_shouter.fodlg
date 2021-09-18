@@ -6,9 +6,9 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 2 1010 @
-2 2000 main@dlg_Caps 0 &
+2 2000 None 0 &
 
 [engl]
 {100}{}{Mine overseer}
@@ -18,7 +18,7 @@ lang=engl czec pols span russ
 {1010}{}{default answer}
 {2000}{}{I don't have time to talk to you.}
 {100000001}{}{Work, you lazy bums, work faster!}
-{100000002}{}{You! Hey, you! You are not working! For what am I paying you?}
+{100000002}{}{You! Hey, you! You are not working! What am I paying you for?}
 {100000003}{}{Julian! Julian! Wake up, you lazy idiot!}
 {100000004}{}{Yes, I am talking to you!}
 

@@ -1,4 +1,4 @@
-[comment]
+﻿[comment]
 
 
 [data]
@@ -6,13 +6,13 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 2 1010 @
-2 2000 main@dlg_Caps 0 &
+2 2000 None 0 &
 
 [engl]
 {100}{}{Gambler}
-{200}{}{You see gambling woman.}
+{200}{}{You see a gambling woman.}
 {210}{}{Looks like she likes gambling.}
 {1000}{}{Predialogue installations}
 {1010}{}{Answer text}

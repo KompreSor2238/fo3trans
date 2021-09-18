@@ -817,6 +817,8 @@
 {18840}{}{Enclave Patrol.}
 {18850}{}{NCR Mutant.}
 {18860}{}{Vault City Bot.}
+{19320}{}{"Hell Spider"}
+{19321}{}{It is armed with explosives! Do not let it get closer to you!}
 {90210}{}{Bridge Keeper}
 {90211}{}{For some reason, I think I should save my game in a brand new slot.}
 {90220}{}{Crazy Ghoul}
@@ -844,3 +846,4 @@
 {90440}{}{Alien}
 {90450}{}{Alien}
 {90460}{}{Queen Alien}
+

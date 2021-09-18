@@ -6,30 +6,30 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 1 #
+1 1000 None 1 #
 2 1010 D _var p starter_gustools = 0 D _param p ST_CHARISMA > 3 #
 6 1020 D _param p ST_CHARISMA < 4 #
 5 1030 D _param p ST_INTELLECT < 4 #
 7 1040 D _var p starter_gustools = 1 #
 10 1050 D _var p starter_gustools = 2 @
-2 2000 main@dlg_Caps 0 #
+2 2000 None 0 #
 3 2010 #
 0 2020 @
-3 3000 main@dlg_Caps 0 #
+3 3000 None 0 #
 4 3010 #
 0 3020 @
-4 4000 main@dlg_Caps 0 #
+4 4000 None 0 #
 0 4010 R _var p starter_gustools = 1 @
-5 5000 main@dlg_Caps 0 @
-6 6000 main@dlg_Caps 0 @
-7 7000 main@dlg_Caps 0 #
+5 5000 None 0 @
+6 6000 None 0 @
+7 7000 None 0 #
 7 7010 D _item p PID_SHOVEL = 1 D _item p PID_KNIFE = 1 R _var p starter_gustools = 2 #
 0 7020 @
-8 8000 main@dlg_Caps 0 #
+8 8000 None 0 #
 9 8010 @
-9 9000 main@dlg_Caps 0 #
+9 9000 None 0 #
 0 9010 @
-10 10000 main@dlg_Caps 0 &
+10 10000 None 0 &
 
 [engl]
 {100}{}{Gus}
@@ -41,7 +41,7 @@ lang=engl czec pols span russ
 {1030}{}{Idiot}
 {1040}{}{Quest assigned}
 {1050}{}{Quest complete}
-{2000}{}{Hey pal, goddamn, you came at the right time. I gots a favour to ask ya.}
+{2000}{}{Hey pal, goddamn, you came at the right time. I gots a favor to ask ya.}
 {2010}{}{Sure, what is it?}
 {2020}{}{Forget it, ask someone else.}
 {3000}{}{Someone's fuckin' with me, I just know it. I take one goddamn break and my tools are gone. I'm sure as hell they ain't been stolen, neither.}

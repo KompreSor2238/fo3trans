@@ -6,15 +6,15 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 1 #
+1 1000 None 1 #
 2 1010 @
-2 2000 main@dlg_Caps 0 &
+2 2000 None 0 &
 
 [engl]
 {100}{}{Local}
 {1000}{}{Predialogue installations}
 {1010}{}{Answer text}
-{2000}{}{Hello.@@Are you from the capital?@@You ain't local, are you?@@What is it?@@Do I know you.@@"What a boring place..." you may thing.}
+{2000}{}{Hello.@@Are you from the capital?@@You ain't local, are you?@@What is it?@@Do I know you.@@"What a boring place..." you may think.}
 
 [czec]
 {100}{}{none}

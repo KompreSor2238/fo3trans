@@ -22,6 +22,12 @@
 # 6001
 # Raiders induction quest
 #=======================================
+{509001}{}{Rockside: Help Boris}
+{509002}{}{Boris Asked me for help him, find a Arnold, and tell him that Boris want to join them in travel to Junktown}
+{509101}{}{Find Arnold}
+{509102}{}{Comeback to Boris}
+{509103}{}{Take stuff behind nuka machine}
+{509104}{}{:: Quest Completed ::}
 {6001001}{}{Metzger pointed me to his business contact, Stokes. Stokes is said to spend his time in The Hole.}
 {6001002}{}{Stokes told me to visit the Khans' southern outpost and talk to Raynes, the local leader.}
 {6001003}{}{Deal with the renegade raider.}

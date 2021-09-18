@@ -6,12 +6,12 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 1 #
+1 1000 None 1 #
 2 1010 @
-2 2000 main@dlg_Caps 0 #
+2 2000 None 0 #
 3 2010 D _var p wow_foxlove = 1 R _var p wow_foxlove = 2 #
 0 2020 @
-3 3000 main@dlg_Caps 0 #
+3 3000 None 0 #
 0 3010 #
 0 3020 &
 
@@ -19,12 +19,12 @@ lang=engl czec pols span russ
 {100}{}{none}
 {1000}{}{Predialogue installations}
 {1010}{}{Answer text}
-{2000}{}{[ You see the Robo Eye Bot lying on the ground ]}
-{2010}{}{[ Carefully inspect the robot ]}
-{2020}{}{[ Leave ]}
-{3000}{}{[ It seems to be totally wrecked off. Its microships seems to be chewed... Probably by rats ]}
-{3010}{}{[ Leave ]}
-{3020}{}{Somebody is gonna get dissapointed...}
+{2000}{}{*you see the Robo Eye Bot lying on the ground*}
+{2010}{}{[ carefully inspect the robot ]}
+{2020}{}{[ Leave ] [ end dialogue ]}
+{3000}{}{*it seems to be totally wrecked... even its microchips seem to be chewed... probably by rats... bad*}
+{3010}{}{Somebody is gonna be disappointed... [ end dialogue ]}
+{3020}{}{[ Leave ] [ end dialogue ]}
 
 [czec]
 {100}{}{none}
@@ -34,8 +34,8 @@ lang=engl czec pols span russ
 {2010}{}{[ Carefully inspect the robot ]}
 {2020}{}{[ Leave ]}
 {3000}{}{[ It seems to be totally wrecked off. Its microships seems to be chewed... Probably by rats ]}
-{3010}{}{[ Leave ]}
-{3020}{}{Somebody is gonna get dissapointed...}
+{3010}{}{Somebody is gonna get dissapointed...}
+{3020}{}{[ Leave ]}
 
 [pols]
 {100}{}{none}
@@ -45,8 +45,8 @@ lang=engl czec pols span russ
 {2010}{}{[ Carefully inspect the robot ]}
 {2020}{}{[ Leave ]}
 {3000}{}{[ It seems to be totally wrecked off. Its microships seems to be chewed... Probably by rats ]}
-{3010}{}{[ Leave ]}
-{3020}{}{Somebody is gonna get dissapointed...}
+{3010}{}{Somebody is gonna get dissapointed...}
+{3020}{}{[ Leave ]}
 
 [span]
 {100}{}{none}
@@ -56,8 +56,8 @@ lang=engl czec pols span russ
 {2010}{}{[ Carefully inspect the robot ]}
 {2020}{}{[ Leave ]}
 {3000}{}{[ It seems to be totally wrecked off. Its microships seems to be chewed... Probably by rats ]}
-{3010}{}{[ Leave ]}
-{3020}{}{Somebody is gonna get dissapointed...}
+{3010}{}{Somebody is gonna get dissapointed...}
+{3020}{}{[ Leave ]}
 
 [russ]
 {100}{}{none}
@@ -67,6 +67,6 @@ lang=engl czec pols span russ
 {2010}{}{[ Carefully inspect the robot ]}
 {2020}{}{[ Leave ]}
 {3000}{}{[ It seems to be totally wrecked off. Its microships seems to be chewed... Probably by rats ]}
-{3010}{}{[ Leave ]}
-{3020}{}{Somebody is gonna get dissapointed...}
+{3010}{}{Somebody is gonna get dissapointed...}
+{3020}{}{[ Leave ]}
 

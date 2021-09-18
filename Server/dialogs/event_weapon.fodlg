@@ -1,0 +1,130 @@
+[comment]
+
+
+[data]
+lang=engl
+
+[dialog]
+&
+1 1000 None 1 #
+2 1010 @
+2 2000 None 0 #
+4 2010 #
+3 2020 #
+5 2030 #
+6 2040 #
+7 2050 #
+0 2060 @
+4 3000 None 0 #
+0 3010 R _param p WAR_WEAPON1 = 241 #
+0 3020 R _param p WAR_WEAPON1 = 22 #
+0 3030 R _param p WAR_WEAPON1 = 268 #
+0 3040 R _param p WAR_WEAPON1 = 296 #
+0 3050 R _param p WAR_WEAPON1 = 25566 #
+0 3060 R _param p WAR_WEAPON1 = 620 #
+0 3070 R _param p WAR_WEAPON1 = 388 #
+0 3080 R _param p WAR_WEAPON1 = 354 #
+0 3090 R _param p WAR_WEAPON1 = 143 #
+0 3100 R _param p WAR_WEAPON1 = 353 #
+2 3110 @
+3 4000 None 0 #
+0 4010 R _param p WAR_WEAPON1 = 400 #
+0 4020 R _param p WAR_WEAPON1 = 355 #
+0 4030 R _param p WAR_WEAPON1 = 387 #
+0 4040 R _param p WAR_WEAPON1 = 389 #
+0 4050 R _param p WAR_WEAPON1 = 13 #
+2 4060 @
+5 5000 None 0 #
+0 5010 R _param p WAR_WEAPON1 = 25567 #
+0 5020 R _param p WAR_WEAPON1 = 28 #
+0 5030 R _param p WAR_WEAPON1 = 401 #
+0 5040 R _param p WAR_WEAPON1 = 402 #
+0 5050 R _param p WAR_WEAPON1 = 406 #
+0 5060 R _param p WAR_WEAPON1 = 25582 #
+0 5070 R _param p WAR_WEAPON1 = 1217 #
+0 5080 R _param p WAR_WEAPON1 = 390 #
+0 5090 R _param p WAR_WEAPON1 = 15 #
+0 5100 R _param p WAR_WEAPON1 = 396 #
+2 5110 @
+6 6000 None 0 #
+0 6010 R _param p WAR_WEAPON1 = 407 #
+0 6020 R _param p WAR_WEAPON1 = 517 #
+0 6030 R _param p WAR_WEAPON1 = 115 #
+0 6040 R _param p WAR_WEAPON1 = 399 #
+0 6050 R _param p WAR_WEAPON1 = 386 #
+0 6060 R _param p WAR_WEAPON1 = 116 #
+0 6070 R _param p WAR_WEAPON1 = 522 #
+2 6080 @
+7 7000 None 0 #
+0 7010 R _param p WAR_WEAPON1 = 1283 #
+0 7020 R _param p WAR_WEAPON1 = 1280 #
+0 7030 R _param p WAR_WEAPON1 = 1278 #
+0 7040 R _param p WAR_WEAPON1 = 1281 #
+0 7050 R _param p WAR_WEAPON1 = 1284 #
+0 7060 R _param p WAR_WEAPON1 = 1279 #
+0 7070 R _param p WAR_WEAPON1 = 1277 #
+0 7080 R _param p WAR_WEAPON1 = 1282 #
+2 7090 &
+
+[engl]
+{100}{}{NCR Officer}
+{1000}{}{Predialogue installations}
+{1010}{}{trying to enter}
+{2000}{}{Select Weapon for Events}
+{2010}{}{Small Guns}
+{2020}{}{Big Guns}
+{2030}{}{Energy Weapons}
+{2040}{}{Melee Weapons}
+{2050}{}{Alien Weapons}
+{2060}{}{[ End Dialog ]}
+{3000}{}{Select Weapon for Events}
+{3010}{}{.223 Pistol}
+{3020}{}{14mm Pistol}
+{3030}{}{H&K CAWS}
+{3040}{}{H&K P90c}
+{3050}{}{M16}
+{3060}{}{M79 Grenade Launcher}
+{3070}{}{Needler Pistol}
+{3080}{}{Pancor Jackhammer}
+{3090}{}{Sniper Rifle}
+{3100}{}{XL70E3}
+{3110}{}{Back}
+{4000}{}{Select Weapon for Events}
+{4010}{}{Incinerator}
+{4020}{}{Light Support Weapon}
+{4030}{}{M60}
+{4040}{}{Avenger Minigun}
+{4050}{}{Rocket Launcher}
+{4060}{}{Back}
+{5000}{}{Select Weapon for Events}
+{5010}{}{ELECTRO Rocket Launcher}
+{5020}{}{L30 Gatling Laser}
+{5030}{}{Laser Rifle (Ext. Cap.)}
+{5040}{}{Magneto-Laser Pistol}
+{5050}{}{Plasma Pistol (Ext. Cap.)}
+{5060}{}{Plasma SMG}
+{5070}{}{Prototype 14}
+{5080}{}{Solar Scorcher}
+{5090}{}{Winchester P94 Plasma Rifle}
+{5100}{}{YK32 Pulse Pistol}
+{5110}{}{Back}
+{6000}{}{Select Weapon for Events}
+{6010}{}{Mega Power Fist}
+{6020}{}{"Little Jesus"}
+{6030}{}{Super Sledge}
+{6040}{}{Super Cattle Prod}
+{6050}{}{Louisville Slugger}
+{6060}{}{Ripper}
+{6070}{}{Wakizashi Blade}
+{6080}{}{Back}
+{7000}{}{Select Weapon for Events}
+{7010}{}{AA-RL508}
+{7020}{}{ESR01}
+{7030}{}{ETG3000}
+{7040}{}{HP DKS-501}
+{7050}{}{IPF210}
+{7060}{}{LAR62}
+{7070}{}{PyO62}
+{7080}{}{SRS32-b}
+{7090}{}{Back}
+

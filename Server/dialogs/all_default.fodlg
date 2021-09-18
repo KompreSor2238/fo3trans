@@ -6,21 +6,21 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 2 1010 @
-2 2000 main@dlg_Caps 0 &
+2 2000 None 0 &
 
 [engl]
 {100}{}{Traveller}
 {200}{}{You see a traveller.}
-{210}{}{You see a traveller.}
+{210}{}{Worn shoes, dirty face, obviously doesn't sleep here. Looks like a traveller!}
 {240}{}{You see the body of some unknown person.}
 {250}{}{You see the body of some unknown person.}
-{260}{}{You see a dismembered corpse of some stranger.}
-{270}{}{You see a dismembered corpse of some unknown person, it's horrible.}
+{260}{}{You see the dismembered corpse of some stranger.}
+{270}{}{You see the dismembered corpse of an unknown person, it's horrible.}
 {1000}{}{Predialogue installations}
 {1010}{}{-}
-{2000}{}{Hello, how can I help you?@@Yes? What is it?@@What do you need?}
+{2000}{}{Hello, how can I help you?@@Yes? What is it?@@What do you need?@@Hmm?@@Did you need something?@@What's up?@@Can I help you?@@What's the deal?}
 
 [czec]
 {100}{}{none}

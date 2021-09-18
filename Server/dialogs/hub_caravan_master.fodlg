@@ -6,9 +6,9 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 2 1010 @
-2 2000 main@dlg_Caps 0 #
+2 2000 None 0 #
 10 2010 #
 3 2020 #
 4 2030 #
@@ -18,7 +18,7 @@ lang=engl czec pols span russ
 8 2070 #
 9 2080 #
 0 2090 @
-10 3000 main@dlg_Caps 0 #
+10 3000 None 0 #
 2 3010 #
 0 3020 @
 3 4000 caravans@dlg_CaravanLocation1 0 #
@@ -58,7 +58,7 @@ lang=engl czec pols span russ
 {260}{}{You see a slain caravan master.}
 {1000}{}{Predialogue installations}
 {1010}{}{-}
-{2000}{}{[They flash you a quick glance, but don't take their eyes away from their electronic clipboard] Howdy stranger, I'm the caravan master around these parts. If you're looking for work you'll have to ask one of the drivers. But if you're looking for the location of a specifc caravan I can help you out.}
+{2000}{}{*they flash you a quick glance, but don't take their eyes away from their electronic clipboard* Howdy stranger, I'm the caravan master around these parts. If you're looking for work you'll have to ask one of the drivers. But if you're looking for the location of a specifc caravan I can help you out.}
 {2010}{}{Why would I need to know the location of a specific caravan?}
 {2020}{}{Can you tell me where the Crimson Caravan is currently?}
 {2030}{}{Can you tell me where the Far Go Traders are currently?}
@@ -67,37 +67,37 @@ lang=engl czec pols span russ
 {2060}{}{Can you tell me where the Goods 'n' Go are currently?}
 {2070}{}{Can you tell me where the Hang Transportation is currently?}
 {2080}{}{Can you tell me where the Gun Runners are currently?}
-{2090}{}{Nevermind.}
+{2090}{}{Nevermind. [ end dialogue ]}
 {3000}{}{Well stranger, if you're looking to catch up with one before they finish their shift I can point you in the right direction. Hell, if you're heading to a city anytime soon and want to know which caravans are already there I can be quite useful. }
 {3010}{}{Let me ask you something else.}
-{3020}{}{Thanks! Goodbye.}
+{3020}{}{Thanks! Goodbye. [ end dialogue ]}
 {4000}{}{The Crimson Caravan is at @lex coordinates@}
 {4010}{}{Let me ask you something else.}
-{4020}{}{Thanks! Goodbye.}
+{4020}{}{Thanks! Goodbye. [ end dialogue ]}
 {4030}{}{|4291297280 [GM] Reset caravan (kill driver).}
 {5000}{}{The Far Go Traders are at @lex coordinates@}
 {5010}{}{Let me ask you something else.}
-{5020}{}{Thanks! Goodbye.}
+{5020}{}{Thanks! Goodbye. [ end dialogue ]}
 {5030}{}{|4291297280 [GM] Reset caravan (kill driver).}
 {6000}{}{The Van Graffs are at @lex coordinates@}
 {6010}{}{Let me ask you something else.}
-{6020}{}{Thanks! Goodbye.}
+{6020}{}{Thanks! Goodbye. [ end dialogue ]}
 {6030}{}{|4291297280 [GM] Reset caravan (kill driver).}
 {7000}{}{Stockmen's Association is at @lex coordinates@}
 {7010}{}{Let me ask you something else.}
-{7020}{}{Thanks! Goodbye.}
+{7020}{}{Thanks! Goodbye. [ end dialogue ]}
 {7030}{}{|4291297280 [GM] Reset caravan (kill driver).}
 {8000}{}{Goods'n'Go are at @lex coordinates@}
 {8010}{}{Let me ask you something else.}
-{8020}{}{Thanks! Goodbye.}
+{8020}{}{Thanks! Goodbye. [ end dialogue ]}
 {8030}{}{|4291297280 [GM] Reset caravan (kill driver).}
 {9000}{}{Hang Transportation is at @lex coordinates@}
 {9010}{}{Let me ask you something else.}
-{9020}{}{Thanks! Goodbye.}
+{9020}{}{Thanks! Goodbye. [ end dialogue ]}
 {9030}{}{|4291297280 [GM] Reset caravan (kill driver).}
 {10000}{}{The Gun Runners are at @lex coordinates@}
 {10010}{}{Let me ask you something else.}
-{10020}{}{Thanks! Goodbye.}
+{10020}{}{Thanks! Goodbye. [ end dialogue ]}
 {10030}{}{|4291297280 [GM] Reset caravan (kill driver).}
 
 [czec]

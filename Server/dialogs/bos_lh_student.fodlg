@@ -6,9 +6,9 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 2 1010 @
-2 2000 main@dlg_Caps 0 &
+2 2000 None 0 &
 
 [engl]
 {100}{}{Student}
@@ -18,7 +18,7 @@ lang=engl czec pols span russ
 {260}{}{You see a slain Brotherhood Student.}
 {1000}{}{Predialogue installations}
 {1010}{}{-}
-{2000}{}{Hello brother.@@I have no time at the moment.@@We can talk later.}
+{2000}{}{Hello brother.@@I have no time at the moment.@@We can talk later.@@I'm here to learn, not talk.@@Be silent and watch carefully, please.@@Don't ruin this for me, I'm trying to learn.@@Please leave if you aren't here to learn something.@@This is not a place to mess around.@@I don't want to talk to you right now, sorry!}
 
 [czec]
 {100}{}{none}

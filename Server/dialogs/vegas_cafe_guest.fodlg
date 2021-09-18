@@ -6,9 +6,9 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 2 1010 @
-2 2000 main@dlg_Caps 0 &
+2 2000 None 0 &
 
 [engl]
 {100}{}{Citizen}
@@ -17,7 +17,7 @@ lang=engl czec pols span russ
 {1000}{}{Predialogue installations}
 {1010}{}{error}
 {2000}{}{He is awesome.@@At least some place to relax.@@Don't try their food.@@Shhh. I am listening.@@Could you stop bothering me?@@Oh, I know this song!}
-{100000001}{}{At least some place to relax.}
+{100000001}{}{At least it's a place to relax.}
 {100000001}{}{Don't try their food.}
 {100000001}{}{Shhh. I am listening.}
 {100000001}{}{Could you stop bothering me?}

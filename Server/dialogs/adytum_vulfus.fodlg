@@ -1,0 +1,122 @@
+[comment]
+
+
+[data]
+lang=engl czec pols span russ
+
+[dialog]
+&
+1 1000 None 1 #
+2 1010 @
+2 2000 None 0 #
+3 2010 #
+4 2020 #
+0 2030 @
+3 3000 None 0 #
+0 3010 @
+4 4000 None 0 #
+5 4010 D _var p tobacco_farm = 0 #
+2 4020 @
+5 5000 None 0 #
+6 5010 D _item p PID_BOTTLE_CAPS } 210000 R _var p tobacco_farm = 1 R _item p PID_BOTTLE_CAPS - 210000 R _script dialog@r_location_quest 4 505 1364 2121 0 #
+0 5020 @
+6 6000 None 0 #
+0 6010 &
+
+[engl]
+{100}{}{Vulfus Dimeon}
+{200}{}{You see Vulfus, the businessman.}
+{210}{}{You see a well-manicured older man. He looks a lot cleaner than most of the people around here.}
+{1000}{}{Predialogue installations}
+{1010}{}{Answer text}
+{2000}{}{Who are you and why are you here?}
+{2010}{}{Tell me about yourself.}
+{2020}{}{Hey, nice house you have here! You look like a businessman, what do you do?}
+{2030}{}{Nothing, bye. [ end dialogue ]}
+{3000}{}{Oh dear... Look, I don't have time for people like you. Please leave my residence before I call the guards.}
+{3010}{}{Oops, sorry! [ end dialogue ]}
+{4000}{}{Yes, my name is Vulfus Dimeon, and my business is tobacco. I am growing it, harvesting it and making cigs for thousands of people across the wasteland. I might even be the most major supplier!}
+{4010}{}{Do you have a spare tobacco farm? I'd like to get into the business myself.}
+{4020}{}{Lets switch the topic.}
+{5000}{}{I do have a smaller farm not far from town I've been thinking of selling. I think I'll let you take it, and by "take it" I mean "buy it". I will sell the tobacco farm to you for 210000 caps. And these must be CAPS, not some other currency. I will give you the land, and even a few contacts to whom you can sell cigarettes. What do you say?}
+{5010}{}{Here is the money. Are we square?}
+{5020}{}{Wait, how much?!? I don't have that! I will return once I get the money. [ end dialogue ]}
+{6000}{}{Yes. Enjoy your new tobacco farm! Here is the deed to the land confirming your new status as a landowner. *he hands you an official looking piece of paperwork* Congratulations! You can take a look at your new land now.}
+{6010}{}{Great, thanks! [ end dialogue ]}
+
+[czec]
+{100}{}{Vulfus Dimeon}
+{1000}{}{Predialogue installations}
+{1010}{}{Answer text}
+{2000}{}{What do you need?}
+{2010}{}{Tell me about yourself.}
+{2020}{}{Vulfus Dimeon? Nice house you have here. People say you are a businessman.}
+{2030}{}{Nothing, bye.}
+{3000}{}{Oh dear... Look, I have no time to chit chat with people like you. Please leave my residence.}
+{3010}{}{Oops, sorry! [ end dialogue ]}
+{4000}{}{Yes, I am a businessman. My business is tobacco. I am growing it, harvesting it and making cigs for thousands of people.}
+{4010}{}{Do you have a spare farm maybe? I'd like to get into the tobacco business myself.}
+{4020}{}{Lets switch the topic.}
+{5000}{}{No. Alhough... wait... I have a small farm not far from the town. I think that you can take it, and by "take it" I mean "buy it". I will sell the tobacco farm to you for 210000 caps. And these must be CAPS, not some other currencies. You will get the land and also some contacts to whom you can sell cigs.}
+{5010}{}{Here is the money. Are we square?}
+{5020}{}{How much?! I don't have such sum yet. I will return once I get money.}
+{6000}{}{Yes. Here is the document confirming your rights to handle the farm. You can take a look at your new land now.}
+{6010}{}{Great, thanks! [ end dialogue ]}
+
+[pols]
+{100}{}{Vulfus Dimeon}
+{1000}{}{Predialogue installations}
+{1010}{}{Answer text}
+{2000}{}{What do you need?}
+{2010}{}{Tell me about yourself.}
+{2020}{}{Vulfus Dimeon? Nice house you have here. People say you are a businessman.}
+{2030}{}{Nothing, bye.}
+{3000}{}{Oh dear... Look, I have no time to chit chat with people like you. Please leave my residence.}
+{3010}{}{Oops, sorry! [ end dialogue ]}
+{4000}{}{Yes, I am a businessman. My business is tobacco. I am growing it, harvesting it and making cigs for thousands of people.}
+{4010}{}{Do you have a spare farm maybe? I'd like to get into the tobacco business myself.}
+{4020}{}{Lets switch the topic.}
+{5000}{}{No. Alhough... wait... I have a small farm not far from the town. I think that you can take it, and by "take it" I mean "buy it". I will sell the tobacco farm to you for 210000 caps. And these must be CAPS, not some other currencies. You will get the land and also some contacts to whom you can sell cigs.}
+{5010}{}{Here is the money. Are we square?}
+{5020}{}{How much?! I don't have such sum yet. I will return once I get money.}
+{6000}{}{Yes. Here is the document confirming your rights to handle the farm. You can take a look at your new land now.}
+{6010}{}{Great, thanks! [ end dialogue ]}
+
+[span]
+{100}{}{Vulfus Dimeon}
+{1000}{}{Predialogue installations}
+{1010}{}{Answer text}
+{2000}{}{What do you need?}
+{2010}{}{Tell me about yourself.}
+{2020}{}{Vulfus Dimeon? Nice house you have here. People say you are a businessman.}
+{2030}{}{Nothing, bye.}
+{3000}{}{Oh dear... Look, I have no time to chit chat with people like you. Please leave my residence.}
+{3010}{}{Oops, sorry! [ end dialogue ]}
+{4000}{}{Yes, I am a businessman. My business is tobacco. I am growing it, harvesting it and making cigs for thousands of people.}
+{4010}{}{Do you have a spare farm maybe? I'd like to get into the tobacco business myself.}
+{4020}{}{Lets switch the topic.}
+{5000}{}{No. Alhough... wait... I have a small farm not far from the town. I think that you can take it, and by "take it" I mean "buy it". I will sell the tobacco farm to you for 210000 caps. And these must be CAPS, not some other currencies. You will get the land and also some contacts to whom you can sell cigs.}
+{5010}{}{Here is the money. Are we square?}
+{5020}{}{How much?! I don't have such sum yet. I will return once I get money.}
+{6000}{}{Yes. Here is the document confirming your rights to handle the farm. You can take a look at your new land now.}
+{6010}{}{Great, thanks! [ end dialogue ]}
+
+[russ]
+{100}{}{Vulfus Dimeon}
+{1000}{}{Predialogue installations}
+{1010}{}{Answer text}
+{2000}{}{What do you need?}
+{2010}{}{Tell me about yourself.}
+{2020}{}{Vulfus Dimeon? Nice house you have here. People say you are a businessman.}
+{2030}{}{Nothing, bye.}
+{3000}{}{Oh dear... Look, I have no time to chit chat with people like you. Please leave my residence.}
+{3010}{}{Oops, sorry! [ end dialogue ]}
+{4000}{}{Yes, I am a businessman. My business is tobacco. I am growing it, harvesting it and making cigs for thousands of people.}
+{4010}{}{Do you have a spare farm maybe? I'd like to get into the tobacco business myself.}
+{4020}{}{Lets switch the topic.}
+{5000}{}{No. Alhough... wait... I have a small farm not far from the town. I think that you can take it, and by "take it" I mean "buy it". I will sell the tobacco farm to you for 210000 caps. And these must be CAPS, not some other currencies. You will get the land and also some contacts to whom you can sell cigs.}
+{5010}{}{Here is the money. Are we square?}
+{5020}{}{How much?! I don't have such sum yet. I will return once I get money.}
+{6000}{}{Yes. Here is the document confirming your rights to handle the farm. You can take a look at your new land now.}
+{6010}{}{Great, thanks! [ end dialogue ]}
+

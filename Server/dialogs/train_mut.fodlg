@@ -6,13 +6,13 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 1 #
+1 1000 None 1 #
 2 1010 @
-2 2000 main@dlg_Caps 0 #
+2 2000 None 0 #
 4 2010 @
-4 3000 main@dlg_Caps 0 #
-0 3010 #
-0 3020 D _param p PE_HUNTER = 0 D _param p PE_MUTANT = 0 D _param p PE_CYBORG = 0 D _param p PE_DEATHCLAW = 0 D _param p PE_PRIEST = 0 D _param p PE_CHOSEN = 0 D _param p PE_RANDOM = 0 D _param p PE_SOLDIER = 0 D _param p ST_LEVEL } 50 D _param p PE_KILLER = 0 D _param p PE_ASSASIN = 0 D _param p PE_LEADER = 0 D _param p PE_PARAMEDIC = 0 R _param p PE_MUTANT = 1 R _script perks@mutant 0  &
+4 3000 None 0 #
+0 3010 D _script perks@can_class 1 50 R _param p PE_MUTANT = 1 R _script perks@mutant 0  #
+0 3020 &
 
 [engl]
 {100}{}{Mad sciencist}
@@ -20,9 +20,9 @@ lang=engl czec pols span russ
 {1010}{}{has no perk}
 {2000}{}{Huuh?}
 {2010}{}{That's a cool lab, doc. Can you make me a mutant too?}
-{3000}{}{Yesh... But shis requiers som ekshperiesh! Or the operashn will kill ya.}
-{3010}{}{Eh... Fine. I changed my mind.}
-{3020}{}{I'm up for that.}
+{3000}{}{Yesh... But shis requiers som ekshperiesh! Otherwise the operashn will kill ya.}
+{3010}{}{I'm up for that. [ Super Mutant ]}
+{3020}{}{Eh... Fine. I changed my mind. [ end dialogue ]}
 
 [czec]
 {100}{}{none}
@@ -31,8 +31,8 @@ lang=engl czec pols span russ
 {2000}{}{Huuh?}
 {2010}{}{That's a cool lab, doc. Can you make me a mutant too?}
 {3000}{}{Yesh... But shis requiers som ekshperiesh! Or the operashn will kill ya.}
-{3010}{}{Eh... Fine. I changed my mind.}
-{3020}{}{I'm up for that.}
+{3010}{}{I'm up for that.}
+{3020}{}{Eh... Fine. I changed my mind.}
 
 [pols]
 {100}{}{none}
@@ -41,8 +41,8 @@ lang=engl czec pols span russ
 {2000}{}{Huuh?}
 {2010}{}{That's a cool lab, doc. Can you make me a mutant too?}
 {3000}{}{Yesh... But shis requiers som ekshperiesh! Or the operashn will kill ya.}
-{3010}{}{Eh... Fine. I changed my mind.}
-{3020}{}{I'm up for that.}
+{3010}{}{I'm up for that.}
+{3020}{}{Eh... Fine. I changed my mind.}
 
 [span]
 {100}{}{none}
@@ -51,8 +51,8 @@ lang=engl czec pols span russ
 {2000}{}{Huuh?}
 {2010}{}{That's a cool lab, doc. Can you make me a mutant too?}
 {3000}{}{Yesh... But shis requiers som ekshperiesh! Or the operashn will kill ya.}
-{3010}{}{Eh... Fine. I changed my mind.}
-{3020}{}{I'm up for that.}
+{3010}{}{I'm up for that.}
+{3020}{}{Eh... Fine. I changed my mind.}
 
 [russ]
 {100}{}{none}
@@ -61,6 +61,6 @@ lang=engl czec pols span russ
 {2000}{}{Huuh?}
 {2010}{}{That's a cool lab, doc. Can you make me a mutant too?}
 {3000}{}{Yesh... But shis requiers som ekshperiesh! Or the operashn will kill ya.}
-{3010}{}{Eh... Fine. I changed my mind.}
-{3020}{}{I'm up for that.}
+{3010}{}{I'm up for that.}
+{3020}{}{Eh... Fine. I changed my mind.}
 

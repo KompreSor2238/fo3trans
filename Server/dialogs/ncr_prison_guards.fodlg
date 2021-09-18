@@ -6,9 +6,9 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 2 1010 @
-2 2000 main@dlg_Caps 0 &
+2 2000 None 0 &
 
 [engl]
 {100}{}{NCRCF Guard}
@@ -16,7 +16,7 @@ lang=engl czec pols span russ
 {210}{}{Judging from the unsmiling face, don't expect much mercy here.}
 {1000}{}{Predialogue installations}
 {1010}{}{2}
-{2000}{}{I'm not here for talking to you.}
+{2000}{}{I'm not here to talk to you.@@Go away.@@Get away from me before I MAKE you.}
 {100000001}{}{Don't move any further! This is your ONE and ONLY warning!}
 {100000002}{}{A convict tries to escape, GET HIM!}
 {100000003}{}{Keep your distance!}

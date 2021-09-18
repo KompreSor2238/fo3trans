@@ -6,20 +6,20 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 3 1010 @
-3 2000 main@dlg_Caps 0 #
+3 2000 None 0 #
 10 2010 #
 0 2020 @
-5 3000 main@dlg_Caps 0 #
+5 3000 None 0 #
 0 3010 @
-6 4000 main@dlg_Caps 0 #
+6 4000 None 0 #
 0 4010 @
-7 5000 main@dlg_Caps 0 #
+7 5000 None 0 #
 0 5010 @
-8 6000 main@dlg_Caps 0 #
+8 6000 None 0 #
 3 6010 @
-9 7000 main@dlg_Caps 0 #
+9 7000 None 0 #
 0 7010 @
 10 8000 merc_dialog@dlg_ShowGhoulCost 0 #
 5 8010 R _script merc_dialog@r_HireMerc 1 38 #
@@ -34,21 +34,21 @@ lang=engl czec pols span russ
 {1010}{}{Answer text}
 {2000}{}{What do you want, stranger?}
 {2010}{}{I'm looking to hire some muscle.}
-{2020}{}{Nothing. Bye.}
-{3000}{}{[A ghoul shambles over to you.] There you go. Don't leave them out in the sun too long, it's bad for our skin.}
-{3010}{}{That's a joke right? I mean your skin is pretty terrible already...eh forget it. Goodbye.}
+{2020}{}{Nothing. Bye. [ end dialogue ]}
+{3000}{}{*a ghoul shambles over to you* There you go. Don't leave them out in the sun too long, it's bad for our skin.}
+{3010}{}{That's a joke right? I mean your skin is pretty terrible already...eh forget it. Goodbye. [ end dialogue ]}
 {4000}{}{Some error occured. Report this to admins.}
 {4010}{}{Yes, of course. I'll do it right away. I love the admins!}
 {5000}{}{Error, merc not found. Report this to admins.}
 {5010}{}{Yes, of course. I'll do it right away. I love the admins!}
-{6000}{}{My prices are low, but not that low, stranger. I think you're short some @lex money@.}
-{6010}{}{Damn, didn't realise I was that broke.}
+{6000}{}{My prices are low, but not that low, stranger. I think you're short some Currency.}
+{6010}{}{Damn, didn't realize I was that broke.}
 {7000}{}{Boy, you uglier than us! Don't like your attitude neither. No ghoul for you.}
-{7010}{}{Your loss.}
+{7010}{}{Your loss. [ end dialogue ]}
 {8000}{}{Okay. We've got some ghouls looking for work right now, take a look.}
-{8010}{}{This is just some normal ghoul? I'll give you @lex ghoul1@ @lex money@ for his services.}
-{8020}{}{I like the look of that sniper. How's @lex ghoul2@ @lex money@ sound?}
-{8030}{}{I don't think I want to hire anyone afterall, sorry. Goodbye.}
+{8010}{}{This is just some normal ghoul? I'll give you @lex ghoul1@ Currency for his services.}
+{8020}{}{I like the look of that sniper. How's @lex ghoul2@ Currency sound?}
+{8030}{}{I don't think I want to hire anyone afterall, sorry. Goodbye. [ end dialogue ]}
 
 [czec]
 {100}{}{none}
@@ -63,13 +63,13 @@ lang=engl czec pols span russ
 {4010}{}{Yes, of course. I'll do it right away. I love the admins!}
 {5000}{}{Error, merc not found. Report this to admins.}
 {5010}{}{Yes, of course. I'll do it right away. I love the admins!}
-{6000}{}{My prices are low, but not that low, stranger. I think you're short some @lex money@.}
+{6000}{}{My prices are low, but not that low, stranger. I think you're short some Currency.}
 {6010}{}{Damn, didn't realise I was that broke.}
 {7000}{}{Boy, you uglier than us! Don't like your attitude neither. No ghoul for you.}
 {7010}{}{Your loss.}
 {8000}{}{Okay. We've got some ghouls looking for work right now, take a look.}
-{8010}{}{This is just some normal ghoul? I'll give you @lex ghoul1@ @lex money@ for his services.}
-{8020}{}{I like the look of that sniper. How's @lex ghoul2@ @lex money@ sound?}
+{8010}{}{This is just some normal ghoul? I'll give you @lex ghoul1@ Currency for his services.}
+{8020}{}{I like the look of that sniper. How's @lex ghoul2@ Currency sound?}
 {8030}{}{I don't think I want to hire anyone afterall, sorry. Goodbye.}
 
 [pols]
@@ -85,13 +85,13 @@ lang=engl czec pols span russ
 {4010}{}{Yes, of course. I'll do it right away. I love the admins!}
 {5000}{}{Error, merc not found. Report this to admins.}
 {5010}{}{Yes, of course. I'll do it right away. I love the admins!}
-{6000}{}{My prices are low, but not that low, stranger. I think you're short some @lex money@.}
+{6000}{}{My prices are low, but not that low, stranger. I think you're short some Currency.}
 {6010}{}{Damn, didn't realise I was that broke.}
 {7000}{}{Boy, you uglier than us! Don't like your attitude neither. No ghoul for you.}
 {7010}{}{Your loss.}
 {8000}{}{Okay. We've got some ghouls looking for work right now, take a look.}
-{8010}{}{This is just some normal ghoul? I'll give you @lex ghoul1@ @lex money@ for his services.}
-{8020}{}{I like the look of that sniper. How's @lex ghoul2@ @lex money@ sound?}
+{8010}{}{This is just some normal ghoul? I'll give you @lex ghoul1@ Currency for his services.}
+{8020}{}{I like the look of that sniper. How's @lex ghoul2@ Currency sound?}
 {8030}{}{I don't think I want to hire anyone afterall, sorry. Goodbye.}
 
 [span]
@@ -107,13 +107,13 @@ lang=engl czec pols span russ
 {4010}{}{Yes, of course. I'll do it right away. I love the admins!}
 {5000}{}{Error, merc not found. Report this to admins.}
 {5010}{}{Yes, of course. I'll do it right away. I love the admins!}
-{6000}{}{My prices are low, but not that low, stranger. I think you're short some @lex money@.}
+{6000}{}{My prices are low, but not that low, stranger. I think you're short some Currency.}
 {6010}{}{Damn, didn't realise I was that broke.}
 {7000}{}{Boy, you uglier than us! Don't like your attitude neither. No ghoul for you.}
 {7010}{}{Your loss.}
 {8000}{}{Okay. We've got some ghouls looking for work right now, take a look.}
-{8010}{}{This is just some normal ghoul? I'll give you @lex ghoul1@ @lex money@ for his services.}
-{8020}{}{I like the look of that sniper. How's @lex ghoul2@ @lex money@ sound?}
+{8010}{}{This is just some normal ghoul? I'll give you @lex ghoul1@ Currency for his services.}
+{8020}{}{I like the look of that sniper. How's @lex ghoul2@ Currency sound?}
 {8030}{}{I don't think I want to hire anyone afterall, sorry. Goodbye.}
 
 [russ]
@@ -129,12 +129,12 @@ lang=engl czec pols span russ
 {4010}{}{Yes, of course. I'll do it right away. I love the admins!}
 {5000}{}{Error, merc not found. Report this to admins.}
 {5010}{}{Yes, of course. I'll do it right away. I love the admins!}
-{6000}{}{My prices are low, but not that low, stranger. I think you're short some @lex money@.}
+{6000}{}{My prices are low, but not that low, stranger. I think you're short some Currency.}
 {6010}{}{Damn, didn't realise I was that broke.}
 {7000}{}{Boy, you uglier than us! Don't like your attitude neither. No ghoul for you.}
 {7010}{}{Your loss.}
 {8000}{}{Okay. We've got some ghouls looking for work right now, take a look.}
-{8010}{}{This is just some normal ghoul? I'll give you @lex ghoul1@ @lex money@ for his services.}
-{8020}{}{I like the look of that sniper. How's @lex ghoul2@ @lex money@ sound?}
+{8010}{}{This is just some normal ghoul? I'll give you @lex ghoul1@ Currency for his services.}
+{8020}{}{I like the look of that sniper. How's @lex ghoul2@ Currency sound?}
 {8030}{}{I don't think I want to hire anyone afterall, sorry. Goodbye.}
 

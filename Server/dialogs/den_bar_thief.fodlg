@@ -6,7 +6,7 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 7 1010 D _param p ST_INTELLECT < 4 #
 2 1020 D _var n name_mem_npc_player = 0 D _param p ST_INTELLECT > 3 #
 5 1030 D _var n name_mem_npc_player = 1 D _param p ST_INTELLECT > 3 &

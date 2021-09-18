@@ -6,52 +6,52 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 2 1010 @
-2 2000 main@dlg_Caps 0 #
+2 2000 None 0 #
 7 2010 #
 4 2020 #
 11 2030 #
 65507 2040 #
 0 2050 @
-4 3000 main@dlg_Caps 0 #
+4 3000 None 0 #
 5 3010 @
-5 4000 main@dlg_Caps 0 #
+5 4000 None 0 #
 0 4010 @
-6 5000 main@dlg_Caps 0 #
+6 5000 None 0 #
 0 5010 @
-7 6000 main@dlg_Caps 0 #
+7 6000 None 0 #
 500 6010 D _script perks@d_PerkCheck 1 348 R _script dialog@r_PlaySound 1 1 R _script dialog@r_PlaySound 1 2 #
 0 6020 #
 8 6030 @
-8 7000 main@dlg_Caps 0 #
+8 7000 None 0 #
 0 7010 #
 4 7020 @
-11 8000 main@dlg_Caps 0 #
+11 8000 None 0 #
 10 8010 #
 12 8020 D _param p ST_INTELLECT > 7 D _param p ST_CHARISMA > 5 @
-10 9000 main@dlg_Caps 0 #
+10 9000 None 0 #
 0 9010 @
-12 10000 main@dlg_Caps 0 #
+12 10000 None 0 #
 0 10010 @
-500 11000 main@dlg_Caps 0 #
+500 11000 None 0 #
 501 11010 #
 65507 11020 @
-501 12000 main@dlg_Caps 0 #
+501 12000 None 0 #
 502 12010 #
 65507 12020 @
-502 13000 main@dlg_Caps 0 #
+502 13000 None 0 #
 65507 13010 #
 503 13020 @
-503 14000 main@dlg_Caps 0 #
+503 14000 None 0 #
 504 14010 #
 65507 14020 @
-504 15000 main@dlg_Caps 0 #
+504 15000 None 0 #
 65507 15010 #
 505 15020 @
-505 16000 main@dlg_Caps 0 #
+505 16000 None 0 #
 506 16010 R _param p PE_RANGER = 1 @
-506 17000 main@dlg_Caps 0 &
+506 17000 None 0 &
 
 [engl]
 {100}{}{Tamira}
@@ -71,7 +71,7 @@ lang=engl czec pols span russ
 {4010}{}{Thanks. I'll be on my way then.}
 {5000}{}{San Fransisco is south west from here, near the coast. It'll take you plenty of time to get there, unless of course you've stolen a fancy Vertibird or something. Besides, I wouldn't go there if I were you. I don't trust those commies a bit.}
 {5010}{}{Thanks for the advice.}
-{6000}{}{Ma' names Tamira, who I am and what I do here is main@dlg_Caps of your business!}
+{6000}{}{Ma' names Tamira, who I am and what I do here is None of your business!}
 {6010}{}{The way you hold your hand on that weapon lady -- I'd say you crossed your path with Rangers one time too many... [You don't take your eyes off of her] [Ranger]}
 {6020}{}{No offense taken, I'll leave right now.}
 {6030}{}{Take it easy lady, I'm just curious what yer doing in the middle of the desert.}
@@ -87,25 +87,25 @@ lang=engl czec pols span russ
 {10010}{}{But, but, it's true!}
 {11000}{}{[Silence]}
 {11010}{}{...for some benefit or the other, of course, but who am I to care anyway? Just an observation. [A cricket breaks the silence]}
-{11020}{}{...the truth should stay burried deep enough, eh? [A cricket breaks the silence]}
-{12000}{}{[A distant sound of a cricket is all that stands between the two of you]}
+{11020}{}{...the truth should stay buried deep enough, eh? [A cricket breaks the silence]}
+{12000}{}{[The distant sound of a cricket is all that stands between the two of you]}
 {12010}{}{Now, I wouldn't call this place a hideout, but there's something intriguing going around these parts... [The wind blows some of her hair in her eyes, blocking her line of sight for a moment]
 }
-{12020}{}{Why would someone like you hang around these parts is beyond me, it doesn't look *that* safe here... To be honest, it doesn't look safe at all. [The wind blows some of her hair in her eyes, blocking her line of sight for a moment]
+{12020}{}{Why someone like you would hang around these parts is beyond me, it doesn't look *that* safe here... To be honest, it doesn't look safe at all. [The wind blows some of her hair in her eyes, blocking her line of sight for a moment]
 }
 {13000}{}{[Silence again]}
 {13010}{}{Just don't let me wait for your heart-breaking answer for too long, will ya? [She squeezes her weapon tightly]
 }
 {13020}{}{By now you could guess I found the person I was looking for. [She squeezes her weapon tightly]
 }
-{14000}{}{[A thumbleweed passes nearby. Although pushed around by the wind, it seems completelly soundless and irrelevant, as a drop of sweat slips down your left eyebrow. You feel the titillation, but try to ignore it]}
+{14000}{}{[A tumbleweed passes nearby. Although pushed around by the wind, it seems completely soundless and irrelevant, as a drop of sweat slips down your left eyebrow. You feel the titillation, but try to ignore it]}
 {14010}{}{[Spit on the ground, get ready for a possible upcoming attack]}
 {14020}{}{[Stay silent, get ready for a possible upcoming attack]
 }
 {15000}{}{You better forget about any temptations when it comes down to a person like me [You think you saw a brief movement of her hand, but you're not sure if it wasn't just the wind and the Sun playing tricks with your eyes]}
 {15010}{}{I don't like being treated like a boot-licking dog by a former Ranger bitch...
 }
-{15020}{}{I'm looking for someone who could teach me the ways of the Rangers... But is not the Ranger oneself. The active Rangers don't talk about it much. Actually, they don't talk about it at all.}
+{15020}{}{I'm looking for someone who could teach me the ways of the Rangers... But not any normal Ranger. The active Rangers don't talk about it much. Actually, they don't talk about it at all.}
 {16000}{}{[Tamira seems to be surprised by your words] I knew you wouldn't have guts to do anything more than that, stranger. But for the sheer opportunity to lose your head in the middle of nowhere and the true grit you have shown, I think you may deserve a few answers after all.}
 {16010}{}{You betcha! [You arrange to get the Ranger Training from Tamira, promising her in return you'll never mention her name to anyone]}
 {17000}{}{That's it. Now get the hell outta my sight.}
@@ -126,7 +126,7 @@ lang=engl czec pols span russ
 {4010}{}{Thanks. I'll be on my way then.}
 {5000}{}{San Fransisco is south west from here, near the coast. It'll take you plenty of time to get there, unless of course you've stolen a fancy Vertibird or something. Besides, I wouldn't go there if I were you. I don't trust those commies a bit.}
 {5010}{}{Thanks for the advice.}
-{6000}{}{Ma' names Tamira, who I am and what I do here is main@dlg_Caps of your business!}
+{6000}{}{Ma' names Tamira, who I am and what I do here is None of your business!}
 {6010}{}{The way you hold your hand on that weapon lady -- I'd say you crossed your path with Rangers one time too many... [You don't take your eyes off of her] [Ranger]}
 {6020}{}{No offense taken, I'll leave right now.}
 {6030}{}{Take it easy lady, I'm just curious what yer doing in the middle of the desert.}
@@ -181,7 +181,7 @@ lang=engl czec pols span russ
 {4010}{}{Thanks. I'll be on my way then.}
 {5000}{}{San Fransisco is south west from here, near the coast. It'll take you plenty of time to get there, unless of course you've stolen a fancy Vertibird or something. Besides, I wouldn't go there if I were you. I don't trust those commies a bit.}
 {5010}{}{Thanks for the advice.}
-{6000}{}{Ma' names Tamira, who I am and what I do here is main@dlg_Caps of your business!}
+{6000}{}{Ma' names Tamira, who I am and what I do here is None of your business!}
 {6010}{}{The way you hold your hand on that weapon lady -- I'd say you crossed your path with Rangers one time too many... [You don't take your eyes off of her] [Ranger]}
 {6020}{}{No offense taken, I'll leave right now.}
 {6030}{}{Take it easy lady, I'm just curious what yer doing in the middle of the desert.}
@@ -236,7 +236,7 @@ lang=engl czec pols span russ
 {4010}{}{Thanks. I'll be on my way then.}
 {5000}{}{San Fransisco is south west from here, near the coast. It'll take you plenty of time to get there, unless of course you've stolen a fancy Vertibird or something. Besides, I wouldn't go there if I were you. I don't trust those commies a bit.}
 {5010}{}{Thanks for the advice.}
-{6000}{}{Ma' names Tamira, who I am and what I do here is main@dlg_Caps of your business!}
+{6000}{}{Ma' names Tamira, who I am and what I do here is None of your business!}
 {6010}{}{The way you hold your hand on that weapon lady -- I'd say you crossed your path with Rangers one time too many... [You don't take your eyes off of her] [Ranger]}
 {6020}{}{No offense taken, I'll leave right now.}
 {6030}{}{Take it easy lady, I'm just curious what yer doing in the middle of the desert.}
@@ -291,7 +291,7 @@ lang=engl czec pols span russ
 {4010}{}{Thanks. I'll be on my way then.}
 {5000}{}{San Fransisco is south west from here, near the coast. It'll take you plenty of time to get there, unless of course you've stolen a fancy Vertibird or something. Besides, I wouldn't go there if I were you. I don't trust those commies a bit.}
 {5010}{}{Thanks for the advice.}
-{6000}{}{Ma' names Tamira, who I am and what I do here is main@dlg_Caps of your business!}
+{6000}{}{Ma' names Tamira, who I am and what I do here is None of your business!}
 {6010}{}{The way you hold your hand on that weapon lady -- I'd say you crossed your path with Rangers one time too many... [You don't take your eyes off of her] [Ranger]}
 {6020}{}{No offense taken, I'll leave right now.}
 {6030}{}{Take it easy lady, I'm just curious what yer doing in the middle of the desert.}

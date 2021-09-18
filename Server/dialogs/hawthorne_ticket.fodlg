@@ -6,14 +6,14 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 1 #
+1 1000 None 1 #
 3 1010 @
-3 2000 main@dlg_Caps 0 #
+3 2000 None 0 #
 4 2010 #
 0 2020 @
-4 3000 main@dlg_Caps 0 #
+4 3000 None 0 #
 5 3010 @
-5 4000 main@dlg_Caps 0 #
+5 4000 None 0 #
 0 4010 &
 
 [engl]
@@ -22,11 +22,11 @@ lang=engl czec pols span russ
 {1010}{}{Answer text}
 {2000}{}{Eh... Hello? Do you need something?}
 {2010}{}{Hello. Are you a ticket seller?}
-{2020}{}{No, nothing.}
-{3000}{}{Yes, but now we sell no tickets. Our technicians try to restore common railways here, so for now the only train that comes here is the one from Council.}
+{2020}{}{No, nothing. [ end dialogue ]}
+{3000}{}{Yes, but we don't sell tickets for now. Our technicians are trying to restore common railways here, so for now the only train that comes here is the one from the Council.}
 {3010}{}{I see... Can you tell me when the trains will work, though?}
-{4000}{}{[ shrugs shoulders ] Can't say for now.}
-{4010}{}{I see... Nevermind.}
+{4000}{}{*shrugs shoulders* Can't say for now.}
+{4010}{}{I see... Nevermind. [ end dialogue ]}
 
 [czec]
 {100}{}{none}

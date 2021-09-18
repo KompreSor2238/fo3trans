@@ -6,18 +6,18 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 1 #
+1 1000 None 1 #
 2 1010 @
-2 2000 main@dlg_Caps 0 #
+2 2000 None 0 #
 3 2010 #
 0 2020 @
-3 3000 main@dlg_Caps 0 #
+3 3000 None 0 #
 4 3010 #
 0 3020 @
-4 4000 main@dlg_Caps 0 #
+4 4000 None 0 #
 5 4010 #
 0 4020 @
-5 5000 main@dlg_Caps 0 #
+5 5000 None 0 #
 0 5010 R _script dialog@r_KillNpc 1 Anim2DeadBloodySingle #
 0 5020 R _script dialog@r_KillNpc 1 Anim2DeadBloodySingle #
 0 5030 R _script dialog@r_KillNpc 1 Anim2DeadBloodySingle &
@@ -28,17 +28,17 @@ lang=engl czec pols span russ
 {1010}{}{Answer text}
 {2000}{}{Hey... wha... What are you doing here?}
 {2010}{}{Who are you?}
-{2020}{}{Alright, alright. I am leaving.}
-{3000}{}{God damn it... freaking wastelanders... Always getting their noses in every fucking dark corner. Listen, keep your valume down, ok? I am from NCR... just, just leave this place...}
+{2020}{}{Alright, alright. I am leaving. [ end dialogue ]}
+{3000}{}{God damn it... freaking wastelanders... Always getting their noses in every fucking dark corner. Listen, keep your volume down, ok? I am from NCR... just, just leave this place...}
 {3010}{}{[ speak louder ] Oh yeah? Why?}
-{3020}{}{Ok, I am leaving.}
-{4000}{}{What a hell?! Just... just shut up! Leave, now! There are Enclave snipers lurking among the trees.}
+{3020}{}{Ok, I am leaving. [ end dialogue ]}
+{4000}{}{What the hell?! Just... just shut up! Leave, now! There are Enclave snipers lurking among the trees.}
 {4010}{}{[ speak even louder ] Sorry, darling. I don't hear you.}
-{4020}{}{Fine, I am leaving.}
+{4020}{}{Fine, I am leaving. [ end dialogue ]}
 {5000}{}{You better... Wait... Did you hear that?}
-{5010}{}{Hear what?}
-{5020}{}{Wha...?}
-{5030}{}{You are so paranoid...}
+{5010}{}{Hear what? [ end dialogue ]}
+{5020}{}{Wha...? [ end dialogue ]}
+{5030}{}{You are so paranoid... [ end dialogue ]}
 
 [czec]
 {100}{}{none}

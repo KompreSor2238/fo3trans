@@ -6,9 +6,9 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 2 1010 @
-2 2000 main@dlg_Caps 0 #
+2 2000 None 0 #
 65507 2010 #
 65507 2020 #
 65507 2030 #
@@ -16,51 +16,59 @@ lang=engl czec pols span russ
 
 [engl]
 {100}{}{Raider}
-{200}{}{You see a rough-looking person.}
-{210}{}{You see a raider.}
+{200}{}{You see a rough looking raider.}
+{210}{}{This person has generally learned to kill or destroy, and then feed from the carnage.}
 {1000}{}{Predialogue installations}
 {1010}{}{Answer text}
-{2000}{}{You tresspass into our lands. Now you die!@@How dare you come here uninvited!@@Die, city walker!@@Your death should bring me some money.@@Flee before me, puny one!@@You know the drill, gentlemen.@@No witnesses.@@Cover me.@@No mercy!}
+{2000}{}{You tresspass into our lands. Now you die!@@Take 'em out, boys...@@How dare you come here uninvited!@@Die, city walker!@@Your death should bring me some money.@@Flee before me, puny one!@@Lock and Load!@@You know the drill, gentlemen.@@Your day just got a lot worse!@@No witnesses.@@Cover me.@@No mercy!@@Kill em all!@@Destroy these fools.@@How dare you trespass here!@@Hey, look! Fresh meat!@@This should be fun...@@Don't kill this one too quickly.@@Maybe we can toy with this one for a while...@@Hey, let's have some "fun" with this one...@@Too late for you!@@Sucks to be you!@@I think I just saw piss running down their legs.@@Rush them!@@Take it all!@@You should have known you wouldn't get away with this.@@I'll show you!@@You picked the wrong raiders to fuck with, moron.@@You're gonna die screaming.@@Let's get this over with, I want to get wasted.}
 {2010}{}{Aw, crap.}
 {2020}{}{Shoot.}
 {2030}{}{Dang.}
 {2040}{}{YOU WANT SOME OF THIS? WELL COME AND GET IT MOTHERF-}
 
 [czec]
-{100}{}{none}
+{100}{}{Raider}
+{200}{}{You see a rough-looking person.}
+{210}{}{You see a raider.}
 {1000}{}{Predialogue installations}
 {1010}{}{Answer text}
-{2000}{}{You tresspass into our lands. Now you die!@@How dare you come here uninvited!@@Die, city walker!@@Your death should bring me some money.@@Flee before me, puny one!@@You know the drill, gentlemen.@@No witnesses.@@Cover me.@@No mercy!}
+{2000}{}{You tresspass into our lands. Now you die!@@Take 'em out, boys...@@How dare you come here uninvited!@@Die, city walker!@@Your death should bring me some money.@@Flee before me, puny one!@@Lock and Load!@@You know the drill, gentlemen.@@Your day just got a lot worse!@@No witnesses.@@Cover me.@@No mercy!}
 {2010}{}{Aw, crap.}
 {2020}{}{Shoot.}
 {2030}{}{Dang.}
 {2040}{}{YOU WANT SOME OF THIS? WELL COME AND GET IT MOTHERF-}
 
 [pols]
-{100}{}{none}
+{100}{}{Raider}
+{200}{}{You see a rough-looking person.}
+{210}{}{You see a raider.}
 {1000}{}{Predialogue installations}
 {1010}{}{Answer text}
-{2000}{}{You tresspass into our lands. Now you die!@@How dare you come here uninvited!@@Die, city walker!@@Your death should bring me some money.@@Flee before me, puny one!@@You know the drill, gentlemen.@@No witnesses.@@Cover me.@@No mercy!}
+{2000}{}{You tresspass into our lands. Now you die!@@Take 'em out, boys...@@How dare you come here uninvited!@@Die, city walker!@@Your death should bring me some money.@@Flee before me, puny one!@@Lock and Load!@@You know the drill, gentlemen.@@Your day just got a lot worse!@@No witnesses.@@Cover me.@@No mercy!}
 {2010}{}{Aw, crap.}
 {2020}{}{Shoot.}
 {2030}{}{Dang.}
 {2040}{}{YOU WANT SOME OF THIS? WELL COME AND GET IT MOTHERF-}
 
 [span]
-{100}{}{none}
+{100}{}{Raider}
+{200}{}{You see a rough-looking person.}
+{210}{}{You see a raider.}
 {1000}{}{Predialogue installations}
 {1010}{}{Answer text}
-{2000}{}{You tresspass into our lands. Now you die!@@How dare you come here uninvited!@@Die, city walker!@@Your death should bring me some money.@@Flee before me, puny one!@@You know the drill, gentlemen.@@No witnesses.@@Cover me.@@No mercy!}
+{2000}{}{You tresspass into our lands. Now you die!@@Take 'em out, boys...@@How dare you come here uninvited!@@Die, city walker!@@Your death should bring me some money.@@Flee before me, puny one!@@Lock and Load!@@You know the drill, gentlemen.@@Your day just got a lot worse!@@No witnesses.@@Cover me.@@No mercy!}
 {2010}{}{Aw, crap.}
 {2020}{}{Shoot.}
 {2030}{}{Dang.}
 {2040}{}{YOU WANT SOME OF THIS? WELL COME AND GET IT MOTHERF-}
 
 [russ]
-{100}{}{none}
+{100}{}{Raider}
+{200}{}{You see a rough-looking person.}
+{210}{}{You see a raider.}
 {1000}{}{Predialogue installations}
 {1010}{}{Answer text}
-{2000}{}{You tresspass into our lands. Now you die!@@How dare you come here uninvited!@@Die, city walker!@@Your death should bring me some money.@@Flee before me, puny one!@@You know the drill, gentlemen.@@No witnesses.@@Cover me.@@No mercy!}
+{2000}{}{You tresspass into our lands. Now you die!@@Take 'em out, boys...@@How dare you come here uninvited!@@Die, city walker!@@Your death should bring me some money.@@Flee before me, puny one!@@Lock and Load!@@You know the drill, gentlemen.@@Your day just got a lot worse!@@No witnesses.@@Cover me.@@No mercy!}
 {2010}{}{Aw, crap.}
 {2020}{}{Shoot.}
 {2030}{}{Dang.}

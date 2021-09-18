@@ -6,14 +6,14 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 41 1010 D _var n acquaintance > 2 #
 40 1020 D _param p ST_KARMA > 99 R _var n acquaintance + 1 #
 2 1030 @
-2 2000 main@dlg_Caps 0 #
+2 2000 None 0 #
 65506 2010 #
 0 2020 @
-40 3000 main@dlg_Caps 0 @
+40 3000 None 0 @
 41 4000 Attack 0 &
 
 [engl]
@@ -27,9 +27,9 @@ lang=engl czec pols span russ
 {1020}{}{Hostile to good people}
 {1030}{}{Go}
 {2000}{}{What can I do you for?}
-{2010}{}{I'd like to see what you've got on tap.}
-{2020}{}{Nothing.}
-{3000}{}{What the fuck are ya doin' here, man? Get lost before someone shoots ya!@@We don't like your kind here. You better get the fuck outta here, before getting bullet in the back.@@Man, I would dissapear from this place if I were you.}
+{2010}{}{I'd like to see what you've got on tap. [ Barter ]}
+{2020}{}{Nothing. [ end dialogue ]}
+{3000}{}{What the fuck are ya doin' here, man? Get lost before someone shoots ya!@@We don't like your kind here. You better get the fuck outta here, before getting a bullet in the back.@@Man, I would dissapear from this place if I were you.}
 {4000}{}{That's it man, you're history!}
 
 [czec]

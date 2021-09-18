@@ -1,0 +1,502 @@
+[comment]
+
+
+[data]
+lang=engl
+
+[dialog]
+&
+1 1000 None 0 #
+29 1010 @
+2 2000 None 0 #
+3 2010 #
+0 2020 @
+3 3000 None 0 #
+4 3010 D _script patreon@pat_check 0  R _script patreon@pat_status 0  @
+4 4000 None 0 #
+5 4010 #
+29 4020 #
+360 4030 #
+2 4040 @
+5 5000 None 0 #
+7 5010 D _script patreon@pat_skin_left 0  D _param p PE_MUTANT = 0 D _param p PE_DEATHCLAW = 0 #
+27 5020 D _script patreon@pat_color_left 0  #
+28 5030 D _script patreon@pat_name_left 0  #
+4 5040 D _script patreon@pat_is_tier 1 3 R _script patreon@fake_vault 0  #
+352 5050 D _script patreon@pat_is_tier 1 4 #
+4 5060 D _param p MARSHAL > 99999 #
+353 5070 D _script patreon@pat_is_tier 1 3 #
+356 5080 #
+357 5090 D _script patreon@pat_is_tier 1 3 #
+358 5100 D _param p PE_MUTANT > 0 D _script patreon@pat_skin_left 0  #
+359 5110 D _param p PE_DEATHCLAW > 0 D _script patreon@pat_skin_left 0  #
+3 5120 @
+7 6000 patreon@dlg_Skins 0 #
+4 6010 #
+0 6020 @
+25 7000 None 0 #
+4 7010 #
+0 7020 @
+26 8000 None 0 #
+65505 8010 #
+0 8020 @
+27 9000 patreon@color_info 0 #
+27 9010 R _script patreon@color_change 3 1 5 0 #
+27 9020 R _script patreon@color_change 3 2 5 0 #
+27 9030 R _script patreon@color_change 3 3 5 0 #
+27 9040 R _script patreon@color_change 3 4 1 0 #
+27 9050 R _script patreon@color_change 3 5 3 0 #
+27 9060 R _script patreon@color_change 3 1 5 1 #
+27 9070 R _script patreon@color_change 3 2 5 1 #
+27 9080 R _script patreon@color_change 3 3 5 1 #
+27 9090 R _script patreon@color_change 3 4 1 1 #
+27 9100 R _script patreon@color_change 3 5 3 1 #
+4 9110 R _script patreon@set_color 0  #
+4 9120 @
+28 10000 patreon@dlg_item_name 0 #
+4 10010 #
+0 10020 @
+29 11000 None 0 #
+349 11010 #
+350 11020 #
+44 11030 @
+44 12000 None 0 #
+44 12010 D _script dialog_altruist@d_CanTakePerk 1 301 R _script dialog_altruist@r_GivePerk 1 301 #
+44 12020 D _script dialog_altruist@d_CanTakePerk 1 308 R _script dialog_altruist@r_GivePerk 1 308 #
+44 12030 D _script dialog_altruist@d_CanTakePerk 1 312 R _script dialog_altruist@r_GivePerk 1 312 #
+44 12040 D _script dialog_altruist@d_CanTakePerk 1 314 R _script dialog_altruist@r_GivePerk 1 314 #
+44 12050 D _script dialog_altruist@d_CanTakePerk 1 319 R _script dialog_altruist@r_GivePerk 1 319 #
+44 12060 D _script dialog_altruist@d_CanTakePerk 1 331 R _script dialog_altruist@r_GivePerk 1 331 #
+44 12070 D _script dialog_altruist@d_CanTakePerk 1 332 R _script dialog_altruist@r_GivePerk 1 332 #
+44 12080 D _script dialog_altruist@d_CanTakePerk 1 334 R _script dialog_altruist@r_GivePerk 1 334 #
+44 12090 D _script dialog_altruist@d_CanTakePerk 1 335 R _script dialog_altruist@r_GivePerk 1 335 #
+44 12100 D _script dialog_altruist@d_CanTakePerk 1 338 R _script dialog_altruist@r_GivePerk 1 338 #
+44 12110 D _script dialog_altruist@d_CanTakePerk 1 342 R _script dialog_altruist@r_GivePerk 1 342 #
+44 12120 D _script dialog_altruist@d_CanTakePerk 1 344 R _script dialog_altruist@r_GivePerk 1 344 #
+44 12130 D _script dialog_altruist@d_CanTakePerk 1 346 R _script dialog_altruist@r_GivePerk 1 346 #
+44 12140 D _script dialog_altruist@d_CanTakePerk 1 348 R _script dialog_altruist@r_GivePerk 1 348 #
+44 12150 D _script dialog_altruist@d_CanTakePerk 1 351 R _script dialog_altruist@r_GivePerk 1 351 #
+44 12160 D _script dialog_altruist@d_CanTakePerk 1 354 R _script dialog_altruist@r_GivePerk 1 354 #
+44 12170 D _script dialog_altruist@d_CanTakePerk 1 355 R _script dialog_altruist@r_GivePerk 1 355 #
+44 12180 D _script dialog_altruist@d_CanTakePerk 1 356 R _script dialog_altruist@r_GivePerk 1 356 #
+44 12190 D _script dialog_altruist@d_CanTakePerk 1 357 R _script dialog_altruist@r_GivePerk 1 357 #
+44 12200 D _script dialog_altruist@d_CanTakePerk 1 358 R _script dialog_altruist@r_GivePerk 1 358 #
+44 12210 D _script dialog_altruist@d_CanTakePerk 1 359 R _script dialog_altruist@r_GivePerk 1 359 #
+44 12220 D _script dialog_altruist@d_CanTakePerk 1 360 R _script dialog_altruist@r_GivePerk 1 360 #
+44 12230 D _script dialog_altruist@d_CanTakePerk 1 361 R _script dialog_altruist@r_GivePerk 1 361 #
+44 12240 D _script dialog_altruist@d_CanTakePerk 1 362 R _script dialog_altruist@r_GivePerk 1 362 #
+44 12250 D _script dialog_altruist@d_CanTakePerk 1 363 R _script dialog_altruist@r_GivePerk 1 363 #
+44 12260 D _script dialog_altruist@d_CanTakePerk 1 381 R _script dialog_altruist@r_GivePerk 1 381 #
+44 12270 D _script dialog_altruist@d_CanTakePerk 1 383 R _script dialog_altruist@r_GivePerk 1 383 #
+44 12280 D _script dialog_altruist@d_CanTakePerk 1 392 R _script dialog_altruist@r_GivePerk 1 392 #
+44 12290 D _script dialog_altruist@d_CanTakePerk 1 397 R _script dialog_altruist@r_GivePerk 1 397 #
+44 12300 D _script dialog_altruist@d_CanTakePerk 1 399 R _script dialog_altruist@r_GivePerk 1 399 #
+44 12310 D _script dialog_altruist@d_CanTakePerk 1 400 R _script dialog_altruist@r_GivePerk 1 400 #
+44 12320 D _script dialog_altruist@d_CanTakePerk 1 401 R _script dialog_altruist@r_GivePerk 1 401 #
+44 12330 D _script dialog_altruist@d_CanTakePerk 1 406 R _script dialog_altruist@r_GivePerk 1 406 #
+44 12340 D _script dialog_altruist@d_CanTakePerk 1 430 R _script dialog_altruist@r_GivePerk 1 430 #
+44 12350 D _script dialog_altruist@d_CanTakePerk 1 450 R _script dialog_altruist@r_GivePerk 1 450 #
+44 12360 D _script dialog_altruist@d_CanTakePerk 1 454 R _script dialog_altruist@r_GivePerk 1 454 #
+44 12370 D _script dialog_altruist@d_CanTakePerk 1 455 R _script dialog_altruist@r_GivePerk 1 455 #
+44 12380 D _script dialog_altruist@d_CanTakePerk 1 456 R _script dialog_altruist@r_GivePerk 1 456 #
+44 12390 D _script dialog_altruist@d_CanTakePerk 1 459 R _script dialog_altruist@r_GivePerk 1 459 #
+44 12400 D _script dialog_altruist@d_CanTakePerk 1 461 R _script dialog_altruist@r_GivePerk 1 461 #
+29 12410 @
+349 13000 None 0 #
+29 13010 D _param p ST_LEVEL > 29 D _item p PID_IMPLANT_TOKEN } 1 D _item p PID_IMPLANT_DERMAL } 1 D _param p PE_DERMAL_IMPACT = 0 D _param p PE_COMBAT_IMPLANT_LIMIT < 5 R _param p PE_DERMAL_IMPACT = 1 R _item p PID_IMPLANT_DERMAL - 1 R _item p PID_IMPLANT_TOKEN - 1 #
+29 13020 D _param p ST_LEVEL > 39 D _item p PID_IMPLANT_TOKEN } 1 D _item p PID_IMPLANT_DERMAL } 1 D _param p PE_DERMAL_IMPACT = 1 D _param p PE_DERMAL_IMPACT_ENH = 0 D _param p PE_COMBAT_IMPLANT_LIMIT < 5 R _param p PE_DERMAL_IMPACT_ENH = 1 R _item p PID_IMPLANT_DERMAL - 1 R _item p PID_IMPLANT_TOKEN - 1 #
+29 13030 D _param p ST_LEVEL > 29 D _item p PID_IMPLANT_TOKEN } 1 D _item p PID_IMPLANT_PHOENIX } 1 D _param p PE_PHOENIX_IMPLANTS = 0 D _param p PE_COMBAT_IMPLANT_LIMIT < 5 R _param p PE_PHOENIX_IMPLANTS = 1 R _item p PID_IMPLANT_PHOENIX - 1 R _item p PID_IMPLANT_TOKEN - 1 #
+29 13040 D _param p ST_LEVEL > 39 D _item p PID_IMPLANT_TOKEN } 1 D _item p PID_IMPLANT_PHOENIX } 1 D _param p PE_PHOENIX_IMPLANTS = 1 D _param p PE_PHOENIX_IMPLANTS_ENH = 0 D _param p PE_COMBAT_IMPLANT_LIMIT < 5 R _param p PE_PHOENIX_IMPLANTS_ENH = 1 R _item p PID_IMPLANT_PHOENIX - 1 R _item p PID_IMPLANT_TOKEN - 1 #
+29 13050 D _param p ST_LEVEL > 29 D _item p PID_IMPLANT_TOKEN } 1 D _item p PID_IMPLANT_NEMEAN } 1 D _param p PE_NEMEAN_ARMOR = 0 D _param p PE_COMBAT_IMPLANT_LIMIT < 5 R _param p PE_NEMEAN_ARMOR = 1 R _item p PID_IMPLANT_NEMEAN - 1 R _item p PID_IMPLANT_TOKEN - 1 #
+29 13060 D _param p ST_LEVEL > 39 D _item p PID_IMPLANT_TOKEN } 1 D _item p PID_IMPLANT_NEMEAN } 1 D _param p PE_NEMEAN_ARMOR = 1 D _param p PE_COMBAT_IMPLANT_LIMIT < 5 R _param p PE_NEMEAN_ARMOR = 2 R _item p PID_IMPLANT_NEMEAN - 1 R _item p PID_IMPLANT_TOKEN - 1 #
+29 13070 D _param p ST_LEVEL > 29 D _item p PID_IMPLANT_TOKEN } 1 D _item p PID_IMPLANT_STRENGTH } 1 D _param p PE_SPECIAL_IMPLANT_LIMIT < 6 R _item p PID_IMPLANT_STRENGTH - 1 R _item p PID_IMPLANT_TOKEN - 1 R _param p PE_IMP_STRENGTH + 1 #
+29 13080 D _param p ST_LEVEL > 29 D _item p PID_IMPLANT_TOKEN } 1 D _item p PID_IMPLANT_PERCEPTION } 1 D _param p PE_SPECIAL_IMPLANT_LIMIT < 6 R _item p PID_IMPLANT_PERCEPTION - 1 R _item p PID_IMPLANT_TOKEN - 1 R _param p PE_IMP_PERCEPTION + 1 #
+29 13090 D _param p ST_LEVEL > 29 D _item p PID_IMPLANT_TOKEN } 1 D _item p PID_IMPLANT_ENDURANCE } 1 D _param p PE_SPECIAL_IMPLANT_LIMIT < 6 R _item p PID_IMPLANT_ENDURANCE - 1 R _item p PID_IMPLANT_TOKEN - 1 R _param p PE_IMP_ENDURANCE + 1 #
+29 13100 D _param p ST_LEVEL > 29 D _item p PID_IMPLANT_TOKEN } 1 D _item p PID_IMPLANT_CHARISMA } 1 D _param p PE_SPECIAL_IMPLANT_LIMIT < 6 R _item p PID_IMPLANT_CHARISMA - 1 R _item p PID_IMPLANT_TOKEN - 1 R _param p PE_IMP_CHARISMA + 1 #
+29 13110 D _param p ST_LEVEL > 29 D _item p PID_IMPLANT_TOKEN } 1 D _param p PE_SPECIAL_IMPLANT_LIMIT < 6 D _item p PID_IMPLANT_INTELLIGENCE } 1 R _item p PID_IMPLANT_INTELLIGENCE - 1 R _item p PID_IMPLANT_TOKEN - 1 R _param p PE_IMP_INTELLIGENCE + 1 #
+29 13120 D _param p ST_LEVEL > 29 D _item p PID_IMPLANT_TOKEN } 1 D _param p PE_SPECIAL_IMPLANT_LIMIT < 6 D _item p PID_IMPLANT_AGILITY } 1 R _item p PID_IMPLANT_AGILITY - 1 R _item p PID_IMPLANT_TOKEN - 1 R _param p PE_IMP_AGILITY + 1 #
+29 13130 D _param p ST_LEVEL > 29 D _item p PID_IMPLANT_TOKEN } 1 D _param p PE_SPECIAL_IMPLANT_LIMIT < 6 D _item p PID_IMPLANT_LUCK } 1 R _item p PID_IMPLANT_LUCK - 1 R _item p PID_IMPLANT_TOKEN - 1 R _param p PE_IMP_LUCK + 1 #
+29 13140 D _param p PE_COMBAT_IMPLANT_LIMIT < 5 D _param p ST_LEVEL > 29 D _item p PID_IMPLANT_TOKEN } 1 D _param p PE_AGRO = 0 D _item p PID_IMPLANT_AGRO } 1 R _item p PID_IMPLANT_TOKEN - 1 R _param p PE_AGRO = 1 R _item p PID_IMPLANT_AGRO - 1 #
+29 13150 D _param p PE_COMBAT_IMPLANT_LIMIT < 5 D _param p ST_LEVEL > 29 D _item p PID_IMPLANT_TOKEN } 1 D _param p PE_AGRO = 1 D _param p PE_AGRO2 = 0 D _item p PID_IMPLANT_AGRO } 1 R _item p PID_IMPLANT_TOKEN - 1 R _param p PE_AGRO2 = 1 R _item p PID_IMPLANT_AGRO - 1 #
+29 13160 D _param p PE_COMBAT_IMPLANT_LIMIT < 5 D _param p ST_LEVEL > 29 D _item p PID_IMPLANT_TOKEN } 1 D _param p PE_DRAGON = 0 D _item p PID_IMPLANT_DRAGON } 1 R _item p PID_IMPLANT_TOKEN - 1 R _param p PE_DRAGON = 1 R _item p PID_IMPLANT_DRAGON - 1 #
+29 13170 D _param p PE_COMBAT_IMPLANT_LIMIT < 5 D _param p ST_LEVEL > 29 D _item p PID_IMPLANT_TOKEN } 1 D _param p PE_DRAGON = 1 D _param p PE_DRAGON2 = 0 D _item p PID_IMPLANT_DRAGON } 1 R _item p PID_IMPLANT_TOKEN - 1 R _param p PE_DRAGON2 = 1 R _item p PID_IMPLANT_DRAGON - 1 #
+29 13180 D _param p PE_COMBAT_IMPLANT_LIMIT < 5 D _param p ST_LEVEL > 29 D _item p PID_IMPLANT_TOKEN } 1 D _param p PE_TIGER = 0 D _item p PID_IMPLANT_TIGER } 1 R _item p PID_IMPLANT_TOKEN - 1 R _param p PE_TIGER = 1 R _item p PID_IMPLANT_TIGER - 1 #
+29 13190 D _param p PE_COMBAT_IMPLANT_LIMIT < 5 D _param p ST_LEVEL > 29 D _item p PID_IMPLANT_TOKEN } 1 D _param p PE_TIGER = 1 D _param p PE_TIGER2 = 0 D _item p PID_IMPLANT_TIGER } 1 R _item p PID_IMPLANT_TOKEN - 1 R _param p PE_TIGER2 = 1 R _item p PID_IMPLANT_TIGER - 1 #
+29 13200 D _param p PE_COMBAT_IMPLANT_LIMIT < 5 D _param p ST_LEVEL > 29 D _item p PID_IMPLANT_TOKEN } 1 D _param p PE_CLAW = 0 D _item p PID_IMPLANT_CLAW } 1 R _item p PID_IMPLANT_TOKEN - 1 R _param p PE_CLAW = 1 R _item p PID_IMPLANT_CLAW - 1 #
+29 13210 D _param p PE_COMBAT_IMPLANT_LIMIT < 5 D _param p ST_LEVEL > 29 D _item p PID_IMPLANT_TOKEN } 1 D _param p PE_CLAW = 1 D _param p PE_CLAW2 = 0 D _item p PID_IMPLANT_CLAW } 1 R _item p PID_IMPLANT_TOKEN - 1 R _param p PE_CLAW2 = 1 R _item p PID_IMPLANT_CLAW - 1 #
+29 13220 D _param p PE_COMBAT_IMPLANT_LIMIT < 5 D _param p ST_LEVEL > 29 D _item p PID_IMPLANT_TOKEN } 1 D _param p PE_TACTICAL = 0 D _item p PID_IMPLANT_TACTICS } 1 R _item p PID_IMPLANT_TOKEN - 1 R _param p PE_TACTICAL = 1 R _item p PID_IMPLANT_TACTICS - 1 #
+29 13230 D _param p PE_COMBAT_IMPLANT_LIMIT < 5 D _param p ST_LEVEL > 29 D _item p PID_IMPLANT_TOKEN } 1 D _param p PE_TACTICAL = 1 D _param p PE_TACTICAL2 = 0 D _item p PID_IMPLANT_TACTICS } 1 R _item p PID_IMPLANT_TOKEN - 1 R _param p PE_TACTICAL2 = 1 R _item p PID_IMPLANT_TACTICS - 1 #
+0 13240 @
+350 14000 None 0 #
+29 14010 D _script perks@can_class 1 45 R _param p PE_ALIEN + 1 #
+29 14020 D _script perks@can_class 1 90 R _param p PE_ASSASIN + 1 R _script perks@assasin 0  #
+29 14030 D _script perks@can_class 1 80 R _param p PE_HUNTER = 1 #
+351 14040 D _script perks@can_class 1 30 R _param p PE_CHOSEN = 1 R _script perks@czosnek 0  R _param p ST_NPC_ROLE = 5 #
+29 14050 D _script perks@can_class 1 55 R _param p PE_MASTER + 1 R _script perks@master 0  #
+29 14060 D _script perks@can_class 1 120 R _param p PE_CYBORG = 1 R _script perks@windowupdate 0  #
+29 14070 D _script perks@can_class 1 40 R _script perks@deathclaw 0  R _param p PE_DEATHCLAW = 1 #
+29 14080 D _script perks@can_class 1 130 R _param p PE_INFANTRY + 1 #
+29 14090 D _script perks@can_class 1 60 R _param p PE_KILLER + 1 R _script perks@killer 0  #
+29 14100 D _script perks@can_class 1 65 R _param p PE_LEADER + 1 #
+29 14110 D _script perks@can_class 1 65 R _param p PE_PARAMEDIC + 1 R _param p SK_FIRST_AID + 50 R _param p SK_DOCTOR + 50 #
+29 14120 D _script perks@can_class 1 70 R _script perks@faith 0  R _param p PE_PRIEST = 1 #
+29 14130 D _script perks@can_class 1 100 R _param p PE_RANDOM = 1 R _script perks@randomat 0  #
+29 14140 D _script perks@can_class 1 140 R _param p PE_SNIPER + 1 #
+29 14150 D _script perks@can_class 1 110 R _script perks@allstatup 0  R _param p PE_SOLDIER + 1 #
+29 14160 D _script perks@can_class 1 50 R _param p PE_MUTANT = 1 R _script perks@mutant 0  #
+29 14170 D _script perks@can_class 1 75 R _param p PE_WRECKER + 1 #
+29 14180 D _script perks@can_class 1 150 R _param p PE_CLONE = 1 @
+351 15000 None 0 #
+0 15010 D _param p TRAIT_BLOODY_MESS = 0 R _param p TRAIT_BLOODY_MESS = 1 R _param p ST_NPC_ROLE = 0 #
+0 15020 D _param p TRAIT_BRUISER = 0 R _param p TRAIT_BRUISER = 1 R _param p ST_NPC_ROLE = 0 #
+0 15030 D _param p TRAIT_CHEM_RELIANT = 0 R _param p TRAIT_CHEM_RELIANT = 1 R _param p ST_NPC_ROLE = 0 #
+0 15040 D _param p TRAIT_FAST_METABOLISM = 0 R _param p TRAIT_FAST_METABOLISM = 1 R _param p ST_NPC_ROLE = 0 #
+0 15050 D _param p TRAIT_FAST_SHOT = 0 R _param p TRAIT_FAST_SHOT = 1 R _param p ST_NPC_ROLE = 0 #
+0 15060 D _param p TRAIT_FINESSE = 0 R _param p TRAIT_FINESSE = 1 R _param p ST_NPC_ROLE = 0 #
+0 15070 D _param p TRAIT_GOOD_NATURED = 0 R _param p TRAIT_GOOD_NATURED = 1 R _param p ST_NPC_ROLE = 0 #
+0 15080 D _param p TRAIT_HEAVY_HANDED = 0 R _param p TRAIT_HEAVY_HANDED = 1 R _param p ST_NPC_ROLE = 0 #
+0 15090 D _param p TRAIT_JINXED = 0 R _param p TRAIT_JINXED = 1 R _param p ST_NPC_ROLE = 0 #
+0 15100 D _param p TRAIT_KAMIKAZE = 0 R _param p TRAIT_KAMIKAZE = 1 R _param p ST_NPC_ROLE = 0 #
+0 15110 D _param p TRAIT_LONER = 0 R _param p TRAIT_LONER = 1 R _param p ST_NPC_ROLE = 0 #
+0 15120 D _param p TRAIT_ONE_HANDER = 0 R _param p TRAIT_ONE_HANDER = 1 R _param p ST_NPC_ROLE = 0 #
+0 15130 D _param p TRAIT_SMALL_FRAME = 0 R _param p TRAIT_SMALL_FRAME = 1 R _param p ST_NPC_ROLE = 0 #
+0 15140 D _param p TRAIT_CHEM_RESISTANT = 0 R _param p TRAIT_CHEM_RESISTANT = 1 R _param p ST_NPC_ROLE = 0 @
+352 16000 None 0 #
+4 16010 D _script patreon@pat_dung_left 0  R _script patreon@give_dung 1 374 #
+4 16020 D _script patreon@pat_dung_left 0  R _script patreon@give_dung 1 373 #
+4 16030 D _script patreon@pat_dung_left 0  R _script patreon@give_dung 1 375 #
+4 16040 D _script patreon@pat_dung_left 0  R _script patreon@give_dung 1 383 #
+65505 16050 @
+353 17000 None 0 #
+354 17010 D _script patreon@pat_is_tier 1 3 #
+355 17020 D _script patreon@pat_is_tier 1 4 #
+65505 17030 @
+354 18000 None 0 #
+4 18010 D _script patreon@pat_base_left 0  R _script patreon@give_base 1 435 #
+4 18020 D _script patreon@pat_base_left 0  R _script patreon@give_base 1 439 #
+4 18030 D _script patreon@pat_base_left 0  R _script patreon@give_base 1 437 #
+4 18040 D _script patreon@pat_base_left 0  R _script patreon@give_base 1 436 #
+4 18050 D _script patreon@pat_base_left 0  R _script patreon@give_base 1 481 #
+4 18060 D _script patreon@pat_base_left 0  R _script patreon@give_base 1 521 #
+4 18070 D _script patreon@pat_base_left 0  R _script patreon@give_base 1 528 #
+65505 18080 @
+355 19000 None 0 #
+4 19010 D _script patreon@pat_base_left 0  R _script patreon@give_base 1 440 #
+4 19020 D _script patreon@pat_base_left 0  R _script patreon@give_base 1 463 #
+4 19030 D _script patreon@pat_base_left 0  R _script patreon@give_base 1 464 #
+4 19040 D _script patreon@pat_base_left 0  R _script patreon@give_base 1 467 #
+4 19050 D _script patreon@pat_base_left 0  R _script patreon@give_base 1 468 #
+4 19060 D _script patreon@pat_base_left 0  R _script patreon@give_base 1 469 #
+4 19070 D _script patreon@pat_base_left 0  R _script patreon@give_base 1 470 #
+4 19080 D _script patreon@pat_base_left 0  R _script patreon@give_base 1 471 #
+4 19090 D _script patreon@pat_base_left 0  R _script patreon@give_base 1 472 #
+4 19100 D _script patreon@pat_base_left 0  R _script patreon@give_base 1 480 #
+4 19110 D _script patreon@pat_base_left 0  R _script patreon@give_base 1 482 #
+4 19120 D _script patreon@pat_base_left 0  R _script patreon@give_base 1 518 R _script patreon@give_base 1 525 #
+4 19130 D _script patreon@pat_base_left 0  R _script patreon@give_base 1 525 #
+65505 19140 @
+356 20000 patreon@color_info 0 #
+356 20010 R _script patreon@color_change 3 1 5 0 #
+356 20020 R _script patreon@color_change 3 2 5 0 #
+356 20030 R _script patreon@color_change 3 3 5 0 #
+356 20040 R _script patreon@color_change 3 1 5 1 #
+356 20050 R _script patreon@color_change 3 2 5 1 #
+356 20060 R _script patreon@color_change 3 3 5 1 #
+4 20070 R _script patreon@chat_name 0  #
+4 20080 @
+357 21000 patreon@dlg_Cars 0 #
+65505 21010 #
+0 21020 @
+358 22000 None 0 #
+358 22010 R _script patreon@skin_spec 1 489 #
+358 22020 R _script patreon@skin_spec 1 490 #
+358 22030 R _script patreon@skin_spec 1 491 #
+358 22040 R _script patreon@skin_spec 1 492 #
+5 22050 @
+359 23000 None 0 #
+359 23010 R _script patreon@skin_spec 1 400 #
+359 23020 R _script patreon@skin_spec 1 401 #
+359 23030 R _script patreon@skin_spec 1 402 #
+359 23040 R _script patreon@skin_spec 1 434 #
+359 23050 R _script patreon@skin_spec 1 54 #
+5 23060 @
+360 24000 None 0 #
+361 24010 #
+362 24020 #
+0 24030 #
+363 24040 #
+4 24050 @
+361 25000 patreon@dlg_SetAlt 0 #
+360 25010 @
+362 26000 patreon@dlg_SkinsAlt 0 #
+360 26010 @
+363 27000 patreon@color_info 0 &
+
+[engl]
+{100}{}{Player}
+{200}{}{You see a construction foreworker.}
+{210}{}{He wears worn out workwear and a yellow protective helmet.}
+{210}{}{You see a gecko hunter. He has a limp in his left leg.}
+{1000}{}{Predialogue installations}
+{1010}{}{ia ciaeii}
+{2000}{}{system initializing...}
+{2010}{}{Login}
+{2020}{}{Turn off}
+{3000}{}{authentication required}
+{3010}{}{Password ************}
+{4000}{}{authentication token accepted, choose action}
+{4010}{}{Reward Self}
+{4020}{}{Support.exe}
+{4030}{}{Reward Alt}
+{4040}{}{Logout}
+{5000}{}{Choose action}
+{5010}{}{Get Skin}
+{5020}{}{Change Item Color}
+{5030}{}{Change item name}
+{5040}{}{Get Access to Fake Vault}
+{5050}{}{Get Scroll of Private Dungeon}
+{5060}{}{Get Robobrain Station}
+{5070}{}{Get Private Base}
+{5080}{}{Change Game Chat Nickname Color}
+{5090}{}{Get Car}
+{5100}{}{Get Mutant Skin}
+{5110}{}{Get Deathclaw Skin}
+{5120}{}{Back}
+{6000}{}{Choose Skin(use "Say" and type Skin ID)}
+{6010}{}{Back}
+{6020}{}{Logout}
+{7000}{}{Action success}
+{7010}{}{Back}
+{7020}{}{Logout}
+{8000}{}{Action Failed}
+{8010}{}{Back}
+{8020}{}{Logout}
+{9000}{}{Put Item in Hand and choose a color 
+R: @lex r@  
+G: @lex g@  
+B: @lex b@  
+Radius @lex rad@
+Int @lex int@
+@lex c@ color 
+
+}
+{9010}{}{Add Red}
+{9020}{}{Add Green}
+{9030}{}{Add Blue}
+{9040}{}{Add Radius}
+{9050}{}{Add Intensity}
+{9060}{}{Sub Red}
+{9070}{}{Sub Green}
+{9080}{}{Sub Blue}
+{9090}{}{Sub Radius}
+{9100}{}{Sub Intensity}
+{9110}{}{Done}
+{9120}{}{Back}
+{10000}{}{Put Item in Hand(use "Say" and type Rename string)}
+{10010}{}{Back}
+{10020}{}{Logout}
+{11000}{}{What do you need?}
+{11010}{}{Install Implant}
+{11020}{}{Get Class Perk}
+{11030}{}{Get Support Perk}
+{12000}{}{Which one?}
+{12010}{}{@msg game 103011@}
+{12020}{}{@msg game 103081@}
+{12030}{}{@msg game 103121@}
+{12040}{}{@msg game 103141@}
+{12050}{}{@msg game 103191@}
+{12060}{}{@msg game 103311@}
+{12070}{}{@msg game 103321@}
+{12080}{}{@msg game 103341@}
+{12090}{}{@msg game 103351@}
+{12100}{}{@msg game 103381@}
+{12110}{}{@msg game 103421@}
+{12120}{}{@msg game 103441@}
+{12130}{}{@msg game 103461@}
+{12140}{}{@msg game 103481@}
+{12150}{}{@msg game 103511@}
+{12160}{}{@msg game 103541@}
+{12170}{}{@msg game 103551@}
+{12180}{}{@msg game 103561@}
+{12190}{}{@msg game 103571@}
+{12200}{}{@msg game 103581@}
+{12210}{}{@msg game 103591@}
+{12220}{}{@msg game 103601@}
+{12230}{}{@msg game 103611@}
+{12240}{}{@msg game 103621@}
+{12250}{}{@msg game 103631@}
+{12260}{}{@msg game 103811@}
+{12270}{}{@msg game 103831@}
+{12280}{}{@msg game 103921@}
+{12290}{}{@msg game 103971@}
+{12300}{}{@msg game 103991@}
+{12310}{}{@msg game 104001@}
+{12320}{}{@msg game 104011@}
+{12330}{}{@msg game 104061@}
+{12340}{}{@msg game 104301@}
+{12350}{}{@msg game 104501@}
+{12360}{}{@msg game 104541@}
+{12370}{}{@msg game 104551@}
+{12380}{}{@msg game 104561@}
+{12390}{}{@msg game 104591@}
+{12400}{}{@msg game 104611@}
+{12410}{}{Back}
+{13000}{}{I'll need a particular implant module and 1 token per operation. So, what sort of implant do you desire?}
+{13010}{}{Dermal Impact Armor [ give him Token and implant ]
+}
+{13020}{}{Dermal Impact Assault Enhancement [ give him Token and implant ]
+}
+{13030}{}{Phoenix Armor Implants [ give him Token and implant ]
+}
+{13040}{}{Phoenix Assault Enhancement [ give him Token and implant ]
+}
+{13050}{}{Nemean Armor [ give him Token and implant ]
+}
+{13060}{}{Nemean Armor Upgrade [ give him Token and implant ]
+}
+{13070}{}{Hypertrophy Accelerator [ give him Token and implant ]
+}
+{13080}{}{Optics Enhancer [ give him Token and implant ]
+}
+{13090}{}{Nociception Regulator [ give him Token and implant ]
+}
+{13100}{}{Empathy Synthesizer [ give him Token and implant ]
+}
+{13110}{}{Logic Co-processor [ give him Token and implant ]
+}
+{13120}{}{Reflex Booster [ give him Token and implant ]
+}
+{13130}{}{Probability Calculator [ give him Token and implant ]
+}
+{13140}{}{Aggressive Sensors [ give him Token and implant ]
+}
+{13150}{}{Aggressive Sensors MK.II [ give him Token and implant ]
+}
+{13160}{}{Dragon System [ give him Token and implant ]
+}
+{13170}{}{Dragon OS [ give him Token and implant ]
+}
+{13180}{}{Tiger Movement [ give him Token and implant ]
+}
+{13190}{}{Tiger Speed [ give him Token and implant ]
+}
+{13200}{}{Claw Module [ give him Token and implant ]
+}
+{13210}{}{Claw Module upgrade [ give him Token and implant ]
+}
+{13220}{}{Tactical Chip [ give him Token and implant ]
+}
+{13230}{}{Tactical Chipset [ give him Token and implant ]
+}
+{13240}{}{Forget it. [ end dialogue ]}
+{14000}{}{Which one?}
+{14010}{}{Alien}
+{14020}{}{Assassin}
+{14030}{}{Bounty Hunter}
+{14040}{}{Chosen One}
+{14050}{}{Combat Master}
+{14060}{}{Cyborg}
+{14070}{}{Deathclaw}
+{14080}{}{Infantry}
+{14090}{}{Killer}
+{14100}{}{Leader}
+{14110}{}{Paramedic}
+{14120}{}{Priest}
+{14130}{}{Random Boy}
+{14140}{}{Sniper}
+{14150}{}{Soldier}
+{14160}{}{Super Mutant}
+{14170}{}{Wrecker}
+{14180}{}{Clone}
+{15000}{}{Choose Trait!}
+{15010}{}{BloodyMess}
+{15020}{}{Bruiser}
+{15030}{}{Chem Reliant}
+{15040}{}{Fast Metabolism}
+{15050}{}{Fast Shot}
+{15060}{}{Finesse}
+{15070}{}{Good Natured}
+{15080}{}{Heavy Handed}
+{15090}{}{Jinxed}
+{15100}{}{Kamikaze}
+{15110}{}{Loner}
+{15120}{}{One Hander}
+{15130}{}{Small Frame}
+{15140}{}{Cannibal}
+{16000}{}{Which one?}
+{16010}{}{Fake Vault}
+{16020}{}{Sky Tower}
+{16030}{}{L.A Bandits}
+{16040}{}{Desert Ship}
+{16050}{}{Back}
+{17000}{}{Which one?}
+{17010}{}{Tier 4}
+{17020}{}{Tier 5}
+{17030}{}{Back}
+{18000}{}{Which one?}
+{18010}{}{Enclave Military Bunker}
+{18020}{}{Master Army Vault}
+{18030}{}{Vault City Camp}
+{18040}{}{Brotherhood Shelter}
+{18050}{}{NCR Port}
+{18060}{}{New Reno Casino}
+{18070}{}{Ruined Jail}
+{18080}{}{Back}
+{19000}{}{Which one?}
+{19010}{}{Military Base}
+{19020}{}{Enclave Depot}
+{19030}{}{President shelter}
+{19040}{}{NCR bunker}
+{19050}{}{Homeland}
+{19060}{}{Underground station}
+{19070}{}{Military Depot}
+{19080}{}{Advanced outpost}
+{19090}{}{Slavery base}
+{19100}{}{Underground station MK.II}
+{19110}{}{Brotherhood of Steel outpost}
+{19120}{}{Cave labs}
+{19130}{}{Large church}
+{19140}{}{Back}
+{20000}{}{R: @lex r@  
+G: @lex g@  
+B: @lex b@  
+@lex c@ color }
+{20010}{}{Add Red}
+{20020}{}{Add Green}
+{20030}{}{Add Blue}
+{20040}{}{Sub Red}
+{20050}{}{Sub Green}
+{20060}{}{Sub Blue}
+{20070}{}{Done}
+{20080}{}{Back}
+{21000}{}{Choose Car(use "Say" and type car ID)}
+{21010}{}{Back}
+{21020}{}{Logout}
+{22000}{}{Which One?}
+{22010}{}{489 Blue Mutant}
+{22020}{}{490 Grey Robot}
+{22030}{}{491 Mr Handy}
+{22040}{}{492 Orange Robot}
+{22050}{}{Back}
+{23000}{}{Which One?}
+{23010}{}{400 Monkey}
+{23020}{}{401 White Deathclaw}
+{23030}{}{402 White Deathclaw small}
+{23040}{}{434 bear}
+{23050}{}{54 Eyebot}
+{23060}{}{Back}
+{24000}{}{Choose Action}
+{24010}{}{Set Alt}
+{24020}{}{Skin for Alt}
+{24030}{}{support.exe for Alt}
+{24040}{}{chat color name for Alt}
+{24050}{}{back}
+{25000}{}{Select Alt(use "Say" and type Nickname)}
+{25010}{}{back}
+{26000}{}{Choose Skin(use "Say" and type Skin ID)}
+{26010}{}{back}
+{27000}{}{R: @lex r@  
+G: @lex g@  
+B: @lex b@  
+@lex c@ color }
+

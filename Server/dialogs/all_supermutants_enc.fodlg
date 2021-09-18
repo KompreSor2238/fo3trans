@@ -6,17 +6,17 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 2 1010 @
-2 2000 main@dlg_Caps 0 &
+2 2000 None 0 &
 
 [engl]
 {100}{}{Super Mutant}
 {200}{}{You see a super mutant.}
-{210}{}{A big, ugly super mutant. He doesn't seem to be very amused.}
+{210}{}{A big, ugly super mutant. The wasteland education system gave up on this one long ago.}
 {1000}{}{Predialogue installations}
 {1010}{}{Answer text}
-{2000}{}{Move along, human.@@Move along.}
+{2000}{}{Move along, human.@@Move along.@@You smell tasty!@@Me smell humans...@@Ugh, what that smell?@@Quit poking me!@@Hey, what for dinner?@@Someone itch my back!!!@@Aaah! TOO MANY FLIES!@@Mmm, careful. Me squish you easy, I think.@@Not paid enough for this.@@Snacktime?}
 
 [czec]
 {100}{}{none}

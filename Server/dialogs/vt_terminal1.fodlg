@@ -6,17 +6,17 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 1 #
+1 1000 None 1 #
 2 1010 @
-2 2000 main@dlg_Caps 0 #
+2 2000 None 0 #
 3 2010 #
-0 2020 #
-5 2030 @
-3 3000 main@dlg_Caps 0 #
-4 3010 D _item p PID_SECURITY_CARD } 1 R _script dialog@r_OpenDoor 2 67 600 R _item p PID_SECURITY_CARD - 1 #
+5 2020 #
+0 2030 @
+3 3000 None 0 #
+4 3010 D _item p PID_SECURITY_CARD } 1 R _script dialog@r_OpenDoor 2 67 600 R _item p PID_SECURITY_CARD - 1 R _script dialog@r_GlobalTimer 1 2 #
 0 3020 @
-4 4000 main@dlg_Caps 0 @
-5 5000 main@dlg_Caps 0 #
+4 4000 None 0 @
+5 5000 None 0 #
 2 5010 &
 
 [engl]
@@ -24,14 +24,14 @@ lang=engl czec pols span russ
 {1000}{}{Predialogue installations}
 {1010}{}{Answer text}
 {2000}{}{[ Vault Tec terminal 1416. Welcome User ]}
-{2010}{}{[ Open the door ]}
-{2020}{}{[ Exit ]}
-{2030}{}{[ From: Dr. Brown. ]}
-{3000}{}{[ NSA Security card required ]}
-{3010}{}{[ Confirm the operation. ]}
-{3020}{}{[ Exit. ]}
+{2010}{}{[ open the door ]}
+{2020}{}{[ From: Dr. Brown. ]}
+{2030}{}{[ Exit ] [ end dialogue ]}
+{3000}{}{[ NSA Security Card required ]}
+{3010}{}{[ confirm operation ]}
+{3020}{}{[ Exit ] [ end dialogue ]}
 {4000}{}{[ Operating... ]}
-{5000}{}{[ I killed him... I had no other choice. I know for sure that this company is the reason. They sent the Armagedon on us, and Alastor was stupid enough to think I wouldn't see it. I ran the emergency lockdown protocol sealing up the facility. I locked everyone inside... They deserve this fate and nobody can judge me for that. For Lord's Sake do not open this door. Let the evil remain locked and forgotten. ]}
+{5000}{}{[ I killed him... I had no other choice. I know for sure that this company is the reason. They set the Armageddon on us, and Alastor was stupid enough to think I wouldn't see it. I ran the emergency lockdown protocol sealing up the facility. I locked everyone inside... They deserve this fate and nobody can judge me for that. For Lord's Sake do not open this door. Let the evil remain locked and forgotten. ]}
 {5010}{}{[ Back ]}
 
 [czec]
@@ -40,8 +40,8 @@ lang=engl czec pols span russ
 {1010}{}{Answer text}
 {2000}{}{[ Vault Tec terminal 1416. Welcome User ]}
 {2010}{}{[ Open the door ]}
-{2020}{}{[ Exit ]}
-{2030}{}{[ From: Dr. Brown. ]}
+{2020}{}{[ From: Dr. Brown. ]}
+{2030}{}{[ Exit ]}
 {3000}{}{[ NSA Security card required ]}
 {3010}{}{[ Confirm the operation. ]}
 {3020}{}{[ Exit. ]}
@@ -55,8 +55,8 @@ lang=engl czec pols span russ
 {1010}{}{Answer text}
 {2000}{}{[ Vault Tec terminal 1416. Welcome User ]}
 {2010}{}{[ Open the door ]}
-{2020}{}{[ Exit ]}
-{2030}{}{[ From: Dr. Brown. ]}
+{2020}{}{[ From: Dr. Brown. ]}
+{2030}{}{[ Exit ]}
 {3000}{}{[ NSA Security card required ]}
 {3010}{}{[ Confirm the operation. ]}
 {3020}{}{[ Exit. ]}
@@ -70,8 +70,8 @@ lang=engl czec pols span russ
 {1010}{}{Answer text}
 {2000}{}{[ Vault Tec terminal 1416. Welcome User ]}
 {2010}{}{[ Open the door ]}
-{2020}{}{[ Exit ]}
-{2030}{}{[ From: Dr. Brown. ]}
+{2020}{}{[ From: Dr. Brown. ]}
+{2030}{}{[ Exit ]}
 {3000}{}{[ NSA Security card required ]}
 {3010}{}{[ Confirm the operation. ]}
 {3020}{}{[ Exit. ]}
@@ -85,8 +85,8 @@ lang=engl czec pols span russ
 {1010}{}{Answer text}
 {2000}{}{[ Vault Tec terminal 1416. Welcome User ]}
 {2010}{}{[ Open the door ]}
-{2020}{}{[ Exit ]}
-{2030}{}{[ From: Dr. Brown. ]}
+{2020}{}{[ From: Dr. Brown. ]}
+{2030}{}{[ Exit ]}
 {3000}{}{[ NSA Security card required ]}
 {3010}{}{[ Confirm the operation. ]}
 {3020}{}{[ Exit. ]}

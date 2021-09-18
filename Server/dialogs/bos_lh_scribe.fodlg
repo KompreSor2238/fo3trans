@@ -6,9 +6,9 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 2 1010 @
-2 2000 main@dlg_Caps 0 &
+2 2000 None 0 &
 
 [engl]
 {100}{}{Scribe}
@@ -18,7 +18,7 @@ lang=engl czec pols span russ
 {260}{}{You see a slain Scribe.}
 {1000}{}{Predialogue installations}
 {1010}{}{-}
-{2000}{}{Hello.@@I don't have time for you now.@@Checking for news, eh?@@Here is nothing new to see.}
+{2000}{}{Hello.@@I don't have time for you now.@@Checking for news, eh?@@Nothing new to see here.@@If you found something really interesting out there, maybe I'd talk to you...@@Ugh, I am busy, can you leave?@@I am just trying to do my job right now, please go away.@@You must be just messing with me.@@I'm sorry I don't have time to talk.@@Maybe we can talk later, catch me on my lunch break.}
 
 [czec]
 {100}{}{none}

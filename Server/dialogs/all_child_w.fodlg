@@ -6,11 +6,11 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 4 1010 D _script dialog@d_IsWearingScaryHelmet 0  R _script dialog@r_RunAway 2 15 30 #
 2 1020 @
-2 2000 main@dlg_Caps 0 @
-4 3000 main@dlg_Caps 0 &
+2 2000 None 0 @
+4 3000 None 0 &
 
 [engl]
 {100}{}{Girl}
@@ -19,8 +19,8 @@ lang=engl czec pols span russ
 {1000}{}{Predialogue installations}
 {1010}{}{scary helmet}
 {1020}{}{Answer text}
-{2000}{}{Spare change?@@What?@@I'm not doin' anythin'!}
-{3000}{}{Leave me alone!@@Go away!@@Mooooom, I saw Michael!@@:: cry ::@@:: scream ::}
+{2000}{}{Spare any change?@@What?@@I'm not doin' anythin'!@@I found some cool stuff in the trash this week.@@Mommy told me not to talk to you.@@Daddy says I'll get the belt again if I keep coming home late.@@Do you want to play?@@Tag! You're it!@@You don't look so mean.@@Hey, do you want to play a game?@@Tell me a story!@@Let's play "tribals" vs "enclave"!@@Have you killed any raiders?@@Do you have a secret base?@@I'm hungry.@@Do you have anything to eat?@@I want to go home!!@@I want to be like "The Chosen One"!@@Have you ever been radioactive?}
+{3000}{}{Leave me alone!@@Go away!@@Mooooom, I saw Michael!@@:: cry ::@@:: scream ::@@Nooooo!!!@@Mommy, mommy!@@HELP!@@Run before he eats you!}
 
 [czec]
 {100}{}{none}

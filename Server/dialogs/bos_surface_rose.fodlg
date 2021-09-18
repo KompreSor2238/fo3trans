@@ -6,13 +6,13 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 1 @
-2 2000 main@dlg_Caps 0 &
+1 1000 None 1 @
+2 2000 None 0 &
 
 [engl]
 {100}{}{Knight Rose}
 {1000}{}{Predialogue installations}
-{2000}{}{Hello?@@I think you better speak with Jack.@@Ever hear about the ship named Titan?@@I wish I could see the ocean.}
+{2000}{}{Hello?@@I think you better speak with Jack.@@Ever hear about the ship named Titan?@@I wish I could see the ocean.@@It's probably still lovely in some of the coastal areas.@@Have you ever gone fishing?@@I've heard there are people in San Francisco who still live off the sea.@@I'm so glad to be here.}
 
 [czec]
 {100}{}{none}

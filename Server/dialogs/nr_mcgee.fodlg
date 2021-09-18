@@ -6,15 +6,15 @@ lang=engl czec pols span russ
 
 [dialog]
 &
-1 1000 main@dlg_Caps 0 #
+1 1000 None 0 #
 2 1010 #
 19 1020 D _param p ST_INTELLECT < 4 #
 20 1030 D _var p loyality = -5 #
 21 1040 D _var p loyality = -10 @
-2 2000 main@dlg_Caps 0 @
-19 3000 main@dlg_Caps 0 @
-20 4000 main@dlg_Caps 0 @
-21 5000 main@dlg_Caps 0 &
+2 2000 None 0 @
+19 3000 None 0 @
+20 4000 None 0 @
+21 5000 None 0 &
 
 [engl]
 {100}{}{Old Man McGee}
